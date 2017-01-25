@@ -8,10 +8,11 @@ layout: frontpage
 header:
   image_fullwidth: gallery-example-1.jpg
 widget1:
-  title: "Blog & Portfolio"
+  title: "Getting Started"
   url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  image: applications-thumbnail2.jpg
+  text: 'An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG headsets that there is more tutorials than others. This is likely due to the ease of development when using that device.<br>
+  The best way to get started will also depend on the headset that you have available.'
 widget2:
   title: "Why use this theme?"
   url: 'http://phlow.github.io/feeling-responsive/info/'
