@@ -21,7 +21,7 @@ widget2:
 widget3:
   title: "Download Theme"
   url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
+  image: openbci-3d-printed.jpg
   text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
 #
 # Use the call for action to show a button on the frontpage
