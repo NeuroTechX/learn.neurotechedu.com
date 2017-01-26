@@ -12,20 +12,27 @@ permalink: "/getting-started/"
 ## Muse
 <hr>
 <div class="row">
-  <div class="large-6 columns">
-    The Muse headband is a easy to use EEG device with electrodes placed on Af7 and Af8 location if you are following 10-20 International Standards.
+<div class="large-6 columns" markdown="1">
 
-    It is one of the easier bands to get started with if you are interested in learning eeg as it requires no head prep. Here are some simple projects you can get started with.
-  </div>
-  <div class="large-6 columns">
-      <img src="../images/muse-white.png">
-  </div>
+The Muse headband is a easy to use EEG device with electrodes placed on Af7 and Af8 location if you are following 10-20 International Standards.
+
+It is one of the easier bands to get started with if you are interested in learning eeg as it requires no head prep. Here are some simple projects you can get started with.
+
 </div>
+<div class="large-6 columns" markdown="1">
+![Muse Headset](../images/muse-white.png?raw=true)
+</div>
+</div><!-- /.row -->
 
-###No Programming Experience
+<div class="row">
+<div class="small-12 columns" markdown="1">
+
+#### No Programming Experience
 These tools can be used to visualize your brain data:
-- [View your brain activity by using Muses's Research Tools][http://developer.choosemuse.com/research-tools/getting-started]
-- [View a live topographic map of your brain activity][http://www.brainavatar.com/ebrainavatar-muse.html]
-- If you have an Android device, you can take a look at this [EEG 101 Tutorial][https://play.google.com/store/apps/details?id=com.eeg_project&amp;hl=en] which was made by some of the [NeuroTechX community members][https://github.com/NeuroTechX/eeg-101]
+- [View your brain activity by using Muses's Research Tools](http://developer.choosemuse.com/research-tools/getting-started)
+- [View a live topographic map of your brain activity](http://www.brainavatar.com/ebrainavatar-muse.html)
+- If you have an Android device, you can take a look at this [EEG 101 Tutorial](https://play.google.com/store/apps/details?id=com.eeg_project&amp;hl=en) which was made by some of the [NeuroTechX community members](https://github.com/NeuroTechX/eeg-101)
+</div>
+</div><!-- /.row -->
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
