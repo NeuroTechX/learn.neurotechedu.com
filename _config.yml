@@ -14,10 +14,10 @@ title: 'NeurotechEDU'
 slogan: 'Learn about Neurotechnology'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'NeuroTechX brings hackers, enthusiasts, researchers and experts together to drive innovation and foster collaboration at local and international scales. Our core mission is to build a strong global neurotech community by providing key resources, learning opportunities, and by being leaders in local and worldwide technological initiatives. We believe neurotechnology is key to better understanding and to improving who we are. Join us to take part in the conversation and help shape the future of neurotechnology! <a href="http://eepurl.com/bEQDKX" target="_blank">Subscribe to our newsletter!</a>'
+description: 'NeuroTechX brings hackers, enthusiasts, researchers and experts together to drive innovation and foster collaboration at local and international scales. Our core mission is to build a strong global neurotech community by providing key resources, learning opportunities, and by being leaders in local and worldwide technological initiatives. <a href="http://eepurl.com/bEQDKX" target="_blank">Subscribe to our newsletter!</a> We believe neurotechnology is key to better understanding and to improving who we are. Join us to take part in the conversation and help shape the future of neurotechnology! '
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created by Tudor Mincu based on template by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</p>'
+credits: '<p>Created by <a href="http://creative-saga.com/" target="_blank">Tudor Mincu</a> based on template by <a href="http://phlow.de/" target="_blank">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
