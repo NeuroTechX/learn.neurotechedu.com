@@ -28,6 +28,7 @@ It is one of the easier bands to get started with if you are interested in learn
 <div class="small-12 columns" markdown="1">
 
 #### No Programming Experience
+
 These tools can be used to visualize your brain data:
 * [View your brain activity by using Muses's Research Tools](http://developer.choosemuse.com/research-tools/getting-started)
 * [View a live topographic map of your brain activity](http://www.brainavatar.com/ebrainavatar-muse.html)
