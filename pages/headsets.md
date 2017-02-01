@@ -160,19 +160,19 @@ The Neurosky is one of the original consumer eeg's to go to the market. It's pro
 * Can't move the electrode
 * The SDK is a little bit more clunky versus the alternatives and requires some technical experience
 
+
+</div> <!-- end of content column -->
+</div> <!-- end of row -->
+
+<div class="row" markdown="1">
+## Features Comparison <!-- table has its own row so that it can occupy whole width of page -->
+<hr>
+
 <table>
-  <caption>&lt;table&gt; defines an HTML table</caption>
+  <caption></caption>
   <colgroup>
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
-    <col span="1" style="width: 10%;">
+  <!-- here you can set column width using       <col span="1" style="width: 10%;">   
+      see template typography page for details  https://phlow.github.io/feeling-responsive/design/typography/typography/ -->
   </colgroup>
   <thead>
     <tr>
@@ -252,10 +252,8 @@ The Neurosky is one of the original consumer eeg's to go to the market. It's pro
   <td>8 hours</td><!-- Battery Length -->
   <td>99.99 </td><!-- Cost -->
   </tr>
+  </tbody>
 </table>
-
-</div> <!-- end of content column -->
 </div> <!-- end of row -->
-
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
