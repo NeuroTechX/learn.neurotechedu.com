@@ -21,6 +21,10 @@
   - title: "Blog Archive"
     url: "/blog/archive/"
 
+- title: Contributors
+  url: "/contributors/"
+  side: left
+
 - title: "Search"
   url: "/search/"
   side: right

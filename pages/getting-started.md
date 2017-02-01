@@ -2,7 +2,7 @@
 layout: page-fullwidth
 show_meta: false
 title: "Getting Started"
-subheadline: "A Step-by-Step Guide"
+subheadline: "The first step"
 teaser: "An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG headsets that there is more tutorials than others. This is likely due to the ease of development when using that device. The best way to get started will also depend on the headset that you have available."
 header:
    image_fullwidth: "header_homepage_13.jpg"
