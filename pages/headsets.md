@@ -245,9 +245,10 @@ The Neurosky is one of the original consumer eeg's to go to the market. It's pro
   <td>1 +1 ref</td> <!-- # of Channels  -->
   <td>12</td> <!-- ADC Bits  -->
   <td>512Hz</td><!-- Sampling Rate -->
-  <td>this</td><!-- Motion Sensor -->
-  <td>is</td><!-- LSL Support -->
-  <td>derp</td> <!-- TTL -->
+  <td>1</td><!-- Motion Sensor -->
+  <td>2</td><!-- LSL Support -->
+  <td>3</td> <!-- SD Card Support-->
+  <td>4</td> <!-- TTL -->
   <td>8 hours</td><!-- Battery Length -->
   <td>99.99 </td><!-- Cost -->
   </tr>
