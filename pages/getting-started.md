@@ -109,7 +109,7 @@ The Neurosky is one of the original consumer EEGs on the market. It is a 1 chann
 
 </div>
 <div class="large-6 columns" markdown="1">
-![Neurosky headset](../images/neurosky.jpg)
+![Neurosky headset](../images/NeuroskyMindwave.png)
 </div>
 </div> <!-- end of row -->
 
