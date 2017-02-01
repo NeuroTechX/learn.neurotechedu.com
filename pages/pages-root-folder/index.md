@@ -11,8 +11,7 @@ widget1:
   title: "Getting Started"
   url: '/getting-started/'
   image: openBCI-303x182.jpg
-  text: 'An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG headsets that there is more tutorials than others. <br>
-  The best way to get started will also depend on the headset that you have available.'
+  text: 'An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG headsets that there is more tutorials than others.'
 widget2:
   title: "Headsets"
   url: '/headsets/'
@@ -24,7 +23,7 @@ widget3:
   url: '/applications/'
   image: applications-thumbnail.jpg
   text: 'Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate).
-What are the fields that are involved/interested in non-pharmaceutical Neurotech? Click to learn more.'
+What are the fields that are involved/interested in non-pharmaceutical Neurotech?'
 #
 # Use the call for action to show a button on the frontpage
 #
