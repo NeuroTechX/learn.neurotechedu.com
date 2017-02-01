@@ -22,7 +22,7 @@ widget2:
 widget3:
   title: "Neurotech Applications"
   url: '/applications/'
-  image: applications-thumbnail2.jpg
+  image: applications-thumbnail.jpg
   text: 'Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate).
 What are the fields that are involved/interested in non-pharmaceutical Neurotech? Click to learn more.'
 #
