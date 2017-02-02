@@ -7,7 +7,7 @@ teaser: "What is NeuroTechnology?
 Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate).
 What are the fields that are involved/interested in non-pharmaceutical Neurotech?"
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "earth.jpg"
 permalink: "/applications/"
 ---
 <div class="row">

@@ -6,12 +6,12 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: gallery-example-1.jpg
+  image_fullwidth: "earth.jpg"
 widget1:
   title: "Getting Started"
   url: '/getting-started/'
   image: openBCI-303x182.jpg
-  text: 'An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG headsets that there is more tutorials than others.'
+  text: 'An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG...'
 widget2:
   title: "Headsets"
   url: '/headsets/'
@@ -22,8 +22,7 @@ widget3:
   title: "Neurotech Applications"
   url: '/applications/'
   image: applications-thumbnail.jpg
-  text: 'Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate).
-What are the fields that are involved/interested in non-pharmaceutical Neurotech?'
+  text: 'Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate). What are the fields that are involved/interested in...'
 #
 # Use the call for action to show a button on the frontpage
 #

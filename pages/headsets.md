@@ -5,7 +5,7 @@ title: "Headsets"
 subheadline: "Compare and Contrast"
 teaser: "Your choice of headset will depend on what you intend to use it for. The answer will depend on your budget, interest, project idea and the number of electrodes required. Before purchasing a headset, think about your programming experience and Project Idea."
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "neurons.jpg"
 permalink: "/headsets/"
 ---
 <div class="row">
