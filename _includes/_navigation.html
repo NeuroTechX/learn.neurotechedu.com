@@ -1,11 +1,18 @@
 <div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
+    <!-- logo -->
+      <div id="logobox">
+        <a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
+        </a>
+      </div> <!-- /logo -->
+
     <ul class="title-area">
-      <li class="name">
+    <li class="name">
       <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
     </ul>
     <section class="top-bar-section">
 {% comment %}

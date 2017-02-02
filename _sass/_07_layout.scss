@@ -67,6 +67,14 @@ body.video cite { color: #fff; }
 
 /* Masthead
 ------------------------------------------------------------------- */
+/* the logobox is used to fix the logo to nav menu */
+#logobox {
+  display: inline-block;
+  max-width: 25%;
+  position: absolute;
+  margin-left: 15px;
+}
+
 
 #masthead {
     background-color: $primary-color;
@@ -120,8 +128,13 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$medium-only} {
+  /* the logobox is used to fix the logo to nav menu */
+  #logobox {
+    max-width: 35%;
+  }
+
     #logo img {
-        margin-top: 60px;
+        margin-top: 0px;
     }
     #masthead {
         height: 280px;
@@ -144,7 +157,7 @@ body.video cite { color: #fff; }
 
 @media #{$large-only} {
     #logo img {
-        margin-top: 80px;
+        margin-top: 0px;
     }
     #masthead {
         height: 310px;
@@ -167,7 +180,7 @@ body.video cite { color: #fff; }
 
 @media #{$xlarge-up} {
     #logo img {
-        margin-top: 110px;
+        margin-top: 0px;
     }
     #masthead {
         height: 380px;

@@ -1,34 +1,23 @@
 - title: Start
   url: "/"
-  side: left
+  side: right
 
 - title: Getting Started
   url: "/getting-started/"
-  side: left
+  side: right
 
 - title: "Headsets"
   url: "/headsets/"
-  side: left
+  side: right
 
 - title: Applications
   url: "/applications/"
-  side: left
-
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+  side: right
 
 - title: Contributors
   url: "/contributors/"
-  side: left
+  side: right
 
 - title: "Search"
   url: "/search/"
-  side: right
-
-- title: "Contact"
-  url: "/contact/"
   side: right

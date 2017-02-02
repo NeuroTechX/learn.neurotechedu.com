@@ -14,7 +14,7 @@ header:
 <hr>
 Insert biography or description here.
 
-[www.creative-saga.com](www.creative-saga.com)
+[www.creative-saga.com](http://creative-saga.com/)
 
 Facebook, Twitter, Github portfolio, etc...
 
@@ -25,7 +25,7 @@ Facebook, Twitter, Github portfolio, etc...
 <hr>
 Insert biography or description here.
 
-[www.creative-saga.com](www.creative-saga.com)
+[www.creative-saga.com](http://creative-saga.com/)
 
 Facebook, Twitter, Github portfolio, etc...
 
@@ -36,7 +36,7 @@ Facebook, Twitter, Github portfolio, etc...
 <hr>
 Insert biography or description here.
 
-[www.creative-saga.com](www.creative-saga.com)
+[www.creative-saga.com](http://creative-saga.com/)
 
 Facebook, Twitter, Github portfolio, etc...
 
@@ -49,7 +49,7 @@ Facebook, Twitter, Github portfolio, etc...
 <hr>
 Insert biography or description here.
 
-[www.creative-saga.com](www.creative-saga.com)
+[www.creative-saga.com](http://creative-saga.com/)
 
 Facebook, Twitter, Github portfolio, etc...
 
@@ -60,7 +60,7 @@ Facebook, Twitter, Github portfolio, etc...
 <hr>
 Insert biography or description here.
 
-[www.creative-saga.com](www.creative-saga.com)
+[www.creative-saga.com](http://creative-saga.com/)
 
 Facebook, Twitter, Github portfolio, etc...
 
@@ -71,9 +71,11 @@ Facebook, Twitter, Github portfolio, etc...
 <hr>
 Insert biography or description here.
 
-[www.creative-saga.com](www.creative-saga.com)
+[www.creative-saga.com](http://creative-saga.com/)
 
 Facebook, Twitter, Github portfolio, etc...
 
 </div>
 </div> <!-- end of row 2-->
+
+[1]: {{ site.url }}{{ site.baseurl }}/documentation/
