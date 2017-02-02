@@ -1,6 +1,6 @@
 # [www.neurotechedu.com](http://www.neurotechedu.com)
 
-The source
+The code to our open-source website for learning materials.
 
 This project is built with the help of
 
