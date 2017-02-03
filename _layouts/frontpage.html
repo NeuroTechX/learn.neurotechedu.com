@@ -38,6 +38,13 @@ format: frontpage
 * First check, if there is a call for action-button
 *
 {% endcomment %}
+
+//New Comment
+Ttestestestestestt<br />
+stestestest<br />
+estsetest<br />
+
+
 {% if page.callforaction.url contains 'http' %}
 {% assign url = '' %}
 {% else %}
@@ -52,19 +59,19 @@ format: frontpage
 {% endif %}
 
 
-
 {% comment %}
 *
 * First check, if there are any posts at all
 *
 {% endcomment %}
-
+{% comment %}
 {% unless site.posts == empty %}
     <div class="row t30 b20 homepage">
         <div class="small-12 columns">
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
             <p>
+              FUCKUFCUFKCUKFUFKUCKUCKFU
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
             </p>
 
@@ -100,7 +107,7 @@ format: frontpage
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
 {% endunless %}
-
+{% endcomment %}
 
 {% comment %}
 *
