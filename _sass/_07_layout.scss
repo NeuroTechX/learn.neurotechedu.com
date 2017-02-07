@@ -88,7 +88,7 @@ body.video cite { color: #fff; }
     font-family: $header-font-family;
     color: #fff;
     text-transform: uppercase;
-    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    //text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 #masthead-no-image-header {
     height: 175px;
@@ -292,12 +292,12 @@ body.video cite { color: #fff; }
     }
 
     #footer a {
-        color: $footer-link-color;
+        color: $footer-color;
     }
     #footer h4,
     #footer h5 {
         letter-spacing: 1px;
-        color: #fff;
+        color: $footer-color;
         text-transform: uppercase;
     }
 
@@ -308,7 +308,7 @@ body.video cite { color: #fff; }
 
 #subfooter {
     background: $nrt-4;
-    color: $subfooter-color;
+    color: $footer-color;
     padding-top: 30px;
 }
 
@@ -317,7 +317,7 @@ body.video cite { color: #fff; }
 }
 
 .credits a {
-    color: $subfooter-link-color;
+    color: $footer-color;
     border: 0;
     text-transform: uppercase;
     &:hover {

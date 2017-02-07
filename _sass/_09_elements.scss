@@ -47,8 +47,8 @@
 ------------------------------------------------------------------- */
 
 .shadow-no      {text-shadow: rgba(0, 0, 0, 0) 0 0 0;}
-.shadow-black   {text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;}
-.shadow-white   {text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 2px;}
+.shadow-black   {/*text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;*/}
+.shadow-white   {/*text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 2px;*/}
 
 
 
@@ -136,6 +136,7 @@ dd.accordion-navigation.active span:before { content: "\F105" }
  * Licensed under MIT */
 img.lazy {
   display: none;
+  
 }
 .lazy-hidden {
     opacity: 0;
