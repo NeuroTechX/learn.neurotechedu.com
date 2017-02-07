@@ -1,5 +1,9 @@
-- title: Start
-  url: "/"
+##- title: Start
+##  url: "/"
+##  side: right
+
+- title: Tutorials
+  url: "/tutorials"
   side: right
 
 - title: Getting Started
