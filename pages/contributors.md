@@ -1,7 +1,6 @@
 ---
 layout: page-fullwidth
 title: "Contributors"
-subheadline: ""
 teaser: "These are the people who made NeurotechX what it is today."
 permalink: "/contributors/"
 header:
