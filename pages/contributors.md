@@ -1,11 +1,10 @@
 ---
 layout: page-fullwidth
-show_meta: false
 title: "Contributors"
-teaser: "The following is a collection of projects and resources taht 2"
+teaser: "These are the people who made NeurotechX what it is today."
+permalink: "/contributors2/"
 header:
-   image_fullwidth: "neurons-2.jpg"
-permalink: "/contributors/"
+    image_fullwidth: "header_drop.jpg"
 ---
 <div class="row">
 
@@ -80,5 +79,3 @@ Facebook, Twitter, Github portfolio, etc...
 </div>  <!--  end of row 2-->
 
 </div> <!--  end of main content row -->
-
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
