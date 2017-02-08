@@ -168,92 +168,14 @@ The Neurosky is one of the original consumer eeg's to go to the market. It's pro
 ## Features Comparison <!-- table has its own row so that it can occupy whole width of page -->
 <hr>
 
-<table>
-  <caption></caption>
-  <colgroup>
-  <!-- here you can set column width using       <col span="1" style="width: 10%;">   
-      see template typography page for details  https://phlow.github.io/feeling-responsive/design/typography/typography/ -->
-  </colgroup>
-  <thead>
-    <tr>
-      <th>Device</th>
-      <th>Channels</th>
-      <th>ADC Bits</th>
-      <th>Sample Rate</th>
-      <th>Motion sensors</th>
-      <th>LSL Support</th>
-      <th>SD Card Support</th>
-      <th>TTL</th>
-      <th>Battery Length</th>
-      <th>Cost (US) as of Jan 2017</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr> <!-- row 2 -->
-    <td>Muse 2016</td><!--  Device Name -->
-    <td>4-6</td><!--  # of Channels -->
-    <td>12</td> <!--  ADC Bits -->
-    <td>256</td><!--  Sampling Rate -->
-    <td>3 axis</td> <!--  Motion Sensor -->
-    <td>Yes</td> <!--  LSL Support -->
-    <td>No</td> <!-- SD Card Support -->
-    <td>Maybe</td> <!-- TTL -->
-    <td>5 hours</td> <!-- Battery Length -->
-    <td>200</td><!-- Cost -->
-  </tr>
-  <tr> <!-- row 3 -->
-    <td>Epoc</td><!--  Device Name -->
-    <td>14 + 2 ref</td><!--  # of Channels -->
-    <td>16 bit</td> <!--  ADC Bits -->
-    <td>256 HZ</td> <!--  Sampling Rate -->
-    <td>9 axis</td> <!--  Motion Sensor -->
-    <td>Possible</td> <!--  LSL Support -->
-    <td>With accessory</td> <!-- SD Card Support -->
-    <td>N/A</td> <!-- TTL -->
-    <td>6 hours using BTLE</td> <!-- Battery Length -->
-    <td>799$</td><!-- Cost -->
-  </tr>
+| Device |	Channels | ADC Bits |	Sample Rate | Motion sensors |	LSL Support |	SD Card Support |	TTL |	Battery Length |	Cost (US) as of Jan 2017 |
+|--------|-----------|----------|--------------|----------------|--------------|-----------------|-----|----------------|---------------------------|
+| Muse 2016 |	4-6               |	12     |	256    | 3 axis |	Yes      |	No             |	Maybe |	5 hours |	$200 |
+| Epoc      |	14 + 2 ref        |	16 bit |	256 HZ | 9 axis |	Possible |	With accessory |	N/A |	6 hours using BTLE |	$799 |
+| Insight   |	5+2 ref           |	15 bit |	28 HZ  | 9 axis |	Possible |	With accessory |	N/A |	4 hours using Blutooth |	$300 |
+| OpenBCI   |	up to 16 channels |	24     |	250 HZ | 3 axis |	Yes      |	Yes            |	Yes |	~26 hours |	$500 for 8 channels $949 for 16 |
+| Neurosky Mindwave |	1 +1 ref  |	12     |	512Hz  | N/A    |	N/A      |	N/A            |	N/A |	8 hours   |	99.99 |
 
-  <tr> <!-- row 4 -->
-  <td>Insight</td> <!-- Device Name -->
-  <td>5+2 ref</td> <!-- # of Channels  -->
-  <td>15 bit</td> <!--  ADC Bits -->
-  <td>28 HZ</td> <!--  Sampling Rate -->
-  <td>9 axis</td> <!--  Motion Sensor -->
-  <td>Possible</td> <!--  LSL Support -->
-  <td>With accessory</td> <!-- SD Card Support -->
-  <td>N/A</td> <!-- TTL -->
-  <td>4 hours using Blutooth</td> <!-- Battery Length -->
-  <td>300</td> <!-- Cost -->
-  </tr>
-
-  <tr> <!-- row 5 -->
-  <td>OpenBCI</td><!-- Device Name -->
-  <td>up to 16 channels</td> <!-- # of Channels  -->
-  <td>24</td>  <!--  ADC Bits -->
-  <td>250 HZ</td> <!--  Sampling Rate -->
-  <td>3 axis</td> <!--  Motion Sensor -->
-  <td>Yes</td> <!--  LSL Support -->
-  <td>Yes</td> <!-- SD Card Support -->
-  <td>Yes</td> <!-- TTL -->
-  <td>~26 hours</td> <!-- Battery Length -->
-  <td>500 for 8 channels 949 for 16 </td> <!-- Cost -->
-  </tr>
-
-  <tr> <!-- row 6 -->
-  <td>Neurosky Mindwave</td> <!-- Device Name -->
-  <td>1 +1 ref</td> <!-- # of Channels  -->
-  <td>12</td> <!-- ADC Bits  -->
-  <td>512Hz</td><!-- Sampling Rate -->
-  <td>N/A</td><!-- Motion Sensor -->
-  <td>N/A</td><!-- LSL Support -->
-  <td>N/A</td> <!-- SD Card Support-->
-  <td>N/A</td> <!-- TTL -->
-  <td>8 hours</td><!-- Battery Length -->
-  <td>99.99 </td><!-- Cost -->
-  </tr>
-  </tbody>
-</table>
-</div> <!-- end of row -->
+</div> <!-- end of table section -->
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
