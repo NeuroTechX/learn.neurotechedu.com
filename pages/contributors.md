@@ -76,6 +76,7 @@ Insert biography or description here.
 Facebook, Twitter, Github portfolio, etc...
 
 </div>
+</div>
 </div> <!-- end of row 2-->
 
 [1]: {{ site.url }}{{ site.baseurl }}/documentation/
