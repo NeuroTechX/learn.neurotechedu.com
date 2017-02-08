@@ -6,7 +6,6 @@ permalink: "/contributors/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-<!-- <div class="row"> -->
 <div class="medium-4 columns" markdown="1">
 ##### Tudor Mincu
 <hr>
@@ -66,4 +65,3 @@ Insert biography or description here.
 
 Facebook, Twitter, Github portfolio, etc...
 </div>
-<!-- </div> end of row -->
