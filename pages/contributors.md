@@ -7,7 +7,6 @@ permalink: "/contributors/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-
 <div class="row"> <!-- row 1 -->
 <div class="medium-4 columns" markdown="1">
 ##### Tudor Mincu
@@ -77,5 +76,3 @@ Facebook, Twitter, Github portfolio, etc...
 
 </div>
 </div> <!-- end of row 2-->
-
-[1]: {{ site.url }}{{ site.baseurl }}/documentation/

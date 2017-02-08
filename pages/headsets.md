@@ -170,11 +170,11 @@ The Neurosky is one of the original consumer eeg's to go to the market. It's pro
 
 | Device |	Channels | ADC Bits |	Sample Rate | Motion sensors |	LSL Support |	SD Card Support |	TTL |	Battery Length |	Cost (US) as of Jan 2017 |
 |--------|-----------|----------|--------------|----------------|--------------|-----------------|-----|----------------|---------------------------|
-| Muse 2016 |	4-6               |	12     |	256    | 3 axis |	Yes      |	No             |	Maybe |	5 hours |	$200 |
-| Epoc      |	14 + 2 ref        |	16 bit |	256 HZ | 9 axis |	Possible |	With accessory |	N/A |	6 hours using BTLE |	$799 |
-| Insight   |	5+2 ref           |	15 bit |	28 HZ  | 9 axis |	Possible |	With accessory |	N/A |	4 hours using Blutooth |	$300 |
-| OpenBCI   |	up to 16 channels |	24     |	250 HZ | 3 axis |	Yes      |	Yes            |	Yes |	~26 hours |	$500 for 8 channels $949 for 16 |
-| Neurosky Mindwave |	1 +1 ref  |	12     |	512Hz  | N/A    |	N/A      |	N/A            |	N/A |	8 hours   |	99.99 |
+| Muse 2016 |	4-6               |	12     |	256 Hz | 3 axis |	Yes      |	No             |	Maybe |	5 hours|	$200 |
+| Epoc      |	14+2 ref          |	16 bit |	256 Hz | 9 axis |	Possible |	With accessory |	N/A   |	6 hours using BTLE |	$799 |
+| Insight   |	5+2 ref           |	15 bit |	28 Hz  | 9 axis |	Possible |	With accessory |	N/A   |	4 hours using Blutooth |	$300 |
+| OpenBCI   |	up to 16 channels |	24     |	250 Hz | 3 axis |	Yes      |	Yes            |	Yes   |	~26 hours |	$500 for 8 channels, $949 for 16 |
+| Neurosky Mindwave |	1+1 ref   |	12     |	512Hz  | N/A    |	N/A      |	N/A            |	N/A   |	8 hours |	99.99 |
 
 </div> <!-- end of table section -->
 
