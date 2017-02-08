@@ -7,80 +7,72 @@ header:
    image_fullwidth: "neurons-2.jpg"
 permalink: "/contributors/"
 ---
-<div class="row">
-<div class="medium-4 medium-push-8 columns" markdown="1">
-
-</div><!-- /.medium-4.columns -->
-
-
-<div class="medium-8 medium-pull-4 columns" markdown="1">
-
-## Tutorials
+<div class="row"> <!--  row 1 -->
+<div class="medium-4 columns" markdown="1">
+##### Tudor Mincu
 <hr>
+Insert biography or description here.
 
-<div class="row">
-<div class="large-12 columns" markdown="1">
-<table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>instructables</td>
-    <td>Maria Anders</td>
-    <td><a href="http://www.instructables.com/id/Brain-Controlled-Music-Generator-Submitted-by-Ba/">Brain Controlled Music Generator</a></td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-</table>
+[www.creative-saga.com](http://creative-saga.com/)
+
+Facebook, Twitter, Github portfolio, etc...
+
 </div>
 
-</div> <!-- end of row -->
+<div class="medium-4 columns" markdown="1">
+##### Julian
+<hr>
+Insert biography or description here.
 
-#### No Programming Experience
+[www.creative-saga.com](http://creative-saga.com/)
 
-These tools can be used to visualize your brain data:
+Facebook, Twitter, Github portfolio, etc...
 
-* [View your brain activity by using Muses's Research Tools](http://developer.choosemuse.com/research-tools/getting-started)
-* [View a live topographic map of your brain activity](http://www.brainavatar.com/ebrainavatar-muse.html)
-* If you have an Android device, you can take a look at this [EEG 101 Tutorial](https://play.google.com/store/apps/details?id=com.eeg_project&amp;hl=en) which was made by some of the [NeuroTechX community members](https://github.com/NeuroTechX/eeg-101)
+</div>
 
+<div class="medium-4 columns" markdown="1">
+##### Sydney
+<hr>
+Insert biography or description here.
 
-#### Some Programming Experience
+[www.creative-saga.com](http://creative-saga.com/)
 
-These are open source projects which require some programming experience in order to implement them:
+Facebook, Twitter, Github portfolio, etc...
 
-* [Introduction to Brain Computer Interfaces](https://github.com/bcimontreal/bci_workshop)
-* [Using the Muse with Unity](http://developer.choosemuse.com/unity/getting-started)
+</div>
+</div> <!--  end of row 1 -->
 
+<div class="row">  <!-- row 2 -->
+<div class="medium-4 columns" markdown="1">
+##### Jack Sparrow
+<hr>
+Insert biography or description here.
 
+[www.creative-saga.com](http://creative-saga.com/)
 
-</div> <!-- end of content column -->
-</div> <!-- end of row -->
+Facebook, Twitter, Github portfolio, etc...
 
+</div>
 
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
+<div class="medium-4 columns" markdown="1">
+##### Leonidas
+<hr>
+Insert biography or description here.
+
+[www.creative-saga.com](http://creative-saga.com/)
+
+Facebook, Twitter, Github portfolio, etc...
+
+</div>
+
+<div class="medium-4 columns" markdown="1">
+##### Achillies
+<hr>
+Insert biography or description here.
+
+[www.creative-saga.com](http://creative-saga.com/)
+
+Facebook, Twitter, Github portfolio, etc...
+
+</div>
+</div>  <!-- end of row 2-->
