@@ -15,9 +15,9 @@
 
 /*NEUROTECHX Colors
 -------------------------------------------------------------------*/
-$ci-7: #23b2c6;  //Neurotech teal
-$ci-8: #2C2C2C;  //Neurotech dark grey
-$ci-9: #C4C4C4;  //Neurotech light gray
+$nrt-1: #23b2c6;  //Neurotech teal
+$nrt-2: #2C2C2C;  //Neurotech dark grey
+$nrt-3: #C4C4C4;  //Neurotech light gray
 $nrt-4: #0094ff; // Neurotech UI-blue
 
 /* Basics
@@ -87,7 +87,7 @@ $topbar-dropdown-toggle-color: $ci-1;
 
 //Black typography nav-bar
 $topbar-link-color: #000;
-//Black typography nav-bar on hover
+//BLack typography nav-bar on hover
 $topbar-link-color-hover: #000;
 //White typography nav-bar active page
 $topbar-link-color-active: #FFFFFF;
@@ -100,28 +100,26 @@ $topbar-dropdown-link-bg-hover: $ci-2;
 //NEUROTECH BACKGROUND NAV-BAR
 $topbar-link-bg-active: $nrt-4; // Active Navigation Link
 $topbar-link-bg-hover: $nrt-4;
-$topbar-link-bg-active-hover: $nrt-4;
+$topbar-link-bg-active-hover: $ci-1;
 
 
-$topbar-dropdown-bg: $ci-1; // Background Mobile Navigation
+$topbar-dropdown-bg: #FFF; // Background Mobile Navigation
 $topbar-dropdown-link-color: #000;
-$topbar-dropdown-link-bg: $ci-2;
+$topbar-dropdown-link-bg: $ci-1;
 
-$topbar-menu-link-color-toggled: $ci-1;
-$topbar-menu-icon-color-toggled: $ci-1;
+$topbar-menu-link-color-toggled: $nrt-4;
+$topbar-menu-icon-color-toggled: $nrt-4;
 $topbar-menu-link-color: #000;
 $topbar-menu-icon-color: #000;
-$topbar-menu-link-color-toggled: $ci-7;
-$topbar-menu-icon-color-toggled: $ci-7;
 
 
 
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg: $ci-8;
-$footer-color: #fff;
-$footer-link-color: $ci-7;
+$footer-bg: $ci-1;
+$footer-color: #FFF;
+$footer-link-color: $ci-2;
 
 
 $subfooter-bg: $grey-13;

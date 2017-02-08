@@ -122,6 +122,15 @@ The Neurosky is one of the original consumer EEGs on the market. It is a 1 chann
 
 * [NeuroSky has put together their own list of projects you can do with their devices](http://developer.neurosky.com/docs/doku.php?id=projects)
 
+
+## No Headset
+<hr>
+
+If you don't have a headset available, there are still some stuff you could do with Brain data. Check out some of these links.
+
+* Want to contribute to open Neuroscience in a gamified way? [Check out Eyewire](http://eyewire.org/explore)
+* You can also take a look at a buttload of MRI data [using Brainbox](http://brainbox.pasteur.fr/)
+
 </div> <!-- end of content column -->
 </div> <!-- end of row -->
 
