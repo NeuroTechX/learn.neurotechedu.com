@@ -101,8 +101,12 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$small-only} {
+
+  #logobox {
+    margin-left: 5px;
+  }
     #logo img {
-        display: none;
+      /*  display: none; */
     }
     #masthead {
         height: 200px;
