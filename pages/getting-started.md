@@ -133,6 +133,3 @@ If you don't have a headset available, there are still some stuff you could do w
 
 </div> <!-- end of content column -->
 </div> <!-- end of row -->
-
-
-[1]: {{ site.url }}{{ site.baseurl }}/documentation/

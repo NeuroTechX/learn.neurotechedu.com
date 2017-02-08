@@ -177,5 +177,3 @@ The Neurosky is one of the original consumer eeg's to go to the market. It's pro
 | Neurosky Mindwave |	1+1 ref   |	12     |	512Hz  | N/A    |	N/A      |	N/A            |	N/A   |	8 hours |	99.99 |
 
 </div> <!-- end of table section -->
-
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/

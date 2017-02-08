@@ -299,6 +299,3 @@ v2 packs tDCS with tACS, tPCS, tRNS, Blind sham, BT4, Accelerometer, N-Back and 
 
 </div> <!-- end of content column -->
 </div> <!-- end of row -->
-
-
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
