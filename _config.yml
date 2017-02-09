@@ -25,8 +25,7 @@ author: NeurotechEDU
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-# Note: leave these empty and use absolute links in the nav instead, otherwise off-site links don't work
-url: ''
+url: 'http://learn.neurotechedu.com'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content

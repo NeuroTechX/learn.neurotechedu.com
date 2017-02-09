@@ -3,7 +3,7 @@
 ##  side: right
 
 - title: Tutorials
-  url: "http://learn.neurotechedu.com/tutorials/"
+  url: "/tutorials/"
   side: right
 
 - title: Resources
@@ -11,7 +11,7 @@
   side: right
 
 - title: Learn
-  url: "http://learn.neurotechedu.com/"
+  url: "/index/"
   side: right
 
 - title: About
@@ -19,5 +19,5 @@
   side: right
 
 - title: Contributors
-  url: "http://learn.neurotechedu.com/contributors/"
+  url: "/contributors/"
   side: right

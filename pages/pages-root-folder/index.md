@@ -9,7 +9,7 @@ header:
   image_fullwidth: "earth.jpg"
 widget1:
   title: "Tutorials"
-  url: 'http://learn.neurotechedu.com/tutorials/'
+  url: '/tutorials/'
   image: openBCI-303x182.jpg
   text: 'This page features learning materials grouped by category and give you an insight into learning tracks.'
 widget2:
