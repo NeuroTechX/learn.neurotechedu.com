@@ -25,8 +25,8 @@ author: NeurotechEDU
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://learn.neurotechedu.com'
-baseurl: ''
+url: 'https://neurotechx.github.io'
+baseurl: 'learn.neurotechedu.com'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
