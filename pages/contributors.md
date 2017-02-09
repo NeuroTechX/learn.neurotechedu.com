@@ -65,3 +65,5 @@ Insert biography or description here.
 
 Facebook, Twitter, Github portfolio, etc...
 </div>
+
+{% include _improve_content.html %}

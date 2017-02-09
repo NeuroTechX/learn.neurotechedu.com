@@ -6,22 +6,18 @@
   url: "/tutorials/"
   side: right
 
-- title: Getting Started
-  url: "/getting-started/"
+- title: Resources
+  url: "https://github.com/NeuroTechX/awesome-bci#brain-visualizations"
   side: right
 
-- title: "Headsets"
-  url: "/headsets/"
+- title: Learn
+  url: "http://learn.neurotechedu.com/"
   side: right
 
-- title: Applications
-  url: "/applications/"
+- title: About
+  url: "http://www.neurotechedu.com/about/"
   side: right
 
 - title: Contributors
   url: "/contributors/"
-  side: right
-
-- title: "Search"
-  url: "/search/"
   side: right
