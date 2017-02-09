@@ -8,21 +8,21 @@ layout: frontpage
 header:
   image_fullwidth: "earth.jpg"
 widget1:
-  title: "Getting Started"
-  url: '/getting-started/'
+  title: "Tutorials"
+  url: 'http://learn.neurotechedu.com/tutorials/'
   image: openBCI-303x182.jpg
-  text: 'An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG...'
+  text: 'This page features learning materials grouped by category and give you an insight into learning tracks.'
 widget2:
-  title: "Headsets"
-  url: '/headsets/'
+  title: "Resources"
+  url: 'https://github.com/NeuroTechX/awesome-bci'
   image: openbci-3d-303x182.jpg
   text: 'Your choice of headset will depend on what you intend to use it for. The answer will depend on your budget, interest, project idea and the number of electrodes required. Before purchasing a headset, think about your programming experience and Project Idea.'
 #  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget3:
-  title: "Neurotech Applications"
-  url: '/applications/'
+  title: "How to Contribute"
+  url: 'https://github.com/NeuroTechX/learn.neurotechedu.com'
   image: applications-thumbnail.jpg
-  text: 'Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate). What are the fields that are involved/interested in...'
+  text: 'Click to contribute to our Github page directly. You may also choose to join the NeurotechX committee or our Slack group.'
 #
 # Use the call for action to show a button on the frontpage
 #
