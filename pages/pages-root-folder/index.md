@@ -22,7 +22,8 @@ widget3:
   title: "How to Contribute"
   url: 'https://github.com/NeuroTechX/learn.neurotechedu.com'
   image: applications-thumbnail.jpg
-  text: 'Click to contribute to our Github page directly. You may also choose to join the NeurotechX committee or our Slack group.'
+  text: '<a href="https://github.com/NeuroTechX/learn.neurotechedu.com">Click</a> to contribute to our Github page directly. You may also choose to join the <a href="http://neurotechx.com/opportunities/edu-committee.html">NeurotechX committee</a> or
+<a href="https://neurotechx.herokuapp.com/">our Slack group</a>.'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -35,8 +36,8 @@ widget3:
 #
 
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
+  url: http://eepurl.com/bEQDKX
+  text: Subscribe to the NeuroTechX newsletter ›
   style: alert
 permalink: /index.html
 #
