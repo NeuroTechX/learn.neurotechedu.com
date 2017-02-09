@@ -960,9 +960,9 @@ $crumb-slash: "/";
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-$panel-bg: $grey-1;
-// $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-bg: $nrt-5;
+$panel-border-style: solid;
+$panel-border-size: 2px;
 
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: -11%;

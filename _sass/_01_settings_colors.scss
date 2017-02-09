@@ -19,6 +19,7 @@ $nrt-1: #23b2c6;  //Neurotech teal
 $nrt-2: #2C2C2C;  //Neurotech dark grey
 $nrt-3: #C4C4C4;  //Neurotech light gray
 $nrt-4: #0094ff; // Neurotech UI-blue
+$nrt-5: #F8F8FF; //test colors
 
 /* Basics
 ------------------------------------------------------------------- */
@@ -72,6 +73,25 @@ $grey-13: #313131;
 $grey-14: #242424;
 $grey-15: #171717;
 $grey-16: #0B0B0B;
+
+
+
+
+/* Panel (table of contents) font and color */
+
+#toc {
+  color: DarkGreen;
+}
+#markdown-toc li a {
+  color: $grey-16;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  border: none;
+}
+#markdown-toc li a:hover {
+  color: $nrt-4;
+}
+
 
 
 
