@@ -16,7 +16,7 @@ widget2:
   title: "Resources"
   url: 'https://github.com/NeuroTechX/awesome-bci'
   image: openbci-3d-303x182.jpg
-  text: 'Your choice of headset will depend on what you intend to use it for. The answer will depend on your budget, interest, project idea and the number of electrodes required. Before purchasing a headset, think about your programming experience and Project Idea.'
+  text: 'This list of resources is non-exhaustive. If you find something which you think should be included, please add it!'
 #  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget3:
   title: "How to Contribute"

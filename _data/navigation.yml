@@ -1,6 +1,7 @@
 ##- title: Start
 ##  url: "/"
 ##  side: right
+## Note: navigation links were changed to accomodate external site links
 
 - title: Tutorials
   url: "/tutorials/"
@@ -11,7 +12,7 @@
   side: right
 
 - title: Learn
-  url: "/index/"
+  url: "/"
   side: right
 
 - title: About
