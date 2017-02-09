@@ -5,9 +5,9 @@
 #
 # Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
 
-url: 		''
-baseurl: 	''
-urlimg: 	'/images/'
+url: 'https://neurotechx.github.io'
+baseurl: '/learn.neurotechedu.com'
+urlimg: 'http://learn.neurotechedu.com/images/'
 
 # See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
 gist:

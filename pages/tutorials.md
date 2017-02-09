@@ -124,6 +124,3 @@ gkjfdhlgjkfhsgjs<br>
 <br>
 <br>
 </div> <!-- end of row -->
-
-
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
