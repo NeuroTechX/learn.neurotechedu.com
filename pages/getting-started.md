@@ -49,6 +49,52 @@ These tools can be used to visualize your brain data:
 
 These are open source projects which require some programming experience in order to implement them:
 
+<table>
+  <tr>
+    <th>Tutorial</th>
+    <th>Author</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+      <td>Introduction to Brain Computer Interfaces</td>
+      <td>Raymundo Cassani & Hubert Banville</td>
+      <td>Wouldn't it be cool if you could create music based on your brain activity? Follow this instructable and I'll show you how! </td>
+      <td><a href="http://www.instructables.com/id/Brain-Controlled-Music-Generator-Submitted-by-Ba/">Click</a></td>
+  </tr>
+  <tr>
+    <td>Mini Arduino Portable EEG</td>
+    <td>johnag</td>
+    <td>This is another example of the versatility , and of   what , the Arduino, a small LCD Color display and  the right type of sensors, are capable of doing.</td>
+    <td><a href="http://www.instructables.com/id/Mini-Arduino-Portable-EEG-Brain-Wave-Monitor-/" target="blank">Click</a></td>
+  </tr>
+   <tr>
+      <td>Brain Controlled RC Helicopter</td>
+      <td>PUzzlebox</td>
+      <td>This Instructable will show you how take a Radio Controller Helicopter and modify the remote control hardware such that it can be operated by free, open source computer software and flown based on brainwave measurements of concentration and relaxation taken by consumer-grade EEG headsets.</td>
+      <td><a href="http://www.instructables.com/id/Brain-Controlled-RC-Helicopter/">Click</a></td>
+  </tr>
+  <tr>
+    <td>Brain Controlled Wheelchair</td>
+    <td>jerkey</td>
+    <td>This Instructable will show how to make a Brain-Controlled Electric Wheelchair, so that a person can become mobile without moving their body.</td>
+    <td><a href="http://www.instructables.com/id/Brain-Controlled-Wheelchair/" target="blank">Click</a></td>
+  </tr>
+   <tr>
+      <td>Mind Controlled Fan</td>
+      <td>BruvneshT1</td>
+      <td>In this Instructable I will show that how with the help of an Arduino and Processing I was able to control a Fan.</td>
+      <td><a href="http://www.instructables.com/id/Mind-Controlled-Fan-for-ALS-or-Paralyzed-patients/">Click</a></td>
+  </tr>
+  <tr>
+    <td>Mini Arduino Portable EEG</td>
+    <td>johnag</td>
+    <td>This is another example of the versatility , and of   what , the Arduino, a small LCD Color display and  the right type of sensors, are capable of doing.</td>
+    <td><a href="http://www.instructables.com/id/Mini-Arduino-Portable-EEG-Brain-Wave-Monitor-/" target="blank">Click</a></td>
+  </tr>
+  
+</table>
+
 * [Introduction to Brain Computer Interfaces](https://github.com/bcimontreal/bci_workshop)
 * [Using the Muse with Unity](http://developer.choosemuse.com/unity/getting-started)
 
