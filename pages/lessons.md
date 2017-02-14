@@ -12,21 +12,21 @@ permalink: "/lessons/"
 
 <div class="row">
 <div class="large-12 columns" markdown="1" style="">
-<div class="medium-8 columns" style="margin-bottom:20px;color:grey">
-<h3 style="color:green;border-bottom:1px solid #d7d7d7">EEGs 101</h3>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="medium-8 columns" style="margin-bottom:20px">
+<h3 style="color:blue;border-bottom:1px solid #d7d7d7">Introduction to Neurotech</h3>
+If you are new to Neurotechnology, these are materials that can help understand our material better.
 <ul>
-<li>Item1</li>
-<li>Item1</li>
-<li>Item1</li>
+[selection of games.](http://store.neurosky.com/collections/apps/games)
+Item1
+Item1
 </ul>
 </div>
-<div class="medium-4 columns" style="height:300px;background-color:blue;margin-bottom:20px;color:grey">
+<div class="medium-4 columns" style="height:300px;border:1px solid grey;margin-bottom:20px;color:grey">
 TETETSTEGDSGSDGSD
 </div>
-<div class="medium-12 columns" style="margin-bottom:20px;color:grey">
+<div class="medium-12 columns" style="margin-bottom:20px;">
 <h3 style="border-bottom:1px solid #d7d7d7">EEGs 101</h3>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+EEGs are a crucial part of wh
 <ul>
 <li>Item1</li>
 <li>Item1</li>

@@ -22,3 +22,7 @@
 - title: Contributors
   url: "/contributors/"
   side: right
+
+- title: Blog
+  url: "/blog"
+  side: right
