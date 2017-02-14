@@ -12,8 +12,12 @@ permalink: "/lessons/"
 
 <div class="row" style="padding-top:60px;">
 
+{% comment %}
+{{ page.title }}
+{% endcomment %}
+
 <div class="large-12 columns" markdown="1" style="">
-  <div class="medium-2 columns" style="background-color:#0094ff;">
+  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
   01
   </div>
 
@@ -29,7 +33,7 @@ permalink: "/lessons/"
 </div>
 
 <div class="large-12 columns" markdown="1" style="margin-top:60px">
-  <div class="medium-2 columns" style="background-color:#0094ff;">
+  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
  02
   </div>
 
@@ -45,7 +49,7 @@ permalink: "/lessons/"
 </div>
 
 <div class="large-12 columns" markdown="1" style="margin-top:60px">
-  <div class="medium-2 columns" style="background-color:#0094ff;">
+  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
   03
   </div>
 
@@ -61,8 +65,8 @@ permalink: "/lessons/"
 </div>
 
 <div class="large-12 columns" markdown="1" style="margin-top:60px">
-  <div class="medium-2 columns" style="background-color:#0094ff;">
- 02
+  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
+ 04
   </div>
 
   <div class="medium-10 columns" style="border:1px solid #334D5C;padding:0;">
@@ -77,8 +81,8 @@ permalink: "/lessons/"
 </div>
 
 <div class="large-12 columns" markdown="1" style="margin-top:60px">
-  <div class="medium-2 columns" style="background-color:#0094ff;">
- 02
+  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
+ 05
   </div>
 
   <div class="medium-10 columns" style="border:1px solid #334D5C;padding:0;">
