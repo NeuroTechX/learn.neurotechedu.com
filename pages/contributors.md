@@ -8,6 +8,7 @@ header:
 ---
 <div class="medium-4 columns contributor" markdown="1">
 <img src="http://placehold.it/300x200">
+
 ##### Tudor Mincu
 
 Insert biography or description here. The specific contributions made by this person should also be written here.
@@ -22,6 +23,7 @@ Insert biography or description here. The specific contributions made by this pe
 
 <div class="medium-4 columns contributor" markdown="1">
 <img src="http://placehold.it/300x200">
+
 ##### Tudor Mincu
 
 Insert biography or description here. The specific contributions made by this person should also be written here.
@@ -36,6 +38,7 @@ Insert biography or description here. The specific contributions made by this pe
 
 <div class="medium-4 columns contributor" markdown="1">
 <img src="http://placehold.it/300x200">
+
 ##### Tudor Mincu
 
 Insert biography or description here. The specific contributions made by this person should also be written here.
@@ -50,6 +53,7 @@ Insert biography or description here. The specific contributions made by this pe
 
 <div class="medium-4 columns contributor" markdown="1">
 <img src="http://placehold.it/300x200">
+
 ##### Tudor Mincu
 
 Insert biography or description here. The specific contributions made by this person should also be written here.
@@ -64,6 +68,7 @@ Insert biography or description here. The specific contributions made by this pe
 
 <div class="medium-4 columns contributor" markdown="1">
 <img src="http://placehold.it/300x200">
+
 ##### Tudor Mincu
 
 Insert biography or description here. The specific contributions made by this person should also be written here.
@@ -78,6 +83,7 @@ Insert biography or description here. The specific contributions made by this pe
 
 <div class="medium-4 columns contributor" markdown="1">
 <img src="http://placehold.it/300x200">
+
 ##### Tudor Mincu
 
 Insert biography or description here. The specific contributions made by this person should also be written here.
