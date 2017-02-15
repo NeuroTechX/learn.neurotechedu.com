@@ -5,20 +5,20 @@
 
 ## Note: use Redirect Page for external site links
 
-- title: Lessons
-  url: "/lessons/"
-  side: right
-
-- title: Resources
-  url: "/resources/"
+- title: About
+  url: "/about/"
   side: right
 
 - title: Learn
   url: "/"
   side: right
 
-- title: About
-  url: "/about/"
+- title: Lessons
+  url: "/lessons/"
+  side: right
+
+- title: Resources
+  url: "/resources/"
   side: right
 
 - title: Contributors
