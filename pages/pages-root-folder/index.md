@@ -16,7 +16,7 @@ widget1:
 widget2:
 
   title: "Resources"
-  url: 'https://github.com/NeuroTechX/awesome-bci'
+  url: '/resources/'
   image: openbci-3d-303x182.jpg
   text: 'This list of resources is non-exhaustive. If you find something which you think should be included, please add it!'
 
