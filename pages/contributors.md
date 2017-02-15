@@ -9,61 +9,81 @@ header:
 <div class="medium-4 columns" markdown="1">
 ##### Tudor Mincu
 <hr>
-Insert biography or description here.
+Insert biography or description here. The specific contributions made by this person should also be written here.
 
-[www.creative-saga.com](http://creative-saga.com/)
-
-Facebook, Twitter, Github portfolio, etc...
+<a href="http://creative-saga.com/" class="icon icon-globe"></a>
+<a href="http://twitter.com/" class="icon icon-twitter"></a>
+<a href="http://facebook.com/" class="icon icon-facebook"></a>
+<a href="http://github.com/" class="icon icon-github"></a>
+<a href="http://youtube.com/" class="icon icon-youtube"></a>
 </div>
+
 
 <div class="medium-4 columns" markdown="1">
-##### Julian
+##### Tudor Mincu
 <hr>
-Insert biography or description here.
+Insert biography or description here. The specific contributions made by this person should also be written here.
 
-[www.creative-saga.com](http://creative-saga.com/)
-
-Facebook, Twitter, Github portfolio, etc...
+<a href="http://creative-saga.com/" class="icon icon-globe"></a>
+<a href="http://twitter.com/" class="icon icon-twitter"></a>
+<a href="http://facebook.com/" class="icon icon-facebook"></a>
+<a href="http://github.com/" class="icon icon-github"></a>
+<a href="http://youtube.com/" class="icon icon-youtube"></a>
 </div>
+
 
 <div class="medium-4 columns" markdown="1">
-##### Sydney
+##### Tudor Mincu
 <hr>
-Insert biography or description here.
+Insert biography or description here. The specific contributions made by this person should also be written here.
 
-[www.creative-saga.com](http://creative-saga.com/)
-
-Facebook, Twitter, Github portfolio, etc...
+<a href="http://creative-saga.com/" class="icon icon-globe"></a>
+<a href="http://twitter.com/" class="icon icon-twitter"></a>
+<a href="http://facebook.com/" class="icon icon-facebook"></a>
+<a href="http://github.com/" class="icon icon-github"></a>
+<a href="http://youtube.com/" class="icon icon-youtube"></a>
 </div>
+
 
 <div class="medium-4 columns" markdown="1">
-##### Jack Sparrow
+##### Tudor Mincu
 <hr>
-Insert biography or description here.
+Insert biography or description here. The specific contributions made by this person should also be written here.
 
-[www.creative-saga.com](http://creative-saga.com/)
-
-Facebook, Twitter, Github portfolio, etc...
+<a href="http://creative-saga.com/" class="icon icon-globe"></a>
+<a href="http://twitter.com/" class="icon icon-twitter"></a>
+<a href="http://facebook.com/" class="icon icon-facebook"></a>
+<a href="http://github.com/" class="icon icon-github"></a>
+<a href="http://youtube.com/" class="icon icon-youtube"></a>
 </div>
+
 
 <div class="medium-4 columns" markdown="1">
-##### Leonidas
+##### Tudor Mincu
 <hr>
-Insert biography or description here.
+Insert biography or description here. The specific contributions made by this person should also be written here.
 
-[www.creative-saga.com](http://creative-saga.com/)
-
-Facebook, Twitter, Github portfolio, etc...
+<a href="http://creative-saga.com/" class="icon icon-globe"></a>
+<a href="http://twitter.com/" class="icon icon-twitter"></a>
+<a href="http://facebook.com/" class="icon icon-facebook"></a>
+<a href="http://github.com/" class="icon icon-github"></a>
+<a href="http://youtube.com/" class="icon icon-youtube"></a>
 </div>
+
 
 <div class="medium-4 columns" markdown="1">
-##### Achillies
+##### Tudor Mincu
 <hr>
-Insert biography or description here.
+Insert biography or description here. The specific contributions made by this person should also be written here.
 
-[www.creative-saga.com](http://creative-saga.com/)
-
-Facebook, Twitter, Github portfolio, etc...
+<a href="http://creative-saga.com/" class="icon icon-globe"></a>
+<a href="http://twitter.com/" class="icon icon-twitter"></a>
+<a href="http://facebook.com/" class="icon icon-facebook"></a>
+<a href="http://github.com/" class="icon icon-github"></a>
+<a href="http://youtube.com/" class="icon icon-youtube"></a>
 </div>
+
+
+
 
 {% include _improve_content.html %}

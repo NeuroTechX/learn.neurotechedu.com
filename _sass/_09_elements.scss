@@ -11,6 +11,9 @@
 - Accordion
 - Lazy Load XT
 - Frontpage Widget
+- Custom TOC style
+- Icons
+
 
 */
 
@@ -136,7 +139,7 @@ dd.accordion-navigation.active span:before { content: "\F105" }
  * Licensed under MIT */
 img.lazy {
   display: none;
-  
+
 }
 .lazy-hidden {
     opacity: 0;
@@ -148,4 +151,31 @@ img.lazy {
     -o-transition: opacity 0.7s;
     transition: opacity 0.7s;
     opacity: 1;
+}
+
+
+/* Panel (table of contents) font and color
+------------------------------------------------------------------- */
+#toc {
+  color: DarkGreen;
+}
+#markdown-toc li a {
+  color: $grey-16;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  border: none;
+}
+#markdown-toc li a:hover {
+  color: $nrt-4;
+}
+
+/* Icons for Contributors page
+------------------------------------------------------------------- */
+a.icon {
+  border: none;
+  font-size: 1.7em;
+  margin-right: 4%;
+}
+a.icon:hover {
+  border: none;
 }
