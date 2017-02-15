@@ -11,7 +11,7 @@
 - Accordion
 - Lazy Load XT
 - Frontpage Widget
-- Custom TOC style
+- Custom Table of Contents style
 - Icons
 
 
@@ -188,3 +188,53 @@ img.lazy {
   border: none;
   color: $nrt-4;
 }
+
+
+/* Styling for Module DIVs
+------------------------------------------------------------------- */
+
+.module{
+  margin:30px auto 30px auto;
+}
+  
+  .module .number{
+    background-color:#0094ff;
+    color:white;
+    font-weight:600;
+  }
+
+  .module .box{
+    background-color: $grey-1;
+    border:1px solid #334D5C;
+    border-radius:0 30px 30px 30px;
+    padding:0;
+  }
+
+  .module h4{
+    margin:0px;
+    font-weight:100;
+    border-radius:0 30px 0px 0px;
+    text-transform:uppercase;
+    padding: 10px;
+    background-color:#334D5C;
+    color:white
+  }
+
+  .module .section{
+    font-size: 1.1em;
+    font-weight:100;
+    margin-top: 10px;
+  }
+
+  .module .section a{
+    font-size: 1.1em;
+    font-weight:100;
+  }
+    .module .section a:hover{
+      background:#c4c4c4;
+    
+  }
+
+   .module .section a:active{
+    
+  }

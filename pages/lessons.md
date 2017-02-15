@@ -12,86 +12,50 @@ permalink: "/lessons/"
 
 <div class="row" style="padding-top:60px;">
 
-{% comment %}
-{{ page.title }}
-{% endcomment %}
 
-<div class="large-12 columns" markdown="1" style="">
-  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
-  01
-  </div>
-
-  <div class="medium-10 columns" style="border:1px solid #334D5C;padding:0;">
-    <h4 style="margin:0px;font-weight:100;text-transform:uppercase;padding: 10px;background-color:#334D5C; color:white">• Introduction to Neurotechnology</h4>
-    <div style="padding-left:30px; background-color:#c4c4c4;"></div>
+<div class="large-12 columns module" markdown="1" style="">
+  <div class="medium-2 columns number">01</div>
+  <div class="medium-10 columns box">
+    <h4>• Introduction to Neurotechnology</h4>
     <ul style="padding-left:70px">
-    <li style="font-style:italic;"><h4><a href="http://learn.neurotechedu.com/getting-started/">PROJECTS TO GET STARTED</a></h4></li>
-    <li style="font-style:italic;"><h4><a href="http://learn.neurotechedu.com/headsets/">HEADSETS</a></h4></li>
-     <li style="font-style:italic;"><h4><a href="http://www.neurotechx.com/">NEUROTECHX</a></h4></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/getting-started/">Projects to get started</a></li>
+      <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
+      <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
     </ul>
   </div>
 </div>
 
-<div class="large-12 columns" markdown="1" style="margin-top:60px">
-  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
- 02
-  </div>
-
-  <div class="medium-10 columns" style="border:1px solid #334D5C;padding:0;">
-    <h4 style="margin:0px;font-weight:100;text-transform:uppercase;padding: 10px;background-color:#334D5C; color:white">• Building BCI</h4>
-    <div style="padding-left:30px; background-color:#c4c4c4;"></div>
+<div class="large-12 columns module" markdown="1" style="">
+  <div class="medium-2 columns number">01</div>
+  <div class="medium-10 columns box">
+    <h4>• Building BCI</h4>
     <ul style="padding-left:70px">
-    <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-    <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-     <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/getting-started/">Projects to get started</a></li>
+      <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
+      <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
     </ul>
   </div>
 </div>
 
-<div class="large-12 columns" markdown="1" style="margin-top:60px">
-  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
-  03
-  </div>
-
-  <div class="medium-10 columns" style="border:1px solid #334D5C;padding:0;">
-    <h4 style="margin:0px;font-weight:100;text-transform:uppercase;padding: 10px;background-color:#334D5C; color:white">• EGS101</h4>
-    <div style="padding-left:30px; background-color:#c4c4c4;"></div>
+<div class="large-12 columns module" markdown="1" style="">
+  <div class="medium-2 columns number">01</div>
+  <div class="medium-10 columns box">
+    <h4>• EEGs101</h4>
     <ul style="padding-left:70px">
-    <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-    <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-     <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/getting-started/">Projects to get started</a></li>
+      <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
+      <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
     </ul>
   </div>
 </div>
 
-<div class="large-12 columns" markdown="1" style="margin-top:60px">
-  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
- 04
-  </div>
 
-  <div class="medium-10 columns" style="border:1px solid #334D5C;padding:0;">
-    <h4 style="margin:0px;font-weight:100;text-transform:uppercase;padding: 10px;background-color:#334D5C; color:white">• Building BCI</h4>
-    <div style="padding-left:30px; background-color:#c4c4c4;"></div>
-    <ul style="padding-left:70px">
-    <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-    <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-     <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-    </ul>
-  </div>
+
+{% capture newLine %}
+{% endcapture %}
+
+{% include _improve_content.html %}
+
 </div>
 
-<div class="large-12 columns" markdown="1" style="margin-top:60px">
-  <div class="medium-2 columns" style="background-color:#0094ff;color:white;font-weight:600;">
- 05
-  </div>
 
-  <div class="medium-10 columns" style="border:1px solid #334D5C;padding:0;">
-    <h4 style="margin:0px;font-weight:100;text-transform:uppercase;padding: 10px;background-color:#334D5C; color:white">• Building BCI</h4>
-    <div style="padding-left:30px; background-color:#c4c4c4;"></div>
-    <ul style="padding-left:70px">
-    <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-    <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-     <li style="font-style:italic;"><h4>PROJECTS TO GET STARTED</h4></li>
-    </ul>
-  </div>
-</div>
