@@ -1,15 +1,17 @@
 # [www.learn.neurotechedu.com](http://learn.neurotechedu.com/)
 
 The is the code to our education open-source website.
+This project is built with the help of:
 
-This project is built with the help of
+ * [Foundation](http://foundation.zurb.com/)
+ * [Jekyll](http://jekyllrb.com/)
+ * [Feeling Responsive Jekyll theme](https://phlow.github.io/feeling-responsive/) by Phlow
 
- * Foundation
- * jekyll
- * Feeling Responsive Jekyll theme by Phlow 
+Github is necessary if you wish to contribute to NeurotechEDU. [You can learn about Github here.](https://guides.github.com/activities/hello-world/)
 
+A combination of HTML and Markdown are used, but for the purpose of contributing you only need to know the [Markdown format which you can learn about here.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) Unlike HTML, Markdown is _very_ sensitive about spacing. Elements such as lists might need a blank line before and after the element in order to work properly.
 
- ## Setup <a name="setup"></a>
+## Jekyll Setup
 
 The website uses [Jekyll](http://jekyllrb.com/), a static website generator written in Ruby.
 You need to have Version 2.0.0 or higher of Ruby and the package manager Bundler.
@@ -27,7 +29,7 @@ You will also need [Python 3](http://python.org/) with
 [PyYAML](https://pypi.python.org/pypi/PyYAML/) available in order to
 re-generate the [data files](#details) the site depends on.
 
-
+*Note* Installing Jekyll on Windows is slightly different. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
 
 ## Fundamental changes to default template
 
