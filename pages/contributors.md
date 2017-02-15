@@ -6,83 +6,82 @@ permalink: "/contributors/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-<div class="medium-4 columns" markdown="1">
+<div class="medium-4 columns contributor" markdown="1">
+<img src="http://placehold.it/300x200">
 ##### Tudor Mincu
-<hr>
 Insert biography or description here. The specific contributions made by this person should also be written here.
 
-<a href="http://creative-saga.com/" class="icon icon-globe"></a>
-<a href="http://twitter.com/" class="icon icon-twitter"></a>
-<a href="http://facebook.com/" class="icon icon-facebook"></a>
-<a href="http://github.com/" class="icon icon-github"></a>
-<a href="http://youtube.com/" class="icon icon-youtube"></a>
+<a href="http://creative-saga.com/" class="icon-globe"></a>
+<a href="http://twitter.com/" class="icon-twitter"></a>
+<a href="http://facebook.com/" class="icon-facebook"></a>
+<a href="http://github.com/" class="icon-github"></a>
+<a href="http://youtube.com/" class="icon-youtube"></a>
 </div>
 
 
-<div class="medium-4 columns" markdown="1">
+<div class="medium-4 columns contributor" markdown="1">
+<img src="http://placehold.it/300x200">
 ##### Tudor Mincu
-<hr>
 Insert biography or description here. The specific contributions made by this person should also be written here.
 
-<a href="http://creative-saga.com/" class="icon icon-globe"></a>
-<a href="http://twitter.com/" class="icon icon-twitter"></a>
-<a href="http://facebook.com/" class="icon icon-facebook"></a>
-<a href="http://github.com/" class="icon icon-github"></a>
-<a href="http://youtube.com/" class="icon icon-youtube"></a>
+<a href="http://creative-saga.com/" class="icon-globe"></a>
+<a href="http://twitter.com/" class="icon-twitter"></a>
+<a href="http://facebook.com/" class="icon-facebook"></a>
+<a href="http://github.com/" class="icon-github"></a>
+<a href="http://youtube.com/" class="icon-youtube"></a>
 </div>
 
 
-<div class="medium-4 columns" markdown="1">
+<div class="medium-4 columns contributor" markdown="1">
+<img src="http://placehold.it/300x200">
 ##### Tudor Mincu
-<hr>
 Insert biography or description here. The specific contributions made by this person should also be written here.
 
-<a href="http://creative-saga.com/" class="icon icon-globe"></a>
-<a href="http://twitter.com/" class="icon icon-twitter"></a>
-<a href="http://facebook.com/" class="icon icon-facebook"></a>
-<a href="http://github.com/" class="icon icon-github"></a>
-<a href="http://youtube.com/" class="icon icon-youtube"></a>
+<a href="http://creative-saga.com/" class="icon-globe"></a>
+<a href="http://twitter.com/" class="icon-twitter"></a>
+<a href="http://facebook.com/" class="icon-facebook"></a>
+<a href="http://github.com/" class="icon-github"></a>
+<a href="http://youtube.com/" class="icon-youtube"></a>
 </div>
 
 
-<div class="medium-4 columns" markdown="1">
+<div class="medium-4 columns contributor" markdown="1">
+<img src="http://placehold.it/300x200">
 ##### Tudor Mincu
-<hr>
 Insert biography or description here. The specific contributions made by this person should also be written here.
 
-<a href="http://creative-saga.com/" class="icon icon-globe"></a>
-<a href="http://twitter.com/" class="icon icon-twitter"></a>
-<a href="http://facebook.com/" class="icon icon-facebook"></a>
-<a href="http://github.com/" class="icon icon-github"></a>
-<a href="http://youtube.com/" class="icon icon-youtube"></a>
+<a href="http://creative-saga.com/" class="icon-globe"></a>
+<a href="http://twitter.com/" class="icon-twitter"></a>
+<a href="http://facebook.com/" class="icon-facebook"></a>
+<a href="http://github.com/" class="icon-github"></a>
+<a href="http://youtube.com/" class="icon-youtube"></a>
 </div>
 
 
-<div class="medium-4 columns" markdown="1">
+<div class="medium-4 columns contributor" markdown="1">
+<img src="http://placehold.it/300x200">
 ##### Tudor Mincu
-<hr>
 Insert biography or description here. The specific contributions made by this person should also be written here.
 
-<a href="http://creative-saga.com/" class="icon icon-globe"></a>
-<a href="http://twitter.com/" class="icon icon-twitter"></a>
-<a href="http://facebook.com/" class="icon icon-facebook"></a>
-<a href="http://github.com/" class="icon icon-github"></a>
-<a href="http://youtube.com/" class="icon icon-youtube"></a>
+<a href="http://creative-saga.com/" class="icon-globe"></a>
+<a href="http://twitter.com/" class="icon-twitter"></a>
+<a href="http://facebook.com/" class="icon-facebook"></a>
+<a href="http://github.com/" class="icon-github"></a>
+<a href="http://youtube.com/" class="icon-youtube"></a>
 </div>
 
 
-<div class="medium-4 columns" markdown="1">
+<div class="medium-4 columns contributor" markdown="1">
+<img src="http://placehold.it/300x200">
 ##### Tudor Mincu
-<hr>
 Insert biography or description here. The specific contributions made by this person should also be written here.
 
-<a href="http://creative-saga.com/" class="icon icon-globe"></a>
-<a href="http://twitter.com/" class="icon icon-twitter"></a>
-<a href="http://facebook.com/" class="icon icon-facebook"></a>
-<a href="http://github.com/" class="icon icon-github"></a>
-<a href="http://youtube.com/" class="icon icon-youtube"></a>
+<a href="http://creative-saga.com/" class="icon-globe"></a>
+<a href="http://twitter.com/" class="icon-twitter"></a>
+<a href="http://facebook.com/" class="icon-facebook"></a>
+<a href="http://github.com/" class="icon-github"></a>
+<a href="http://youtube.com/" class="icon-youtube"></a>
 </div>
-
 
 
 

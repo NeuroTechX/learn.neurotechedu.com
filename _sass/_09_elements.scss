@@ -169,13 +169,22 @@ img.lazy {
   color: $nrt-4;
 }
 
-/* Icons for Contributors page
+/* Styling for Contributors page
 ------------------------------------------------------------------- */
-a.icon {
+.contributor {margin-bottom: 55px;}
+.contributor h5 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.contributor p {
+  margin: 0;
+}
+.contributor a {
   border: none;
   font-size: 1.7em;
   margin-right: 4%;
 }
-a.icon:hover {
+.contributor a:hover {
   border: none;
+  color: $nrt-4;
 }
