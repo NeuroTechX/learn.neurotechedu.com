@@ -25,8 +25,8 @@ permalink: "/lessons/"
     <h4 style="margin:0px;font-weight:100;text-transform:uppercase;padding: 10px;background-color:#334D5C; color:white">• Introduction to Neurotechnology</h4>
     <div style="padding-left:30px; background-color:#c4c4c4;"></div>
     <ul style="padding-left:70px">
-    <li style="font-style:italic;"><h4><a href="http://localhost:4000/learn.neurotechedu.com/getting-started/">PROJECTS TO GET STARTED</a></h4></li>
-    <li style="font-style:italic;"><h4><a href="http://localhost:4000/learn.neurotechedu.com/headsets/">HEADSETS</a></h4></li>
+    <li style="font-style:italic;"><h4><a href="http://learn.neurotechedu.com/getting-started/">PROJECTS TO GET STARTED</a></h4></li>
+    <li style="font-style:italic;"><h4><a href="http://learn.neurotechedu.com/headsets/">HEADSETS</a></h4></li>
      <li style="font-style:italic;"><h4><a href="http://www.neurotechx.com/">NEUROTECHX</a></h4></li>
     </ul>
   </div>
@@ -95,7 +95,3 @@ permalink: "/lessons/"
     </ul>
   </div>
 </div>
-
-
-
-
