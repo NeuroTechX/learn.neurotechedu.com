@@ -24,7 +24,7 @@ widget2:
 
 widget3:
   title: "How to Contribute"
-  url: 'https://github.com/NeuroTechX/learn.neurotechedu.com'
+  url: 'https://github.com/NeuroTechX/learn.neurotechedu.com/blob/gh-pages/README.md'
   image: applications-thumbnail.jpg
   text: '<a href="https://github.com/NeuroTechX/learn.neurotechedu.com">Click</a> to contribute to our Github page directly. You may also choose to join the <a href="http://neurotechx.com/opportunities/edu-committee.html">NeurotechX committee</a> or
 <a href="https://neurotechx.herokuapp.com/">our Slack group</a>.'
