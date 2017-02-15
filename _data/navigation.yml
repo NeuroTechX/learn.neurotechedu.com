@@ -1,14 +1,14 @@
 ##- title: Start
 ##  url: "/"
 ##  side: right
-## Note: navigation links were changed to accomodate external site links
+## Note: use Redirect Page for external site links
 
 - title: Lessons
   url: "/lessons/"
   side: right
 
 - title: Resources
-  url: "https://github.com/NeuroTechX/awesome-bci"
+  url: "/resources/"
   side: right
 
 - title: Learn
@@ -16,7 +16,7 @@
   side: right
 
 - title: About
-  url: "http://www.neurotechedu.com/about/"
+  url: "/about/"
   side: right
 
 - title: Contributors
