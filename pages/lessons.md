@@ -18,7 +18,7 @@ permalink: "/lessons/"
   <div class="medium-10 columns box">
     <h4>• Introduction to Neurotechnology</h4>
     <ul style="padding-left:70px">
-      <li class="section"><a href="http://learn.neurotechedu.com/getting-started/">Projects to get started</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
       <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
       <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
     </ul>
@@ -30,7 +30,7 @@ permalink: "/lessons/"
   <div class="medium-10 columns box">
     <h4>• Building BCI</h4>
     <ul style="padding-left:70px">
-      <li class="section"><a href="http://learn.neurotechedu.com/getting-started/">Projects to get started</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
       <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
       <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
     </ul>
@@ -42,7 +42,7 @@ permalink: "/lessons/"
   <div class="medium-10 columns box">
     <h4>• EEGs101</h4>
     <ul style="padding-left:70px">
-      <li class="section"><a href="http://learn.neurotechedu.com/getting-started/">Projects to get started</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
       <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
       <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
     </ul>
@@ -57,5 +57,3 @@ permalink: "/lessons/"
 {% include _improve_content.html %}
 
 </div>
-
-

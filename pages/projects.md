@@ -1,12 +1,12 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Getting Started"
-subheadline: "The first step"
+title: "Projects"
+subheadline: "Apply your skills"
 teaser: "An easy project for one person might be difficult for someone else. Therefore we have broken down the projects as to either requiring no programming experience (plug and play) or requiring some experience. You will notice that with certain EEG headsets that there is more tutorials than others. This is likely due to the ease of development when using that device. The best way to get started will also depend on the headset that you have available."
 header:
    image_fullwidth: "neurons-2.jpg"
-permalink: "/getting-started/"
+permalink: "/projects/"
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
@@ -92,7 +92,7 @@ These are open source projects which require some programming experience in orde
     <td>This is another example of the versatility , and of   what , the Arduino, a small LCD Color display and  the right type of sensors, are capable of doing.</td>
     <td><a href="http://www.instructables.com/id/Mini-Arduino-Portable-EEG-Brain-Wave-Monitor-/" target="blank">Click</a></td>
   </tr>
-  
+
 </table>
 
 * [Introduction to Brain Computer Interfaces](https://github.com/bcimontreal/bci_workshop)

@@ -11,7 +11,7 @@ Github is necessary if you wish to contribute to NeurotechEDU. [You can learn ab
 
 A combination of HTML and Markdown are used, but for the purpose of contributing you only need to know the [Markdown format which you can learn about here.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) Unlike HTML, Markdown is _very_ sensitive about spacing. Elements such as lists might need a blank line before and after the element in order to work properly.
 
-## Jekyll Setup
+## Jekyll Setup for Mac OS and Linux
 
 The website uses [Jekyll](http://jekyllrb.com/), a static website generator written in Ruby.
 You need to have Version 2.0.0 or higher of Ruby and the package manager Bundler.
