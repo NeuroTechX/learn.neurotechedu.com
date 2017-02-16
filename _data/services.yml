@@ -20,8 +20,6 @@
   url: "https://github.com/NeuroTechX/learn.neurotechedu.com/blob/gh-pages/README.md"
   title: "README"
 
-- name: "Sitemap"
+- name: "sitemap.xml"
   url: "/sitemap.xml"
-  title: "sitemap.xml"
-
-  
+  title: "Sitemap for Google webmaster tools"
