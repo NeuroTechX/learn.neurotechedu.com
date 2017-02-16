@@ -24,3 +24,7 @@
 - title: Contributors
   url: "/contributors/"
   side: right
+
+- title: Search
+  url: "/search/"
+  side: right

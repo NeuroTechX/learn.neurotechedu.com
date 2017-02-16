@@ -31,7 +31,7 @@ re-generate the [data files](#details) the site depends on.
 
 ## Jekyll on Windows
 
-Installing Jekyll on Windows is considerably different from a Mac. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
+Installing Jekyll on Windows is somewhat different. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
 
 ## Fundamental changes to default template
 

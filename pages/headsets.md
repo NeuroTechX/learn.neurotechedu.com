@@ -138,7 +138,7 @@ The Emoti Insight was the Section version of product with Emotiv brought the mar
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Neurosky is one of the original consumer EEGs on the market. The design is toy-like and only has 1 channel meant for simple use cases. Some people have say they have built more complicated products with them.
+The Neurosky is one of the original consumer EEGs on the market. The design is toy-like and only has 1 channel meant for simple use cases. Some people say they have built more complicated products with them.
 </div>
 
 <div class="large-6 columns" markdown="1">
