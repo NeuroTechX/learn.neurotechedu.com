@@ -26,9 +26,7 @@ permalink: "/headsets/"
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-Muse is an EEG device which has developed as a meditation device. It has 4 channels, 1 reference and two ground electrodes. The Muse headband comes with electrodes placed on Af7 and Af8 location if you are following 10-20 International Standards.
-
-It is one of the easier bands to get started with if you are interested in learning EEG as it requires no head prep. Here are some simple projects you can get started with.
+Muse is an EEG device which has developed as a meditation device. It has 4 channels, 1 reference and two ground electrodes. The Muse headband comes with electrodes placed on Af7 and Af8 location if you are following 10-20 International Standards. It is one of the easier bands to get started with if you are interested in learning EEG as it requires no head prep.
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -57,7 +55,7 @@ It is one of the easier bands to get started with if you are interested in learn
 <div class="row">
 <div class="large-6 columns" markdown="1">
 
-The OpenBCI is an open source eeg and can go to a maximum of 16 channels. It was originally a 2013 Kickstarter project, but has expanded the original concept to include an opensouce 3D printed cap and will launch a 4 channel board in 2017.
+The OpenBCI is an open source EEG and can go to a maximum of 16 channels. It was originally a 2013 Kickstarter project, but has expanded the original concept to include an opensouce 3D printed cap and will launch a 4 channel board in 2017.
 
 </div>
 <div class="large-6 columns" markdown="1">
@@ -86,9 +84,9 @@ The OpenBCI is an open source eeg and can go to a maximum of 16 channels. It was
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-T The Emotiv Epoc is one of the first consumeer eeg devices which was released on the market. The popularity of the company surged in 2012 and 2013, which can be reflected by its sales and number of DIY projects.
+The Emotiv Epoc is one of the first consumer EEG devices which was released on the market. The popularity of the company surged in 2012 and 2013, which can be reflected by its sales and number of DIY projects.
 
-The Epoc is more stylish and easier to wear. It is also a popular device to use for EEG research as the cost is much better versus other research grade mobile EEG providers. However multiple people have complained that the provided electrodes are not very good.
+The Epoc is more stylish and easier to wear. It has 14 channel EEG which has a static form factor. This board is a good option for easy development and it only requires software experience. It is also a popular device to use for EEG research as the cost is much better versus other research grade mobile EEG providers. The major downside of the Epoc is the cost and the fact that they charge you to get access to raw data. Multiple people have complained that the provided electrodes are not very good.
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -140,7 +138,7 @@ The Emoti Insight was the Section version of product with Emotiv brought the mar
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Neurosky is one of the original consumer eeg's to go to the market. It's product is design primarily to be toy like in nature and only has 1 channel.
+The Neurosky is one of the original consumer EEGs on the market. The design is toy-like and only has 1 channel meant for simple use cases. Some people have say they have built more complicated products with them.
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -174,8 +172,8 @@ The Neurosky is one of the original consumer eeg's to go to the market. It's pro
 |--------|-----------|----------|--------------|----------------|--------------|-----------------|-----|----------------|---------------------------|
 | Muse 2016 |	4-6               |	12     |	256 Hz | 3 axis |	Yes      |	No             |	Maybe |	5 hours|	$200 |
 | Epoc      |	14+2 ref          |	16 bit |	256 Hz | 9 axis |	Possible |	With accessory |	N/A   |	6 hours using BTLE |	$799 |
-| Insight   |	5+2 ref           |	15 bit |	28 Hz  | 9 axis |	Possible |	With accessory |	N/A   |	4 hours using Blutooth |	$300 |
+| Insight   |	5+2 ref           |	15 bit |	28 Hz  | 9 axis |	Possible |	With accessory |	N/A   |	4 hours using Bluetooth |	$300 |
 | OpenBCI   |	up to 16 channels |	24     |	250 Hz | 3 axis |	Yes      |	Yes            |	Yes   |	~26 hours |	$500 for 8 channels, $949 for 16 |
-| Neurosky Mindwave |	1+1 ref   |	12     |	512Hz  | N/A    |	N/A      |	N/A            |	N/A   |	8 hours |	99.99 |
+| Neurosky Mindwave |	1+1 ref   |	12     |	512Hz  | N/A    |	N/A      |	N/A            |	N/A   |	8 hours |	$99.99 |
 
 </div> <!-- end of table section -->

@@ -102,7 +102,7 @@ These are open source projects which require some programming experience in orde
 <div class="row">
 <div class="large-6 columns" markdown="1">
 
-The OpenBCI is an open source EEG that gives its user the opportunity to have maximum of 16 channels. Here are a variety of projects you can do.
+The OpenBCI is an open source EEG with a maximum of 16 channels. [Full list of features here.](/headsets/)
 
 </div>
 <div class="large-6 columns" markdown="1">
@@ -124,7 +124,7 @@ The OpenBCI is an open source EEG that gives its user the opportunity to have ma
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Emotiv Epoc is a 14 channel EEG which has a static form factor. This board is a good option for easy development and it only requires software experience. The major downside fo the Epoc is the cost and the fact that they charge you to get access to raw data.
+The Emotiv Epoc is a 14 channel EEG which has a static form factor. [More details here.](/headsets/)
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -149,9 +149,9 @@ The Emotiv Epoc is a 14 channel EEG which has a static form factor. This board i
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Neurosky is one of the original consumer EEGs on the market. It is a 1 channel device and is only meant for simple use cases. Although some people have apparently built more complicated products with them.
-
+The Neurosky is one of the original consumer EEGs on the market. [Detailed description here.](/headsets/)
 </div>
+
 <div class="large-6 columns" markdown="1">
 ![Neurosky headset](../images/NeuroskyMindwave.png)
 </div>
@@ -170,7 +170,7 @@ The Neurosky is one of the original consumer EEGs on the market. It is a 1 chann
 ## No Headset
 <hr>
 
-If you don't have a headset available, there are still some stuff you could do with Brain data. Check out some of these links.
+If you don't have a headset available, there are still some stuff you could do with Brain data. Check out some of these sources.
 
 * Want to contribute to open Neuroscience in a gamified way? [Check out Eyewire](http://eyewire.org/explore)
 * You can also take a look at a buttload of MRI data [using Brainbox](http://brainbox.pasteur.fr/)
