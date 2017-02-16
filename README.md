@@ -29,7 +29,9 @@ You will also need [Python 3](http://python.org/) with
 [PyYAML](https://pypi.python.org/pypi/PyYAML/) available in order to
 re-generate the [data files](#details) the site depends on.
 
-*Note* Installing Jekyll on Windows is slightly different. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
+## Jekyll on Windows
+
+Installing Jekyll on Windows is considerably different from a Mac. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
 
 ## Fundamental changes to default template
 
