@@ -26,9 +26,7 @@ permalink: "/projects/"
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Muse headband is a easy to use EEG device with electrodes placed on Af7 and Af8 location if you are following 10-20 International Standards.
-
-It is one of the easier bands to get started with if you are interested in learning eeg as it requires no head prep. Here are some simple projects you can get started with.
+Muse is an EEG device which has developed as a meditation device. [You can learn about its features here.](/headsets/)
 </div>
 
 <div class="large-6 columns" markdown="1">

@@ -51,10 +51,10 @@ a:active {
 ------------------------------------------------------------------- */
 
 p {
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
     -ms-word-break: normal;
     /* Non standard for webkit */
     word-break: normal;

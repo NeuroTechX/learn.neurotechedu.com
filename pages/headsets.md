@@ -26,7 +26,9 @@ permalink: "/headsets/"
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-Muse is an EEG device which has developed as a meditation device. It has 4 channels, 1 reference and two ground electrodes.
+Muse is an EEG device which has developed as a meditation device. It has 4 channels, 1 reference and two ground electrodes. The Muse headband comes with electrodes placed on Af7 and Af8 location if you are following 10-20 International Standards.
+
+It is one of the easier bands to get started with if you are interested in learning EEG as it requires no head prep. Here are some simple projects you can get started with.
 </div>
 
 <div class="large-6 columns" markdown="1">
