@@ -16,18 +16,12 @@ Github is necessary if you wish to contribute to NeurotechEDU. [You can learn ab
 
 We have set up the contribution process to be as simple as possible so that people who don’t have much experience programming are still able to contribute.
 
-There are two ways to do so:
-
-    * By editing a new page directly on Github and requesting a commit
-    * By cloning this repository, instally jekyll and making the page locally (this option allows for previews). 
-    
-
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
++ There are two ways to do so:
+  - By editing a new page directly on Github and requesting a commit
     * Ac tristique libero volutpat at
     + Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
-+ Very easy!
++ By cloning this repository, instally jekyll and making the page locally (this option allows for previews).
 
     With either, once done, you push a commit to us and once a pproaved you content becomes part of the wbesite.
 
@@ -42,6 +36,7 @@ After checking out the repository, please run:
 
 ```
 $ bundle install
+
 ```
 
 to install Jekyll and the software it depends on.
