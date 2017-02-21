@@ -1,12 +1,12 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Headsets"
-subheadline: "Compare and Contrast"
-teaser: "Your choice of headset will depend on what you intend to use it for. The answer will depend on your budget, interest, project idea and the number of electrodes required. Before purchasing a headset, think about your programming experience and Project Idea."
+title: "Template"
+subheadline: ""
+teaser: "Add a short introduction/teaser about your content here. A short paragraph will do. Perhaps be specific about what you cover so that people reading have a clear idea of what they will find. "
 header:
-   image_fullwidth: "neurons.jpg"
-permalink: "/headsets/"
+   image_fullwidth: ""
+permalink: "/template/"
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
@@ -26,7 +26,22 @@ permalink: "/headsets/"
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-Muse is an EEG device which has developed as a meditation device. It has 4 channels, 1 reference and two ground electrodes. The Muse headband comes with electrodes placed on Af7 and Af8 location if you are following 10-20 International Standards. It is one of the easier bands to get started with if you are interested in learning EEG as it requires no head prep.
+
+# h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+
+
+## Horizontal Rules
+
+___
+
+---
+
+***
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -34,22 +49,28 @@ Muse is an EEG device which has developed as a meditation device. It has 4 chann
 </div>
 </div> <!-- end of row -->
 
-#### Pros
 
-* Easy to use SDK.
-* Easy to wear
-* Works well for doing resting state experiments
-* Relatively cheap and has a 1 year warranty
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
 
 
-#### Cons
+## Blockquotes
 
-* Limited to 4 channels
-* Electrodes are not movable
-* Not all head sizes will fit
-* Difficult to do ERP experiments
 
-## OpenBCI
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
 <hr>
 
 <div class="row">
