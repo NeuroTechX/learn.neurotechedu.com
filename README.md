@@ -1,15 +1,29 @@
 # [www.learn.neurotechedu.com](http://learn.neurotechedu.com/)
 
-The is the code to our education open-source website.
-This project is built with the help of:
+NeurotechEDU is an open-source project designed to promote collaboration and user-generated content.
+The idea is that if you are not finding something that should be part of our resources you can go ahead and make it and upload it to our page.
+
+The project is built with the help of:
 
  * [Foundation](http://foundation.zurb.com/)
  * [Jekyll](http://jekyllrb.com/)
  * [Feeling Responsive Jekyll theme](https://phlow.github.io/feeling-responsive/) by Phlow
 
-Github is necessary if you wish to contribute to NeurotechEDU. [You can learn about Github here.](https://guides.github.com/activities/hello-world/)
+ Github is necessary if you wish to contribute to NeurotechEDU. [You can learn about Github here.](https://guides.github.com/activities/hello-world/)
 
-A combination of HTML and Markdown are used, but for the purpose of contributing you only need to know the [Markdown format which you can learn about here.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) Unlike HTML, Markdown is _very_ sensitive about spacing. Elements such as lists might need a blank line before and after the element in order to work properly.
+
+##Contributing
+
+We have set up the contribution process to be as simple as possible so that people who don’t have much experience programming are still able to contribute.
+
+There are two ways to do so:
+
+    * By editing a new page directly on Github and requesting a commit
+    * By cloning this repository, instally jekyll and making the page locally (this option allows for previews). 
+    
+    With either, once done, you push a commit to us and once a pproaved you content becomes part of the wbesite.
+
+Both options require a combination of HTML and Markdown are used, but for the purpose of contributing you only need to know the Markdown format which you can learn about here. Unlike HTML, Markdown is very sensitive about spacing. Elements such as lists might need a blank line before and after the element in order to work properly.
 
 ## Jekyll Setup for Mac OS and Linux
 
@@ -41,8 +55,6 @@ If you simply want to change the logo image, that is done from config.yml
 
 ## Making a contribution
 
-NeurotechEDU is an open-source project designed to promote collaboration and user-generated content.
-The idea is that if you are not finding something that should be part of our resources you can go ahead and make it and upload it to our page.
 
 In order to parcitpate, we have set up the following architecture:
 

@@ -21,13 +21,11 @@ permalink: "/template/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-## Muse
+# h1 Heading :)
 <hr>
-
 <div class="row">
 <div class="large-6 columns" markdown="1">
 
-# h1 Heading 8-)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -43,9 +41,7 @@ ___
 
 ***
 </div>
-
 <div class="large-6 columns" markdown="1">
-![Muse Headset](../images/muse-white.png)
 </div>
 </div> <!-- end of row -->
 
@@ -76,11 +72,48 @@ _This is italic text_
 <div class="row">
 <div class="large-6 columns" markdown="1">
 
-The OpenBCI is an open source EEG and can go to a maximum of 16 channels. It was originally a 2013 Kickstarter project, but has expanded the original concept to include an opensouce 3D printed cap and will launch a 4 channel board in 2017.
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
 </div>
 <div class="large-6 columns" markdown="1">
-![OpenBCI headset](../images/openBCI.png)
+
 </div>
 </div> <!-- end of row -->
 
