@@ -25,7 +25,7 @@ permalink: "/lessons/"
 </div>
 
 <div class="large-12 columns module" markdown="1" style="">
-  <div class="medium-2 columns number">01</div>
+  <div class="medium-2 columns number">02</div>
   <div class="medium-10 columns box">
     <h4>• Building BCI</h4>
     <ul style="padding-left:70px">
@@ -38,7 +38,7 @@ permalink: "/lessons/"
 
 <div class="large-12 columns module" markdown="1" style="">
 
-  <div class="medium-2 columns number">01</div>
+  <div class="medium-2 columns number">03</div>
   <div class="medium-10 columns box">
     <h4>• EEGs101</h4>
     <ul style="padding-left:70px">
