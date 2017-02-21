@@ -9,7 +9,7 @@ The project is built with the help of:
  * [Jekyll](http://jekyllrb.com/)
  * [Feeling Responsive Jekyll theme](https://phlow.github.io/feeling-responsive/) by Phlow
 
- Github is necessary if you wish to contribute to NeurotechEDU. [You can learn about Github here.](https://guides.github.com/activities/hello-world/)
+Github is necessary if you wish to contribute to NeurotechEDU. [You can learn about Github here.](https://guides.github.com/activities/hello-world/)
 
 
 ##Contributing
@@ -21,6 +21,14 @@ There are two ways to do so:
     * By editing a new page directly on Github and requesting a commit
     * By cloning this repository, instally jekyll and making the page locally (this option allows for previews). 
     
+
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
     With either, once done, you push a commit to us and once a pproaved you content becomes part of the wbesite.
 
 Both options require a combination of HTML and Markdown are used, but for the purpose of contributing you only need to know the Markdown format which you can learn about here. Unlike HTML, Markdown is very sensitive about spacing. Elements such as lists might need a blank line before and after the element in order to work properly.
