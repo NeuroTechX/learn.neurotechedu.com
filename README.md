@@ -38,3 +38,18 @@ Installing Jekyll on Windows is somewhat different. [You can learn about it here
 The Neurotech EDU logo HTML/CSS was changed for the header type "image_fullwidth". The affected files are "masthead.html", "navigation.html" and "layout.scss". The logo used to be positioned on top of the header image.
 
 If you simply want to change the logo image, that is done from config.yml
+
+## Making a contribution
+
+NeurotechEDU is a project driven by community content.
+
+If you would like to add content. We have set up the following architecture:
+
+Your contribution has to be in the for of a new page, under the /pages folder.
+To start, copy the template.md file and start editing in markdown.
+
+Keep your edits to 
+
+The Neurotech EDU logo HTML/CSS was changed for the header type "image_fullwidth". The affected files are "masthead.html", "navigation.html" and "layout.scss". The logo used to be positioned on top of the header image.
+
+If you simply want to change the logo image, that is done from config.yml
