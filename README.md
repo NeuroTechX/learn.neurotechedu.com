@@ -41,15 +41,22 @@ If you simply want to change the logo image, that is done from config.yml
 
 ## Making a contribution
 
-NeurotechEDU is a project driven by community content.
+NeurotechEDU is an open-source project designed to promote collaboration and user-generated content.
+The idea is that if you are not finding something that should be part of our resources you can go ahead and make it and upload it to our page.
 
-If you would like to add content. We have set up the following architecture:
+In order to parcitpate, we have set up the following architecture:
 
-Your contribution has to be in the for of a new page, under the /pages folder.
+Your contribution should come in the form of a page.
+Examplaes include : headsets, getting started.
+
+To start making a page, you can clone the repostiroy:
+
+to be in the for of a new page, under the /pages folder.
+
+```
+/pages
+    /template.md
+```
+
 To start, copy the template.md file and start editing in markdown.
 
-Keep your edits to 
-
-The Neurotech EDU logo HTML/CSS was changed for the header type "image_fullwidth". The affected files are "masthead.html", "navigation.html" and "layout.scss". The logo used to be positioned on top of the header image.
-
-If you simply want to change the logo image, that is done from config.yml
