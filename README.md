@@ -1,8 +1,8 @@
 #NeurotechEDU
-## [www.learn.neurotechedu.com](http://learn.neurotechedu.com/)
+### [www.learn.neurotechedu.com](http://learn.neurotechedu.com/)
 
-NeurotechEDU is an open-source project designed to promote collaboration and user-generated content.
-The idea is that if you are not finding something that should be part of our resources you can go ahead and make it and upload it to our page.
+NeurotechEDU is an open-source project designed to promote collaboration and user-generated content towards emeging Neurotechnology practices.
+The idea is that if you are not finding something that should be part of our resources or lessons you can go ahead and make it and upload it to our page.
 
 The project is built with the help of:
 
@@ -21,9 +21,9 @@ We have set up the contribution process to be as simple as possible so that peop
   - By editing a new page directly on Github.
   - By cloning this repository, installing jekyll and making the page locally (this option allows for previews).
 
-With either, in order to publish you push a commit to us and once approved your content becomes part of the website.
+With either option, in order to publish you push a commit to us and once approved your content becomes part of the website.
 
-The first option allows you to only use markdown, a very simple syntax designed to accomodate prose in web documents. It does require precise spacing. Elements such as lists might need a blank line before and after the element in order to work properly. You can read more about it here.
+The first option allows you to only use markdown, a very simple syntax designed to accomodate prose in web documents. It does require precise spacing. Elements such as lists might need a blank line before and after the element in order to work properly. You can read more about it [here](https://guides.github.com/features/mastering-markdown/).
 
 The second option gives more freedom with HTML, Markdown and a local Jekyll build.
 
@@ -40,11 +40,10 @@ Head to:
 
 1. Rename the file to your liking, but make sure it ends in `.md` [markdown format] and that no other file in the folder has the name you wish to use.
 2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
-
 3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/
 4. DO NOT modify any HTML, simply add your markdown code inside 
 5. If you want to include images, add them to 'http://learn.neurotechedu.com/images/'
-6. Once done push a commit that will be reviewed by one of our websmaster. Once approved
+6. Once done push a commit that will be reviewed by one of our webmasters. You'll get a message if there is a problem. Keep in mind we are a non-profit and we depend on geneoristy in order to keep a high quality standard.
 
 
 ## Contributing with local Jekyll build
@@ -76,7 +75,7 @@ re-generate the [data files](#details) the site depends on.
 
 Installing Jekyll on Windows is somewhat different. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
 
-### Once Jekyll is working
+### Once Jekyll is working:
 
 Head to: 
 ```
@@ -84,18 +83,18 @@ Head to:
     /template.md
 ```
 
-1. Rename the file to your liking, but make sure it ends in `.md` [markdown format] and that no other file in the folder has the name you wish to use.
+1. Make a copy of `template.md` AND rename it to your liking. It has to go in the `/pages` folder
 2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
 
 3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/
-4. DO NOT modify any HTML, simply add your markdown code inside 
+4. Add your markdown code inside the given HTML tags. If you want to change some HTML, that's fine with us but please don't add any styles to the .scss files. The HTML conventions come from out theme's use of the Foundation framework.
 5. If you want to include images, add them to 'http://learn.neurotechedu.com/images/'
-6. Once done push a commit that will be reviewed by one of our websmaster. Once approved
+6. Once done, push a commit that will be reviewed by one of our websmaster. You can do local serve previews with `jekyll serve`
 
 ### Notes
 
-1. Please don't add any styling to the scss files.
-2. The there we use used the Foundation framework, that's where the naming conventions for our classes come from.
+1. Please don't add any styling to the scss files. If you want to stylize your page more, inline `<span>` or `style=""` tags are fine.
+2. The theme we use used the Foundation framework, that's where the naming conventions for our classes come from.
 
 
 
