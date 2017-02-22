@@ -17,14 +17,14 @@ Github is necessary if you wish to contribute to NeurotechEDU. [You can learn ab
 We have set up the contribution process to be as simple as possible so that people who don’t have much experience programming are still able to contribute.
 
 + There are two ways to do so:
-- By editing a new page directly on Github and requesting a commit
-- By cloning this repository, instally jekyll and making the page locally (this option allows for previews).
+- By editing a new page directly on Github.
+- By cloning this repository, installing jekyll and making the page locally (this option allows for previews).
 
-With either, once done, you push a commit to us and once a approaved you content becomes part of the wbesite.
+With either, once done, you push a commit to us and once approved, your content becomes part of the website.
 
-Both options require a combination of HTML and Markdown are used, but for the purpose of contributing you only need to know the Markdown format which you can learn about here. Unlike HTML, Markdown is very sensitive about spacing. Elements such as lists might need a blank line before and after the element in order to work properly.
+The first option allows you to only use markdown, a very simple syntax designed to accomodate prose in web documents. It does require precise spacing. Elements such as lists might need a blank line before and after the element in order to work properly. You can read more about it here.
 
-##Editing directly on Github
+###Editing directly on Github
 Head to /pages and click on the template file
 
 1. Rename the file to your liking
@@ -44,7 +44,7 @@ include images here  'http://learn.neurotechedu.com/images/'
 
 
 
-## Making a contribution
+### Making a contribution
 
 
 In order to parcitpate, we have set up the following architecture:
