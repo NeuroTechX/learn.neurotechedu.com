@@ -1,8 +1,8 @@
 #NeurotechEDU
 ### [www.learn.neurotechedu.com](http://learn.neurotechedu.com/)
 
-NeurotechEDU is an open-source project designed to promote collaboration and user-generated content towards emeging Neurotechnology practices.
-The idea is that if you are not finding something that should be part of our resources or lessons you can go ahead and make it and upload it to our page.
+NeurotechEDU is an open-source project designed to promote collaboration and user-generated content towards emerging Neurotechnology practices.
+The idea is that if you are not finding something that should be part of our resources or lessons you can go ahead make it, and upload it to our page.
 
 The project is built with the help of:
 
@@ -18,7 +18,7 @@ Github is necessary if you wish to contribute to NeurotechEDU. [You can learn ab
 We have set up the contribution process to be as simple as possible so that people who don’t have much experience programming are still able to contribute. 
 
 + There are two ways to do so:
-  - By editing a new page directly on Github.
+  - [By editing a new page directly on Github](#editing-directly-on-github).
   - By cloning this repository, installing jekyll and making the page locally (this option allows for previews).
 
 With either option, in order to publish you push a commit to us and once approved your content becomes part of the website.
@@ -91,10 +91,10 @@ Head to:
 5. If you want to include images, add them to 'http://learn.neurotechedu.com/images/'
 6. Once done, push a commit that will be reviewed by one of our websmaster. You can do local serve previews with `jekyll serve`
 
-### Notes
+## Notes
 
 1. Please don't add any styling to the scss files. If you want to stylize your page more, inline `<span>` or `style=""` tags are fine.
-2. The theme we use used the Foundation framework, that's where the naming conventions for our classes come from.
+2. The theme we use implements the Foundation framework, that's where the naming conventions for our classes come from. Their documentation is available [here](http://foundation.zurb.com/sites/docs/v/5.5.3/components/grid.html).
 
 
 
