@@ -26,9 +26,18 @@ Both options require a combination of HTML and Markdown are used, but for the pu
 
 ##Editing directly on Github
 Head to /pages and click on the template file
-1. rename the file to your liking
-2. change the file’s title, teaser and permalink. Make sure to keep the same formatting.
+
+1. Rename the file to your liking
+2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
 3. The page starts below the masthead markdown code, we have included examples of the code there. YOu can see what it looks like once rendered by jekyll on 
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
 
 include images here  'http://learn.neurotechedu.com/images/'
 
