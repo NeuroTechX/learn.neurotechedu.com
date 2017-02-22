@@ -17,15 +17,43 @@ Github is necessary if you wish to contribute to NeurotechEDU. [You can learn ab
 We have set up the contribution process to be as simple as possible so that people who don’t have much experience programming are still able to contribute.
 
 + There are two ways to do so:
-  - By editing a new page directly on Github and requesting a commit
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ By cloning this repository, instally jekyll and making the page locally (this option allows for previews).
+- By editing a new page directly on Github and requesting a commit
+- By cloning this repository, instally jekyll and making the page locally (this option allows for previews).
 
-    With either, once done, you push a commit to us and once a pproaved you content becomes part of the wbesite.
+With either, once done, you push a commit to us and once a approaved you content becomes part of the wbesite.
 
 Both options require a combination of HTML and Markdown are used, but for the purpose of contributing you only need to know the Markdown format which you can learn about here. Unlike HTML, Markdown is very sensitive about spacing. Elements such as lists might need a blank line before and after the element in order to work properly.
+
+##Editing directly on Github
+Head to /pages and click on the template file
+1. rename the file to your liking
+2. change the file’s title, teaser and permalink. Make sure to keep the same formatting.
+3. The page starts below the masthead markdown code, we have included examples of the code there. YOu can see what it looks like once rendered by jekyll on 
+
+include images here  'http://learn.neurotechedu.com/images/'
+
+
+
+
+## Making a contribution
+
+
+In order to parcitpate, we have set up the following architecture:
+
+Your contribution should come in the form of a page.
+Examplaes include : headsets, getting started.
+
+To start making a page, you can clone the repostiroy:
+
+to be in the for of a new page, under the /pages folder.
+
+```
+/pages
+    /template.md
+```
+
+To start, copy the template.md file and start editing in markdown.
+
 
 ## Jekyll Setup for Mac OS and Linux
 
@@ -50,28 +78,6 @@ re-generate the [data files](#details) the site depends on.
 
 Installing Jekyll on Windows is somewhat different. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
 
-## Fundamental changes to default template
-
-The Neurotech EDU logo HTML/CSS was changed for the header type "image_fullwidth". The affected files are "masthead.html", "navigation.html" and "layout.scss". The logo used to be positioned on top of the header image.
-
-If you simply want to change the logo image, that is done from config.yml
-
-## Making a contribution
 
 
-In order to parcitpate, we have set up the following architecture:
-
-Your contribution should come in the form of a page.
-Examplaes include : headsets, getting started.
-
-To start making a page, you can clone the repostiroy:
-
-to be in the for of a new page, under the /pages folder.
-
-```
-/pages
-    /template.md
-```
-
-To start, copy the template.md file and start editing in markdown.
 
