@@ -29,29 +29,26 @@ The second option gives more freedom with HTML, Markdown and a local Jekyll buil
 ####Please remember that all contributions are to be done as new page.
 
 
-###Editing directly on Github
+##Editing directly on Github
 
-Head to 
-
+Head to: 
 ```
 /pages
     /template.md
 ```
 
-1. Rename the file to your liking
+1. Rename the file to your liking, but make sure it ends in .md and that no other file in the folder has the name you wish to use.
 2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
 3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/
 4. DO NOT modify any HTML, simply add your markdown code inside 
 5. If you want to include images, add them to 'http://learn.neurotechedu.com/images/'
-6. Once done push a commit that will be reviewed by one of our websmaster. Once approvd
+6. Once done push a commit that will be reviewed by one of our websmaster. Once approved
 
 
+## Contributing with local Jekyll build
 
-
-### Contributin with local Jekyll build
-
-This option gives you more felxibility and input in the contributin process, but requires a bit of programming knowledge or the willingness to learn :)
-You'll have to install Jekyll.
+This option gives you more flexibility and input in the contribution process, but requires a bit of programming knowledge or the willingness to learn :)
+You'll have to install Jekyll to start
 
 
 
@@ -64,7 +61,6 @@ After checking out the repository, please run:
 
 ```
 $ bundle install
-
 ```
 
 to install Jekyll and the software it depends on.
@@ -74,10 +70,13 @@ You will also need [Python 3](http://python.org/) with
 [PyYAML](https://pypi.python.org/pypi/PyYAML/) available in order to
 re-generate the [data files](#details) the site depends on.
 
-## Jekyll on Windows
+### Jekyll on Windows
 
 Installing Jekyll on Windows is somewhat different. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
 
+
+### Finazlizing the build
+Inline `code`
 
 
 
