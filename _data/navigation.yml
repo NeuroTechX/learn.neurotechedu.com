@@ -16,13 +16,6 @@
 - title: Lessons
   url: "/lessons/"
   side: right
-  dropdown:
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Headsets"
-    url: "/headsets/"
-  - title: "Applications"
-    url: "/applications/"
 
 - title: Resources
   url: "/resources/"
