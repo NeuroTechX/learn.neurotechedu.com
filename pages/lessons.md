@@ -16,6 +16,9 @@ permalink: "/lessons/"
   <div class="medium-2 columns number">01</div>
   <div class="medium-10 columns box">
     <h4>• Introduction to Neurotechnology</h4>
+    <div class="description">
+    This is a short description of this module.
+    </div>
     <ul style="padding-left:70px">
       <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
       <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
