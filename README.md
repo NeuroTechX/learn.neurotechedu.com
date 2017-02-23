@@ -41,15 +41,17 @@ Head to:
 
 1. Create a new file via "Create new file" button" name the file to your liking, but make sure it ends in `.md` [markdown format] and that *no other file in the folder has the name you wish to use*.
 2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
-3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/
+3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/ and comparing it with `template.md` in the repository. 
 4. DO NOT modify any HTML, simply add your markdown code inside 
 5. If you want to include images, add them to 'http://learn.neurotechedu.com/images/'
-6. Once done push a commit that will be reviewed by one of our webmasters. You'll get a message if there is a problem. Keep in mind we are a non-profit and we depend on geneoristy in order to keep a high quality standard.
+6. Once done, push a commit that will be reviewed by one of our webmasters. Keep in mind that we are a non-profit and depend on the generosity of people in order to keep a high quality standard.
+<br>
+<br>
 
 
 ## Contributing with local Jekyll build
 
-This option gives you more flexibility and input in the contribution process, but requires a bit of programming knowledge or the willingness to learn :) You'll have to install Jekyll and get a local 
+This option gives you more flexibility and input in the contribution process, but requires a bit of programming knowledge or the willingness to learn :) You'll have to install Jekyll and get a local build going. It's not very hard, but it does require some navigation with terminal.
 
 
 
@@ -84,13 +86,13 @@ Head to:
     /template.md
 ```
 
-1. Make a copy of `template.md` AND rename it to your liking OR make a new `.md` file . It has to go in the `/pages` folder
+1. Make a copy of `template.md` AND rename it to your liking OR make a new `.md` file . -> It has to go in the `/pages` folder
 2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
-
 3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/
-4. Add your markdown code inside the given HTML tags. If you want to change some HTML, that's fine with us but please don't add any styles to the .scss files. The HTML conventions come from out theme's use of the Foundation framework.
+4. Add your markdown code inside the given HTML tags. If you want to change some HTML, that's fine with us but please don't add any styles to the .scss files. The HTML conventions come from our theme's use of the Foundation framework.
 5. If you want to include images, add them to 'http://learn.neurotechedu.com/images/'
-6. Once done, push a commit that will be reviewed by one of our websmaster. You can do local serve previews with `jekyll serve`
+6. With local builds you can do `jekyll serve` in order to create a temporary server in your machine and see how the website comes together once built. We suggest you do this as much as possible before commiting. Jekyll's potential really comes through once you have constant feedback.
+6. Once done, push a commit that will be reviewed by one of our webmasters. 
 
 ## Notes
 
