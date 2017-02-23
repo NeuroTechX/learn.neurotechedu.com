@@ -78,6 +78,7 @@ re-generate the [data files](#details) the site depends on.
 
 Installing Jekyll on Windows is somewhat different. [You can learn about it here.](https://jekyllrb.com/docs/windows/)
 
+<br>
 ### Once Jekyll is working:
 
 Head to: 
@@ -100,6 +101,7 @@ Head to:
 1. Please don't add any styling to the scss files. If you want to stylize your page more, inline `<span>` or `style=""` tags are fine.
 2. The theme we use implements the Foundation framework, that's where the naming conventions for our classes and ID's come from. Their documentation is available [here](http://foundation.zurb.com/sites/docs/v/5.5.3/components/grid.html).
 
+<br>
 ##Feedback?
 Get in touch with us [here] (https://docs.google.com/forms/d/e/1FAIpQLScUB1BwxUr6pKxe8yTS4JqU7veFXyYgFOETUDRluG5pK7E7tg/viewform?c=0&w=1)
 
