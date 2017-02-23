@@ -12,6 +12,7 @@ The project is built with the help of:
 
 Github is necessary if you wish to contribute to NeurotechEDU. [You can learn about Github here.](https://guides.github.com/activities/hello-world/)
 
+<br>
 
 ##Contributing
 
@@ -26,7 +27,6 @@ With either option, in order to publish you push a commit to us and once approve
 The first option allows you to only use markdown, a very simple syntax designed to accomodate prose in web documents. It does require precise spacing. Elements such as lists might need a blank line before and after the element in order to work properly. You can read more about it [here](https://guides.github.com/features/mastering-markdown/).
 
 The second option gives more freedom with HTML, Markdown and a local Jekyll build. You are able to have more flexibility with design and render a preview of the page as you go.  
-<br>
   
 #### *Please remember that all contributions need to be done as a new page*.  
 <br>
@@ -37,10 +37,9 @@ The second option gives more freedom with HTML, Markdown and a local Jekyll buil
 Head to: 
 ```
 /pages
-    /template.md
 ```
 
-1. Rename the file to your liking, but make sure it ends in `.md` [markdown format] and that no other file in the folder has the name you wish to use.
+1. Create a new file via "Create new file" button" name the file to your liking, but make sure it ends in `.md` [markdown format] and that *no other file in the folder has the name you wish to use*.
 2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
 3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/
 4. DO NOT modify any HTML, simply add your markdown code inside 
@@ -85,7 +84,7 @@ Head to:
     /template.md
 ```
 
-1. Make a copy of `template.md` AND rename it to your liking. It has to go in the `/pages` folder
+1. Make a copy of `template.md` AND rename it to your liking OR make a new `.md` file . It has to go in the `/pages` folder
 2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
 
 3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/
