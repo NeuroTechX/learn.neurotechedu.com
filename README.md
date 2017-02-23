@@ -19,13 +19,15 @@ We have set up the contribution process to be as simple as possible so that peop
 
 + There are two ways to do so:
   - [By editing a new page directly on Github](#editing-directly-on-github).
-  - By cloning this repository, installing jekyll and making the page locally (this option allows for previews).
+  - [By cloning this repository, installing jekyll and making the page locally (this option allows for previews)](#contributing-with-local-jekyll-build).
 
 With either option, in order to publish you push a commit to us and once approved your content becomes part of the website.
 
 The first option allows you to only use markdown, a very simple syntax designed to accomodate prose in web documents. It does require precise spacing. Elements such as lists might need a blank line before and after the element in order to work properly. You can read more about it [here](https://guides.github.com/features/mastering-markdown/).
 
-The second option gives more freedom with HTML, Markdown and a local Jekyll build.
+The second option gives more freedom with HTML, Markdown and a local Jekyll build. You are able to have more flexibility with design and render a preview of the page as you go.  
+  
+  
 
 ####Please remember that all contributions need to be done as a new page.
 
