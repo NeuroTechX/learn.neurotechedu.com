@@ -28,11 +28,11 @@ The first option allows you to only use markdown, a very simple syntax designed 
 The second option gives more freedom with HTML, Markdown and a local Jekyll build. You are able to have more flexibility with design and render a preview of the page as you go.  
 <br>
   
-####Please remember that all contributions need to be done as a new page.  
-<br>
+#### *Please remember that all contributions need to be done as a new page*.  
 <br>
 
-##Editing directly on Githubgi
+
+##Editing directly on Github
 
 Head to: 
 ```
