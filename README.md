@@ -26,13 +26,11 @@ With either option, in order to publish you push a commit to us and once approve
 The first option allows you to only use markdown, a very simple syntax designed to accomodate prose in web documents. It does require precise spacing. Elements such as lists might need a blank line before and after the element in order to work properly. You can read more about it [here](https://guides.github.com/features/mastering-markdown/).
 
 The second option gives more freedom with HTML, Markdown and a local Jekyll build. You are able to have more flexibility with design and render a preview of the page as you go.  
-  
+<br>
   
 ####Please remember that all contributions need to be done as a new page.  
-  
-    
-
-
+<br>
+<br>
 
 ##Editing directly on Githubgi
 
