@@ -34,7 +34,7 @@ The second option gives more freedom with HTML, Markdown and a local Jekyll buil
 
 
 
-##Editing directly on Github
+##Editing directly on Githubgi
 
 Head to: 
 ```
