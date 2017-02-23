@@ -86,18 +86,22 @@ Head to:
     /template.md
 ```
 
-1. Make a copy of `template.md` AND rename it to your liking OR make a new `.md` file . -> It has to go in the `/pages` folder
+1. Make a copy of `template.md` AND rename it to your liking OR make a new `.md` file . The new file has to go in the `/pages` folder
 2. Change the file’s title, teaser and permalink. Make sure to keep the same formatting.
 3. The page starts below the masthead markdown code, we have included examples of the code there. You can see what it looks like once rendered by jekyll by going to http://learn.neurotechedu.com/template/
 4. Add your markdown code inside the given HTML tags. If you want to change some HTML, that's fine with us but please don't add any styles to the .scss files. The HTML conventions come from our theme's use of the Foundation framework.
 5. If you want to include images, add them to 'http://learn.neurotechedu.com/images/'
-6. With local builds you can do `jekyll serve` in order to create a temporary server in your machine and see how the website comes together once built. We suggest you do this as much as possible before commiting. Jekyll's potential really comes through once you have constant feedback.
+6. With local builds you can do `jekyll serve` in order to create a temporary server in your machine and see how the website comes together once built. We suggest you do this as much as possible before commiting any changes. Jekyll's potential really comes through once you have constant feedback capabilities.
 6. Once done, push a commit that will be reviewed by one of our webmasters. 
 
+<br>
 ## Notes
 
 1. Please don't add any styling to the scss files. If you want to stylize your page more, inline `<span>` or `style=""` tags are fine.
-2. The theme we use implements the Foundation framework, that's where the naming conventions for our classes come from. Their documentation is available [here](http://foundation.zurb.com/sites/docs/v/5.5.3/components/grid.html).
+2. The theme we use implements the Foundation framework, that's where the naming conventions for our classes and ID's come from. Their documentation is available [here](http://foundation.zurb.com/sites/docs/v/5.5.3/components/grid.html).
+
+##Feedback?
+Get in touch with us [here] (https://docs.google.com/forms/d/e/1FAIpQLScUB1BwxUr6pKxe8yTS4JqU7veFXyYgFOETUDRluG5pK7E7tg/viewform?c=0&w=1)
 
 
 
