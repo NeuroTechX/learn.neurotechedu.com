@@ -14,8 +14,8 @@
 - Custom Table of Contents style
 - Icons
 - Modules
-- Contribution div 
-- Feedback div 
+- Contribution div
+- Feedback div
 
 */
 
@@ -198,7 +198,7 @@ img.lazy {
 .module{
   margin:30px auto 30px auto;
 }
-  
+
   .module .number{
     background-color:#0094ff;
     color:white;
@@ -234,15 +234,15 @@ img.lazy {
   }
     .module .section a:hover{
       background:#c4c4c4;
-    
+
   }
 
    .module .section a:active{
-    
+
   }
 
   .module .description{
-    
+
   }
 
 /* Contribute to our Project, Git Hub link
@@ -253,8 +253,14 @@ img.lazy {
   align-content: center;
 }
 
+/* Module descriptions on Lessons page
+------------------------------------------------------------------- */
+.module .description {
+  padding: 10px;
+}
 
-/* Feedback div 
+
+/* Feedback div
 ------------------------------------------------------------------- */
 .feedback{
   text-align: center;
