@@ -17,7 +17,7 @@ widget2:
 
   title: "Resources"
   url: '/resources/'
-  image: openbci-3d-303x182.jpg
+  image: hardware.jpg
   text: 'This list of resources is non-exhaustive. If you find something which you think should be included, please add it!'
 
 #  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
@@ -25,7 +25,7 @@ widget2:
 widget3:
   title: "How to Contribute"
   url: 'https://github.com/NeuroTechX/learn.neurotechedu.com/blob/gh-pages/README.md'
-  image: applications-thumbnail.jpg
+  image: community.jpg
   text: '<a href="https://github.com/NeuroTechX/learn.neurotechedu.com">Click</a> to contribute to our Github page directly. You may also choose to join the <a href="http://neurotechx.com/opportunities/edu-committee.html">NeurotechX committee</a> or
 <a href="https://neurotechx.herokuapp.com/">our Slack group</a>.'
 #
