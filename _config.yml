@@ -50,6 +50,11 @@ gems:
     - jekyll-gist
     - jekyll-paginate
 
+# Tipue Search inclusion
+tipue_search:
+  include:
+    pages: true
+    collections: [apples, oranges]
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
