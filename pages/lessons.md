@@ -17,7 +17,7 @@ permalink: "/lessons/"
   <div class="medium-10 columns box">
     <h4>• Introduction to Neurotechnology</h4>
     <div class="description">
-    This is a short description of this module.
+    Do you have some programming experience or want to try out some interesting projects? Click on the Projects link to get started. Do you want to learn what EEG headsets are available on the market? Click on the Headsets link. Want to return to the main website of NeurotechX? Click the last link.
     </div>
     <ul style="padding-left:70px">
       <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
