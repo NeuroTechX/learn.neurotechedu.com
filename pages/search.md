@@ -1,10 +1,26 @@
 ---
-permalink: /search/
-layout: page-fullwidth
-title: "Search"
-sitemap: false
+layout: page
+title: Search
+description: "Search this site"
 header:
-   image_fullwidth: "neurons-2.jpg"
+   image_fullwidth: "header_unsplash_5.jpg"
+permalink: /search/
 ---
 
-{% include _google_search.html %}
+<h1>{{ page.title }}</h1>
+
+<form action="{{ page.url | relative_url }}">
+  <div class="tipue_search_left"><img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon"></div>
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+  <div style="clear: both;"></div>
+</form>
+
+<div id="tipue_search_content"></div>
+
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>
+
+
