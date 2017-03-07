@@ -18,12 +18,12 @@ permalink: "/lessons/"
     <h4>• Introduction to Neurotechnology</h4>
     <div class="moduledescription">
     General introduction to neurotechnology, basic concepts are covered. It also provides you with some easy projects to get into and start building.
-    Lastly, the module gives an introduction to NeurotechX, the organization making all of this possible.
+    Lastly, the module gives an overview of the kinds of applications neurotechnology has.
     </div>
     <ul class="" style="padding-left:60px">
       <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
       <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
-      <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/applications/">Applications</a></li>
     </ul>
   </div>
 </div>

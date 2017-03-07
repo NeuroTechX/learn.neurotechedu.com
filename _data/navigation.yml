@@ -25,6 +25,10 @@
   url: "/contributors/"
   side: right
 
+- title: Events
+  url: "/events/"
+  side: right
+
 - title: Search
   url: "/search/"
   side: right
