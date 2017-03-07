@@ -54,7 +54,6 @@ gems:
 tipue_search:
   include:
     pages: true
-    collections: [apples, oranges]
   exclude:
     files: [search.html]
 
