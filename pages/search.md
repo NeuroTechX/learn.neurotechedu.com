@@ -15,7 +15,7 @@ exclude_from_search: true
   <div style="clear: both;"></div>
 </form>
 
-<div id="tipue_search_content"></div>
+<div id="tipue_search_content">THIS IS A TEST</div>
 
 <script>
 $(document).ready(function() {
