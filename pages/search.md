@@ -19,6 +19,8 @@ exclude_from_search: true
 
 <script>
 $(document).ready(function() {
+  console.log('#tipue_search_input');
+  
   $('#tipue_search_input').tipuesearch();
 });
 </script>
