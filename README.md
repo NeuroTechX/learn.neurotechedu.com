@@ -105,6 +105,6 @@ Head to:
 ##Feedback?
 Get in touch with us [here] (https://docs.google.com/forms/d/e/1FAIpQLScUB1BwxUr6pKxe8yTS4JqU7veFXyYgFOETUDRluG5pK7E7tg/viewform?c=0&w=1)
 
-
+This Project is participating in the Mozilla Community Sprint. Check out their guidelines [here](https://www.mozilla.org/en-US/about/governance/policies/participation/)
 
 
