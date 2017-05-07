@@ -20,13 +20,15 @@ permalink: "/preprocessing/"
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
+[link to notebook](https://github.com/NeuroTechX/learn.neurotechedu.com/blob/ubc-preprocessing/scripts/preprocessing.ipynb)  
 
 # 1. What Is Preprocessing?  
 
-In general, preprocessing is the procedure of transforming raw data into a format that is more suitable for further analysis and interpretable for the user. In the case of EEG data, preprocessing usually refers to removing noise from the data to get closer to the ground truth of the signals.  
+In general, preprocessing is the procedure of transforming raw data into a format that is more suitable for further analysis and interpretable for the user. In the case of EEG data, preprocessing usually refers to removing noise from the data to get closer to the true neural signals.  
 
 ### 1.1. Why is preprocessing needed?    
-There are several reasons why preprocessing is necessary for EEG data. First of all, the signals that are picked up from the scalp are not necessarily an accurate representation of the signals originating from the brain, as the spatial information gets lost. Secondly, EEG data tends to contain a lot of noise which can obscure weaker EEG signals. Artifacts such as blinking or muscle movement can contaminate the data and distort the picture.  
+There are several reasons why preprocessing is necessary for EEG data. First of all, the signals that are picked up from the scalp are not necessarily an accurate representation of the signals originating from the brain, as the spatial information gets lost. Secondly, EEG data tends to contain a lot of noise which can obscure weaker EEG signals. Artifacts such as blinking or muscle movement can contaminate the data and distort the picture. Finally, we want to separate the relevant neural signals from random neural activity that occurs during EEG recordings.  
+ 
 
 ![](../images/filtered_unfiltered.png)  
 *An example of unfiltered (left) vs filtered (right) EEG data - Image taken from [http://clinicalgate.com/filters-in-the-electroencephalogram/](http://clinicalgate.com/filters-in-the-electroencephalogram/) [(1)](#references)*  
@@ -44,7 +46,8 @@ Finally, keep in mind that even the best preprocessing techniques will not be ab
 
 
 ## 2. Importing Data   
-The majority of this article will be aimed at Python users, referencing the [MNE library](https://martinos.org/mne/stable/index.html) [(2)](#references) for MEG and EEG analysis. It is also [available for C](https://martinos.org/mne/stable/manual/c_reference.html) [(3)](#references), and most of the concepts mentioned should have equivalents in other languages too.  
+The majority of this article will be aimed at Python users, referencing the [MNE library](https://martinos.org/mne/stable/index.html) [(2)](#references) for MEG and EEG analysis. It is also [available for C](https://martinos.org/mne/stable/manual/c_reference.html) [(3)](#references), and most of the concepts mentioned should have equivalents in other languages too. For example, if working with Matlab (or Octave), libraries such as [EEGlab](https://sccn.ucsd.edu/eeglab/), [Fieldtrip](http://www.fieldtriptoolbox.org/) and [Brainstorm](http://neuroimage.usc.edu/brainstorm/) were all created to do this sort of thing and more!   
+
 
 ### 2.1. FIF  
 The primary file format supported by MNE is .fif, or the [Functional Imaging file format](http://martinos.org/mne/stable/tutorials/seven_stories_about_mne.html?highlight=fif#what-the-fif-does-mne-stand-for) [(4)](#references).  
@@ -108,7 +111,7 @@ Closing ~/example.raw.fif [done]
 For a full example of the reading and writing of FIF files, including some of the options available for each, you can also see the [MNE tutorial on the topic](http://martinos.org/mne/dev/auto_examples/io/plot_read_and_write_raw_data.html) [(6)](#references).  
 
 ### 2.2. EDF / EDF+  
-A second example of a file format that is often used for EEG content is EDF, the European Data Format. “.edf” files contain a human-readable header, followed by a large chunk of binary data containing the raw signal for each electrode. Related is EDF+, a later format that improves on EDF.  
+A second example of a file format that is often used for EEG content is EDF, the European Data Format. “.edf” files contain a human-readable header, followed by a large chunk of binary data containing the raw signal for each electrode. Related is [EDF+](http://www.edfplus.info/specs/edfplus.html), a later format that improves on EDF.  
 
 MNE itself contains a collection of EDF files as sample datasets - for example, to load one EDF from its eegbci set:   
 
@@ -137,7 +140,7 @@ Ready.
 
 Once loaded, it can be manipulated in the same way as the FIF files mentioned above.   
 
-When given preload=True, this will load it all into memory at the time of call. Data can now be inspected in the same way as describe above for FIF files, e.g. calling:   
+When given preload=True, this will load it all into memory at the time of call. Data can now be inspected in the same way as described above for FIF files, e.g. calling:   
 
 <div style="font-family: 'Courier'; font-size: 11px;">
 >>> raw.plot()   
@@ -165,6 +168,7 @@ Sometimes EEG data (especially high-density EEG data) will contain ‘bad’ cha
 - The channel is malfunctioning for some reason   
 - The electrode was improperly placed or didn’t have contact with the scalp  
 - (if working with wet electrodes) Two or more channels were bridged   
+- (if working with wet electrods) The electrode got saturated  
 
 ### 3.2. How to spot a bad channel  
 You can detect bad channels even before you have finished collecting the data. For example, if you know one of the channels was not functioning properly or if you noticed that one of the electrodes lost contact with the scalp during the experiment, you can mark it to be excluded from analysis.   
