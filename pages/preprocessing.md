@@ -53,7 +53,7 @@ The majority of this article will be aimed at Python users, referencing the [MNE
 The primary file format supported by MNE is .fif, or the [Functional Imaging file format](http://martinos.org/mne/stable/tutorials/seven_stories_about_mne.html?highlight=fif#what-the-fif-does-mne-stand-for) [(4)](#references).  
 To take a look at a .fif file, you can use one of the MNE example data sets, for example the somatosensory data is fetched by:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> mne.datasets.somato.data_path() # Caution: ~589 MB download!  
 Using default location ~/mne_data for somato...  
 Downloading or reinstalling data archive MNE-somato-data.tar.gz at location ~/mne_data  
@@ -63,50 +63,50 @@ Verifying download hash.
 Decompressing the archive: ~/mne_data/MNE-somato-data.tar.gz  
 (please be patient, this can take some time)  
 '~/mne_data/MNE-somato-data'  
-</div>
+{% endhighlight %}
 
 
 Given the data, we can now use the MNE function [read_raw_fif](http://martinos.org/mne/dev/generated/mne.io.read_raw_fif.html) [(5)](#references)to read the data from the file into memory:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">  
+{% highlight python %}
 >>> path = mne.datasets.somato.data_path() + '/MEG/somato/sef_raw_sss.fif'  
 >>> raw = mne.io.read_raw_fif(path)
 Opening raw data file /home/pat/mne_data/MNE-somato-data/MEG/somato/sef_raw_sss.fif...  
     Range : 237600 ... 506999 =    791.189 ...  1688.266 secs  
 Ready.  
 Current compensation grade : 0  
-</div>  
+{% endhighlight %}
 
 This contains a collection of metadata about the recording - all can be listed at raw.info, or alternatively single pieces are accessible via:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> raw.info.get('nchan') # number of channels  
 316  
-</div>
+{% endhighlight %}
 
 To inspect all the data, we can use MNE’s inbuilt plotting functionality:  
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> raw.plot()  
-</div>
+{% endhighlight %}
 ![](../images/raw_plot.png)    
 
 Now that the data is loaded, the raw recordings are all accessible:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> raw.get_data().shape # (channels, recordings)  
 (316, 269400)  
 >>> raw.get_data()[0] # 269400 recordings for the first channel, as numpy array  
 array([ -5.57487584e-12,  -2.98327676e-12,   3.76587444e-12, ...,  
         -6.26239056e-12,  -9.57932650e-12,  -1.47683897e-11])  
-</div>
+{% endhighlight %}
 
 MNE also supports writing raw data back out to FIF, which is useful when combined with preprocessing above for storing processed values for later use:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> raw.save(‘example.raw.fif')
 Writing ~/example.raw.fif
 Closing ~/example.raw.fif [done]
-</div>
+{% endhighlight %}
 
 For a full example of the reading and writing of FIF files, including some of the options available for each, you can also see the [MNE tutorial on the topic](http://martinos.org/mne/dev/auto_examples/io/plot_read_and_write_raw_data.html) [(6)](#references).  
 
@@ -115,36 +115,37 @@ A second example of a file format that is often used for EEG content is EDF, the
 
 MNE itself contains a collection of EDF files as sample datasets - for example, to load one EDF from its eegbci set:   
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> path = mne.datasets.eegbci.load_data(1, 1) # Note: 1.2 MB  
 >>> path[0]  
 u'~/mne_data/MNE-eegbci-data/physiobank/database/eegmmidb/S001/S001R01.edf'  
-</div>
+{% endhighlight %}
 
 From inspecting the file, we can observe that it starts with:  
-<div style="font-family: 'Courier'; font-size: 11px;">
-0 X X X X  Startdate 12-AUG-2009 X X BCI2000  12.08.0916.15.0016896 EDF+C                                       61 1 65 </div>  
+{% highlight python %}
+0 X X X X  Startdate 12-AUG-2009 X X BCI2000  12.08.0916.15.0016896 EDF+C                                       61 1 65
+{% endhighlight %}  
 etc…, which corresponds to some per-recording metadata, as detailed here:  
 [http://www.edfplus.info/specs/edf.html](http://www.edfplus.info/specs/edf.html)[(7)](#references). In this example, you can see that it’s recording from August 12, 2009 at 4:15pm.  
 
 MNE provides the function mne.io.read_raw_edf (8) to load the file:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> raw = mne.io.read_raw_edf(path[0], preload=True)   
 Extracting edf Parameters from /home/pat/mne_data/MNE-eegbci-data/physiobank/database/eegmmidb/S001/S001R01.edf...   
 Setting channel info structure...   
 Creating Raw.info structure...   
 Reading 0 ... 9759  =      0.000 ...    60.994 secs...   
 Ready.   
-</div>
+{% endhighlight %}
 
 Once loaded, it can be manipulated in the same way as the FIF files mentioned above.   
 
 When given preload=True, this will load it all into memory at the time of call. Data can now be inspected in the same way as described above for FIF files, e.g. calling:   
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> raw.plot()   
-</div>
+{% endhighlight %}
 
 ![](../images/raw_plot-2.png)  
 
@@ -154,13 +155,13 @@ FIF and EDF are two of the more common formats that MNE can load, but it does na
 ### 2.3. Other non-standard (CSV / .mat)  
 There are lots of different file formats in use for EEG data across the world. For example, it’s common to come across matlab .mat files, or the textual comma-separated variables (CSV) for storing the signals. Assuming you can read the samples into a big matrix of recordings (e.g. using [scipy.io.loadmat](https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html) [(9)](#references) for .mat, or [numpy.genfromtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html) [(10)](#references) for .csv), MNE also provides a way to convert these into the format it uses:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 >>> ch_names = [‘A’, ‘B’] # channel names   
 >>> sfreq = 200 # sampling frequency, in hertz  
 >>> info = mne.create_info(ch_names, sfreq) # See [docs](http://martinos.org/mne/stable/generated/mne.Info.html) for full list of Info options.   
 >>> samples = np.array([[-1, 0, -1], [0, 1, 0]]) # Samples for each channel  
 >>> raw = mne.io.RawArray(samples, info)   
-</div>
+{% endhighlight %}
 
 This can now be used like the raw variables above that were loaded from FIF or EDF.  
 
@@ -178,9 +179,9 @@ You can detect bad channels even before you have finished collecting the data. F
 
 The most common way of detecting bad channels after the data has been collected is by visualizing the raw data. Using MNE, this can be done by the following command:   
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 raw.plot()  
-</div>
+{% endhighlight %}
 
 Now you can look for channels that either have no signal (a flat line) or seem significantly noisier than others.  
 
@@ -188,9 +189,9 @@ Now you can look for channels that either have no signal (a flat line) or seem s
 *In this example, the channel at the top is significantly noisier than the others (image taken from [https://www.nbtwiki.net/doku.php?id=tutorial:rejection_of_transient_artifacts](https://www.nbtwiki.net/doku.php?id=tutorial:rejection_of_transient_artifacts))*  
 
 Note that the decision to remove a channel post-hoc because of high noise level can be a bit arbitrary - use your experience and judgement to determine how much noise is appropriate. You should take into account that [ICA](#ICA) will be able to remove some of the noise without having to remove an entire channel. Once you've decided which channels to remove, you can mark bad channels either via an MNE command:  
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 raw.info['bads'] += ['names of channels to remove']    
-</div>
+{% endhighlight %}
 
 Or interactively, by clicking on the channel line or channel name in the window. The channels you clicked on will then be marked as bad once you close the window.  
 
@@ -198,17 +199,17 @@ Or interactively, by clicking on the channel line or channel name in the window.
 
 Once you have identified the bad channels, you can exclude them from further analysis by picking a subset of channels that excludes the ones marked as ‘bad’:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 picks = mne.pick_types(raw.info, exclude='bads')   
-</div>
+{% endhighlight %}
 
 
 Now when you do further analysis, you can set picks as the channels that will be analysed. For example, if you want to split the data into epochs,  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 epochs = mne.Epochs(raw, events, event_id, tmin, tmax, picks=picks,  
                     baseline=(None, 0), reject=reject, preload=False)   
-                    </div>
+{% endhighlight %}
 
 
 will have the bad channels excluded since picks does not contain bad channels.  
@@ -229,15 +230,15 @@ In the world of EEG, these are useful for a number of things when processing you
      ![](../images/psd-noise.jpg)   
 This image (from [http://blricrex.hypotheses.org/ressources/eeg/pre-processing-for-erps](http://blricrex.hypotheses.org/ressources/eeg/pre-processing-for-erps) [(11)](#references)) shows clearly some 50Hz noise from electricity. To remove these, a notch filter can be performed on the raw signal with MNE to remove 50Hz and its multiples.  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 raw.notch_filter(np.arange(50, 251, 50))  
-</div>  
+{% endhighlight %}  
 
 - Often you only care about a certain frequency range - e.g. if looking at alpha waves, only the 7.5Hz - 12.5Hz range is needed, so it can be useful to perform a band-pass filter between these values to remove any noise outside that range:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 mne.filter.filter_data(raw, sFreq, l_freq=7.5, h_freq=12.5)  
-</div>  
+{% endhighlight %}  
 
 - High-pass filtering can be added to remove very low frequency signals. These are too slow to originate from the brain, and are usually a sign of long-term drift in the recording environment.  
 
@@ -260,10 +261,10 @@ This is where downsampling comes in: it’s a technique to reduce the number of 
 
 MNE provides the ‘resample’ method that will perform the decimating technique described above:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 # Resample to 100 Hz
 raw_resampled = raw.copy().resample(100, npad='auto')  
-</div>  
+{% endhighlight %}  
 
 ### 5.3. Notes on downsampling   
 
@@ -298,25 +299,25 @@ Some common choices of reference include:
 - Cz (the central electrode) is frequently chosen when looking at activity that is distant from that location.  
 - The average of all electrodes (also known as Common Average Reference). This choice of reference reduces the impact that any single malfunctioning electrode will have on the results and is the default choice of reference in MNE. However, using this reference only makes sense with systems that have enough channels so that the overall activity averages to 0. If you have less than 32 channels, consider using a different reference instead.  
 
-Any given EEG headset comes with a pre-defined reference; however, it is possible to re-reference the data after data has been collected. In MNE, you can change the reference via the   <div style="font-family: 'Courier'; font-size: 11px;">set_eeg_reference()</div> command.    
+Any given EEG headset comes with a pre-defined reference; however, it is possible to re-reference the data after data has been collected. In MNE, you can change the reference via the `set_eeg_reference()` command.    
 
 By default, MNE re-references data to the average of all electrodes, but you can also set the average reference explicitly:   
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 raw.set_eeg_reference()  
-</div>
+{% endhighlight %}
 
 
 will set the reference to the average. To set the reference to the default that came with the headset, you can use   
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 raw.set_eeg_reference([])  
-</div>  
+{% endhighlight %}  
 
 To set the reference to a custom combination of electrodes, you can use   
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 raw.set_eeg_reference([electrodes_to_use])  
-</div>
+{% endhighlight %}
 
 Which will set the reference to the average of the electrodes in [electrodes_to_use].  
 
@@ -334,9 +335,9 @@ A detailed description of the method can be found at [http://martinos.org/mne/st
 
 This method can be easily implemented in MNE via the following command:   
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 raw.interpolate_bads(reset_bads=False)  
-</div>  
+{% endhighlight %}  
 
 ## 7. Artifact rejection and correction  
 
@@ -353,7 +354,7 @@ Artifacts are signals that are picked up by the EEG system but do not actually o
 
 One way of finding artifacts is by simply looking at the data, as biological artifacts tend to have recognizable patterns. For example, if you plot the sample BCI dataset from MNE:  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 from mne.datasets import eegbci  
 from mne.io import concatenate_raws, read_raw_edf  
 
@@ -364,7 +365,7 @@ raw_files = [read_raw_edf(f, preload=True) for f in raw_fnames]
 raw = concatenate_raws(raw_files)  
 raw.filter(0.5, 30)  
 raw.plot(n_channels=10, block=True)  
-</div>  
+{% endhighlight %}  
 
 ![](../images/artifacts1.png)  
 
@@ -379,22 +380,22 @@ Now you can flag noisy-looking segments by left-clicking and dragging. By defaul
 As you compile the data into epochs for further analysis, the marked segments will be rejected automatically.  
 Note that finding artifacts based on their visualization can be unreliable since it relies on observer judgement. However, there are ways to detect bad segments automatically, for example, based on the variance of the signal, the probability of the pattern of activity being seen in a particular channel, or the magnitude of voltage increases. MNE provides support for automatic epoch rejection based on the peak-to-peak amplitude: each Epoch has a *reject* dictionary that contains the channel types and the threshold amplitude values. You can set those values by creating a dictionary:     
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 reject = dict(eeg=5e-6) #if you have EOG, MEG or other data, you can set the thresholds for those as well   
-</div>  
+{% endhighlight %}  
 
 ...passing this dictionary you created when you construct your epochs...  
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 epochs = mne.Epochs(raw, events, event_id, tmin, tmax, proj=True,  
                     reject=reject, reject_by_annotation=True)  
-                    </div>  
+{% endhighlight %}  
 
 ...and dropping the rejected epochs:   
 
-<div style="font-family: 'Courier'; font-size: 11px;">
+{% highlight python %}
 epochs.drop_bad()  
-</div>  
+{% endhighlight %}  
 
 When you run this command, you should be able to see how many epochs were dropped. You might need to adjust the thresholds based on how many epochs were rejected, since those values are highly dependent on the data you have.    
 
