@@ -3,7 +3,7 @@ layout: page-fullwidth
 show_meta: false
 title: "Preprocessing"
 subheadline: ""
-teaser: "This tutorial serves as an introduction to EEG data preprocessing. "
+teaser: "This tutorial serves as an introduction to EEG data preprocessing. If you want to see some actual code that you can play around with, take a look at our IPython Notebook example"
 header:
    image_fullwidth: ""
 permalink: "/preprocessing/"
@@ -20,7 +20,7 @@ permalink: "/preprocessing/"
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
-[link to notebook](https://github.com/NeuroTechX/learn.neurotechedu.com/blob/ubc-preprocessing/scripts/preprocessing.ipynb)  
+[Link to notebook](https://github.com/NeuroTechX/learn.neurotechedu.com/blob/ubc-preprocessing/scripts/preprocessing.ipynb)  
 
 # 1. What Is Preprocessing?  
 
@@ -149,7 +149,7 @@ When given preload=True, this will load it all into memory at the time of call. 
 ![](../images/raw_plot-2.png)  
 
 ### 2.3. Other (CSV / .mat)  
-There are lots of different file formats in use for EEG data across the world. For example, it’s common to come across matlab .mat files, or the textual comma-separated variables (CSV) for storing the signals. Assuming you can read the samples into a big matrix of recordings (e.g. using scipy.io.loadmat (9) for .mat, or numpy.genfromtxt (10) for .csv), MNE also provides a way to convert these into the format it uses:  
+There are lots of different file formats in use for EEG data across the world. For example, it’s common to come across matlab .mat files, or the textual comma-separated variables (CSV) for storing the signals. Assuming you can read the samples into a big matrix of recordings (e.g. using [scipy.io.loadmat](https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html) [(9)](#references) for .mat, or [numpy.genfromtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html) [(10)](#references) for .csv), MNE also provides a way to convert these into the format it uses:  
 
 <div style="font-family: 'Courier'; font-size: 11px;">
 >>> ch_names = [‘A’, ‘B’] # channel names   
@@ -179,8 +179,12 @@ The most common way of detecting bad channels after the data has been collected 
 raw.plot()  
 </div>
 
+Now you can look for channels that either have no signal (a flat line) or seem significantly noisier than others.  
 
-Now you can look for channels that either have no signal (a flat line) or seem significantly noisier than others. Note that the decision to remove a channel post-hoc because of high noise level can be a bit arbitrary - use your experience and judgement to determine how much noise is appropriate. You can then mark bad channels, either via an MNE command:  
+![](../images/bad_channel.png)  
+*In this example, the channel at the top is significantly noisier than the others (image taken from [https://www.nbtwiki.net/doku.php?id=tutorial:rejection_of_transient_artifacts](https://www.nbtwiki.net/doku.php?id=tutorial:rejection_of_transient_artifacts))*  
+
+Note that the decision to remove a channel post-hoc because of high noise level can be a bit arbitrary - use your experience and judgement to determine how much noise is appropriate. You should take into account that [ICA](#ICA) will be able to remove some of the noise without having to remove an entire channel. Once you've decided which channels to remove, you can mark bad channels either via an MNE command:  
 <div style="font-family: 'Courier'; font-size: 11px;">
 raw.info['bads'] += ['names of channels to remove']    
 </div>
@@ -226,13 +230,13 @@ This image (from [http://blricrex.hypotheses.org/ressources/eeg/pre-processing-f
 raw.notch_filter(np.arange(50, 251, 50))  
 </div>  
 
-Often you only care about a certain frequency range - e.g. if looking at alpha waves, only the 7.5Hz - 12.5Hz range is needed, so it can be useful to perform a band-pass filter between these values to remove any noise outside that range:  
+- Often you only care about a certain frequency range - e.g. if looking at alpha waves, only the 7.5Hz - 12.5Hz range is needed, so it can be useful to perform a band-pass filter between these values to remove any noise outside that range:  
 
 <div style="font-family: 'Courier'; font-size: 11px;">
 mne.filter.filter_data(raw, sFreq, l_freq=7.5, h_freq=12.5)  
 </div>  
 
-High-pass filtering can be added to remove very low frequency signals. These are too slow to originate from the brain, and are usually a sign of long-term drift in the recording environment.  
+- High-pass filtering can be added to remove very low frequency signals. These are too slow to originate from the brain, and are usually a sign of long-term drift in the recording environment.  
 
 Care needs to be taken when performing any filtering however, to ensure that it introduces no extra source of error. For more details on where potential pitfalls have been found, see the [MNE documentation](https://martinos.org/mne/stable/auto_tutorials/plot_background_filtering.html#some-pitfalls-of-filtering) [(12)](#references) on filtering issues.  
 
@@ -286,9 +290,10 @@ When picking a reference, it is important that the electrode(s) that you’re se
 
 Some common choices of reference include:   
 
-- Mastoids (the electrodes placed roughly behind a person’s ears), due to being relatively far from the brain yet close to the other electrodes. However, there is still some neural activity at that location. The average of the two mastoids or the average of the two earlobes is also commonly used.  
+- Mastoids (the electrodes placed roughly behind a person’s ears), due to being relatively far from the brain yet close to the other electrodes. However, there is still some neural activity at that location. Either one of the mastoids or the average of the two mastoids can be used.  
+- The average of the two earlobes is also commonly used, for similar reasons as the mastoids.  
 - Cz (the central electrode) is frequently chosen when looking at activity that is distant from that location.  
-- The average of all electrodes. This choice of reference reduces the impact that any single malfunctioning electrode will have on the results and is the default choice of reference in MNE.  
+- The average of all electrodes (also known as Common Average Reference). This choice of reference reduces the impact that any single malfunctioning electrode will have on the results and is the default choice of reference in MNE. However, using this reference only makes sense with systems that have enough channels so that the overall activity averages to 0. If you have less than 32 channels, consider using a different reference instead.  
 
 Any given EEG headset comes with a pre-defined reference; however, it is possible to re-reference the data after data has been collected. In MNE, you can change the reference via the   <div style="font-family: 'Courier'; font-size: 11px;">set_eeg_reference()</div> command.    
 
@@ -336,9 +341,10 @@ raw.interpolate_bads(reset_bads=False)
 
 Artifacts are signals that are picked up by the EEG system but do not actually originate from the brain. There are many different sources of artifacts for EEG data, which will manifest themselves differently. EEG artifacts can be roughly classified as biological or environmental.  
 
-- *Environmental artifacts* originate from outside-world interference - for example, power lines, electrodes losing contact or other people’s movement during the experiment. The easiest way to minimize the effect of those artifacts is by adjusting the environment (e.g shielding the room, properly securing the electrodes). Power line interference can be removed by applying a notch filter at 50 or 60 Hz, and in fact, this filter comes pre-built in some headsets.   
-
-- *Biological artifacts* originate from sources in the body. Some of the most common biological artifacts are blinks, eye movements, head movements, heart beats and muscular noise. It is possible to detect those artifacts if you have access to other biometric data, for example, accelerometer, electrooculogram (EOG) or eye tracking data for eye movement artifacts, accelerometer data for head movement artifacts and electrocardiogram (ECG) data for heartbeat artifacts.   
+- *Environmental artifacts* originate from outside-world interference - for example, power lines, electrodes losing contact or other people’s movement during the experiment. The easiest way to minimize the effect of those artifacts is by adjusting the environment (e.g shielding the room, properly securing the electrodes). Power line interference can be removed by applying a notch filter at 50 or 60 Hz, and in fact, this filter comes pre-built in some headsets. The influence of environmental artifacts can also be somewhat reduced by using active electrodes (electrodes that have an additional low-noise amplifier inside)  
+  
+- *Biological artifacts* originate from sources in the body. Some of the most common biological artifacts are blinks, eye movements, head movements, heart beats and muscular noise. It is possible to detect those artifacts if you have access to other biometric data, for example, accelerometer, electrooculogram (EOG) or eye tracking data for eye movement artifacts, accelerometer data for head movement artifacts and electrocardiogram (ECG) data for heartbeat artifacts.  
+    - The neural signals that are not relevant to the phenomenon you’re investigating can also be considered a source of artifacts. For example, participants who are tired will often show large Alpha wave spikes; if you are not interested in looking at that effect, you might want to remove those spikes from the data.      
 
 ### 7.2. Rejection based on visualization   
 
@@ -368,7 +374,7 @@ Now you can flag noisy-looking segments by left-clicking and dragging. By defaul
 ![](../images/artifacts3.png)   
 
 As you compile the data into epochs for further analysis, the marked segments will be rejected automatically.  
-Note that finding artifacts based on their visualization can be unreliable since it relies on observer judgement. However, there are ways to detect bad segments automatically, for example, based on the variance or the amplitude of the signal. For example, MNE provides a way to automatically reject epochs based on the peak-to-peak amplitude: each Epoch has a *reject* dictionary that contains the channel types and the threshold amplitude values. You can set those values by creating a dictionary:     
+Note that finding artifacts based on their visualization can be unreliable since it relies on observer judgement. However, there are ways to detect bad segments automatically, for example, based on the variance of the signal, the probability of the pattern of activity being seen in a particular channel, or the magnitude of voltage increases. MNE provides support for automatic epoch rejection based on the peak-to-peak amplitude: each Epoch has a *reject* dictionary that contains the channel types and the threshold amplitude values. You can set those values by creating a dictionary:     
 
 <div style="font-family: 'Courier'; font-size: 11px;">
 reject = dict(eeg=5e-6) #if you have EOG, MEG or other data, you can set the thresholds for those as well   
@@ -416,14 +422,17 @@ A consequence of these hardware limitations is that the shape of well studied ER
 
 ## 9. Artifact Correction   
 
-Once preprocessing is done, the data should be clean enough to yield information about what regions of the brain are active, and what that activity is like. [(19)](#references)  
+Artifact correction is meant to remove neural signals that are not useful for our analysis. However, these techniques often intersect with the techniques used to pick apart different contributions to a measured signal (Source Decomposition) and then estimate its localization in the brain (Source Localization). Thus, we will describe the techniques in concept, discuss their use in artifact correction, source localization and source decomposition, but only demo the artifact correction functionality.  
+The basic assumption is that if two independent signals are statistically independent, so even if they are added together, one can separate contributions that are not predictive of each other (statistically independent) [(20 21 22 23 24)](#references). This is called Source Separation, and would be done with ICA, PCA, SSP or other methods.  
+Once the signals are separated, they can be localized by fitting them to fixed oscillating dipoles (see section [9.4. Dipole Fit](#dipole-fit)). [(21 22)](#references) This is called Source Localization, and is often done with a Dipole Fit.  
+
 
 ### 9.1. ICA (Independent Component Analysis)  
 
 ICA is a technique that separates and localizes independent signals that have been added together. It was created for the cocktail party problem, in which you attempt to isolate a pertinent conversation from the noise of other conversations in, say, a cocktail party.  
-The basic assumption is that if two independent signals are statistically independent, so even if they are added together, one can separate contributions that are not predictive of each other (statistically independent) [(20 21 22 23 24)](#references). Once the signals are separated, they can be localized by fitting them to fixed oscillating dipoles (see [section 9.4. Dipole Fit](#dipole-fit)). [(21 22)](#references)  
-Another common use is to separate components with an ICA to identify artifacts from eye movements or heartbeats. These have characteristic shapes, and can often be identified automatically. [(28)](#references)  
-This technique is generally considered the best, since it does not assume orthogonal or gaussian behavior of the individual signals, which are unreasonable assumptions that other techniques depend on. [(20 23 24)](#references)  
+For Source Separation, ICA is generally considered the best, since it does not assume orthogonal or gaussian behavior of the individual signals, which are unreasonable assumptions that other techniques depend on. In any case, ICA still assumes that signals are static, and that separate signals are statistically independent, which may not be appropriate for some neural signals. [(20 23 24)](#references)  
+For Artifact Correction, ICA is used to separate components in order to identify artifacts from eye movements or heartbeats. These have characteristic shapes, and can often be identified automatically. [(28)](#references)  
+This technique is generally considered the best, since it does not assume orthogonal or gaussian behavior of the individual signals, which are unreasonable assumptions that other techniques depend on. [(20 23 24)](#references)   
 Applied to EEG and EMG, ICA is much more effective than its simpler counterpart, PCA (Principal Component Analysis), which assumes that all signals are orthogonal, and creates a succession of orthogonal base vectors where each vector will account for as much variance as possible. [(20)](#references)  
 As a result, when using PCA the first vector is significantly larger in magnitude than all the subsequent vectors. When the signal to noise ratio (SNR) is low, important information in these subsequent vectors can get lost. [(24)](#references)  
 ![](../images/pca-ica.png)  
