@@ -28,7 +28,7 @@ In general, preprocessing is the procedure of transforming raw data into a forma
 
 ### 1.1. Why is preprocessing needed?    
 There are several reasons why preprocessing is necessary for EEG data. First of all, the signals that are picked up from the scalp are not necessarily an accurate representation of the signals originating from the brain, as the spatial information gets lost. Secondly, EEG data tends to contain a lot of noise which can obscure weaker EEG signals. Artifacts such as blinking or muscle movement can contaminate the data and distort the picture. Finally, we want to separate the relevant neural signals from random neural activity that occurs during EEG recordings.  
- 
+
 
 ![](../images/filtered_unfiltered.png)  
 *An example of unfiltered (left) vs filtered (right) EEG data - Image taken from [http://clinicalgate.com/filters-in-the-electroencephalogram/](http://clinicalgate.com/filters-in-the-electroencephalogram/) [(1)](#references)*  
@@ -52,7 +52,7 @@ The majority of this article will be aimed at Python users, referencing the [MNE
 ### 2.1. FIF  
 The primary file format supported by MNE is .fif, or the [Functional Imaging file format](http://martinos.org/mne/stable/tutorials/seven_stories_about_mne.html?highlight=fif#what-the-fif-does-mne-stand-for) [(4)](#references).  
 To take a look at a .fif file, you can use one of the MNE example data sets, for example the somatosensory data is fetched by:  
-   
+
 <div style="font-family: 'Courier'; font-size: 11px;">
 >>> mne.datasets.somato.data_path() # Caution: ~589 MB download!  
 Using default location ~/mne_data for somato...  
@@ -67,10 +67,10 @@ Decompressing the archive: ~/mne_data/MNE-somato-data.tar.gz
 
 
 Given the data, we can now use the MNE function [read_raw_fif](http://martinos.org/mne/dev/generated/mne.io.read_raw_fif.html) [(5)](#references)to read the data from the file into memory:  
-  
+
 <div style="font-family: 'Courier'; font-size: 11px;">  
 >>> path = mne.datasets.somato.data_path() + '/MEG/somato/sef_raw_sss.fif'  
->>> raw = mne.io.read_raw_fif(path) 
+>>> raw = mne.io.read_raw_fif(path)
 Opening raw data file /home/pat/mne_data/MNE-somato-data/MEG/somato/sef_raw_sss.fif...  
     Range : 237600 ... 506999 =    791.189 ...  1688.266 secs  
 Ready.  
@@ -79,20 +79,20 @@ Current compensation grade : 0
 
 This contains a collection of metadata about the recording - all can be listed at raw.info, or alternatively single pieces are accessible via:  
 
-<div style="font-family: 'Courier'; font-size: 11px;"> 
+<div style="font-family: 'Courier'; font-size: 11px;">
 >>> raw.info.get('nchan') # number of channels  
 316  
 </div>
 
 To inspect all the data, we can use MNE’s inbuilt plotting functionality:  
-<div style="font-family: 'Courier'; font-size: 11px;"> 
+<div style="font-family: 'Courier'; font-size: 11px;">
 >>> raw.plot()  
 </div>
 ![](../images/raw_plot.png)    
 
 Now that the data is loaded, the raw recordings are all accessible:  
 
-<div style="font-family: 'Courier'; font-size: 11px;"> 
+<div style="font-family: 'Courier'; font-size: 11px;">
 >>> raw.get_data().shape # (channels, recordings)  
 (316, 269400)  
 >>> raw.get_data()[0] # 269400 recordings for the first channel, as numpy array  
@@ -102,7 +102,7 @@ array([ -5.57487584e-12,  -2.98327676e-12,   3.76587444e-12, ...,
 
 MNE also supports writing raw data back out to FIF, which is useful when combined with preprocessing above for storing processed values for later use:  
 
-<div style="font-family: 'Courier'; font-size: 11px;"> 
+<div style="font-family: 'Courier'; font-size: 11px;">
 >>> raw.save(‘example.raw.fif')
 Writing ~/example.raw.fif
 Closing ~/example.raw.fif [done]
@@ -115,14 +115,14 @@ A second example of a file format that is often used for EEG content is EDF, the
 
 MNE itself contains a collection of EDF files as sample datasets - for example, to load one EDF from its eegbci set:   
 
-<div style="font-family: 'Courier'; font-size: 11px;"> 
+<div style="font-family: 'Courier'; font-size: 11px;">
 >>> path = mne.datasets.eegbci.load_data(1, 1) # Note: 1.2 MB  
 >>> path[0]  
 u'~/mne_data/MNE-eegbci-data/physiobank/database/eegmmidb/S001/S001R01.edf'  
 </div>
 
 From inspecting the file, we can observe that it starts with:  
-<div style="font-family: 'Courier'; font-size: 11px;"> 
+<div style="font-family: 'Courier'; font-size: 11px;">
 0 X X X X  Startdate 12-AUG-2009 X X BCI2000  12.08.0916.15.0016896 EDF+C                                       61 1 65 </div>  
 etc…, which corresponds to some per-recording metadata, as detailed here:  
 [http://www.edfplus.info/specs/edf.html](http://www.edfplus.info/specs/edf.html)[(7)](#references). In this example, you can see that it’s recording from August 12, 2009 at 4:15pm.  
@@ -148,7 +148,10 @@ When given preload=True, this will load it all into memory at the time of call. 
 
 ![](../images/raw_plot-2.png)  
 
-### 2.3. Other (CSV / .mat)  
+### 2.4. Other standard
+FIF and EDF are two of the more common formats that MNE can load, but it does natively support a large collection of some of the more standard formats used. The full selection can be found in the [MNE file documentation](http://martinos.org/mne/dev/manual/io.html), and generally require calling functions like mne.io.read_raw_egi(...) or mne.io.read_raw_eeglab(...).
+
+### 2.3. Other non-standard (CSV / .mat)  
 There are lots of different file formats in use for EEG data across the world. For example, it’s common to come across matlab .mat files, or the textual comma-separated variables (CSV) for storing the signals. Assuming you can read the samples into a big matrix of recordings (e.g. using [scipy.io.loadmat](https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html) [(9)](#references) for .mat, or [numpy.genfromtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html) [(10)](#references) for .csv), MNE also provides a way to convert these into the format it uses:  
 
 <div style="font-family: 'Courier'; font-size: 11px;">
@@ -253,7 +256,7 @@ This is where downsampling comes in: it’s a technique to reduce the number of 
 - *Strict Downsampling* is what you might think of first when deciding how to reduce the number of samples: just keep every Nth (e.g. every second, or third, or …). This is technically what the term ‘downsampling’ refers to, however it is rarely used in isolation. Similar to how image resizing works, this tends to lead to artifacts in the result (called *aliasing*), which is problematic. For those who are interested in more details, this [youtube video](https://www.youtube.com/watch?v=yWqrx08UeUs)[(13)](#references) is a good start.  
 - *Decimating* is downsampling too, but first performing a low-pass filter (see [section 5](#filtering) on filtering) to remove the high frequencies that cause the artifacts. For more info on exactly what is filtered, see the notes and the end of this section.   
 
-### 5.2. Achieving in MNE  
+### 5.2. Downsampling raw data in MNE  
 
 MNE provides the ‘resample’ method that will perform the decimating technique described above:  
 
@@ -313,7 +316,7 @@ raw.set_eeg_reference([])
 To set the reference to a custom combination of electrodes, you can use   
 <div style="font-family: 'Courier'; font-size: 11px;">
 raw.set_eeg_reference([electrodes_to_use])  
-</div> 
+</div>
 
 Which will set the reference to the average of the electrodes in [electrodes_to_use].  
 
@@ -342,7 +345,7 @@ raw.interpolate_bads(reset_bads=False)
 Artifacts are signals that are picked up by the EEG system but do not actually originate from the brain. There are many different sources of artifacts for EEG data, which will manifest themselves differently. EEG artifacts can be roughly classified as biological or environmental.  
 
 - *Environmental artifacts* originate from outside-world interference - for example, power lines, electrodes losing contact or other people’s movement during the experiment. The easiest way to minimize the effect of those artifacts is by adjusting the environment (e.g shielding the room, properly securing the electrodes). Power line interference can be removed by applying a notch filter at 50 or 60 Hz, and in fact, this filter comes pre-built in some headsets. The influence of environmental artifacts can also be somewhat reduced by using active electrodes (electrodes that have an additional low-noise amplifier inside)  
-  
+
 - *Biological artifacts* originate from sources in the body. Some of the most common biological artifacts are blinks, eye movements, head movements, heart beats and muscular noise. It is possible to detect those artifacts if you have access to other biometric data, for example, accelerometer, electrooculogram (EOG) or eye tracking data for eye movement artifacts, accelerometer data for head movement artifacts and electrocardiogram (ECG) data for heartbeat artifacts.  
     - The neural signals that are not relevant to the phenomenon you’re investigating can also be considered a source of artifacts. For example, participants who are tired will often show large Alpha wave spikes; if you are not interested in looking at that effect, you might want to remove those spikes from the data.      
 
