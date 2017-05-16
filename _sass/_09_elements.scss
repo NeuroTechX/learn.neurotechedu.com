@@ -261,3 +261,10 @@ img.lazy {
   text-align: center;
   margin-top: 20px;
 }
+
+/* Centered image (via {: .center-image } in post)
+------------------------------------------------------------------- */
+img.center-image {
+  display: block;
+  margin: 0 auto;
+}

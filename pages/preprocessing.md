@@ -66,7 +66,8 @@ Decompressing the archive: ~/mne_data/MNE-somato-data.tar.gz
 {% endhighlight %}
 
 
-Given the data, we can now use the MNE function [read_raw_fif](http://martinos.org/mne/dev/generated/mne.io.read_raw_fif.html) [(5)](#references)to read the data from the file into memory:  
+Given the data, we can now use the MNE function [read_raw_fif](http://martinos.org/mne/dev/generated/mne.io.read_raw_fif.html) [(5)](#references)
+to read the data from the file into memory:  
 
 {% highlight python %}
 >>> path = mne.datasets.somato.data_path() + '/MEG/somato/sef_raw_sss.fif'  
@@ -77,7 +78,8 @@ Ready.
 Current compensation grade : 0  
 {% endhighlight %}
 
-This contains a collection of metadata about the recording - all can be listed at raw.info, or alternatively single pieces are accessible via:  
+This contains a collection of metadata about the recording - all can be listed at raw.info, or alternatively single pieces are accessible via
+calls like:
 
 {% highlight python %}
 >>> raw.info.get('nchan') # number of channels  
@@ -139,9 +141,9 @@ Reading 0 ... 9759  =      0.000 ...    60.994 secs...
 Ready.   
 {% endhighlight %}
 
-Once loaded, it can be manipulated in the same way as the FIF files mentioned above.   
+Once loaded, it can be manipulated in the same way as the FIF files mentioned above. When given preload=True, this will load it all into memory at the time of call.
 
-When given preload=True, this will load it all into memory at the time of call. Data can now be inspected in the same way as described above for FIF files, e.g. calling:   
+Data can now be inspected in the same way as described above for FIF files, e.g. calling:   
 
 {% highlight python %}
 >>> raw.plot()   
@@ -149,10 +151,10 @@ When given preload=True, this will load it all into memory at the time of call. 
 
 ![](../images/raw_plot-2.png)  
 
-### 2.4. Other standard
+### 2.4. Other standard formats
 FIF and EDF are two of the more common formats that MNE can load, but it does natively support a large collection of some of the more standard formats used. The full selection can be found in the [MNE file documentation](http://martinos.org/mne/dev/manual/io.html), and generally require calling functions like mne.io.read_raw_egi(...) or mne.io.read_raw_eeglab(...).
 
-### 2.3. Other non-standard (CSV / .mat)  
+### 2.3. Other non-standard formats (CSV / .mat)  
 There are lots of different file formats in use for EEG data across the world. For example, it’s common to come across matlab .mat files, or the textual comma-separated variables (CSV) for storing the signals. Assuming you can read the samples into a big matrix of recordings (e.g. using [scipy.io.loadmat](https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html) [(9)](#references) for .mat, or [numpy.genfromtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html) [(10)](#references) for .csv), MNE also provides a way to convert these into the format it uses:  
 
 {% highlight python %}
@@ -165,7 +167,7 @@ There are lots of different file formats in use for EEG data across the world. F
 
 This can now be used like the raw variables above that were loaded from FIF or EDF.  
 
-## 3. Removing Bad Channels  
+## 3. Removing Bad Channels and Interpolation
 
 ### 3.1. What is a ‘bad’ channel?  
 Sometimes EEG data (especially high-density EEG data) will contain ‘bad’ channels that do not provide accurate information. It is important to remove those from analysis early on because keeping that data will affect further analysis. There are a few reasons why a channel might be excluded:  
@@ -214,7 +216,26 @@ epochs = mne.Epochs(raw, events, event_id, tmin, tmax, picks=picks,
 
 will have the bad channels excluded since picks does not contain bad channels.  
 
-Note that if you have a lot of bad channels, or if you don’t have many channels to begin with, simply removing bad channels will result in a significant loss of information. In those case, you might want to repair or interpolate the excluded channels instead - see [Section 7] (#re-referencing-and-interpolation) for more details.  
+Note that if you have a lot of bad channels, or if you don’t have many channels to begin with, simply removing bad channels will result in a significant loss of information. In those case, you might want to repair or interpolate the excluded channels instead.
+
+### 3.4. Interpolation  
+
+After flagging bad channels, it is common practice to interpolate data for the bad channels based on the data from the good channels. Interpolation is a way of filling in the missing data based on the other data available.  
+
+There are a few ways of interpolating EEG data, but by far the most common is interpolation by spherical splines. This method consists of the following steps:   
+
+1. Project the channel locations onto a unit sphere (representing the head)   
+2. Compute a matrix that describes the relationship between the good and bad electrodes   
+3. Use the result from (2) to interpolate the data for bad electrodes  
+
+A detailed description of the method can be found at [http://martinos.org/mne/stable/manual/channel_interpolation.html#channel-interpolation](http://martinos.org/mne/stable/manual/channel_interpolation.html#channel-interpolation) [(16)](#references).  
+
+This method can be easily implemented in MNE via the following command:   
+
+{% highlight python %}
+raw.interpolate_bads(reset_bads=False)  
+{% endhighlight %}  
+
 
 ## 4. Filtering   
 
@@ -228,7 +249,7 @@ When looking at the frequencies of a digital signal, whether it be audio, EEG, o
 In the world of EEG, these are useful for a number of things when processing your signal.  
 - *Removing electricity noise:* generally the electrical circuits surrounding your measurement will introduce noise in the 50Hz or 60Hz range (plus multiples).   
      ![](../images/psd-noise.jpg)   
-This image (from [http://blricrex.hypotheses.org/ressources/eeg/pre-processing-for-erps](http://blricrex.hypotheses.org/ressources/eeg/pre-processing-for-erps) [(11)](#references)) shows clearly some 50Hz noise from electricity. To remove these, a notch filter can be performed on the raw signal with MNE to remove 50Hz and its multiples.  
+This image (from [http://blricrex.hypotheses.org/ressources/eeg/pre-processing-for-erps](http://blricrex.hypotheses.org/ressources/eeg/pre-processing-for-erps) [(11)](#references)) shows clearly some 50Hz noise from electricity (note that some countries, like USA, use 60Hz). To remove these, a notch filter can be performed on the raw signal with MNE to remove 50Hz and its multiples.  
 
 {% highlight python %}
 raw.notch_filter(np.arange(50, 251, 50))  
@@ -242,7 +263,7 @@ mne.filter.filter_data(raw, sFreq, l_freq=7.5, h_freq=12.5)
 
 - High-pass filtering can be added to remove very low frequency signals. These are too slow to originate from the brain, and are usually a sign of long-term drift in the recording environment.  
 
-Care needs to be taken when performing any filtering however, to ensure that it introduces no extra source of error. For more details on where potential pitfalls have been found, see the [MNE documentation](https://martinos.org/mne/stable/auto_tutorials/plot_background_filtering.html#some-pitfalls-of-filtering) [(12)](#references) on filtering issues.  
+Care needs to be taken when performing any filtering however, to ensure that it introduces no extra source of error. For more details on where potential pitfalls have been found, see the [MNE documentation](https://martinos.org/mne/stable/auto_tutorials/plot_background_filtering.html#some-pitfalls-of-filtering) [(12)](#references) on filtering issues. Additionally, if you're interested at how these work, or want to know the difference between the `method='fir'` (default) and `method='iir'` options, see the video [Overview of FIR and IIR Filters](https://www.youtube.com/watch?v=9yNQBWKRSs4).
 
 ## 5. Downsampling  
 
@@ -255,7 +276,7 @@ While it might not seem like much, consider that all of this information will be
 This is where downsampling comes in: it’s a technique to reduce the number of samples used, while still (hopefully) maintaining the information that is needed. It comprises a few pieces:  
 
 - *Strict Downsampling* is what you might think of first when deciding how to reduce the number of samples: just keep every Nth (e.g. every second, or third, or …). This is technically what the term ‘downsampling’ refers to, however it is rarely used in isolation. Similar to how image resizing works, this tends to lead to artifacts in the result (called *aliasing*), which is problematic. For those who are interested in more details, this [youtube video](https://www.youtube.com/watch?v=yWqrx08UeUs)[(13)](#references) is a good start.  
-- *Decimating* is downsampling too, but first performing a low-pass filter (see [section 5](#filtering) on filtering) to remove the high frequencies that cause the artifacts. For more info on exactly what is filtered, see the notes and the end of this section.   
+- *Decimating* is downsampling too, but first performing a low-pass filter (see [section 4](#filtering) on filtering) to remove the high frequencies that cause the artifacts. For more info on exactly what is filtered, see the notes and the end of this section.   
 
 ### 5.2. Downsampling raw data in MNE  
 
@@ -271,15 +292,15 @@ raw_resampled = raw.copy().resample(100, npad='auto')
 #### 5.3.1. Frequencies   
 
 The first thing important to consider when it comes to sampling is what is known as the [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) [(14)](#references) (or, usually any time someone mentions ‘Nyquist’ at all). Despite its fancy name, it’s really just a rule relating the information you can get out of a sampled signal. Put simply: if you are sampling at a rate of R Hz, then any signal of frequency above half of that (i.e. R/2 Hz) will be mistaken for a lower frequency. This process is also known as *‘Aliasing’*, as the higher frequency is *aliased* to the lower one. To see why, consider the sample points (black dots), for a high-frequency signal (red) and low-frequency one (black dashes). The sampled points are identical, so a higher sampling rate is required before they can be differentiated.  
-![](../images/nyquist.png)  
-This is important when it comes to the EEG signal you are processing. For example, if you are detecting Alpha waves (up to 15Hz), this means you’ll need at least a sample rate of 30Hz to ensure the 15Hz signal is detectable. Similarly, if considering Gamma waves up to 100Hz, a sample rate of 200Hz is the lowest possible. What is more, depending on the techniques performed an even higher frequency is preferred. It is important to downsample only as much as required, and be aware that this may modify the results slightly.  
+![](../images/nyquist.png){: .center-image }
+This is important when it comes to the EEG signal you are processing. For example, if you are detecting Alpha waves (up to 15Hz), this means you’ll need at least a sample rate of 30Hz to ensure the 15Hz signal is detectable. Similarly, if considering Gamma waves up to 100Hz, a sample rate of 200Hz is the lowest possible. What is more, depending on the techniques performed an even higher frequency is preferred; some studies looking at high frequencies (e.g. looking at Frequency Following Response) require very high sampling rate. It is important to downsample only as much as required, and be aware that this may modify the results slightly.  
 
 #### 5.3.2. Non-integer ratios  
 
-You may have noticed that the *Strict Downsampling* section talked about keeping every Nth sample. This is possible if the final rate should be ½, ⅓, ¼,  … of your initial rate, but you may wish for more complex ratios between the two. For any rational fraction (e.g. ⅔, ¾, …) this can be achieved by first *upsampling* by one number, and then downsampling by a second. For example, to go from 200Hz to 160Hz (for a ratio of 0.8 = ⅘), this can be achieved by upsampling by 4, then downsampling by 5.  
+You may have noticed that the *Strict Downsampling* section talked about keeping every Nth sample. This is possible if the final rate should be ½, ⅓, ¼,  … of your initial rate, but you may wish for more complex ratios between the two. For any rational fraction (e.g. ⅔, ¾, …) this can be achieved by first *upsampling* by one number, and then downsampling by a second. For example, to go from 200Hz to 160Hz (for a ratio of 0.8 = ⅘), this can be achieved by upsampling by 4, then downsampling by 5. There is a problem though, as any upsampling algorithm can only interpolate new data given existing, which can add more artifacts into the analysis.  
 
 
-## 6. Re-referencing And Interpolation   
+## 6. Re-referencing
 
 ### 6.1. What is referencing?  
 
@@ -321,23 +342,6 @@ raw.set_eeg_reference([electrodes_to_use])
 
 Which will set the reference to the average of the electrodes in [electrodes_to_use].  
 
-### 6.3. Interpolation  
-
-After flagging bad channels, it is common practice to interpolate data for the bad channels based on the data from the good channels. Interpolation is a way of filling in the missing data based on the other data available.  
-
-There are a few ways of interpolating EEG data, but by far the most common is interpolation by spherical splines. This method consists of the following steps:   
-
-1. Project the channel locations onto a unit sphere (representing the head)   
-2. Compute a matrix that describes the relationship between the good and bad electrodes   
-3. Use the result from (2) to interpolate the data for bad electrodes  
-
-A detailed description of the method can be found at [http://martinos.org/mne/stable/manual/channel_interpolation.html#channel-interpolation](http://martinos.org/mne/stable/manual/channel_interpolation.html#channel-interpolation) [(16)](#references).  
-
-This method can be easily implemented in MNE via the following command:   
-
-{% highlight python %}
-raw.interpolate_bads(reset_bads=False)  
-{% endhighlight %}  
 
 ## 7. Artifact rejection and correction  
 
