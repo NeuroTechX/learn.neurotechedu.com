@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Intro to Neur"
+title: "IntroNeuro"
 subheadline: ""
 teaser: "This sections covers the basic of Neuroscience "
 header:
