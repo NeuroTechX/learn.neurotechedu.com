@@ -24,6 +24,7 @@ permalink: "/lessons/"
       <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
       <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
       <li class="section"><a href="http://learn.neurotechedu.com/applications/">Applications</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/introneuro/">Intro to Neuroscience</a></li>
     </ul>
   </div>
 </div>
