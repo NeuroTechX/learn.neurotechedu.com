@@ -6,7 +6,7 @@ subheadline: ""
 teaser: "This sections covers the basic of Neuroscience "
 header:
    image_fullwidth: ""
-permalink: "/template/"
+permalink: "/introneuro/"
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
