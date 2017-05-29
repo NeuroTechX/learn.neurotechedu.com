@@ -1,9 +1,9 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Template"
-subheadline: ""
-teaser: "Add a short introduction/teaser about your content here. A short paragraph will do. Perhaps be specific about what you cover so that people reading have a clear idea of what they will find. "
+title: "Intro to BCI"
+subheadline: "Intro to BCI"
+teaser: "Intro to BCI"
 header:
    image_fullwidth: ""
 permalink: "/introtobci/"
@@ -26,7 +26,30 @@ permalink: "/introtobci/"
 ## What is the definition
 
 ## What are  the types of BCI's
+There are many different techniques to measure brain signals. 
+
+We can divide them into Invasive, Semi-invasive and Non-Invasive. 
+
+| Option | Description | Pic | 
+| ------ | ----------- | ---- |
+| Non-invasive   | The sensors are placed on the scalp to measure the electrical potentials produced by the brain (EEG) or the magnetic field (MEG). | Pic |
+| Semi-invasive | The electrodes are placed on the exposed surface of the brain(ECoG).| Pic |
+| Invasive    | The micro-electrodes are placed directly into the cortex, measuring the activity of a single neuron. | Pic |
+
+The following image shows the different layers of the brain and where the signal is taken from.
+ 
+**Non-invasive**: the EEG signal is taken placing electrodes on the scalp, so on the most external part.
+
+**Semi-invasive**: the ECoG signal is taken from electrodes placed in the dura or in the arachnoid.
+
+**Invasive**: the Intraparenchymal signal is taken directly implanting electrodes in the cortex.
+
+
 ### Invasive
+
+Invasive types of BCI are implanted directly into the brain during a neurosurgery.
+There are single unit BCIs, which detect the signal from a single area of brain cells, and multi units BCIs which detects from multiple areas. Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA. The quality of the signal is the highest, but the procedure has several problematics , as the risk of forming scar tissues. The body reacts to the foreign object and build the the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
+
 ### Non Invasive
 
 ## Components
@@ -105,9 +128,9 @@ _This is italic text_
 ## Tables
 
 | Option | Description |
-| ------ | ----------- |
+| ------ | ----------- | 
 | data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
+| engine | engine to be used for processing templates. Handlebars is the default.  |
 | ext    | extension to be used for dest files. |
 
 Right aligned columns
