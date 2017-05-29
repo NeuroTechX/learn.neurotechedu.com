@@ -21,6 +21,36 @@ permalink: "/introtobci/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
+# Intro to BCI
+
+## What is the definition
+
+## What are  the types of BCI's
+### Invasive
+### Non Invasive
+
+## Components
+### Brain activity
+### Signal acquisition
+### Preprocessing
+### Feature Extraction
+### Classification
+### Translation
+### Feedback device
+
+## Applications
+
+## Examples
+
+## Limitations
+
+## Ethics
+
+## Safety
+
+## Future of the field
+
+
 # h1 Heading :)
 <hr>
 <div class="row">
