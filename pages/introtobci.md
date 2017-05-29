@@ -32,9 +32,9 @@ We can divide them into Invasive, Semi-invasive and Non-Invasive.
 
 | Option | Description | Pic | 
 | ------ | ----------- | ---- |
-| Non-invasive   | The sensors are placed on the scalp to measure the electrical potentials produced by the brain (EEG) or the magnetic field (MEG). | Pic |
-| Semi-invasive | The electrodes are placed on the exposed surface of the brain(ECoG).| Pic |
-| Invasive    | The micro-electrodes are placed directly into the cortex, measuring the activity of a single neuron. | Pic |
+| Non-invasive   | The sensors are placed on the scalp to measure the electrical potentials produced by the brain (EEG) or the magnetic field (MEG). | ![Emotiv headset](../images/introtobci/emotiv_epoc_large.jpg) |
+| Semi-invasive | The electrodes are placed on the exposed surface of the brain(ECoG).| ![EcoG](../images/introtobci/ecog.png) |
+| Invasive    | The micro-electrodes are placed directly into the cortex, measuring the activity of a single neuron. | ![Utah Array](../images/introtobci/Utah_array.jpg) |
 
 The following image shows the different layers of the brain and where the signal is taken from.
  
