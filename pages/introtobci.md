@@ -6,7 +6,7 @@ subheadline: ""
 teaser: "Add a short introduction/teaser about your content here. A short paragraph will do. Perhaps be specific about what you cover so that people reading have a clear idea of what they will find. "
 header:
    image_fullwidth: ""
-permalink: "/template/"
+permalink: "/introtobci/"
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
