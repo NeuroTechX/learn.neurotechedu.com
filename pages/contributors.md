@@ -74,17 +74,15 @@ Contributed to
 
 <div class="medium-4 columns contributor" markdown="1">
 
-##### Tudor Mincu
+##### Francesca Placido
 
 Roles
 
-* Editor
+* Content Build
 
 Contributed to
 
-* Lessons
-* EEG Tutorials
-* Applications
+* Intro to BCI
 
 <a href="http://creative-saga.com/" class="icon-globe"></a>
 <a href="http://twitter.com/" class="icon-twitter"></a>
