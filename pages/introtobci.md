@@ -121,11 +121,81 @@ In the following image is possible to see the different brain imaging techniques
 
 ### MEG magnetoencephalography
 
+** What is it? **
+
+From Wikipedia “is a functional neuroimaging technique for mapping brain activity by recording magnetic fields produced by electrical currents occurring naturally in the brain, using very sensitive magnetometers.“
+
+![MEG](../images/introtobci/MEG.png)
+
+** How does it work? **
+MEG measures the magnetic field caused by the currents in the brain, and it offers a better spatial resolution compared to EEG . Why? Because magnetic fields suffer far less than electric fields from the spatial blurring effect of the skull and intracerebral fluid.
+“MEG is maximally sensitive to tangential sources and has low sensitivity to radial sources”
+“MEG is better than EEG at detecting high-frequency activity (e.g., above 60 Hz). This is
+because magnetic fields pass through the skull and scalp, whereas the electrical fields are
+volume conducted through these tissues, which decreases signal-to-noise ratio at higher
+frequencies.”
+
+
+
 ### PET positron emission tomography
+
+** What is? **
+PET is a nuclear imaging technique used in medicine to observe different processes, such as blood flow, metabolism, neurotransmitters, happening  in the body.
+
+![PET](../images/introtobci/PET.png)
+*“This image shows a picture taken from a typical PET facility equipped with an ECAT Exact HR+ PET scanner. PET scanners such as this are steadily being replaced by systems that combine both PET and CT scanners into a single PET/CT imaging device.”*
+
+** How does it work? **
+ 
+A small amount of radioactive material, called radiotracer, is injected in the bloodstream to reach the brain. In the case of the brain, the radiotracer get attached to the glucose and creates a radionuclide called fluorodeoxyglucose (FDG). The brain uses glucose and it will show different levels based on the level activity of the different regions.
+The images of the PET scan are multicolored, where areas with more activities are in warmer colors as yellow and red. PET scans of the brain are used often to detect illnesses as cancer or others.
+
+![PET](../images/introtobci/PET2.png)
+*PET scan of a normal human brain*
 
 ### fMRI functional magnetic resonance imaging
 
+**What is?**
+Functional magnetic resonance imaging or functional MRI (fMRI) is a functional neuroimaging procedure using MRI technology that measures brain activity by detecting changes associated with blood flow.[1][2] This technique relies on the fact that cerebral blood flow and neuronal activation are coupled. When an area of the brain is in use, blood flow to that region also increases.[3]
+ 
+fMRI had been developed in the 1990s. It is a non-invasive and safe technique, it doesn’t use radiation, it’s easy to use and it has excellent spatial and good temporal resolution.
+
+![FMRI](../images/introtobci/fmri.png)
+
+**How does it work?**
+ 
+In the brain, haemoglobin in capillary red blood cells delivers oxygen to the neurons. Activity causes more demand for oxygen, which leads to an increase of blood flow.
+The magnetic characteristics of haemoglobin change if it is or not oxygenated. This difference allows the MRI machine, which is a cylindrical tube with a powerful electro-magnet, to detect which areas of the brain are active in a specific moment.
+
+![FMRI](../images/introtobci/fmri2.png)
+*fMRI images from a study showing parts of the brain lighting up on seeing houses and other parts on seeing faces. The 'r' values are correlations, with higher positive or negative values indicating a better match.*
+
 ### fNIRS near-infrared spectroscopy
+
+**What is?**
+Functional Near-Infrared Spectroscopy (fNIR or fNIRS), is the use of NIRS (near-infrared spectroscopy) for the purpose of functional neuroimaging. Using fNIR, brain activity is measured through hemodynamic responses associated with neuron behaviour. 
+
+An optical technique to measure localized cortical brain activity 
+ 
+**How does it work?**
+fNIRS measures the changes in blood flow as fMRI, but using a different technique, infrared light vs magnetic field.
+![FNIRS](../images/introtobci/fnirs.png)
+*In the image: fNIRS during table-tennis experiment*
+
+When a task begins there is consumption of oxygen, as the complexity increases, also the request for oxygen increases. fMRI measures how much oxygen is consumed. fNIRS measures also how much oxygen is available in the area (overshot). 
+ 
+Still, the temporal quality of fNIRS is not as good as EEG. fNIRS takes 10 samples per second, which is trumped by EEG’s 500 to 1000 samples per second. And the spatial resolution is not as good as fMRI. For example, fMRI can image subcortical brain regions, while fNIRS cannot analyze past the cortex, unable to capture any subcortical activation. Indeed, many researchers who presented their fNIRS at SfN are using the instrument as a supplement to their EEG or fMRI data.
+ 
+Benefits:
+* Non-invasive
+* Portable
+* Accessible
+* Less sensible to artifacts compared to fMRI and EEG
+ 
+Has a temporal resolution more similar to EEG
+fMRI may record one sample per 2 seconds, fNIRS can record 10 samples per 1 second
+ 
+fNIRS better spatial resolution than EEG and better temporal resolution than fMRI
 
 ### EEG
 
