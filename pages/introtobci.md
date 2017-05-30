@@ -106,6 +106,29 @@ Five patients, in preparation of surgery for epilepsy, had a subdural array of e
 
 ### Non Invasive
 
+In the following section we will review briefly the main non-invasive techniques.
+There are several non-invasive techniques used to study the brain, where EEG is the most common used because of the cost and hardware portability.
+
+*     MEG magnetoencephalography
+*     PET positron emission tomography
+*     fMRI functional magnetic resonance imaging
+*     fNIRS near-infrared spectroscopy
+*     EEG Electroencephalography
+
+In the following image is possible to see the different brain imaging techniques, compared by spatial and temporal resolution:
+
+![brainImagineTecniques](../images/introtobci/brainimaging.png)
+
+### MEG magnetoencephalography
+
+### PET positron emission tomography
+
+### fMRI functional magnetic resonance imaging
+
+### fNIRS near-infrared spectroscopy
+
+### EEG
+
 ## Components
 ### Brain activity
 ### Signal acquisition
