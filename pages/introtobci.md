@@ -51,7 +51,7 @@ Invasive types of BCI are implanted directly into the brain during a neurosurger
 There are single unit BCIs, which detect the signal from a single area of brain cells, and multi units BCIs which detects from multiple areas. Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA. The quality of the signal is the highest, but the procedure has several problematics , as the risk of forming scar tissues. The body reacts to the foreign object and build the the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
 
 ### Semi-Invasive
-## ECoG
+#### ECoG
 Electrocorticography uses electrodes placed on the exposed surface of the brain to measure electrical activity from the cerebral cortex. It has been used for the first time in the 1950s at the Montreal Neurological Institute.
 It is called semi-invasive but it still requires a craniotomy to implant the electrodes. For this reason it is used only when surgery is necessary for medical reasons (epilepsy for example). 
  
@@ -72,7 +72,8 @@ The positive characteristics of ECoG are:
 *         higher amplitude
  
  
-**Spatial resolution **
+**Spatial resolution**
+
 A benefit of the ECoG over EEG, is that the spatial resolution is much higher because the signal doesn’t have to travel to reach the scalp. The spatial resolution in ECoG is tenths of millimeters, while it is centimeters in EEG (Leuthardt et al., 2004). 
  
 ---------------------------------------------------------------------------------------------------------------------
@@ -80,17 +81,22 @@ What do we mean by spatial resolution?
 We can take, as an analogy, the clarity of an image.
 A picture with a higher spatial resolution is “clearer”; in other words, it looks more precise because it is composed of more pixels per inch, showing more details. A picture with lower spatial resolution appears less clear, or more blurry because it is composed of fewer pixels per inch. 
 Better spatial resolution allows us to understand with better precision where the signal is coming from. In the case of EEG, when the electrical signal travels through the skull, it is attenuated due to the low conductivity of the bones.
- 
+---------------------------------------------------------------------------------------------------------------------
+
 **resistance to noise**
+
 ECoG signal is not impacted by noise and artifacts as for example EMG (electromyographic - caused by muscles movements) and EOG (electrooculographic - caused by eyes movements)
  
 **lower clinical risk**
+
 The electrode arrays doesn’t need to penetrate into the cortex, which makes it safer than invasive recording (Leuthardt et al., 2004) 
  
 **higher amplitude**
+
 ECoG recordings are 50–100 µV maximum versus 10–20 µV
  
 **In BCI**
+
 There have been different studies about the use of ECoG in BCI, but they are all limited to cases where surgery was needed to remove an epileptic focus.
  
 In one study (Schalk et al., 2008) for example, the researcher used ECoG to control a computer cursor in two dimensions.
