@@ -58,14 +58,14 @@ _Helpful previous knowledge: basic understanding of cell and molecular biology, 
 #  Lesson Contents
 
 ##  Introduction
-Welcome to Fundamentals of Neuroscience at NeuroTechEDU! This lesson provides a foundational introduction to the essential principles of neuroscience. Here you will obtain a basic understanding of the human brain and physiological workings of the nervous system. 
-What is the significance in establishing a foundational understanding of the human brain? We already know that advancements in the fields of technology, neuroscience, and brain research will transform the 21st century the way that quantum physics and genetic code breaking transformed the 20th century. It is through the study of neuroscience that we will push the boundaries of how we function and thrive as humans. Advancement in the field of neuroscience will provide a deeper understanding of human thought and being, inform the modification of our human abilities and health, and lay transformative foundations for the engineering and design of our future. 
-We will begin the lesson with an introduction to the field of neuroscience and an overview of the human nervous system. We lead with a close examination of the nervous system beginning at a cellular level, expanding out to general brain anatomy and organisation including sections of the brain and connections. Following our study of brain organisation, we will explore functional systems and mechanics of the brain, including examples of disease and disorder. Finally, we will consider how the field of neuroscience has developed and where it is going, including a look at neuroimaging methods, technological advancements, and multidisciplinary approaches to brain research and development. 
-This foundational information can be expanded on by more advanced neuroscience and neurotechnology lessons found within NeuroTechEDU as well as from specific citations within the lesson. 
+Welcome to Fundamentals of Neuroscience at NeuroTechEDU! This lesson provides a foundational introduction to the essential principles of [neuroscience](https://en.wikipedia.org/wiki/Neuroscience). Here you will obtain a basic understanding of the human brain and physiological workings of the nervous system. 
+What is the significance in establishing a foundational understanding of the human brain? We already know that advancements in the fields of technology, [neuroscience](https://en.wikipedia.org/wiki/Neuroscience), and brain research will transform the 21st century the way that quantum physics and genetic code breaking transformed the 20th century. It is through the study of [neuroscience](https://en.wikipedia.org/wiki/Neuroscience) that we will push the boundaries of how we function and thrive as humans. Advancement in the field of neuroscience will provide a deeper understanding of human thought and being, inform the modification of our human abilities and health, and lay transformative foundations for the engineering and design of our future. 
+We will begin the lesson with an introduction to the field of neuroscience and an overview of the human nervous system. We lead with a close examination of the nervous system beginning at a cellular level, expanding out to general brain anatomy and organisation including sections of the brain and connections. Following our study of brain organisation, we will explore functional systems and mechanics of the brain, including examples of disease and disorder. Finally, we will consider how the field of neuroscience has developed and where it is going, including a look at [neuroimaging methods](https://en.wikipedia.org/wiki/Neurotechnology#Imaging), [technological advancements](https://en.wikipedia.org/wiki/Neurotechnology), and multidisciplinary approaches to brain research and development. 
+This foundational information can be expanded on by more advanced [neuroscience](https://en.wikipedia.org/wiki/Neuroscience) and neurotechnology lessons found within NeuroTechEDU as well as from specific citations within the lesson. 
 
 ---
 ##  What is Neuroscience?
-Neuroscience is a tremendously broad and multidisciplinary science devoted to the understanding of the brain and the nervous system, as well as the advancement of a centuries-old scientific quest to understand how the world around us works. Deciphering the codes of brain’s command system and its diverse functions is a complex challenge that inspires leading neuroscientists around the world.  
+[Neuroscience](https://en.wikipedia.org/wiki/Neuroscience) is a tremendously broad and multidisciplinary science devoted to the understanding of the brain and the nervous system, as well as the advancement of a centuries-old scientific quest to understand how the world around us works. Deciphering the codes of brain’s command system and its diverse functions is a complex challenge that inspires leading neuroscientists around the world.  
 The brain is one of the most complex systems in the universe; understanding how it functions is among the most complex challenges within science today. We still have not uncovered the full extent of what the brain can do. This single organ controls every aspect of the human body, ranging from immunity and breathing, to emotions, memory, dreaming, and innovation. It is the brain’s ability to perform all these functions that makes us human. Brain researchers are motivated to understand how cellular circuits enable us to read and speak, how we bond with other humans, how we learn and retain information, how we experience pain, and how we stay motivated in school. Neuroscientists discover possible causes of devastating disorders of the brain and body, as well as ways to prevent or cure them. 
 Neuroscientists continue to investigate the nervous system at multiple levels, from the molecular synapses to networks of neurons, cognition, and behaviour. Over the years, the neuroscience field has made enormous progress, continually striving for a deeper understanding of how the brain’s 100 billion nerve cells are born, grow, and connect into functional circuits for life. Methods of inquiry and research are drawn from a number of disciplines, including molecular and cellular biology, physiology, biomedical, behavioural sciences and cognitive psychology, electrical engineering, computer science and artificial intelligence. 
 
@@ -90,8 +90,10 @@ At the cellular level, driving the basic functioning of the nervous system, we h
 
 ---
 ####Anatomy of Neurons in a Synapse
-Neurons are anatomically structured for receiving, processing, and transmitting information to other cells in the body through rapid electrical impulses. These impulses change from neuron to neuron. The major structural components of neurons involved in these processes include cell bodies (soma), axons, and dendrites. At a high level, neural information transmission might flow like this: neurotransmitters leave an axon to be received by a dendrite's’ receptor sites, passing through a synapse to get there. So we see that a neuron synapse takes place over a miniscule membrane-to-membrane junction point between two neurons, between the axons and the dendrites, and impulses are diffused by neurotransmitters when they pass over this junction. Most neurons send signals via their axons, although some types are capable of dendrite-to-dendrite communication. 
+[Neurons](https://en.wikipedia.org/wiki/Neurons) are anatomically structured for receiving, processing, and transmitting information to other cells in the body through rapid electrical impulses. These impulses change from neuron to neuron. The major structural components of [neurons](https://en.wikipedia.org/wiki/Neurons) involved in these processes include [cell bodies (soma)](https://en.wikipedia.org/wiki/Soma_(biology)), [axons](https://en.wikipedia.org/wiki/Axon), and [dendrites](https://en.wikipedia.org/wiki/Dendrite). At a high level, [neural information transmission](https://en.wikipedia.org/wiki/Biological_neural_network) might flow like this: [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter) leave an [axon](https://en.wikipedia.org/wiki/Axon) to be received by a [dendrite's](https://en.wikipedia.org/wiki/Dendrite) receptor sites, passing through a [synapse](https://en.wikipedia.org/wiki/Synapse) to get there. So we see that a [neuron synapse](https://en.wikipedia.org/wiki/Synapse) takes place over a miniscule membrane-to-membrane junction point between two neurons, between the axons and the dendrites, and impulses are diffused by neurotransmitters when they pass over this junction. Most neurons send signals via their axons, although some types are capable of [dendrite-to-dendrite communication](https://en.wikipedia.org/wiki/Nervous_system#Neurons_and_synapses). 
+
 This junction point contains molecular structures, or machines, that control energy by allowing electrical or chemical signals to be rapidly transmitted. In a typical chemical synapse between two neurons, the nerve impulse arrives from a presynaptic neuron and travels with its neurotransmitters to be bound to a postsynaptic neuron. Specialised structures distinguish presynaptic neurons from postsynaptic neurons, including mitochondria and microtubules, assisting the transportation of neurotransmitters.  
+
 A nerve impulse can also be transmitted from a sensory receptor cell to a neuron, from a neuron to a set of muscles or an endocrine gland.
 
 ---
@@ -100,17 +102,18 @@ The chemical reactions within our brains makes electricity! This section explore
 
 ---
 ####  Neurotransmitters
-Neurotransmitters are the biochemical messengers, or couriers, of information between cells, released from neurons at the presynaptic nerve terminal to cross through synapses where they may be accepted by a receptor site on the other side. A single neuron will produce several different neurotransmitters. A cascade of specific chemical reactions occurs after a synapse; these specific chemical reactions depend on the presence, absence, or combination of specific receptor types. These reactions affect the neuron with either excitation potential (depolarization) or inhibition potential (hyperpolarization). Excitation makes it more likely that an action potential will fire; inhibition makes it less likely that an action potential will fire. Neurotransmitters and their receptors influence behaviour, learning, emotions, and sleep. 
+[Neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter) are the biochemical messengers, or couriers, of information between cells, released from neurons at the presynaptic nerve terminal to cross through synapses where they may be accepted by a receptor site on the other side. A single neuron will produce several different neurotransmitters. A cascade of specific chemical reactions occurs after a synapse; these specific chemical reactions depend on the presence, absence, or combination of specific receptor types. These reactions affect the neuron with either excitation potential (depolarization) or inhibition potential (hyperpolarization). Excitation makes it more likely that an action potential will fire; inhibition makes it less likely that an action potential will fire. Neurotransmitters and their receptors influence behaviour, learning, emotions, and sleep. 
 Following is a condensed list of neurotransmitters involved in the many functions of our bodies:
 
 ---
 ####  Neuroreceptors
-Neuroreceptors are structures on the surface or inside of cells that recognize and bind to specific neurotransmitters, hormones, or psychotropic drugs. The bind created by neuroreceptors acts with either excitatory or inhibitory action potential. Once bound, the receptor often changes shape, causing a chemical cascade of cellular action. These cellular actions can alter which genes are turned on or off and can make the cell more or less likely to release its own neurotransmitters. Each type of neurotransmitter might have multiple receptors, each with a different role to play. A distinct role of each neurotransmitter is determined by exactly which neurotransmitter is present and where it is connecting. 
-(note: neuroreceptors are also known as neurotransmitter receptors, neuron receptor sites, receptor sites, or receptors.)
+[Neuroreceptors](https://en.wikipedia.org/wiki/Neurotransmitter_receptor) are structures on the surface or inside of cells that recognize and bind to specific neurotransmitters, hormones, or [psychotropic drugs](https://en.wikipedia.org/wiki/Psychoactive_drug). The bind created by [neuroreceptors](https://en.wikipedia.org/wiki/Neurotransmitter_receptor) acts with either excitatory or inhibitory [action potential](https://en.wikipedia.org/wiki/Action_potential). Once bound, the receptor often changes shape, causing a chemical cascade of cellular action. These cellular actions can alter which genes are turned on or off and can make the cell more or less likely to release its own [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter). Each type of neurotransmitter might have multiple receptors, each with a different role to play. A distinct role of each [neurotransmitter](https://en.wikipedia.org/wiki/Neurotransmitter) is determined by exactly which neurotransmitter is present and where it is connecting. 
+
+(note: neuroreceptors are also known as [neurotransmitter](https://en.wikipedia.org/wiki/Neurotransmitter_receptor) receptors, neuron receptor sites, receptor sites, or receptors.)
 
 ---
 ###  Neural Circuits and Neural Networks
-A nervous system emerges from the assemblage of neurons that are connected to each other.  Because a cell that receives a synaptic signal from a neuron may be excited, inhibited, or otherwise modulated, the connections between neurons can form neural circuits and networks that generate an organism's perception of the world and determine its behavior. In the human nervous system, hundreds of different types of neurons exist, with a wide variety of functions (sensory, motor skills, gland function, etc).
+A nervous system emerges from the assemblage of neurons that are connected to each other.  Because a cell that receives a synaptic signal from a neuron may be excited, inhibited, or otherwise modulated, the connections between neurons can form [neural circuits and networks](https://en.wikipedia.org/wiki/Biological_neural_network) that generate an organism's perception of the world and determine its behavior. In the human nervous system, hundreds of different types of neurons exist, with a wide variety of functions (sensory, motor skills, gland function, etc).
 
 ---
 ##  Neuroanatomy and Brain Organisation
@@ -130,40 +133,49 @@ One of the most fascinating and wondrous things in the universe exists within ea
 ---
 ###  The Basics
 Neuroscientists use common neuroanatomical terms to denote location, organization, and function. Here we introduce the basics. 
-Perched on top of the spinal column, the brain is the epicenter of the human nervous system. It is the largest part of the central nervous system (CNS) and made up of three general areas: the brainstem, the cerebellum, and the cerebral cortex. The brainstem is involved with autonomic control of processes like breathing and heart rate as well as conduction of information to and from the peripheral nervous system, the nerves and ganglia found outside the brain and spinal cord. The cerebellum, adjacent to the brainstem, is responsible for balance and coordination of movement. Resting above these structures, the cerebral cortex quickly perceives, analyzes, and responds to information from the world around us. It handles sensory perception and processing as well as higher-level cognitive functions like perception, memory, and decision-making. These three areas work together seamlessly in healthy individuals, allowing the brain to coordinate necessary functions and behaviors from breathing to spatial navigation.
-The cerebral cortex is divided into two hemispheres connected by the corpus callosum, a bridge of wide, flat neural fibers that act as communication relays between the two sides. While several popular books suggest this lateralization is important to function (i.e., the right side of the brain is the creative side while the left hemisphere dabbles more in analytical processing), most cognitive processes are represented by activation in both hemispheres. The exception is language—both Broca’s Area, an area important to language syntax, and Wernicke’s Area, a region critical to language content, reside on the left side of the brain. Otherwise, the two hemispheres are nearly symmetrical and each one is further subdivided into four major lobes: the occipital, the temporal, the parietal, and the frontal. 
+Perched on top of the spinal column, the brain is the epicenter of the human nervous system. It is the largest part of the [central nervous system (CNS)](https://en.wikipedia.org/wiki/Central_nervous_system) and made up of three general areas: the [brainstem](https://en.wikipedia.org/wiki/Central_nervous_system#Brainstem), the [cerebellum](https://en.wikipedia.org/wiki/Cerebellum), and the [cerebral cortex](https://en.wikipedia.org/wiki/Cerebral_cortex). The brainstem is involved with autonomic control of processes like breathing and heart rate as well as conduction of information to and from the [peripheral nervous system](https://en.wikipedia.org/wiki/Peripheral_nervous_system), the [nerves](https://en.wikipedia.org/wiki/Nerve) and [ganglia](https://en.wikipedia.org/wiki/Ganglion) found outside the brain and [spinal cord](https://en.wikipedia.org/wiki/Spinal_cord). The [cerebellum](https://en.wikipedia.org/wiki/Cerebellum), adjacent to the [brainstem](https://en.wikipedia.org/wiki/Central_nervous_system#Brainstem), is responsible for balance and coordination of movement. Resting above these structures, the [cerebral cortex](https://en.wikipedia.org/wiki/Cerebral_cortex) quickly perceives, analyzes, and responds to information from the world around us. It handles [sensory perception](https://en.wikipedia.org/wiki/Perception) and processing as well as higher-level [cognitive functions](https://en.wikipedia.org/wiki/Cognitive_neuroscience) like perception, [memory](https://en.wikipedia.org/wiki/Memory), and [decision-making](https://en.wikipedia.org/wiki/Decision-making#Neuroscience). These three areas work together seamlessly in healthy individuals, allowing the brain to coordinate necessary functions and behaviors from breathing to spatial navigation.
+
+The [cerebral cortex](https://en.wikipedia.org/wiki/Cerebral_cortex) is divided into two hemispheres connected by the [corpus callosum](https://en.wikipedia.org/wiki/Corpus_callosum), a bridge of wide, flat neural fibers that act as communication relays between the two sides. While several popular books suggest this lateralization is important to function, most cognitive processes are represented by activation in both hemispheres. The exception is language - both [Broca’s Area](https://en.wikipedia.org/wiki/Broca%27s_area), an area important to language syntax, and [Wernicke’s Area](https://en.wikipedia.org/wiki/Wernicke%27s_area), a region critical to language content, reside on the left side of the brain. Otherwise, the two hemispheres are nearly symmetrical and each one is further subdivided into four major lobes: the [occipital](https://en.wikipedia.org/wiki/Occipital_lobe), the [temporal](https://en.wikipedia.org/wiki/Temporal_lobe), the [parietal](https://en.wikipedia.org/wiki/Parietal_lobe), and the [frontal](https://en.wikipedia.org/wiki/Frontal_lobe). 
 
 ---
 ###  Brain Lobes
-Four lobes are used to denote specific anatomical locations within the brain: Frontal Lobe, Occipital Lobe, Parietal Lobe, and Temporal Lobe. These lobes, or anatomical locations of the brain, are referred to when examining different brain functions.
+Four lobes are used to denote specific anatomical locations within the brain: [Frontal Lobe](https://en.wikipedia.org/wiki/Frontal_lobe), [Occipital Lobe](https://en.wikipedia.org/wiki/Occipital_lobe), [Parietal Lobe](https://en.wikipedia.org/wiki/Parietal_lobe), and [Temporal Lobe](https://en.wikipedia.org/wiki/Temporal_lobe). These lobes, or anatomical locations of the brain, are referred to when examining different brain functions.
 
 ---
 ###  Folds and Grooves
-The cortex is an extended piece of neural tissue, gathered and pleated to fit inside the skull cavity. Each pleat has a bump and a fold groove, the gyrus and the sulcus. 
+The cortex is an extended piece of neural tissue, gathered and pleated to fit inside the skull cavity. Each pleat has a bump and a fold groove, the [gyrus](https://en.wikipedia.org/wiki/Gyrus) and the [sulcus](https://en.wikipedia.org/wiki/Sulcus_(neuroanatomy)). 
+
 As we have mentioned previously, no two brain cortexes are folded in the same exact way. Yet several of these folds are large and pronounced enough to merit specific names. They are used to specify location—but also may be referred to in discussions of function.
-For example, the lateral sulcus is the inner fold that separates the temporal lobe from the frontal lobe. Adjacent to the lateral sulcus is the temporal gyrus. Both this groove and fold house the primary auditory cortex, where the brain processes sound information. Wernicke’s area, a brain region critical to understand language, also resides on the temporal gyrus.
+
+For example, the [lateral sulcus](https://en.wikipedia.org/wiki/Lateral_sulcus) is the inner fold that separates the temporal lobe from the frontal lobe. Adjacent to the lateral sulcus is the [temporal gyrus](https://en.wikipedia.org/wiki/Temporal_lobe). Both this groove and fold house the primary auditory cortex, where the brain processes sound information. [Wernicke’s Area](https://en.wikipedia.org/wiki/Wernicke%27s_area), the brain region critical to processing language, also resides on the temporal gyrus.
 
 ---
 ###  3 Sections of the Brain: Forebrain, Midbrain, Hindbrain
 The brain is made up of three main sections: the forebrain, the midbrain, and the hindbrain. Different studies may refer to specific activations in the superior frontal, middle frontal, and inferior frontal gyri in the frontal lobes. 
+
 In studies of motor function, mentions of primary motor cortex may also refer to a location between the precentral gyrus and the central sulcus at the top of the brain. Contrary to popular lay-press usage, the terms lobe and gyrus are not interchangeable. References to gyri and sulci can help give a more specific location on a particular lobe of the cortex.
-For further reading, see lessons on The Human Brain, Regions of the Human Brain, Outline of the Human Brain, and Functional Specialization of the Brain. 
+
+For further reading, see lessons on [The Human Brain](https://en.wikipedia.org/wiki/Human_brain), [Regions of the Human Brain](https://en.wikipedia.org/wiki/List_of_regions_in_the_human_brain), [Outline of the Human Brain](https://en.wikipedia.org/wiki/Outline_of_the_human_brain), and [Functional Specialization of the Brain](https://en.wikipedia.org/wiki/Functional_specialization_(brain)). 
 
 ---
 #### Forebrain
-The forebrain is the largest and most complex part of the brain. It consists of the cerebrum and a few other structures beneath it. The forebrain is the forward-most portion of the brain, controlling body temperature, reproductive functions, eating, sleeping, and any display of emotions.
-The cerebrum is the folded and grooved area of the brain typically shown in illustrations of the brain. The cerebrum contains information that influences intelligence, personality, emotion, feelings, memory,  speech, and movement. Four lobes of the cerebrum are assigned to the processing of these specific types of information: the frontal, parietal, temporal, and occipital.
-The cerebrum also can be divided into two right and left hemisphere halves, which are connected in the middle by a band of nerve fibers called the corpus callosum. The corpus callosum enables the two hemispheres to communicate. 
-The outer layer of the cerebrum is called the cortex; this outer layer is also known as grey matter of the brain. Information collected by the five senses comes into the brain from the spinal cord to the cortex, to be directed to other parts of the nervous system for further processing.
-Located in the inner part of the forebrain are the thalamus, hypothalamus, and the pituitary gland. The thalamus carries messages from the sensory organs like the eyes, ears, nose, and fingers to the cortex. The hypothalamus controls activities of the autonomic nervous system, regulating neurohormones and influencing pituitary hormones, and controlling body temperature, tiredness, sleep, circadian rhythms, hunger, thirst, and behaviours related to parenting attachment. The pituitary gland secretes hormones that control thyroid glands and metabolism, blood pressure, some functions of sex organs, as well as some aspects of pregnancy and growth, childbirth, nursing, water/salt concentration at the kidneys, temperature regulation and pain relief.
+The [forebrain](https://en.wikipedia.org/wiki/Forebrain) is the largest and most complex part of the brain. It consists of the [cerebrum](https://en.wikipedia.org/wiki/Cerebrum) and a few other structures beneath it. The forebrain is the forward-most portion of the brain, controlling body temperature, reproductive functions, eating, sleeping, and any display of emotions.
+
+The [cerebrum](https://en.wikipedia.org/wiki/Cerebrum) is the folded and grooved area of the brain typically shown in illustrations of the brain. The cerebrum contains information that influences intelligence, personality, emotion, feelings, memory,  speech, and movement. Four lobes of the cerebrum are assigned to the processing of these specific types of information: the frontal, parietal, temporal, and occipital.
+
+The [cerebrum](https://en.wikipedia.org/wiki/Cerebrum) also can be divided into two [right and left hemisphere halves](https://en.wikipedia.org/wiki/Cerebral_hemisphere#Hemisphere_lateralization), which are connected in the middle by a band of nerve fibers called the [corpus callosum](https://en.wikipedia.org/wiki/Corpus_callosum). The [corpus callosum](https://en.wikipedia.org/wiki/Corpus_callosum) enables the two hemispheres to communicate. 
+
+The outer layer of the cerebrum is called the [cortex](https://en.wikipedia.org/wiki/Cortex); this outer layer is also known as [grey matter](https://en.wikipedia.org/wiki/Grey_matter) of the brain. Information collected by the five senses comes into the brain from the spinal cord to the cortex, to be directed to other parts of the nervous system for further processing.
+
+Located in the inner part of the forebrain are the [thalamus](https://en.wikipedia.org/wiki/Thalamus), [hypothalamus](https://en.wikipedia.org/wiki/Hypothalamus), and the [pituitary gland](https://en.wikipedia.org/wiki/Pituitary_gland). The thalamus carries messages from the sensory organs like the eyes, ears, nose, and fingers to the cortex. The hypothalamus controls activities of the autonomic nervous system, regulating neurohormones and influencing pituitary hormones, and controlling body temperature, tiredness, sleep, circadian rhythms, hunger, thirst, and behaviours related to parenting attachment. The pituitary gland secretes hormones that control thyroid glands and metabolism, blood pressure, some functions of sex organs, as well as some aspects of pregnancy and growth, childbirth, nursing, water/salt concentration at the kidneys, temperature regulation and pain relief.
 
 ---
 #### Midbrain
-The midbrain is considered part of the brainstem, located underneath the middle of the forebrain, and acting as a master coordinator for messages between the brain and the spinal cord. The midbrain is our Dopamine production center.  Primarily, the midbrain relays information related to vision, hearing, and motor control, as well as sleep/wake cycles, alertness, arousal, excitation, motivation, habituation and regulation of body temperature. The human midbrain shares general architecture with the most ancient of vertebrates.
+The [midbrain](https://en.wikipedia.org/wiki/Midbrain) is considered part of the brainstem, located underneath the middle of the forebrain, and acting as a master coordinator for messages between the brain and the spinal cord. The midbrain is our [Dopamine](https://en.wikipedia.org/wiki/Dopamine) production center.  Primarily, the midbrain relays information related to vision, hearing, and motor control, as well as sleep/wake cycles, alertness, arousal, excitation, motivation, habituation and regulation of body temperature. The human midbrain shares general architecture with the most ancient of vertebrates.
 
 ---
 #### Hindbrain
-The hindbrain sits underneath the back end of the cerebrum, including the cerebellum, pons, and medulla. The cerebellum is sometimes called the "little brain" because it looks like a small version of the cerebrum; it is responsible for balance, movement, and coordination. The pons and the medulla, make up the brainstem, along with the midbrain. Together, the pons, medulla, and midbrain coordinate all of the brain's messages, and control many of the body's automatic functions such as  heart beats, breathing, blinking, digestion, and blood pressure.
+The [hindbrain](https://en.wikipedia.org/wiki/Hindbrain) sits underneath the back end of the cerebrum, including the [cerebellum](https://en.wikipedia.org/wiki/Cerebellum), [pons](https://en.wikipedia.org/wiki/Pons), and [medulla](https://en.wikipedia.org/wiki/Medulla). The cerebellum is sometimes called the ["little brain"](https://en.wikipedia.org/wiki/Cerebellum) because it looks like a small version of the cerebrum; it is responsible for balance, movement, and coordination. The pons and the medulla, make up the [brainstem](https://en.wikipedia.org/wiki/Brainstem), along with the midbrain. Together, the pons, medulla, and midbrain coordinate all of the brain's messages, and control many of the body's automatic functions such as  heart beats, breathing, blinking, digestion, and blood pressure.
 
 ---
 ###  Brodmann Areas and Talairach Coordinates
@@ -177,18 +189,23 @@ For many years, neuroscientists believed white matter was simply a support resou
 ---
 ###  Connections Between the Sections
 When studying the brain, it is important to emphasises the importance of collaborative connections and networks. 
+
 The size and structure of our neocortex, or frontal lobes, represents the most recent biological evolution of the human brain. The neocortex works to help us make sense of the world around us by closely collaborating with the subcortical brain areas near the brainstem. Subcortical brain structures share information in both a bottom-up and top-down fashion with the neocortex. 
+
 Typically the brain and spinal cord act together; however, there are some actions, such as those associated with pain reflexes, where the spinal cord acts before the information enters the brain for processing. 
+
 Modern neuroimaging research is no longer focused on functional segregation, or the localization of function to a single area of the brain. Today, researchers are using new techniques to follow tracts of neurons that connect networks of brain areas to better understand how they work together to determine human behavior.
 
 ---
 ##  Functional Systems of the Brain
 Through our senses, our brains are provided with information about light, sound, temperature, body part orientation and position, pressure of the atmosphere around us, the chemicals in our bloodstream, and more. Our senses collect and transfer information to our brains where it is used to determine what actions we should take. Our brains process this raw data in order to extract information about our environmental situations. Next our brains combine the processed information with information about our current needs and past memories. On the basis of results, our brains generate motor response patterns. These signal-processing tasks require intricate interplay between a variety of functional systems.
+
 The function of our centralised brain is to coherently control our actions; our brains allow groups of muscles to be collaboratively activated in complex patterns, and stimuli influencing one part of the body to evoke responses in other parts, while at the same time preventing different parts of the body from acting at cross-purposes to each other.
 
 ---
 ###  Sensory Systems and Perception
 This section introduces the neural foundations of sensory perception, where our sense of self relates to stimuli in the world around us. Our senses are useful in our daily lives because of the processing that happens in our brains. Sensory stimuli enters our neurological systems as physical energy absorbed from the world around us; this energy is then converted into neural signals to be processed in the brain, eventually revealing sensory experiences in our lives. 
+
 At a very basic level, sensory systems are made up of receptors, neural pathways, and parts of the brain involved in sensory perception. Each sensory system begins with specialized receptor cells. Commonly recognized sensory systems include the following five: vision, hearing, taste, smell, and touch.
 
 _Sight and Vision_
@@ -203,7 +220,7 @@ Every taste we experience is the result of small groups of sensory cells on our 
 _Pain and Touch_ 
 Every time we experience pain or touch, it is the result of  more than 4 million sensory receptors on the skin absorbing information related to temperature, texture, pressure, and pain. Simply put, our sensory receptors send this information to our cortex for processing, allowing us to react to what we sense through our skin.
  
-More in-depth information on the topic of senses and reaction can be found by reading advanced lessons on Sensory-Motor Coupling, etc. 
+More in-depth information on the topic of senses and reaction can be found by reading advanced lessons on [Sensory-Motor Coupling](https://en.wikipedia.org/wiki/Sensory-motor_coupling), etc. 
 
 ---
 ###  Motor Systems
@@ -212,7 +229,8 @@ This section introduces the neural foundations of our motor systems, examining a
 ---
 #### Body Movement and Motor Control
 Movement and motor control is the process by which we use our brain to stimulate and coordinate the muscles and limbs involved in the performance of a motor skill.  Our neurological Motor System is necessary for interaction with the world, supporting basic balance and stability as well as physical action and reaction through body movement. At a very basic level, we absorb sensory information to determine the appropriate muscle and joint activation to move or act. Body movement requires not only muscles, mechanics, and physical coordination, but also neurological information processing and cognition. The Central Nervous System and the Musculoskeletal System interact cooperatively to control and support body movement.   
-More in-depth information on the topic of motor systems involved in body movement can be found by reading advanced lessons on The Motor System, Motor Coordination, Motor Control, Motor Cortex, and Spinal Mechanisms of Motor Control. 
+
+More in-depth information on the topic of motor systems involved in body movement can be found by reading advanced lessons on [The Motor System](https://en.wikipedia.org/wiki/Motor_system), [Motor Coordination](https://en.wikipedia.org/wiki/Motor_coordination), [Motor Control](https://en.wikipedia.org/wiki/Motor_control), [Motor Cortex](https://en.wikipedia.org/wiki/Motor_cortex), and [Spinal Mechanisms of Motor Control](https://en.wikipedia.org/wiki/Motor_control). 
 
 ---
 ###  Arousal and Sleep Cycles
@@ -221,6 +239,7 @@ As humans we alternate between sleeping and waking cycles, arousal and alertness
 ---
 ###  Homeostasis
 Our ability to regulate our internal environment of our body is known as homeostasis. Maintaining homeostasis is a crucial function of the brain; the part of the brain that plays the greatest role in homeostasis is the hypothalamus. The basic principle that underlies homeostasis is maintaining balance within our body systems in order to survive. Our survival requires maintaining a variety of parameters of bodily state within a limited range of variation: these include temperature, water content, salt concentration in the bloodstream, blood glucose levels, blood oxygen level, etc.  
+
 The hypothalamus receives input from sensors located in the lining of blood vessels, conveying information about temperature, sodium level, glucose level, blood oxygen level, and other parameters. These hypothalamic nuclei send output signals to motor areas that can generate actions to rectify deficiencies. Some of the outputs also go to the pituitary gland, which secretes hormones into the bloodstream, where they circulate throughout the body and induce changes in cellular activity.
 
 ---
@@ -234,9 +253,9 @@ While learning, messages travel repeatedly between our neurons, establishing con
 
 Memory is another complex function of the brain. Everything we learn, experience, or sense is first processed in the cortex. If this information is important enough to transfer into long-term memory storage, it is sent to other regions of the brain such as the amygdala or hippocampus for information retrieval at a later date. As our experiences travel through the brain as messages, neural pathways are created. These neural pathways serve as the foundation of our memory.
  
-Neuroscientists currently distinguish several types of learning and memory that are implemented by the brain in specific and distinct ways: working memory, episodic memory, semantic memory, instrumental memory, and motor learning. 
+Neuroscientists currently distinguish [several types of learning and memory](https://en.wikipedia.org/wiki/Brain#Learning_and_memory) that are implemented by the brain in specific and distinct ways: working memory, episodic memory, semantic memory, instrumental memory, and motor learning. 
  
-More in-depth information on the topic of cognitive systems, cognitive neuroscience, and brain development can be found by reading advanced lessons on Cognition, Cognitive Neuroscience, Cognitive Science, Cognitive Biology, Cognitive Development, Neural Development,  Brain Development, The Brain Prize 2014, Cognitive Flexibility, and Artificial Intelligence. 
+More in-depth information on the topic of cognitive systems, cognitive neuroscience, and brain development can be found by reading advanced lessons on [Cognition](https://en.wikipedia.org/wiki/Cognition), [Cognitive Neuroscience](https://en.wikipedia.org/wiki/Cognitive_neuroscience), [Cognitive Science](https://en.wikipedia.org/wiki/Cognitive_science), [Cognitive Biology](https://en.wikipedia.org/wiki/Cognitive_biology), [Cognitive Development](https://en.wikipedia.org/wiki/Cognition#Piaget.27s_theory_of_cognitive_development), [Neural Development](https://en.wikipedia.org/wiki/Neural_development),  [Brain Development](https://en.wikipedia.org/wiki/Neural_development#Overview_of_brain_development), [The Brain Prize 2014](http://www.thebrainprize.org/files/4/abbreviated_uk_press_release.pdf), [Cognitive Flexibility](https://en.wikipedia.org/wiki/Cognitive_flexibility), and [Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence). 
 
 ---
 ###  Brain Disease and Disorders
@@ -282,6 +301,7 @@ Neurotransmitter imbalances can involve a wide range of problems in thought and 
 ---
 ##  Frontiers in Neuroscience
 Neuroscience will transform the 21st century the way that quantum physics did for the 20th century. Even breaking the genetic code was just the beginning in the launch of higher understanding about the human body, and specifically the brain. Understanding the miraculous workings of the brain and the nervous system is the vast mission of the relatively young field of neuroscience. In recent years, research techniques and theoretical advances in neuroscience have expanded tremendously, aided by molecular and cellular studies of individual neurons, neural networks, and imaging of sensory and motor tasks in the brain.  
+
 Better knowledge about brain function is still needed to treat neurological and psychiatric disorders, lessening their impact on individuals, families, and society. With better neuroscience knowledge, we will better understand who we are: our thoughts, emotion, creativity and morality.  We will design who we will be, modifying our abilities, knowledge and ways of being.
 
 ---
@@ -303,14 +323,37 @@ Better knowledge about brain function is still needed to treat neurological and 
 ---
 ##  References
 
+Lesson will review and expand upon topics covered within the following resources:
+ 
+[“Neuroanatomy”.](https://www.coursera.org/learn/medical-neuroscience#) *Duke University, Coursera*.
+[“Medical Neuroscience”.](https://www.coursera.org/learn/medical-neuroscience) *Duke University, Coursera*. 
+[“Intro to Neuroscience”.](https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-01-introduction-to-neuroscience-fall-2007/index.htm) *MIT OCW*. 2007
+[“The Fundamentals of Neuroscience”.](https://www.mcb80x.org/) *Harvard University, HarvardX Neuroscience and EdX*. 
+[“Neuroscience Online”.](http://neuroscience.uth.tmc.edu/index.htm) *Department of Neurobiology, McGovern Medical School at UTHealth*. 
+[“Big Ideas in Neuroscience”.](https://neuroscience.stanford.edu/initiatives/big-ideas-neuroscience) *Stanford University Neurosciences Institute*.
+[“What is Neuroscience?”.](https://www.mcgill.ca/neuroscience/neuroscience) *McGill University Dept of Neuroscience*. 
+[“Brain Facts”.](http://www.brainfacts.org/about-neuroscience/brain-facts-book/) *BrainFacts.org*
+["Neuroscience: The Science of the Brain".](http://brain.mcmaster.ca/BrainBee/Neuroscience.Science.of.the.Brain.pdf) *British Neuroscience Association & European Dana Alliance for the Brain. Richard Morris (University of Edinburgh) and Marianne Fillenz (University of Oxford)*. 2003.
+[“Scanning the Brain”.](http://www.apa.org/action/resources/research-in-action/scan.aspx) *American Psychological Association*. 
+[“About Neuroscience”.](https://www.sfn.org/about/about-neuroscience) *Society for Neuroscience*.
+[“Neuroscience”.](http://www.kavlifoundation.org/neuroscience) *The Kavli Foundation*.
+ 
+[“Fundamentals to Neuroscience”.](https://en.wikiversity.org/wiki/Fundamentals_of_Neuroscience) *Wikiversity*. 
+ 
+["History + Timeline, Brain and Cognitive Sciences".](https://bcs.mit.edu/about-bcs/history-timeline) *MIT*. 2002
+["History of Neuroscience".](https://faculty.washington.edu/chudler/hist.html) *University of Washington*. 2014. 
+["A Timeline of Neuroscience".](http://serendip.brynmawr.edu/bb/kinser/timeline.html) *Serendip Studio, Bryn Mawr College*. 2000. 
+
+----
+
+
+----
+## Emphasis
+
 </div>
 <div class="large-6 columns" markdown="1">
 </div>
 </div> <!-- end of row -->
-
-
----
-## Emphasis
 
 **This is bold text**
 
