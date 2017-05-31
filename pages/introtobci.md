@@ -348,7 +348,7 @@ Because the signal detected is poor, being the electrodes far from the neurons a
 As previously introduced, different types of electrodes are available to use in EEG, such as: disposable (dry or wet), reusable disc electrodes (gold, silver, stainless steel or tin), headbands and electrodes caps (such as the consumer ones), saline-based electrodes, needle electrodes
 In the 1958 a standard system of electrodes placement had been developed, where the head is divided in proportional distances (Jasper, 1958).
 
-[10/20 system for EEG](../images/introtobci/1020system.png) 
+![10/20 system for EEG](../images/introtobci/1020system.png) 
 *In the image: electrode locations of International 10-20 system for EEG (electroencephalography) recording*
  
 The minimal configuration is composed by three electrodes: active electrode, reference electrode and ground electrode. The EEG measures the potential difference over time between signal or active electrode and the reference electrode. It is very difficult to get a reference where no electrical activity from the brain is present. Usually it is located on the mastoid, ear lobes or tip of the nose. The ground electrode is used to measure the differential voltage between the active and the reference points.
@@ -466,7 +466,7 @@ In general the field of BCI has always been limited to the academic world or med
 
 Facebook started hiring Brain Computer Interface Engineers and neural imaging engineers in April 2017, to work on a 2 year B8 project using machine learning and neuroimaging. The plan is to use optical imaging for scanning the brain to detect the speaking in the head and translate it into text. Facebook’s goal is to allow people to type 100 words per minute, which is faster than typing on a phone (and could allow also to people which cannot type?). The following post appeared on Zuckeberg’s timeline:
 
-[facebook](../images/introtobci/facebook.png) 
+![facebook](../images/introtobci/facebook.png) 
 
 
 Facebook is collaborating with UC San Francisco, UC Berkeley, Johns Hopkins Medicine, Johns Hopkins University’s Applied Physics Laboratory and Washington University School of Medicine in St. Louis on this project. It is building hardware and software to mimic the cochlea in the ear which translates sound in specific frequencies for the brain. In the tests performed they have been able to use a vocabulary of 9 words to be hard through the skin.
