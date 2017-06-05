@@ -1,22 +1,32 @@
 --
 layout: page-fullwidth
 show_meta: false
-title:" Introduction to Neuroscience"
+title: "Introduction to Neuroscience"
 subheadline: "A Foundation for Understanding the Human Brain and the Nervous System"
-teaser:" This lesson is a foundational introduction to neuroscience, with emphasis on anatomy of the human brain and function of the nervous system. Topics include cellular components of the nervous system, neuroanatomy and brain organisation, functional systems of the brain, and an introduction to leading research and advancing frontiers in neuroscience."
+teaser: "How does the human brain and the nervous system work? Topics in this lesson include cellular components of the nervous system, neuroanatomy and brain organisation, functional systems of the brain, and an introduction to leading research and advancing frontiers in neuroscience."
 header: "Introduction to Neuroscience"
    image_fullwidth: ""
 permalink: "/introtoneuroscience/"
 ---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+
+
 #  Lesson Outcome
 
 By the end of this online lesson, students or readers should be able to:
 
- <div class="row">
-<div class="medium-4 medium-push-8 columns" markdown="1">
-<div class="panel radius" markdown="1">
 **Outline**
-{: #toc }
 
 *Understand basic principles of neuroscience including: Nervous system cell types, Nervous system organization, Major brain areas, and Electrical signalling
 *Understand neuroscience research methods including: EEG, MRI, etc. 
@@ -58,6 +68,7 @@ _Helpful previous knowledge: basic understanding of cell and molecular biology, 
 #  Lesson Contents
 
 ##  Introduction
+<hr>
 Welcome to Fundamentals of Neuroscience at NeuroTechEDU! This lesson provides a foundational introduction to the essential principles of [neuroscience](https://en.wikipedia.org/wiki/Neuroscience). Here you will obtain a basic understanding of the human brain and physiological workings of the nervous system. 
 What is the significance in establishing a foundational understanding of the human brain? We already know that advancements in the fields of technology, [neuroscience](https://en.wikipedia.org/wiki/Neuroscience), and brain research will transform the 21st century the way that quantum physics and genetic code breaking transformed the 20th century. It is through the study of [neuroscience](https://en.wikipedia.org/wiki/Neuroscience) that we will push the boundaries of how we function and thrive as humans. Advancement in the field of neuroscience will provide a deeper understanding of human thought and being, inform the modification of our human abilities and health, and lay transformative foundations for the engineering and design of our future. 
 We will begin the lesson with an introduction to the field of neuroscience and an overview of the human nervous system. We lead with a close examination of the nervous system beginning at a cellular level, expanding out to general brain anatomy and organisation including sections of the brain and connections. Following our study of brain organisation, we will explore functional systems and mechanics of the brain, including examples of disease and disorder. Finally, we will consider how the field of neuroscience has developed and where it is going, including a look at [neuroimaging methods](https://en.wikipedia.org/wiki/Neurotechnology#Imaging), [technological advancements](https://en.wikipedia.org/wiki/Neurotechnology), and multidisciplinary approaches to brain research and development. 
@@ -65,6 +76,7 @@ This foundational information can be expanded on by more advanced [neuroscience]
 
 ---
 ##  What is Neuroscience?
+<hr>
 [Neuroscience](https://en.wikipedia.org/wiki/Neuroscience) is a tremendously broad and multidisciplinary science devoted to the understanding of the brain and the nervous system, as well as the advancement of a centuries-old scientific quest to understand how the world around us works. Deciphering the codes of brain’s command system and its diverse functions is a complex challenge that inspires leading neuroscientists around the world.  
 The brain is one of the most complex systems in the universe; understanding how it functions is among the most complex challenges within science today. We still have not uncovered the full extent of what the brain can do. This single organ controls every aspect of the human body, ranging from immunity and breathing, to emotions, memory, dreaming, and innovation. It is the brain’s ability to perform all these functions that makes us human. Brain researchers are motivated to understand how cellular circuits enable us to read and speak, how we bond with other humans, how we learn and retain information, how we experience pain, and how we stay motivated in school. Neuroscientists discover possible causes of devastating disorders of the brain and body, as well as ways to prevent or cure them. 
 Neuroscientists continue to investigate the nervous system at multiple levels, from the molecular synapses to networks of neurons, cognition, and behaviour. Over the years, the neuroscience field has made enormous progress, continually striving for a deeper understanding of how the brain’s 100 billion nerve cells are born, grow, and connect into functional circuits for life. Methods of inquiry and research are drawn from a number of disciplines, including molecular and cellular biology, physiology, biomedical, behavioural sciences and cognitive psychology, electrical engineering, computer science and artificial intelligence. 
@@ -76,6 +88,7 @@ Brain GIF
 
 ---
 ##  Nervous System Overview
+<hr>
 The human nervous system is the control center for the body. The structures of the human nervous system include the brain, spinal cord, and nerves reaching to the remote sections of the body. If you think of the brain as a central supercomputer that controls the body, then the nervous system is a network of connections that far surpasses any network system we can imagine, designed to relay messages back and forth from the brain to different parts of the body. Messages are relayed via the spinal cord, which runs from the brain down through the back and contains threadlike nerves that branch out to every organ and body part. The nervous system interprets the things the body senses, sending signals of information to the muscles and glands, telling them what to do. When a message comes into the brain from anywhere in the body, the brain tells the body how to react. It facilitates moods and thoughts. The nervous system also runs functional systems that do not require conscious thought, like the respiratory, cardiovascular and digestive systems. 
 Functional systems of the human body depend on the extensive network of cells contained in our nervous system. The extensive cell network of the nervous system is comprised of specialized cells called neurons and glial cells. Neurons are the basic functional units of the nervous system, and glia act in support for the most part. Neurons generate electrical signals, which allow them to quickly transmit information over long distances. The unique structures of individual neurons supports their specific function, including how they are organized into circuits to process and generate specific information and response patterns.
 Following is an infographic showing a common way to divide the nervous system:
@@ -131,7 +144,7 @@ Sections of the Brain GIF
 
 ---
 ##  Cellular Components of the Nervous System
-
+<hr>
 ---
 ###  Neurons and Synapses
 Recently it has become possible to understand, in much detail, the complex processes that occur within a single neuron.  This section introduces the study of individual specialised nerve cells, or neurons, and their synapse action within the nervous system. We introduce the cellular structure of neurons, the propagation of nerve impulses, and the transfer of information between nerve cells. 
@@ -203,7 +216,7 @@ A nervous system emerges from the assemblage of neurons that are connected to ea
 
 ---
 ##  Neuroanatomy and Brain Organisation
-
+<hr>
 ---
 ###  Introduction to Neuroanatomy and Brain Organisation
 Recently it has become possible to understand, in much detail, the complex processes that occur within different areas and sections of our brain. This section introduces the anatomical makeup of our brain and its connected systems.  In the following section we will learn how the brain is organised, and the functional purposes of different brain regions. We look at the surface anatomy of the human brain, its internal structure, and the overall organization of sensory and motor systems in the brainstem and spinal cord. Though a complete lesson of neuroanatomy is worthy of a thick textbook full of elaborate illustrations, common terminology used in neuroscientific research is highlighted below.
@@ -312,6 +325,7 @@ EMBED <iframe src="//giphy.com/embed/xT0BKr4MvHdohFTe6s" width="480" height="288
 
 ---
 ##  Functional Systems of the Brain
+<hr>
 Through our senses, our brains are provided with information about light, sound, temperature, body part orientation and position, pressure of the atmosphere around us, the chemicals in our bloodstream, and more. Our senses collect and transfer information to our brains where it is used to determine what actions we should take. Our brains process this raw data in order to extract information about our environmental situations. Next our brains combine the processed information with information about our current needs and past memories. On the basis of results, our brains generate motor response patterns. These signal-processing tasks require intricate interplay between a variety of functional systems.
 
 The function of our centralised brain is to coherently control our actions; our brains allow groups of muscles to be collaboratively activated in complex patterns, and stimuli influencing one part of the body to evoke responses in other parts, while at the same time preventing different parts of the body from acting at cross-purposes to each other.
@@ -419,6 +433,7 @@ Neurotransmitter imbalances can involve a wide range of problems in thought and 
 
 ---
 ##  Frontiers in Neuroscience
+<hr>
 Neuroscience will transform the 21st century the way that quantum physics did for the 20th century. Even breaking the genetic code was just the beginning in the launch of higher understanding about the human body, and specifically the brain. Understanding the miraculous workings of the brain and the nervous system is the vast mission of the relatively young field of neuroscience. In recent years, research techniques and theoretical advances in neuroscience have expanded tremendously, aided by molecular and cellular studies of individual neurons, neural networks, and imaging of sensory and motor tasks in the brain.  
 
 Better knowledge about brain function is still needed to treat neurological and psychiatric disorders, lessening their impact on individuals, families, and society. With better neuroscience knowledge, we will better understand who we are: our thoughts, emotion, creativity and morality.  We will design who we will be, modifying our abilities, knowledge and ways of being.
@@ -446,7 +461,7 @@ IMBED VIDEO <iframe allowfullscreen frameborder="0" width="698" height="573" scr
 
 ---
 ##  References
-
+<hr>
 Lesson will review and expand upon topics covered within the following resources:
  
 [“Neuroanatomy”.](https://www.coursera.org/learn/medical-neuroscience#) *Duke University, Coursera*.
@@ -526,9 +541,6 @@ With a reference later in the document defining the URL location:
 
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
-</div>
-<div class="large-6 columns" markdown="1">
 
-</div>
+</div> <!-- end of content column -->
 </div> <!-- end of row -->
-
