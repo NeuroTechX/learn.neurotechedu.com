@@ -15,45 +15,25 @@ permalink: "/lessons/"
 <div class="large-12 columns module" markdown="1" style="">
   <div class="medium-2 columns number">01</div>
   <div class="medium-10 columns box">
-    <h4>• Introduction to Neurotechnology</h4>
+    <h4>• BCI 101</h4>
     <div class="moduledescription">
-    General introduction to neurotechnology, basic concepts are covered. It also provides you with some easy projects to get into and start building.
-    Lastly, the module gives an overview of the kinds of applications neurotechnology has.
+    This module provides a high level description of Brain Computer Interfaces. In this course, you will learn what is a BCI, some examples, what are the parts that make one up, how to make one, and some projects to build for yourself.
+    
+   Start this lesson by reading the Introduction to Brain Computer Interfaces module.
     </div>
     <ul class="" style="padding-left:60px">
-      <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
-      <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
-      <li class="section"><a href="http://learn.neurotechedu.com/applications/">Applications</a></li>
-      <li class="section"><a href="http://learn.neurotechedu.com/introneuro/">Intro to Neuroscience</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/introtobci/">Introduction to Brain Computer Intefaces</a></li>
+      <li  class="section"><a href="http://learn.neurotechedu.com/applications/">What are some of the existing BCI's applications?</a></li> 
+      <li class="section"><a href="http://learn.neurotechedu.com/IntroToNeuroscience/">How does the Brain work? Introduction to Neuroscience</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/headsets/">What are some of the headsets that I can purchase to make a BCI?</a></li>
+      <li class="section"><a href="#">(Being Built)What are some of the software tools I can use to build a Brain Computer interface?</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/preprocessing/">How do I do Signal Preprocessing?</a></li>
+      <li class="section"><a href="#">(Being Built)How do I do Feature Extraction of Neural Oscillations?</a></li>
+      <li class="section"><a href="#">(Being Built)How do I do Feature Extraction of Event Related Potentials (ERP)?</a></li>
+      
     </ul>
   </div>
 </div>
-
-<div class="large-12 columns module" markdown="1" style="">
-  <div class="medium-2 columns number">02</div>
-  <div class="medium-10 columns box">
-    <h4>• Building BCI</h4>
-    <ul style="padding-left:70px">
-      <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
-      <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
-      <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="large-12 columns module" markdown="1" style="">
-
-  <div class="medium-2 columns number">03</div>
-  <div class="medium-10 columns box">
-    <h4>• EEGs101</h4>
-    <ul style="padding-left:70px">
-      <li class="section"><a href="http://learn.neurotechedu.com/projects/">Projects to get started</a></li>
-      <li  class="section"><a href="http://learn.neurotechedu.com/headsets/">Headsets</a></li>
-      <li class="section"><a href="http://www.neurotechx.com/">NeurotechX</a></li>
-    </ul>
-  </div>
-</div>
-
 
 
 {% include _improve_content.html %}
