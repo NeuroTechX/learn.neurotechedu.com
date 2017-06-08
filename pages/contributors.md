@@ -6,7 +6,7 @@ permalink: "/contributors/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-
+<div class="medium-4 columns contributor" markdown="1">
 ##### Francesca Placido
 
 Roles
