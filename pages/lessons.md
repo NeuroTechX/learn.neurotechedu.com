@@ -26,11 +26,12 @@ permalink: "/lessons/"
       <li  class="section"><a href="http://learn.neurotechedu.com/applications/">What are some of the existing BCI's applications?</a></li> 
       <li class="section"><a href="http://learn.neurotechedu.com/IntroToNeuroscience/">How does the Brain work? Introduction to Neuroscience</a></li>
       <li class="section"><a href="http://learn.neurotechedu.com/headsets/">What are some of the headsets that I can purchase to make a BCI?</a></li>
-      <li class="section"><a href="#">(Being Built)What are some of the software tools I can use to build a Brain Computer interface?</a></li>
+      <li class="section"><a href="#">(In Development)What are some of the software tools I can use to build a Brain Computer interface?</a></li>
       <li class="section"><a href="http://learn.neurotechedu.com/preprocessing/">How do I do Signal Preprocessing?</a></li>
-      <li class="section"><a href="#">(Being Built)How do I do Feature Extraction of Neural Oscillations?</a></li>
-      <li class="section"><a href="#">(Being Built)How do I do Feature Extraction of Event Related Potentials (ERP)?</a></li>
-      
+      <li class="section"><a href="#">(In Development)How do I do Feature Extraction of Neural Oscillations?</a></li>
+      <li class="section"><a href="#">(In Development)How do I do Feature Extraction of Event Related Potentials (ERP)?</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/projects/">What are some BCI projects I can build for myself?</a></li>
+
     </ul>
   </div>
 </div>
