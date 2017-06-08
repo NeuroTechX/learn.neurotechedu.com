@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 title: "Contributors"
-teaser: "These are the people who made NeurotechX what it is today."
+teaser: "These are the people who made NeuroTechEDU what it is today."
 permalink: "/contributors/"
 header:
     image_fullwidth: "header_drop.jpg"
