@@ -5,7 +5,7 @@ title: "Introduction to Neuroscience"
 subheadline: "A Foundation for Understanding the Human Brain and the Nervous System"
 teaser: "How does the human brain and the nervous system work? Topics in this lesson include cellular components of the nervous system, neuroanatomy and brain organisation, functional systems of the brain, and an introduction to leading research and advancing frontiers in neuroscience."
 header: "Introduction to Neuroscience"
-   image_fullwidth: ""
+image_fullwidth: ""
 permalink: "/introtoneuroscience/"
 ---
 <div class="row">
