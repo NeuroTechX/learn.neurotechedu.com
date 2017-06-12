@@ -1,4 +1,15 @@
-<h1> What are Neural Oscillations? </h1>
+---
+layout: page-fullwidth
+show_meta: false
+title: "Feature Extraction: Neural Oscilations"
+subheadline: "Ride the wave"
+teaser: "Below we'll explore what neural oscillations are, as well as different ways to extract them from your data. "
+header:
+   image_fullwidth: ""
+permalink: "/template/"
+---
+
+# What are Neural Oscillations?
 
 Neural oscillations are repetitive, rhythmic synchronized frequency patterns in the central nervous system.
 They occur during activation of large clusters of neurons, though they can occur with a single neuron as well.
@@ -12,7 +23,7 @@ Delta waves (1-4 Hz) (need examples of what these connect to)
 Gamma waves (30-70 Hz) (need examples of what these connect to)
 Theta waves (4-8 Hz) (Need examples of what these connect to)
 
-<h1> Why do we produce neural oscillations? </h1>
+# Why do we produce neural oscillations? 
 
 We do not fully understand why our brain produces neural oscillations.
 Some researchers theorize that neural oscillations are nothing more than byproducts of brain activity, indicators of expected brain pattern in response to events of stimulus.
@@ -20,7 +31,7 @@ For example, motion produces prdecitable occurrences of alpha waves (in the mu f
 and sleep cycles are characterized by the alternating flux of different neural waves.
 Other researchers have theorized that cetain oscillations, like those that occur in the delta range, are critical to unlocking the mystery of our consciousness. 
 
-<h1> So why do neural oscillations matter? </h1>
+# So why do neural oscillations matter?
 
 Neural oscillations are useful in variety of ways.
 From a diagnostic and imaging persepective, they can be used as indicators of specific neurological phenomena such as:
@@ -36,7 +47,7 @@ looking at the presence of mu waves during motion, or to check if there is a pre
 and beta waves during meditation. You may even want to look at all the different waves that occur
 when you are performing a specific task.
 
-<h1> How do we extract neural oscillations as a feature of our EEG data? </h1>
+# How do we extract neural oscillations as a feature of our EEG data?
 
 As previously mentioned the data obtained by EEF is captured as a function of time, but neural
 oscillations are described in units of frequency. In order to transform the data we must
@@ -65,7 +76,7 @@ Epoching
 Assemble a classifier (optional)
 and finally, plotting the relevant figure
 
-<h5> Importing, reading, and formatting data </h5>
+<h3> Importing, reading, and formatting data </h3>
 
 In the below example I have used a dataset created by experimental runs by (reserach reference)
 so when the data is fetched it will have already underwent some preprocessing which will not be covered in 
@@ -156,4 +167,10 @@ I break down each wave into their respective frequency range. The below example 
 a band pass filter for alpha and beta waves isnce the eegbci dataset runs are based on 
 on motor cortex activity. 
 
-Five arbitrary 
+Five arbitrary time points were chosen in the below example to highlight the shift in wave 
+presence over time. Since the run involves squeezing the right and left hands,
+we should expect an increase in the alpha wave presence (specifically the mu frequency)
+and a reciprocal decrease in beta wave frequency in the area corresponding to either
+right or left hand (oposite sides of the brain from the hand involved). Timepoints
+4 and 5 illustrate this difference:
+
