@@ -1,4 +1,4 @@
---
+---
 layout: page-fullwidth
 show_meta: false
 title: "Introduction to Neuroscience"
@@ -8,6 +8,7 @@ header: "Introduction to Neuroscience"
 image_fullwidth: ""
 permalink: "/introtoneuroscience/"
 ---
+
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
