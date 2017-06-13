@@ -7,6 +7,7 @@ header:
     image_fullwidth: "header_drop.jpg"
 ---
 <div class="medium-4 columns contributor" markdown="1">
+
 ##### Francesca Placido
 
 Roles
@@ -46,6 +47,20 @@ Contributed to
 <a href="http://youtube.com/" class="icon-youtube"></a>
 </div>
 
+<div class="medium-4 columns contributor" markdown="1">
+
+##### Davide Valeriani
+
+Roles
+
+* Mentor
+
+Contributed to
+
+* ERP feature extraction
+
+<a href="http://www.davidevaleriani.it/" class="icon-globe">Website</a>
+</div>
 
 
 
