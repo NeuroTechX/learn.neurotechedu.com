@@ -70,33 +70,33 @@ that can be applied to your data.
 
 Before extracting neural oscillations there are several steps that must be undertaken
 to prepare you data:
-ls Importing data, reading data, and formatting data
-Preprocessing
-Epoching
-Assemble a classifier (optional)
-and finally, plotting the relevant figure
+* Importing data, reading data, and formatting data
+* Preprocessing
+* Epoching
+* Assemble a classifier (optional)
+* and finally, plotting the relevant figure
 
-<h3> Importing, reading, and formatting data </h3>
+### Importing, reading, and formatting data
 
 In the below example I have used a dataset created by experimental runs by (reserach reference)
 so when the data is fetched it will have already underwent some preprocessing which will not be covered in 
 either examples. However in both cases the data will be fetched using the below commands:
 
-subject = 1
-runs = [3]
-tmin = -0.1
-tmax = 0.3
-raw_fnames = eegbci.load_data(subject,runs)
-raw_files = [read_raw_edf(f, preload=True) for f in raw_fnames]
-raw = concatenate_raws(raw_files)
-raw.ch_names.index('STI 014')
+subject = 1 </div>
+runs = [3] </div>
+tmin = -0.1 </div>
+tmax = 0.3 </div>
+raw_fnames = eegbci.load_data(subject,runs) </div>
+raw_files = [read_raw_edf(f, preload=True) for f in raw_fnames] </div>
+raw = concatenate_raws(raw_files) </div>
+raw.ch_names.index('STI 014') </div>
 {{{NEED TO EXPLAIN WHAT THESE DO}}}
 Line 2 is relevatn in this example, as there are 14 experimental runs to choose from
 that were performed in this study and each will display different characteristics. 
 In this experiemtn run 3 measured the eeg signal obtained during movement of the left and right
 hands, both speerately and simultaneously. 
 
-<h5> Preprocessing </h5>
+### Preprocessing
 
 When plotting power spectral density (psd), only epoching is necessary as we want to see the psd
 accross the entire available frequency range. However for topomap plotting you
@@ -104,7 +104,7 @@ will need to prepocess you data with a band pass filter to isolate the specific
 frequency range you want to visualize. The example below aslo strips the channel names
 of their default "." keys to avoid errors when reading your channel names.
 
-<h5> Epoching the data </h5>
+### Epoching the data </h5>
 
 Epoching is basically segmenting your data into smaller chunks of readable data that contain
 events, or fluctuations in the eeg signal (caused by changing signal potential?).
@@ -125,7 +125,7 @@ epochs_train=epochs.copy().crop(tmin=-0.2,tmax=0.5)
 labels=epochs.events[:,-1]-
 
 The above code defines the epochs which will be further manipulated. Try the function 
-{{bold}} plot.epochs() to see how your data has transformed!
+__plot.epochs()__ to see how your data has transformed!
 
 The following steps will diverge depending on the methods of visualization you want 
 to apply. Below I will highlight how to use psd to visualize dominant frequencies as well
@@ -134,14 +134,14 @@ as topomaps to highlight specific frequencies in localized areas.
 <h5> Using PSD to categorize oscillatory occurance based on power spectral content (?) </h5>
 
 Power spectral density measure the power of a signal in (UNITS). The function 
-{{{bold}}} epochs[events].plot_psd() can be used to plot specific epoched events as a function
+__epochs[events].plot_psd()__ can be used to plot specific epoched events as a function
 of power spectral desnity over a specific frequency range. Below is an example of a
 script you can run to achieve this. Note that the dataset imported from eegbci is already
 preprocessed and transformed using the Fourier function, so the steps you should see below
 are:
-<ol> Importing, read, and format your data
-Epoch the data
-Plot the data with the epochs[events].plot_psd() </ol>
+* Importing, read, and format your data
+* Epoch the data
+* Plot the data with the __epochs[events].plot_psd()__ 
 
 {{{{Insert figures}}}
 
