@@ -1,14 +1,3 @@
----
-layout: page-fullwidth
-show_meta: false
-title: "Feature Extraction: Neural Oscilations"
-subheadline: "Ride the wave"
-teaser: "Below we'll explore what neural oscillations are, as well as different ways to extract them from your data. "
-header:
-   image_fullwidth: ""
-permalink: "/template/"
----
-
 # What are Neural Oscillations?
 
 Neural oscillations are repetitive, rhythmic synchronized frequency patterns in the central nervous system.
@@ -17,11 +6,11 @@ Although the raw data obtained from  electroencephalograms are formatted as a fu
 As such the neural clusters generate neural oscillations that can be characterized by the frequency range in which they occur:
 ![Image] (file:///Users/JDF/Desktop/Figures%20generated%20from%20topomap%20example%20with%20eegbci/Brain%20wave%20frequency%20chart.png)
 List point:
-Alpha waves (7.5-12.5 Hz). Alpha waves also contain a subset of waves known as mu waves, which occur in the same frequency range but are correlated to the motor cortex. (Need examples of that these connect to)
-Beta waves (13-30 Hz) (need examples of what these connect to)
-Delta waves (1-4 Hz) (need examples of what these connect to)
-Gamma waves (30-70 Hz) (need examples of what these connect to)
-Theta waves (4-8 Hz) (Need examples of what these connect to)
+* Alpha waves (7.5-12.5 Hz). Alpha waves also contain a subset of waves known as mu waves, which occur in the same frequency range but are correlated to the motor cortex. (Need examples of that these connect to)
+* Beta waves (13-30 Hz) (need examples of what these connect to)
+* Delta waves (1-4 Hz) (need examples of what these connect to)
+* Gamma waves (30-70 Hz) (need examples of what these connect to)
+* Theta waves (4-8 Hz) (Need examples of what these connect to)
 
 # Why do we produce neural oscillations? 
 
@@ -35,12 +24,12 @@ Other researchers have theorized that cetain oscillations, like those that occur
 
 Neural oscillations are useful in variety of ways.
 From a diagnostic and imaging persepective, they can be used as indicators of specific neurological phenomena such as:
->Sleep and the state of consciousness
->Motor control
->Perception and information processing
->Pattern generation
->Memory
->Abnormal neural function, such as epilepsy, and Parkinsons.
+* Sleep and the state of consciousness
+* Motor control
+* Perception and information processing
+* Pattern generation
+* Memory
+* Abnormal neural function, such as epilepsy, and Parkinsons.
 
 Practical applications for extracting neural oscillations using your own BCI could be
 looking at the presence of mu waves during motion, or to check if there is a presence of alpha
@@ -73,7 +62,7 @@ to prepare you data:
 * Importing data, reading data, and formatting data
 * Preprocessing
 * Epoching
-* Assemble a classifier (optional)
+* Assemble a classifier (plotting a topomap)
 * and finally, plotting the relevant figure
 
 ### Importing, reading, and formatting data
@@ -82,17 +71,18 @@ In the below example I have used a dataset created by experimental runs by (rese
 so when the data is fetched it will have already underwent some preprocessing which will not be covered in 
 either examples. However in both cases the data will be fetched using the below commands:
 
-subject = 1 </div>
-runs = [3] </div>
-tmin = -0.1 </div>
-tmax = 0.3 </div>
-raw_fnames = eegbci.load_data(subject,runs) </div>
-raw_files = [read_raw_edf(f, preload=True) for f in raw_fnames] </div>
-raw = concatenate_raws(raw_files) </div>
-raw.ch_names.index('STI 014') </div>
-{{{NEED TO EXPLAIN WHAT THESE DO}}}
-Line 2 is relevatn in this example, as there are 14 experimental runs to choose from
-that were performed in this study and each will display different characteristics. 
+subject = 1 <br/>
+runs = [3] <br/>
+tmin = -0.1 <br/>
+tmax = 0.3 <br/>
+raw_fnames = eegbci.load_data(subject,runs) <br/>
+raw_files = [read_raw_edf(f, preload=True) for f in raw_fnames] <br/>
+raw = concatenate_raws(raw_files) <br/>
+raw.ch_names.index('STI 014') <br/>
+__NEED TO EXPLAIN WHAT THESE DO__ <br/>
+
+Line 2 is relevant in this example, as there are 14 experimental runs to choose from
+that were performed in this study and each was tested under different conditions. 
 In this experiemtn run 3 measured the eeg signal obtained during movement of the left and right
 hands, both speerately and simultaneously. 
 
@@ -104,25 +94,25 @@ will need to prepocess you data with a band pass filter to isolate the specific
 frequency range you want to visualize. The example below aslo strips the channel names
 of their default "." keys to avoid errors when reading your channel names.
 
-### Epoching the data </h5>
+### Epoching the data
 
 Epoching is basically segmenting your data into smaller chunks of readable data that contain
 events, or fluctuations in the eeg signal (caused by changing signal potential?).
 Epoching helps to trunkate the objects you need to analyze into more manageable bytes that contain the 
 information you actually want. To epoch your data you can follow the steps below:
 
-events = mne.find_events(raw, stim_channel='STI 014', verbose=True)
-picks = pick_types)raw.info, meg=Fale, eeg=True, stim=False, eog=False, exclude='bas')
-baseline = 0, None
+events = mne.find_events(raw, stim_channel='STI 014', verbose=True) <br/>
+picks = pick_types)raw.info, meg=Fale, eeg=True, stim=False, eog=False, exclude='bas') <br/>
+baseline = 0, None <br/>
 
 The above defines the events you want to look for, as well as the type of signal your
 program should expect to analyze (meg vs. eeg vs. eog). I selected the eeg=True as the data
 we will be looking at was obtained using an EEG headset. Below we continue the 
 necessary inputs for epoching:
 
-epochs = Epochs(raw, events, event_id, tmin, tmax, proj=True, picks=picks, baseline-baselin, preload=True)
-epochs_train=epochs.copy().crop(tmin=-0.2,tmax=0.5)
-labels=epochs.events[:,-1]-
+epochs = Epochs(raw, events, event_id, tmin, tmax, proj=True, picks=picks, baseline-baselin, preload=True) <br/>
+epochs_train=epochs.copy().crop(tmin=-0.2,tmax=0.5) <br/>
+labels=epochs.events[:,-1]- <br/>
 
 The above code defines the epochs which will be further manipulated. Try the function 
 __plot.epochs()__ to see how your data has transformed!
@@ -131,7 +121,7 @@ The following steps will diverge depending on the methods of visualization you w
 to apply. Below I will highlight how to use psd to visualize dominant frequencies as well
 as topomaps to highlight specific frequencies in localized areas.
 
-<h5> Using PSD to categorize oscillatory occurance based on power spectral content (?) </h5>
+### Using PSD to categorize oscillatory occurance based on power spectral content 
 
 Power spectral density measure the power of a signal in (UNITS). The function 
 __epochs[events].plot_psd()__ can be used to plot specific epoched events as a function
@@ -145,7 +135,7 @@ are:
 
 {{{{Insert figures}}}
 
-<h5> Using a topomap to visualize local oscillations </h5>
+### Using a topomap to visualize local oscillations
 
 A classifier will be applied to visualizethe presence of neural oscillations using a 
 binary discrimination to highlight whether you have the presence of waves at certain
