@@ -3,9 +3,7 @@ layout: page-fullwidth
 show_meta: false
 title: "EEG Applications"
 subheadline: "Neurotechnology"
-teaser: "What is NeuroTechnology?
-Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate).
-What are the fields that are involved/interested in non-pharmaceutical Neurotech?"
+teaser: "This module focuses on BCI Applications that is using EEG. This market is the most mature and a wide variety of products are built every year."
 header:
    image_fullwidth: "earth.jpg"
 permalink: "/applications/"
@@ -63,7 +61,7 @@ There are also Star Wars-themed toys! [Learn more.](http://starwarsscience.com/p
 
 EEG Biometric is a growing field which looks at how we can use your eeg activity to be able to identify someone. Similar to one's fingerprint, your brain activity can be used as a form of authentication. The most common forms of Brain Authentication are using resting state brain activity or a visual evoked potential task. For more information on Brain Based Authentication, check out this DEF CON talk. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=frAhjtnvkqs" frameborder="0" allowfullscreen></iframe>
+[Brain Based Authentication](https://www.youtube.com/watch?v=frAhjtnvkqs)
 
 
 
