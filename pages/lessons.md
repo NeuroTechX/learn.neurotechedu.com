@@ -22,7 +22,7 @@ permalink: "/lessons/"
    Start this lesson by reading the Introduction to Brain Computer Interfaces module.
     </div>
     <ul class="" style="padding-left:60px">
-      <li class="section"><a href="http://learn.neurotechedu.com/introtobci/">Introduction to Brain Computer Intefaces</a></li>
+      <li class="section"><a href="http://learn.neurotechedu.com/introtobci/">Introduction to Brain Computer Interfaces</a></li>
       <li  class="section"><a href="http://learn.neurotechedu.com/applications/">What are some of the existing BCI's applications?</a></li> 
       <li class="section"><a href="http://learn.neurotechedu.com/introtoneuroscience/">How does the Brain work? Introduction to Neuroscience</a></li>
       <li class="section"><a href="http://learn.neurotechedu.com/headsets/">What are some of the headsets that I can purchase to make a BCI?</a></li>
