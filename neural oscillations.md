@@ -4,13 +4,13 @@ Neural oscillations are repetitive, rhythmic synchronized frequency patterns in 
 They occur during activation of large clusters of neurons, though they can occur with a single neuron as well.
 Although the raw data obtained from  electroencephalograms are formatted as a function of time, neural oscillations are visualized in terms of frequency and measured in units of Hertz (Hz); one cycle per second.
 As such the neural clusters generate neural oscillations that can be characterized by the frequency range in which they occur:
-![Image] (file:///Users/JDF/Desktop/Figures%20generated%20from%20topomap%20example%20with%20eegbci/Brain%20wave%20frequency%20chart.png)
-List point:
 * Alpha waves (7.5-12.5 Hz). Alpha waves also contain a subset of waves known as mu waves, which occur in the same frequency range but are correlated to the motor cortex. (Need examples of that these connect to)
 * Beta waves (13-30 Hz) (need examples of what these connect to)
 * Delta waves (1-4 Hz) (need examples of what these connect to)
 * Gamma waves (30-70 Hz) (need examples of what these connect to)
 * Theta waves (4-8 Hz) (Need examples of what these connect to)
+
+<img src ="https://github.com/jfrayshe/learn.neurotechedu.com/blob/gh-pages/images/Brain%20wave%20frequency%20chart.png">
 
 # Why do we produce neural oscillations? 
 
@@ -38,6 +38,8 @@ when you are performing a specific task.
 
 # How do we extract neural oscillations as a feature of our EEG data?
 
+<img scr="https://github.com/NeuroTechX/eeg-101/blob/dano-dev/EEG101/src/assets/wavedecomposition.gif" alt="This will display an animated GIF" />
+
 As previously mentioned the data obtained by EEF is captured as a function of time, but neural
 oscillations are described in units of frequency. In order to transform the data we must
 employ a Fourier transform.
@@ -47,7 +49,7 @@ employ a Fourier transform.
 The Fourier transform is a highly regarded formula which is the mainstay formula
 for signal processing and signal decompistion.
 
-<Include gif>
+<img src="eeg-101/EEG101/src/assets/wavedecomposition.gif" alt="This will display an animated GIF" />
 
 The best way to extract neural oscillations is to perform a Fourier transform on
 your preprocessed data and then plot the resulting frequency patterns in the category of
@@ -115,7 +117,9 @@ epochs_train=epochs.copy().crop(tmin=-0.2,tmax=0.5) <br/>
 labels=epochs.events[:,-1]- <br/>
 
 The above code defines the epochs which will be further manipulated. Try the function 
-__plot.epochs()__ to see how your data has transformed!
+__plot.epochs()__ to see how your data has transformed! (Hint: It might look something like the image below!)
+
+<img src="https://github.com/jfrayshe/learn.neurotechedu.com/blob/gh-pages/images/neurosc/Screen%20Shot%202017-06-02%20at%209.49.47%20PM.png">
 
 The following steps will diverge depending on the methods of visualization you want 
 to apply. Below I will highlight how to use psd to visualize dominant frequencies as well
@@ -133,7 +137,17 @@ are:
 * Epoch the data
 * Plot the data with the __epochs[events].plot_psd()__ 
 
-{{{{Insert figures}}}
+<img src="https://github.com/jfrayshe/learn.neurotechedu.com/blob/gh-pages/images/neurosc/CH3.png">
+
+__Figure 1:__ Power spectral density plotted for the electrode C3 located in the left side of the motor cortex. 
+It is evident that the psd content is most evident in the alpha range and theta range, evident of neural oscillations occurring 
+during movement of the right hand. 
+
+<img src="https://github.com/jfrayshe/learn.neurotechedu.com/blob/gh-pages/images/neurosc/CH4.png">
+
+__Figure 2:__ Power spectral density plotted for the electrode C4 located in the left side of the motor cortex. 
+It is evident that the psd content is most evident in the alpha range and theta range, evident of neural oscillations occurring 
+during movement of the left hand. 
 
 ### Using a topomap to visualize local oscillations
 
@@ -163,4 +177,13 @@ we should expect an increase in the alpha wave presence (specifically the mu fre
 and a reciprocal decrease in beta wave frequency in the area corresponding to either
 right or left hand (oposite sides of the brain from the hand involved). Timepoints
 4 and 5 illustrate this difference:
+
+<img src="https://github.com/jfrayshe/learn.neurotechedu.com/blob/gh-pages/images/neurosc/alpha.png">
+
+__Figure 3:__ Topomap of alpha waves (7.5-12.5 Hz) during movement. 
+
+
+<img src="https://github.com/jfrayshe/learn.neurotechedu.com/blob/gh-pages/images/neurosc/beta.png">
+
+__Figure 4:__ Topomap of beta waves (13-30 Hz) during movement.
 
