@@ -17,7 +17,7 @@ permalink: "/oscillations/"
 {:toc}
 </div>
 </div><!-- /.medium-4.columns -->
-
+<div class="medium-8 medium-pull-4 columns" markdown="1">
 
 # What are Neural Oscillations?
 
@@ -208,3 +208,4 @@ __Figure 3:__ Topomap of alpha waves (7.5-12.5 Hz) during movement.
 
 __Figure 4:__ Topomap of beta waves (13-30 Hz) during movement.
 
+</div> <!-- end of table section -->
