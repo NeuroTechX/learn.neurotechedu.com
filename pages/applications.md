@@ -1,11 +1,9 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Applications"
+title: "EEG Applications"
 subheadline: "Neurotechnology"
-teaser: "What is NeuroTechnology?
-Anything that records from or directly interfaces with the human brain. For the time being, we are excluding technologies that rely on downstream signals like EMG (muscles) and EKG (heartrate).
-What are the fields that are involved/interested in non-pharmaceutical Neurotech?"
+teaser: "This module focuses on BCI Applications that is using EEG. This market is the most mature and a wide variety of products are built every year."
 header:
    image_fullwidth: "earth.jpg"
 permalink: "/applications/"
@@ -30,27 +28,29 @@ Once the stuff of science fiction, virtual reality is on the cusp of becoming pa
 
 ![VR headset](../images/vr-gadget.jpg)
 
-Swiss neurotechnology company MindMaze has conceived the ultimate — or at least somewhere around the penultimate — cyberpunk VR setup. Imagine a blocky virtual reality headset that looks like a bezeled Oculus Rift. Where a Rift developer might track your hands by mounting a Leap Motion to the front of the headset, MindMaze has integrated a Kinect-like combination of cameras and depth sensors, capable of finding your hands with some degree of accuracy. Instead of a strap, though, there's a rope-and-plastic net that covers the crown of your head.
+There are a few companies who have been interested in bring EEG data with VR headsets as seen below.
 
-And, theoretically, reads your thoughts.
+[Neurosky's article on the use of ](http://neurosky.com/2016/04/a-new-virtual-reality-the-rise-of-vr-headsets-eeg/)
 
-[http://neurosky.com/2016/04/a-new-virtual-reality-the-rise-of-vr-headsets-eeg/](http://neurosky.com/2016/04/a-new-virtual-reality-the-rise-of-vr-headsets-eeg/)
+[Article on Mind Mazet](http://www.theverge.com/2015/3/3/8136405/mind-maze-mind-leap-thought-reading-virtual-reality-headset)
 
-[http://www.theverge.com/2015/3/3/8136405/mind-maze-mind-leap-thought-reading-virtual-reality-headset](http://www.theverge.com/2015/3/3/8136405/mind-maze-mind-leap-thought-reading-virtual-reality-headset)
+[DG Lab's VR Zen Headset](https://www.cnet.com/news/this-vr-headset-is-designed-to-let-you-find-your-zen/)
 
-[https://www.cnet.com/news/this-vr-headset-is-designed-to-let-you-find-your-zen/](https://www.cnet.com/news/this-vr-headset-is-designed-to-let-you-find-your-zen/)
+[Neurable](http://neurable.com/)
 
 
-## NeuroEnterntainment
+## NeuroEntertainment
 <hr>
 
 #### Neurogaming
 
-Visit NeuroSky for a great [selection of games.](http://store.neurosky.com/collections/apps/games)
+[NeuroSky has a list of games which it released to go along with its headset](http://store.neurosky.com/collections/apps/games)
 
 #### NeuroToys
 
-[Puzzlebox has various devices and gadgets related to neuroscience.](https://puzzlebox.io/)
+There have been multiple manufacturers of BCI toys.
+
+[Puzzlebox has various devices BCI devices](https://puzzlebox.io/)
 
 There are also Star Wars-themed toys! [Learn more.](http://starwarsscience.com/product/the-force-trainer-ii-hologram-experience/)
 
@@ -59,18 +59,11 @@ There are also Star Wars-themed toys! [Learn more.](http://starwarsscience.com/p
 
 #### Brain based authentication
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vhJM00V1Xu4" frameborder="0" allowfullscreen></iframe>
+EEG Biometric is a growing field which looks at how we can use your eeg activity to be able to identify someone. Similar to one's fingerprint, your brain activity can be used as a form of authentication. The most common forms of Brain Authentication are using resting state brain activity or a visual evoked potential task. For more information on Brain Based Authentication, check out this DEF CON talk. 
+
+[Brain Based Authentication](https://www.youtube.com/watch?v=frAhjtnvkqs)
 
 
-#### NeuroPrivacy
-
-Scientists believe the ability to scan brain activity has the potential to yield knowledge about the inner workings of an individual’s brain. Some researchers al ready claim to be able to discover certain unconscious preferences or to detect when someone is lying about being exposed to certain information based upon cerebral activity. Brain research is beginning to raise numerous legal and social policy questions including: What information is going to be discovered? Who will have access to it? How will the information be used? What privacy rights does a person have to his or her thoughts?
-
-The study of the ethical, legal and social implicati ons of neuroscience is being referred to “neuroethics.” 1 Many types of brain research have, or will have, legal implications. However, this article will focus on the privacy concerns with respect to mental and cerebral functioning as delineated through brain imaging and other neurodiagnostic techniques—or what will be referred to here as “neuroprivacy.”
-
-The purpose of this report is to view potential legal questions within the context of existing brain imaging technology, applications and protections. The first sect ion summarizes current technologies. The reliability of these technologies will be addressed in the second section. Potential applications of this technology and some of the legal implications will be discussed in the third sect ion. The fourth section will review existing protections. Lastly, issues that have arisen in the area of genetic pr ivacy will be reviewed and compared to similar concerns that might arise with respect to brain privacy concerns.
-
-[http://www.nycbar.org/pdf/report/Neuroprivacy-revisions.pdf](http://www.nycbar.org/pdf/report/Neuroprivacy-revisions.pdf)
 
 ## Biofeedback Therapy
 <hr>
@@ -80,18 +73,16 @@ The purpose of this report is to view potential legal questions within the conte
 Electroencephalography (EEG) feedback, also known as neurofeedback or neurotherapy, was originally developed as a relaxation technique related to meditation (Kamiya, 1969; Michael, Krishnaswamy, & Mohamed, 2005). EEG involves measuring the general patterns of activity of the brain and can be used as a diagnostic assistant (usually via quantitative EEG or qEEG) or feedback tool (Hammond, 2010, 2011). Feedback can be auditory or visual, even in the form of a computer game. In this way, participants learn to regulate specific frequencies of cortical activity. As a feedback therapy, it has been used in many different psychological and medical disorders, including attention deficit-hyperactivity disorder, autism spectrum disorder, and substance use disorder (Myers & Young, 2012). It has also been used to treat the more cognitive components of anxiety disorders and may be more effective in those disorders in which the cognitive experience is central, such as generalized anxiety disorder (Schoenberg & David, 2014). Most practitioners claim there is little to no short-or long-term risk involved in neurofeedback, but some caution that to minimize risk it is critical to individualize treatment using qEEG because of the heterogeneity of EEG presentations of various disorders and comorbidities (Hammond, 2010; Walker, 2010).
 
 [https://concept.journals.villanova.edu/article/view/1831/1754](https://concept.journals.villanova.edu/article/view/1831/1754)
+[https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/](https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/)
+[http://www.sciencedirect.com/science/article/pii/S1877042811018465](http://www.sciencedirect.com/science/article/pii/S1877042811018465)
+
+
 
 #### Sleep Improvement
 
-Aurora is the first smart wearable device built from the ground up to enhance REM dreaming. Aurora awakens your mind at opportune moments during dreams to improve dream recall and clarity. Learn techniques used for centuries by professional artists, scientists and athletes to leverage REM sleep for creative problem solving. Wake up with purpose and enjoy the real cognitive benefits associated with enhanced sleep and dreams!
-
-Learn your personal sleep architecture and get better rest as you maximize your sleep efficiency with brainwave-enabled insights. Let Aurora's intelligent Smart Alarm gently wake you at the best point in your cycle, leaving you feeling fully revitalized and ready to take on the day.
+Sleep research has been using EEG's for a long time. Recently, startups have been leveraging consumer grade eeg designs to measure the quality of your sleep. 
 
 [https://iwinks.org/](https://iwinks.org/)
-
-Gold-plated EEG sensors measure brainwaves' activity during your sleep. Neuroon tracks pulse, temperature and movement too to get even more accurate picture of your sleep.
-
-Gold-plated EEG sensors measure brainwaves' activity during your sleep. Neuroon tracks pulse, temperature and movement too to get even more accurate picture of your sleep.
 
 [https://neuroon.com/sleep-tracking/](https://neuroon.com/sleep-tracking/)
 
@@ -100,26 +91,23 @@ Gold-plated EEG sensors measure brainwaves' activity during your sleep. Neuroon 
 
 #### ADHD
 
-At Akili, we're in the process of building clinically-validated cognitive therapeutics, assessments, and diagnostics that look and feel like high-quality video games. Our aim is to develop a new type of Digital Medicine that can be deployed remotely directly to any patient anywhere, prescribed and tracked by physicians.
-
-Akili was co-founded by PureTech, leading cognitive neuroscientists, and top-tier entertainment software creators. Our operational team is a mix of biomedical scientists and experts in medical device commercialization and interactive design.
+Although a contraverisal [use case](http://journals.sagepub.com/doi/abs/10.1177/155005940904000311), there are many neurfeedback clinics and few companies who have created solutions which want to use Neurofeedback to help manage ADHD.  
 
 [http://www.akiliinteractive.com/](http://www.akiliinteractive.com/)
-[https://www.emotiv.com/product/stonehenge/](https://www.emotiv.com/product/stonehenge/)
+[Attentiv](http://attentiv.com/)
+
 
 #### PTSD
 
-The majority of PTSD patients continue to have substantial symptoms after treatment ends. Less than half of those entering psychotherapy improved significantly. Treatments for combat-related trauma showed the lowest level of benefit. Even the most effective available treatments do not result in full recovery for the majority of veterans with PTSD. In published research and our experience, neurofeedback is consistently helpful in reducing or eliminating the symptoms of PTSD.
+PTSD Neuofeedback has been studied for over [25 years](http://charleston.braincoretherapy.com/wp-content/uploads/2014/01/PENISTON-PTSD.pdf). A lot of the studies focus on getting the participants to generate alpha wave activity which is associated with being in a relaxed state. 
 
-Neurofeedback, also called EEG biofeedback or neurotherapy, is a research proven way to help you improve your brain function through intensive brain training exercises. Although the technology is quite sophisticated, the process is simple, painless, and non-invasive. It is just learning. You learn to alter your brain activity the same way you learn every other skill – through feedback and practice.
+[http://onlinelibrary.wiley.com/doi/10.1111/acps.12229/full](http://onlinelibrary.wiley.com/doi/10.1111/acps.12229/full)
 
-[https://neurodevelopmentcenter.com/psychological-disorders/ptsd/neurofeedback-for-ptsd/](https://neurodevelopmentcenter.com/psychological-disorders/ptsd/neurofeedback-for-ptsd/)
-[http://www.brainwellnessandbiofeedback.com/index-neurofeedback.html](http://www.brainwellnessandbiofeedback.com/index-neurofeedback.html)
 
 ## Cognitive Training
 <hr>
 
-#### Ageing
+#### Brain Ageing
 
 Cognitivecontrol is defined by a set of neural processes that allow us to interact with our complex environment in a goal-directed manner. Humans regularly challenge these control processes when attempting to simultaneously accomplish multip le goals (multitasking), generat- ing interference as the result of fundamental information processing limitations. It is clear that multitasking behaviour has become ubiquitous in today’s technologically dense world, and substantial evidence has accrued regarding multit asking difficulties and cognitive control deficits in our ageing population. Here we show that multi- tasking performance, as assessed with a custom-designed three- dimensional video game (NeuroRacer), exhibits a linear age-related decline from 20 to 79 years of age. By playing an adaptive version of NeuroRacer in multitasking training mode, older adults (60 to 85 years old) reduced multitasking costs compared to both an active control group and a no-contact control group, attaining levels beyond those achieved by untrained 20-year-old participants, with gains persisting for 6 months. Furthermore, age-related deficits in neural signatures of cognitive control, as measured with electroencephalo- graphy, were remediated by multitasking training (enhanced midline frontal theta power and frontal–post erior theta coherence). Critically, thistraining resulted in performance benefits thatextended to untrained cognitive control abilities (enhanced sustained attention and working memory), with an increase in midline frontal theta power predicting the training-induced boost in sustained attention and preservation of multitasking improvement 6 months later. These findings highlight the robust plasticity of the prefrontal cognitive control system in the ageing brain, and provide the first evidence, to our knowledge, ofhowacustom-designedvideogamecanbeusedtoassesscognitive abilities across the lifespan, evaluate underlying neural mechanisms, and serve as a powerful tool for cognitive enhancement.
 
@@ -158,6 +146,13 @@ could be used to improve the ecacy of tutoring systems.
 
 [http://www.cs.arizona.edu/people/fcirett/umap_eeg.pdf](http://www.cs.arizona.edu/people/fcirett/umap_eeg.pdf)
 [http://www.advancedbrainmonitoring.com/neurotechnology/applications/accelerated-learning/](http://www.cs.arizona.edu/people/fcirett/umap_eeg.pdf)
+
+### Stage performance improvement
+
+[http://journals.lww.com/neuroreport/Abstract/2003/07010/Ecological_validity_of_neurofeedback___modulation.6.aspx](http://journals.lww.com/neuroreport/Abstract/2003/07010/Ecological_validity_of_neurofeedback___modulation.6.aspx)
+
+
+
 
 ## Rehabilitation
 <hr>
@@ -221,9 +216,6 @@ We used functional magnetic resonance imaging to demonstrate preserved conscious
 
 #### Epilepsy
 
-Everybody with epilepsy should have a device that alerts people in their vicinity so that they can promptly provide assistance when needed.
-
-[https://www.empatica.com/embrace-watch-epilepsy-monitor](https://www.empatica.com/embrace-watch-epilepsy-monitor)
 
 The detection of recorded epileptic seizure activity in EEG segments is crucial for the localization and classification of epileptic seizures. However, since seizure evolution is typically a dynamic and nonstationary process and the signals are composed of multiple frequencies, visual and conventional frequency-based methods have limited application. In this paper, we demonstrate the suitability of the time-frequency ( t-f) analysis to classify EEG segments for epileptic seizures, and we compare several methods for t- f analysis of EEGs. Short-time Fourier transform and several t-f distributions are used to calculate the power spectrum density (PSD) of each segment. The analysis is performed in three stages: 1) t-f analysis and calculation of the PSD of each EEG segment; 2) feature extraction, measuring the signal segment fractional energy on specific t-f windows; and 3) classification of the EEG segment (existence of epileptic seizure or not), using artificial neural networks. The methods are evaluated using three classification problems obtained from a benchmark EEG dataset, and qualitative and quantitative results are presented.
 
@@ -288,9 +280,7 @@ Cyborg art, also known as cyborgism, is an emerging art movement that began in t
 
 #### Focus Enhancement
 
-foc.us design, manufacture & distribute consumer brain stimulation headsets.
-Go Flow has every essential tDCS feature - ramp-up, current guage and timer.
-v2 packs tDCS with tACS, tPCS, tRNS, Blind sham, BT4, Accelerometer, N-Back and so much more.
+There
 
 [http://foc.us/](http://foc.us/)
 
