@@ -24,7 +24,7 @@ permalink: "/headsets/"
 
 When deciding which EEG headset to purchase, there are a few features you should look at when making your decision.
 
-##Number and Placement of Electrodes:
+## Number and Placement of Electrodes:
 
 Depending on the type of brain response you want to measure, your system may need a minimum number of electrodes. Measuring Relaxation levels is easy with 1 or 2 electrodes but measuring other brain activity can be difficult.  In most eeg papers, they will state where on the brain, the strong response came from.
 
@@ -34,7 +34,7 @@ Also, many consumer EEG's have electrodes which are rigid and can't be moved. If
 
 [IMOTIONS EEG 101 Guide](https://imotions.com/blog/eeg/)
 
-##Sampling Rate:
+## Sampling Rate:
 
 The Sampling Rate of an EEG is the number of sample a second you can get from your device. Most devices will have a minimum of 256 samples a second, but you can find some which have a higher sampling rate. Depending on the frequency you are interested in studying, your sampling rate needs to be at least 2.5 times greater.
 
@@ -42,7 +42,7 @@ The Sampling Rate of an EEG is the number of sample a second you can get from yo
 
 [This EEG tutorials has some more details on the sampling rate](http://www.ebme.co.uk/articles/clinical-engineering/56-introduction-to-eeg)
 
-##ADC Bits:
+## ADC Bits:
 
 Simply put, the Analog to Digital Converter (ADC) Bits is the resolution of the signal. The number of bits is important in being able to accurately estimate the voltage, but more bits doesn't necessarily mean a better quality data. To give an idea of how it would work with eeg data, let's say your system has 4 ADC bits and you want to measure a signal between 0 and 10 Volts. This would mean that your computer would represent the data in the following way:
 
@@ -73,7 +73,7 @@ Muse is an EEG device which has developed as a meditation device. It has 4 chann
 </div>
 </div> <!-- end of row -->
 
-####Features:
+#### Features:
 
 * 4 electrodes
 * Static Electrode Placement (Af7 and Af8)
@@ -107,7 +107,7 @@ The OpenBCI is an open source EEG and can go to a maximum of 16 channels. It was
 </div> <!-- end of row -->
 
 
-####Features:
+#### Features:
 
 * up to 16 channels
 * Flexible Electrode Placement
