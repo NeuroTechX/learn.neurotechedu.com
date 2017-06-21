@@ -1,3 +1,23 @@
+---
+layout: page-fullwidth
+show_meta: false
+title: "Oscillations"
+subheadline: ""
+teaser: "This tutorial will teach you the basics of what a neural oscillation is. By the end of this module, you will be able to know how to extract them from a raw eeg signal"
+header:
+   image_fullwidth: ""
+permalink: "/oscillations/"
+---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
 
 # What are Neural Oscillations?
 
