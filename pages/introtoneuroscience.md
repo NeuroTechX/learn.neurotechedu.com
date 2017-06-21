@@ -78,11 +78,11 @@ Following is an infographic showing a common way to divide the nervous system:
 | **Peripheral Nervous System (PNS)** | **Central Nervous System (CNS)** |
 | ------ | ----------- | 
 | The PNS transmits information to and from the central nervous system.  | The CNS consists of the brain and the spinal cord. The brain interprets and stores information and sends orders to muscles, glands, and organs. Pathway connecting the brain and the peripheral nervous system. |
-| The PNS consists of the nerves and ganglia outside of the brain and spinal cord. The main function of the PNS is to connect the CNS to the limbs and organs, essentially serving as a relay between the brain and spinal cord and the rest of the body.
- |     |
-| Unlike the CNS, the PNS is not protected by the vertebral column and skull, or by the blood–brain barrier, which leaves it exposed to toxins and mechanical injuries.    |    |
-| The peripheral nervous system is divided into the somatic nervous system and the autonomic nervous system. The autonomic nervous system is an involuntary control of smooth muscle and glands.    | Cranial nerve ganglia originate in the CNS. |
-| However, the remaining ten cranial nerve axons extend beyond the brain and are therefore considered part of the PNS.   | The connection between CNS and organs allows the system to be in two different functional states: sympathetic and parasympathetic. |
+| The PNS consists of the nerves and ganglia outside of the brain and spinal cord. The main function of the PNS is to connect the CNS to the limbs and organs, essentially serving as a relay between the brain and spinal cord and the rest of the body.|
+ |     || |
+| Unlike the CNS, the PNS is not protected by the vertebral column and skull, or by the blood–brain barrier, which leaves it exposed to toxins and mechanical injuries.   | |    |
+| The peripheral nervous system is divided into the somatic nervous system and the autonomic nervous system. The autonomic nervous system is an involuntary control of smooth muscle and glands.  |  | Cranial nerve ganglia originate in the CNS. |
+| However, the remaining ten cranial nerve axons extend beyond the brain and are therefore considered part of the PNS.   | | The connection between CNS and organs allows the system to be in two different functional states: sympathetic and parasympathetic. |
 
 
 | *The Peripheral Nervous System is divided into two sub-systems: the Somatic Nervous System and the Autonomic Nervous System.* |
@@ -99,7 +99,7 @@ Following is an infographic showing a common way to divide the nervous system:
    |  Maintains body functions under ordinary conditions; saves energy. In order to return everything to normal, the Parasympathetic Nervous System kicks in. This system is slow acting, unlike its counterpart, and may take several minutes or even longer to get your body back to where it was before a fright. |
 
 
-|  *The Somatic Nervous System carries sensory information and controls movement of the skeletal muscles. It is divided into two sub-systems (Afferent and Efferent).* |
+|  * The Somatic Nervous System carries sensory information and controls movement of the skeletal muscles. It is divided into two sub-systems (Afferent and Efferent).* |
 |  **Sensory System (Afferent)** | **Motor System (Efferent)** |
 | ------ | ----------- | 
 | Carries messages from the senses to the CNS   | Carries messages from the CNS to the muscles and glands.  |
@@ -108,7 +108,8 @@ Following is an infographic showing a common way to divide the nervous system:
 [id]: https://octodex.github.com/images/dojocat.jpg  "Nervous System Anatomical Diagram"
 Nervous System Anatomical Diagram
 
-![Brain and Spine GIF](https://octodex.github.com/images/dojocat.jpg  "Brain and Spine GIF")
+![Brain and Spine GIF]("https://giphy.com/gifs/brain-x6yhBtxb0XE3u)
+
 [id]: https://octodex.github.com/images/dojocat.jpg  "Brain and Spine GIF"
 EMBED <iframe src="//giphy.com/embed/x6yhBtxb0XE3u" width="454.54545454545456" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-x6yhBtxb0XE3u">via GIPHY</a></p>
 Brain and Spine GIF
@@ -126,11 +127,11 @@ Sections of the Brain GIF
 Recently it has become possible to understand, in much detail, the complex processes that occur within a single neuron.  This section introduces the study of individual specialised nerve cells, or neurons, and their synapse action within the nervous system. We introduce the cellular structure of neurons, the propagation of nerve impulses, and the transfer of information between nerve cells. 
 
 ---
-####Neurons
+#### Neurons
 At the cellular level, driving the basic functioning of the nervous system, we have neurons, or brain cells.  Neurons are cells specialized for communication.  Neurons are able to communicate with neurons and other cell types through specialized junctions called synapses, at which electrical or electrochemical signals can be transmitted from one cell to another. Current estimates suggest the brain has approximately 86 billion specialised neurons, assigned to unique functions; the presence of these specialised cells defines the nervous system. One example of specialised brain cell functions is where sensory neurons take information from the eyes, ears, nose, tongue, and skin to the brain, or when motor neurons carry information away from the brain to the rest of the body. All neurons relay information to each other through a complex electrochemical process, making connections that affect the way we think, learn, move, and behave. 
 
 ---
-####Anatomy of Neurons in a Synapse
+#### Anatomy of Neurons in a Synapse
 [Neurons](https://en.wikipedia.org/wiki/Neurons) are anatomically structured for receiving, processing, and transmitting information to other cells in the body through rapid electrical impulses. These impulses change from neuron to neuron. The major structural components of [neurons](https://en.wikipedia.org/wiki/Neurons) involved in these processes include [cell bodies (soma)](https://en.wikipedia.org/wiki/Soma_(biology)), [axons](https://en.wikipedia.org/wiki/Axon), and [dendrites](https://en.wikipedia.org/wiki/Dendrite). At a high level, [neural information transmission](https://en.wikipedia.org/wiki/Biological_neural_network) might flow like this: [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter) leave an [axon](https://en.wikipedia.org/wiki/Axon) to be received by a [dendrite's](https://en.wikipedia.org/wiki/Dendrite) receptor sites, passing through a [synapse](https://en.wikipedia.org/wiki/Synapse) to get there. So we see that a [neuron synapse](https://en.wikipedia.org/wiki/Synapse) takes place over a miniscule membrane-to-membrane junction point between two neurons, between the axons and the dendrites, and impulses are diffused by neurotransmitters when they pass over this junction. Most neurons send signals via their axons, although some types are capable of [dendrite-to-dendrite communication](https://en.wikipedia.org/wiki/Nervous_system#Neurons_and_synapses). 
 
 This junction point contains molecular structures, or machines, that control energy by allowing electrical or chemical signals to be rapidly transmitted. In a typical chemical synapse between two neurons, the nerve impulse arrives from a presynaptic neuron and travels with its neurotransmitters to be bound to a postsynaptic neuron. Specialised structures distinguish presynaptic neurons from postsynaptic neurons, including mitochondria and microtubules, assisting the transportation of neurotransmitters.  
