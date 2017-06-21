@@ -27,45 +27,20 @@ permalink: "/introtoneuroscience/"
 
 By the end of this online lesson, students or readers should be able to:
 
-**Outline**
-
-*Understand basic principles of neuroscience including: Nervous system cell types, Nervous system organization, Major brain areas, and Electrical signalling
-*Understand neuroscience research methods including: EEG, MRI, etc. 
-*Describe the basic purpose and structure of the human nervous system
-*Understand a flowchart model of the the human neurological system
-*Recognise molecular levels and cellular components of the nervous system 
-*Understand how human sensory, motor, and cognitive systems work 
-*Understand how the body’s neural systems mediate sensation, bodily action, memory, emotion, and cognition
-*Characterize how human functions are informed and regulated by the nervous system
-*Obtain an overview of Brain Development, Disease and Disorders
-*Differentiate between brain observation methods
-*Understand within a historical social context how the field of neuroscience has developed and where it is going
+* Understand basic principles of neuroscience including: Nervous system cell types, Nervous system organization, Major brain areas, and Electrical signalling
+* Understand neuroscience research methods including: EEG, MRI, etc. 
+* Describe the basic purpose and structure of the human nervous system
+* Understand a flowchart model of the the human neurological system
+* Recognise molecular levels and cellular components of the nervous system 
+* Understand how human sensory, motor, and cognitive systems work 
+* Understand how the body’s neural systems mediate sensation, bodily action, memory, emotion, and cognition
+* Characterize how human functions are informed and regulated by the nervous system
+* Obtain an overview of Brain Development, Disease and Disorders
+* Differentiate between brain observation methods
+* Understand within a historical social context how the field of neuroscience has developed and where it is going
  
 _Helpful previous knowledge: basic understanding of cell and molecular biology, general physiology and human anatomy._
 
----
-<div class="row">
-<div class="medium-4 medium-push-8 columns" markdown="1">
-<div class="panel radius" markdown="1">
-**Outline**
-{: #toc }
-*  Introduction
-*  What is Neuroscience?
-*  Nervous System Overview
-*  Cellular Components of the Nervous System
-*  Neuroanatomy and Brain Organisation
-*  Functional Systems of the Brain
-*  Frontiers in Neuroscience
-{:toc}
-</div>
-</div><!-- /.medium-4.columns -->
----
-<div class="medium-8 medium-pull-4 columns" markdown="1">
-# 
-<hr>
-<div class="row">
-<div class="large-6 columns" markdown="1">
----
 #  Lesson Contents
 
 ##  Introduction
