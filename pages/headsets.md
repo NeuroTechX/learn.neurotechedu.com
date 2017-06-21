@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Headsets"
+title: "Consumer EEG Headsets"
 subheadline: "Compare and Contrast"
 teaser: "Your choice of headset will depend on what you intend to use it for. The answer will depend on your budget, interest, project idea and the number of electrodes required. Before purchasing a headset, think about your programming experience and Project Idea."
 header:
@@ -20,6 +20,45 @@ permalink: "/headsets/"
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
+# What to look for in a headset.
+
+When deciding which EEG headset to purchase, there are a few features you should look at when making your decision.
+
+##Number and Placement of Electrodes:
+
+Depending on the type of brain response you want to measure, your system may need a minimum number of electrodes. Measuring Relaxation levels is easy with 1 or 2 electrodes but measuring other brain activity can be difficult.  In most eeg papers, they will state where on the brain, the strong response came from.
+
+Also, many consumer EEG's have electrodes which are rigid and can't be moved. If you want to measure [Motor Imagery](https://en.wikipedia.org/wiki/Motor_imagery) with the Muse, you won't have much success. You would be better off with an OpenBCI so that you can place the electrodes where you want.
+
+**Reference and more information**
+
+[IMOTIONS EEG 101 Guide](https://imotions.com/blog/eeg/)
+
+##Sampling Rate:
+
+The Sampling Rate of an EEG is the number of sample a second you can get from your device. Most devices will have a minimum of 256 samples a second, but you can find some which have a higher sampling rate. Depending on the frequency you are interested in studying, your sampling rate needs to be at least 2.5 times greater.
+
+**Reference and more information**
+
+[This EEG tutorials has some more details on the sampling rate](http://www.ebme.co.uk/articles/clinical-engineering/56-introduction-to-eeg)
+
+##ADC Bits:
+
+Simply put, the Analog to Digital Converter (ADC) Bits is the resolution of the signal. The number of bits is important in being able to accurately estimate the voltage, but more bits doesn't necessarily mean a better quality data. To give an idea of how it would work with eeg data, let's say your system has 4 ADC bits and you want to measure a signal between 0 and 10 Volts. This would mean that your computer would represent the data in the following way:
+
+|Voltage||2- Bit Digital Representation|
+|0-2.5   ||00|
+|2.5-5.0 ||01|  
+|5.0-7.5 ||10|
+|7.5-10.0||11|
+
+**Reference and more information**
+
+[What does 12 or 16 bit resolution mean? ](https://labjack.com/support/faq/what-does-12-or-16-bit-resolution-mean)
+[ What are the advantages of a 24 bit system?](https://www.biosemi.com/faq/24bitsystem.htm)
+
+
+# Devices
 
 ## Muse
 <hr>
@@ -34,20 +73,24 @@ Muse is an EEG device which has developed as a meditation device. It has 4 chann
 </div>
 </div> <!-- end of row -->
 
-#### Pros
+####Features:
 
-* Easy to use SDK.
-* Easy to wear
-* Works well for doing resting state experiments
-* Relatively cheap and has a 1 year warranty
+* 4 electrodes
+* Static Electrode Placement (Af7 and Af8)
+* Dry Electrodes
+* 256 Hz Sampling Rate
+* 12 bits
+* Research Tools for Windows, Mac and Linux
+* SDK for Android, IOS, Windows
 
+#### Known Recordable EEG Paradigms:
+* "Relaxation" Level
+* "Concentration" levels
+* Frontal Asymmetry  
+* P300
 
-#### Cons
+**US Price (as of January 2017):**  $200
 
-* Limited to 4 channels
-* Electrodes are not movable
-* Not all head sizes will fit
-* Difficult to do ERP experiments
 
 ## OpenBCI
 <hr>
@@ -55,7 +98,7 @@ Muse is an EEG device which has developed as a meditation device. It has 4 chann
 <div class="row">
 <div class="large-6 columns" markdown="1">
 
-The OpenBCI is an open source EEG and can go to a maximum of 16 channels. It was originally a 2013 Kickstarter project, but has expanded the original concept to include an opensouce 3D printed cap and will launch a 4 channel board in 2017.
+The OpenBCI is an open source EEG and can go to a maximum of 16 channels. It was originally a 2013 Kickstarter project, but has expanded the original concept to include an open source 3D printed cap. There is also a 4 channel system which can be purchased if you need something cheaper.
 
 </div>
 <div class="large-6 columns" markdown="1">
@@ -63,20 +106,27 @@ The OpenBCI is an open source EEG and can go to a maximum of 16 channels. It was
 </div>
 </div> <!-- end of row -->
 
-#### Pros
 
-* Can go up to 16 channels
+####Features:
+
+* up to 16 channels
+* Flexible Electrode Placement
+* Compatible with both Dry and Wet electrodes
 * 256 Hz Sampling Rate
-* Modifiable to your own needs
-* Can use your own electrodes
-* Can add other inputs into the board
-* Open Source (Hardware schematics and Software)
-* Well Priced
+* 24 bits
+* Open Source Software and Hardware
 
-#### Cons
-* Higher Learning Curve
-* Must print or get your own headset
-* Must get your own electrodes
+#### Known Recordable EEG Paradigms:
+
+Any paradigm which needs only 16 channels or less
+
+
+**US Price (as of January 2017):**  
+4 channels: $200
+8 channels: $500
+16 channels: $945
+
+
 
 
 ## Emotiv Epoc
@@ -86,7 +136,7 @@ The OpenBCI is an open source EEG and can go to a maximum of 16 channels. It was
 <div class="large-6 columns" markdown="1">
 The Emotiv Epoc is one of the first consumer EEG devices which was released on the market. The popularity of the company surged in 2012 and 2013, which can be reflected by its sales and number of DIY projects.
 
-The Epoc is more stylish and easier to wear. It has 14 channel EEG which has a static form factor. This board is a good option for easy development and it only requires software experience. It is also a popular device to use for EEG research as the cost is much better versus other research grade mobile EEG providers. The major downside of the Epoc is the cost and the fact that they charge you to get access to raw data. Multiple people have complained that the provided electrodes are not very good.
+The Epoc is more stylish and easier to wear. It has 14 channel EEG which has a static form factor. This board is a good option for easy development and it only requires software experience. It is also a popular device to use for EEG research as the cost is much better versus other research grade mobile EEG providers. The  downside of the Epoc is the cost and that they charge you to get access to raw data.
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -94,25 +144,30 @@ The Epoc is more stylish and easier to wear. It has 14 channel EEG which has a s
 </div>
 </div> <!-- end of row -->
 
-#### Pros
+#### Features
 
-* Easy to put on.
-* Good option for mobile eeg research
-* Multiple apps to go along with the headset if you are into controlling things with your mind.
+* 14 channels
+* Rigid Electrode Placement (AF3, F7, F3, FC5, T7, P7, O1, O2, P8, T8, FC6, F4, F8, AF4)
+* Wet Electrodes (require saline water)
+* 2048 Hz Sampling Rate
+* 14 bits
 
-#### Cons
+#### Known Recordable EEG Paradigms:
 
-* The free SDK does not give you the raw data
-* More Pricey
-* The SDK is a little bit more clunky versus the alternatives and requires some technical experience
-* Some people have complained about the electrodes not being high quality or not getting good contact
+Many paradigm which needs only 14 channels or less
+
+**US Price (as of January 2017):**   $800
+
+
+
+
 
 ## Emotiv Insight
 <hr>
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Emoti Insight was the Section version of product with Emotiv brought the market. They positioned this product to be cheaper and a better option for people who don't want to spend too much money.
+The Emotiv Insight was the second product which Emotiv brought the market. They positioned this product to be cheaper and a better option for people who don't want to spend too much money.
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -121,17 +176,20 @@ The Emoti Insight was the Section version of product with Emotiv brought the mar
 </div> <!-- end of row -->
 
 
-#### Pros
+#### Features
 
-* Cost is lower
-* Design is sleek
-* Easy to wear and use
-* Uses Dry Electrodes
+* 5 channels
+* Rigid Electrode Placement (AF3, AF4, T7, T8, Pz)
+* Dry Electrodes
+* Min 126 and Max 256 Hz Sampling Rate
+* 15 bits
 
-#### Cons
+#### Known Recordable EEG Paradigms:
 
-* The free SDK does not give you the raw data
-* The SDK is a little bit more clunky versus the alternatives and requires some technical experience
+Many paradigm which needs only 5 channels or less
+
+**US Price (as of January 2017):**   $300
+
 
 ## Neurosky Mindwave
 <hr>
@@ -147,19 +205,23 @@ The Neurosky is one of the original consumer EEGs on the market. The design is t
 </div> <!-- end of row -->
 
 
-#### Pros
 
-* Low cost
-* Easy to wear and use
+#### Features
+
+* 1 channel
+* Rigid Electrode Placement (AFz)
+* Dry Electrodes
+* 512 Hz Sampling Rate
+* 12 bits
 * Available SDK
-* Uses Dry Electrodes
 
-#### Cons
 
-* Only 1 channel
-* Can't move the electrode
-* The SDK is a little bit more clunky versus the alternatives and requires some technical experience
 
+#### Known Recordable EEG Paradigms:
+* "Relaxation" Level
+* "Concentration" levels
+
+**US Price (as of January 2017):** : $100
 
 </div> <!-- end of content column -->
 </div> <!-- end of row -->
@@ -171,8 +233,8 @@ The Neurosky is one of the original consumer EEGs on the market. The design is t
 | Device |	Channels | ADC Bits |	Sample Rate | Motion sensors |	LSL Support |	SD Card Support |	TTL |	Battery Length |	Cost (US) as of Jan 2017 |
 |--------|-----------|----------|--------------|----------------|--------------|-----------------|-----|----------------|---------------------------|
 | Muse 2016 |	4-6               |	12     |	256 Hz | 3 axis |	Yes      |	No             |	Maybe |	5 hours|	$200 |
-| Epoc      |	14+2 ref          |	16 bit |	256 Hz | 9 axis |	Possible |	With accessory |	N/A   |	6 hours using BTLE |	$799 |
-| Insight   |	5+2 ref           |	15 bit |	28 Hz  | 9 axis |	Possible |	With accessory |	N/A   |	4 hours using Bluetooth |	$300 |
+| Epoc      |	14+2 ref          |	16     |	256 Hz | 9 axis |	Possible |	With accessory |	N/A   |	6 hours using BTLE |	$799 |
+| Insight   |	5+2 ref           |	15     |	2048 Hz  | 9 axis |	Possible |	With accessory |	N/A   |	4 hours using Bluetooth |	$300 |
 | OpenBCI   |	up to 16 channels |	24     |	250 Hz | 3 axis |	Yes      |	Yes            |	Yes   |	~26 hours |	$500 for 8 channels, $949 for 16 |
 | Neurosky Mindwave |	1+1 ref   |	12     |	512Hz  | N/A    |	N/A      |	N/A            |	N/A   |	8 hours |	$99.99 |
 
