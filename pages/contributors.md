@@ -56,6 +56,25 @@ Contributed to
 * Feature Extraction ERP
 
 <div class="medium-4 columns contributor" markdown="1">
+<a href="https://www.linkedin.com/in/hector-domingo-orozco-perez-2017a4105/" class="icon-linkedin"></a>
+<a href="http://twitter.com/neurohazardous" class="icon-twitter"></a>
+<a href="http://github.com/neurohazardous" class="icon-github"></a>
+
+</div>
+
+##### Hector Orozco
+
+Roles
+
+* Editor
+* Mentor
+
+Contributed to
+
+* Preprocessing 
+* Intro to neuroscience
+
+<div class="medium-4 columns contributor" markdown="1">
 
 <a href="http://ryanlintott.com/" class="icon-globe"></a>
 <a href="http://linkedin.com/in/ryanlintott/" class="icon-linkedin"></a>
@@ -63,7 +82,5 @@ Contributed to
 <a href="http://github.com/ryanlintott" class="icon-github"></a>
 
 </div>
-
-
 
 {% include _improve_content.html %}
