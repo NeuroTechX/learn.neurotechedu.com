@@ -57,13 +57,14 @@ Electrocorticography uses electrodes placed on the exposed surface of the brain 
 It is called semi-invasive but it still requires a craniotomy to implant the electrodes. For this reason it is used only when surgery is necessary for medical reasons (epilepsy for example). 
  
 The electrodes may be placed outside the dura mater (epidural) or under the dura mater (subdural).
-The strip or grid electrodes covers a large area of the cortex (from 4 to 256 electrodes), allowing a diverse range of cognitive studies. 
+The strip or grid electrodes covers a large area of the cortex (from 4 to 256 electrodes)[(2)](#references), allowing a diverse range of cognitive studies. 
 
 ![EcoG](../images/introtobci/ecog1.jpg)
 
 *In the image: MRI reconstruction of the patient’s brain with electrodes overlaid (red: grid array; blue: strip arrays) to allow precise matching of neurophysiological activity to neuroanatomical structures (Image from: Yang et al., Neuroimage, 2012)*
 
 ![EcoG](../images/introtobci/ecog.png)
+[(3)](#references)
 
 The positive characteristics of ECoG are:
  
@@ -481,7 +482,11 @@ The announcement was made the day after Facebook announced its BCI project. Elon
 For Kernel as well the final goal is to allow humans to coexist and co-evolve with machines. Its founder, Bryan Johnson, invested $100 million to develop brain implants.  The focus will be first on medical applications, trying to understand better the brain, to move in the future toward augmenting it to make human smarter and healthier. Kernel promised to improve neurodegenerative diseases, a big claim as so far, brain implants had been using only in paraplegic people and for medical trials. They are developing hardware and software at the moment to treat people with Parkinsons disease and the company has at the moment about 20 employees.
 
 ## References  
-1. Waldert, S. 2016. Invasive vs. Non-Invasive Neuronal Signals for Brain-Machine Interfaces: Will One Prevail? Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4921501/
+1. Waldert, S. 2016. *Invasive vs. Non-Invasive Neuronal Signals for Brain-Machine Interfaces: Will One Prevail?* Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4921501/
+
+2. Mesgarani, N; Chang, EF (2012). *Selective cortical representation of attended speaker in multi-talker speech perception*. Nature. 485 (7397): 233–6. doi:10.1038/nature11020.
+
+3. Blausen.com staff (2014). *Medical gallery of Blausen Medical 2014*. WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436. - Own work
 
 # h1 Heading :)
 <hr>
