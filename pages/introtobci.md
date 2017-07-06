@@ -49,7 +49,7 @@ The following image shows the different layers of the brain and where the signal
 ### Invasive
 
 Invasive types of BCI are implanted directly into the brain during a neurosurgery.
-There are single unit BCIs, which detect the signal from a single area of brain cells, and multi units BCIs which detects from multiple areas. Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA. The quality of the signal is the highest, but the procedure has several problematics , as the risk of forming scar tissues. The body reacts to the foreign object and build the the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
+There are single unit BCIs, which detect the signal from a single area of brain cells, and multiunit BCIs which detects from multiple areas. Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA [(1)](#references) . The quality of the signal is the highest, but the procedure has several problematics , as the risk of forming scar tissues. The body reacts to the foreign object and build the the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
 
 ### Semi-Invasive
 #### ECoG
@@ -480,8 +480,8 @@ The announcement was made the day after Facebook announced its BCI project. Elon
 
 For Kernel as well the final goal is to allow humans to coexist and co-evolve with machines. Its founder, Bryan Johnson, invested $100 million to develop brain implants.  The focus will be first on medical applications, trying to understand better the brain, to move in the future toward augmenting it to make human smarter and healthier. Kernel promised to improve neurodegenerative diseases, a big claim as so far, brain implants had been using only in paraplegic people and for medical trials. They are developing hardware and software at the moment to treat people with Parkinsons disease and the company has at the moment about 20 employees.
 
-
-
+## References  
+1. Waldert, S. 2016. Invasive vs. Non-Invasive Neuronal Signals for Brain-Machine Interfaces: Will One Prevail? Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4921501/
 
 # h1 Heading :)
 <hr>
