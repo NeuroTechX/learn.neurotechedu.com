@@ -18,11 +18,9 @@ Contributed to
 
 * Intro to BCI
 
-<a href="http://creative-saga.com/" class="icon-globe"></a>
-<a href="http://twitter.com/" class="icon-twitter"></a>
-<a href="http://facebook.com/" class="icon-facebook"></a>
-<a href="http://github.com/" class="icon-github"></a>
-<a href="http://youtube.com/" class="icon-youtube"></a>
+<a href="http://twitter.com/francescacoo_j" class="icon-twitter"></a>
+<a href="http://github.com/francescacoo" class="icon-github"></a>
+
 </div>
 
 
