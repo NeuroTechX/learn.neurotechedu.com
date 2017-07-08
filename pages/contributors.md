@@ -37,7 +37,7 @@ Contributed to
 
 * ERP feature extraction
 
-<a href="http://www.davidevaleriani.it/" class="icon-globe">Website</a>
+<a href="http://www.davidevaleriani.it/" class="icon-globe"></a>
 </div>
 <div class="medium-4 columns contributor" markdown="1">
 
@@ -52,8 +52,6 @@ Roles
 Contributed to
 
 * Feature Extraction ERP
-
-<div class="medium-4 columns contributor" markdown="1">
 
 <a href="http://ryanlintott.com/" class="icon-globe"></a>
 <a href="http://linkedin.com/in/ryanlintott/" class="icon-linkedin"></a>
