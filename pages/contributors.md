@@ -39,6 +39,8 @@ Contributed to
 
 <a href="http://www.davidevaleriani.it/" class="icon-globe"></a>
 </div>
+
+
 <div class="medium-4 columns contributor" markdown="1">
 
 
@@ -57,6 +59,23 @@ Contributed to
 <a href="http://linkedin.com/in/ryanlintott/" class="icon-linkedin"></a>
 <a href="http://twitter.com/ryanlintott" class="icon-twitter"></a>
 <a href="http://github.com/ryanlintott" class="icon-github"></a>
+
+</div>
+
+<div class="medium-4 columns contributor" markdown="1">
+
+
+##### Yu Min Chuang
+
+Roles
+
+* Content Builder
+
+Contributed to
+
+* Feature Extraction ERP
+
+<a href="https://www.linkedin.com/in/yu-min-chuang-30a41b48/" class="icon-linkedin"></a>
 
 </div>
 
