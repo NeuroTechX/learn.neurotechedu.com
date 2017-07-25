@@ -3,7 +3,7 @@ layout: page-fullwidth
 show_meta: false
 title: "Intro to BCI"
 subheadline: "Intro to BCI"
-teaser: "Intro to BCI"
+teaser: "Intro to Brain Computer Interface"
 header:
    image_fullwidth: ""
 permalink: "/introtobci/"
@@ -76,7 +76,7 @@ The positive characteristics of ECoG are:
  
 **Spatial resolution**
 
-A benefit of the ECoG over EEG, is that the spatial resolution is much higher because the signal doesn’t have to travel to reach the scalp. The spatial resolution in ECoG is tenths of millimeters, while it is centimeters in EEG (Leuthardt et al., 2004). 
+A benefit of the ECoG over EEG, is that the spatial resolution is much higher because the signal doesn’t have to travel to reach the scalp. The spatial resolution in ECoG is tenths of millimeters, while it is centimeters in EEG [(4)](#references). 
  
 ---------------------------------------------------------------------------------------------------------------------
 What do we mean by spatial resolution?
@@ -91,7 +91,7 @@ ECoG signal is not impacted by noise and artifacts as for example EMG (electromy
  
 **Lower clinical risk**
 
-The electrode arrays doesn’t need to penetrate into the cortex, which makes it safer than invasive recording (Leuthardt et al., 2004) 
+The electrode arrays doesn’t need to penetrate into the cortex, which makes it safer than invasive recording [(4)](#references)
  
 **Higher amplitude**
 
@@ -101,7 +101,7 @@ ECoG recordings are 50–100 µV maximum versus 10–20 µV
 
 There have been different studies about the use of ECoG in BCI, but they are all limited to cases where surgery was needed to remove an epileptic focus.
  
-In one study (Schalk et al., 2008) for example, the researcher used ECoG to control a computer cursor in two dimensions.
+In one study [(5)](#references) for example, the researcher used ECoG to control a computer cursor in two dimensions.
 Five patients, in preparation of surgery for epilepsy, had a subdural array of electrodes implanted for 7-14 days.  After a short training of less than 30 minutes, the patients have been able to control a cursor in two dimensions, with an average success rate of 53-73%. 
  
 
@@ -484,9 +484,13 @@ For Kernel as well the final goal is to allow humans to coexist and co-evolve wi
 ## References  
 1. Waldert, S. 2016. *Invasive vs. Non-Invasive Neuronal Signals for Brain-Machine Interfaces: Will One Prevail?* Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4921501/
 
-2. Mesgarani, N; Chang, EF (2012). *Selective cortical representation of attended speaker in multi-talker speech perception*. Nature. 485 (7397): 233–6. doi:10.1038/nature11020.
+2. Mesgarani, N; Chang, EF. 2012. *Selective cortical representation of attended speaker in multi-talker speech perception*. Nature. 485 (7397): 233–6. doi:10.1038/nature11020.
 
 3. Blausen.com staff (2014). *Medical gallery of Blausen Medical 2014*. WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436. - Own work
+
+4. Leuthardt, E. C. et al. 2004. *A brain–computer interface using electrocorticographic signals in humans*. Journal of Neural Engineering, Volume 1, Number 2. Available from: http://iopscience.iop.org/article/10.1088/1741-2560/1/2/001/meta;jsessionid=E687A7B4A1215A8655C2DF6429F87A05.c2.iopscience.cld.iop.org
+
+5. Schalk, G. et al. 2008. *Two-dimensional movement control using electrocorticographic signals in humans.* Journal of Neural Engineering, Volume 5, Number 1. Available from: http://iopscience.iop.org/article/10.1088/1741-2560/5/1/008/meta
 
 # h1 Heading :)
 <hr>
