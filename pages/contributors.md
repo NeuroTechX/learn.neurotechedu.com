@@ -29,11 +29,7 @@ Contributed to
 
 <a href="http://twitter.com/francescacoo_j" class="icon-twitter"></a>
 <a href="http://github.com/francescacoo" class="icon-github"></a>
-
 </div>
-
-
-
 <div class="medium-4 columns contributor" markdown="1">
 ##### Davide Valeriani
 
@@ -61,16 +57,33 @@ Roles
 Contributed to
 
 * Feature Extraction ERP
-
 <a href="http://ryanlintott.com/" class="icon-globe"></a>
 <a href="http://linkedin.com/in/ryanlintott/" class="icon-linkedin"></a>
 <a href="http://twitter.com/ryanlintott" class="icon-twitter"></a>
 <a href="http://github.com/ryanlintott" class="icon-github"></a>
 </div>
 
+
 <div class="medium-4 columns contributor" markdown="1">
+##### Hector Orozco
+
+Roles
+
+* Editor
+* Mentor
+
+Contributed to
+
+* Preprocessing 
+* Intro to neuroscience
+
+<a href="https://www.linkedin.com/in/hector-domingo-orozco-perez-2017a4105/" class="icon-linkedin"></a>
+<a href="http://twitter.com/neurohazardous" class="icon-twitter"></a>
+<a href="http://github.com/neurohazardous" class="icon-github"></a>
+</div>
 
 
+<div class="medium-4 columns contributor" markdown="1">
 ##### Yu Min Chuang
 
 Roles
@@ -82,7 +95,6 @@ Contributed to
 * Feature Extraction ERP
 
 <a href="https://www.linkedin.com/in/yu-min-chuang-30a41b48/" class="icon-linkedin"></a>
-
 </div>
 
 
@@ -102,6 +114,5 @@ Contributed to
 <a href="https://www.linkedin.com/in/padsterpat/" class="icon-linkedin"></a>
 <a href="https://github.com/padster" class="icon-github"></a>
 </div>
-
 
 {% include _improve_content.html %}
