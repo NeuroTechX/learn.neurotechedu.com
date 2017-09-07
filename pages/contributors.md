@@ -27,11 +27,9 @@ Contributed to
 
 * Intro to BCI
 
-<a href="http://creative-saga.com/" class="icon-globe"></a>
-<a href="http://twitter.com/" class="icon-twitter"></a>
-<a href="http://facebook.com/" class="icon-facebook"></a>
-<a href="http://github.com/" class="icon-github"></a>
-<a href="http://youtube.com/" class="icon-youtube"></a>
+<a href="http://twitter.com/francescacoo_j" class="icon-twitter"></a>
+<a href="http://github.com/francescacoo" class="icon-github"></a>
+
 </div>
 
 
@@ -47,7 +45,7 @@ Contributed to
 
 * ERP feature extraction
 
-<a href="http://www.davidevaleriani.it/" class="icon-globe">Website</a>
+<a href="http://www.davidevaleriani.it/" class="icon-globe"></a>
 </div>
 
 
@@ -68,6 +66,23 @@ Contributed to
 <a href="http://linkedin.com/in/ryanlintott/" class="icon-linkedin"></a>
 <a href="http://twitter.com/ryanlintott" class="icon-twitter"></a>
 <a href="http://github.com/ryanlintott" class="icon-github"></a>
+</div>
+
+<div class="medium-4 columns contributor" markdown="1">
+
+
+##### Yu Min Chuang
+
+Roles
+
+* Content Builder
+
+Contributed to
+
+* Feature Extraction ERP
+
+<a href="https://www.linkedin.com/in/yu-min-chuang-30a41b48/" class="icon-linkedin"></a>
+
 </div>
 
 

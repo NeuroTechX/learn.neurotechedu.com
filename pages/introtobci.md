@@ -3,7 +3,7 @@ layout: page-fullwidth
 show_meta: false
 title: "Intro to BCI"
 subheadline: "Intro to BCI"
-teaser: "Intro to BCI"
+teaser: "Intro to Brain Computer Interface"
 header:
    image_fullwidth: ""
 permalink: "/introtobci/"
@@ -49,7 +49,7 @@ The following image shows the different layers of the brain and where the signal
 ### Invasive
 
 Invasive types of BCI are implanted directly into the brain during a neurosurgery.
-There are single unit BCIs, which detect the signal from a single area of brain cells, and multi units BCIs which detects from multiple areas. Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA. The quality of the signal is the highest, but the procedure has several problematics , as the risk of forming scar tissues. The body reacts to the foreign object and build the the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
+There are single unit BCIs, which detect the signal from a single area of brain cells, and multiunit BCIs which detects from multiple areas. Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA [(1)](#references) . The quality of the signal is the highest, but the procedure has several problematics , as the risk of forming scar tissues. The body reacts to the foreign object and build the the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
 
 ### Semi-Invasive
 #### ECoG
@@ -57,13 +57,14 @@ Electrocorticography uses electrodes placed on the exposed surface of the brain 
 It is called semi-invasive but it still requires a craniotomy to implant the electrodes. For this reason it is used only when surgery is necessary for medical reasons (epilepsy for example). 
  
 The electrodes may be placed outside the dura mater (epidural) or under the dura mater (subdural).
-The strip or grid electrodes covers a large area of the cortex (from 4 to 256 electrodes), allowing a diverse range of cognitive studies. 
+The strip or grid electrodes covers a large area of the cortex (from 4 to 256 electrodes)[(2)](#references), allowing a diverse range of cognitive studies. 
 
 ![EcoG](../images/introtobci/ecog1.jpg)
 
 *In the image: MRI reconstruction of the patient’s brain with electrodes overlaid (red: grid array; blue: strip arrays) to allow precise matching of neurophysiological activity to neuroanatomical structures (Image from: Yang et al., Neuroimage, 2012)*
 
 ![EcoG](../images/introtobci/ecog.png)
+[(3)](#references)
 
 The positive characteristics of ECoG are:
  
@@ -75,7 +76,7 @@ The positive characteristics of ECoG are:
  
 **Spatial resolution**
 
-A benefit of the ECoG over EEG, is that the spatial resolution is much higher because the signal doesn’t have to travel to reach the scalp. The spatial resolution in ECoG is tenths of millimeters, while it is centimeters in EEG (Leuthardt et al., 2004). 
+A benefit of the ECoG over EEG, is that the spatial resolution is much higher because the signal doesn’t have to travel to reach the scalp. The spatial resolution in ECoG is tenths of millimeters, while it is centimeters in EEG [(4)](#references). 
  
 ---------------------------------------------------------------------------------------------------------------------
 What do we mean by spatial resolution?
@@ -90,7 +91,7 @@ ECoG signal is not impacted by noise and artifacts as for example EMG (electromy
  
 **Lower clinical risk**
 
-The electrode arrays doesn’t need to penetrate into the cortex, which makes it safer than invasive recording (Leuthardt et al., 2004) 
+The electrode arrays doesn’t need to penetrate into the cortex, which makes it safer than invasive recording [(4)](#references)
  
 **Higher amplitude**
 
@@ -100,7 +101,7 @@ ECoG recordings are 50–100 µV maximum versus 10–20 µV
 
 There have been different studies about the use of ECoG in BCI, but they are all limited to cases where surgery was needed to remove an epileptic focus.
  
-In one study (Schalk et al., 2008) for example, the researcher used ECoG to control a computer cursor in two dimensions.
+In one study [(5)](#references) for example, the researcher used ECoG to control a computer cursor in two dimensions.
 Five patients, in preparation of surgery for epilepsy, had a subdural array of electrodes implanted for 7-14 days.  After a short training of less than 30 minutes, the patients have been able to control a cursor in two dimensions, with an average success rate of 53-73%. 
  
 
@@ -130,10 +131,11 @@ In the following image is possible to see the different brain imaging techniques
 From Wikipedia “is a functional neuroimaging technique for mapping brain activity by recording magnetic fields produced by electrical currents occurring naturally in the brain, using very sensitive magnetometers.“
 
 ![MEG](../images/introtobci/MEG.png)
+In the image: MEG scanner with patient from National Institute of Mental Health [(6)](#references)
 
 **How does it work?**
 
-MEG measures the magnetic field caused by the currents in the brain, and it offers a better spatial resolution compared to EEG . Why? Because magnetic fields suffer far less than electric fields from the spatial blurring effect of the skull and intracerebral fluid.
+MEG measures the magnetic field caused by the currents in the brain, and it offers a better spatial resolution compared to EEG [(7)](#references). Why? Because magnetic fields suffer far less than electric fields from the spatial blurring effect of the skull and intracerebral fluid [(8)](#references).
 “MEG is maximally sensitive to tangential sources and has low sensitivity to radial sources”
 “MEG is better than EEG at detecting high-frequency activity (e.g., above 60 Hz). This is
 because magnetic fields pass through the skull and scalp, whereas the electrical fields are
@@ -150,11 +152,11 @@ frequencies.”
 PET is a nuclear imaging technique used in medicine to observe different processes, such as blood flow, metabolism, neurotransmitters, happening  in the body.
 
 ![PET](../images/introtobci/PET.png)
-*“This image shows a picture taken from a typical PET facility equipped with an ECAT Exact HR+ PET scanner. PET scanners such as this are steadily being replaced by systems that combine both PET and CT scanners into a single PET/CT imaging device.”*
+*“This image shows a picture taken from a typical PET facility equipped with an ECAT Exact HR+ PET scanner. PET scanners such as this are steadily being replaced by systems that combine both PET and CT scanners into a single PET/CT imaging device.” [(9)](#references)*
 
 **How does it work?**
  
-A small amount of radioactive material, called radiotracer, is injected in the bloodstream to reach the brain. In the case of the brain, the radiotracer get attached to the glucose and creates a radionuclide called fluorodeoxyglucose (FDG). The brain uses glucose and it will show different levels based on the level activity of the different regions.
+A small amount of radioactive material, called radiotracer, is injected in the bloodstream to reach the brain. In the case of the brain, the radiotracer get attached to the glucose and creates a radionuclide called fluorodeoxyglucose (FDG) [(10)](#references). The brain uses glucose and it will show different levels based on the level activity of the different regions.
 The images of the PET scan are multicolored, where areas with more activities are in warmer colors as yellow and red. PET scans of the brain are used often to detect illnesses as cancer or others.
 
 ![PET](../images/introtobci/PET2.png)
@@ -167,9 +169,9 @@ The images of the PET scan are multicolored, where areas with more activities ar
 
 **What is?**
 
-Functional magnetic resonance imaging or functional MRI (fMRI) is a functional neuroimaging procedure using MRI technology that measures brain activity by detecting changes associated with blood flow.[1][2] This technique relies on the fact that cerebral blood flow and neuronal activation are coupled. When an area of the brain is in use, blood flow to that region also increases.[3]
+*Functional magnetic resonance imaging or functional MRI (fMRI) is a functional neuroimaging procedure using MRI technology that measures brain activity by detecting changes associated with blood flow.[1][2] This technique relies on the fact that cerebral blood flow and neuronal activation are coupled. When an area of the brain is in use, blood flow to that region also increases.* [(11)](#references)
  
-fMRI had been developed in the 1990s. It is a non-invasive and safe technique, it doesn’t use radiation, it’s easy to use and it has excellent spatial and good temporal resolution.
+fMRI had been developed in the 1990s. It is a non-invasive and safe technique, it doesn’t use radiation, it’s easy to use and it has excellent spatial and good temporal resolution. [(12)](#references)
 
 ![FMRI](../images/introtobci/fmri.png)
 
@@ -186,20 +188,20 @@ The magnetic characteristics of haemoglobin change if it is or not oxygenated. T
 
 **What is?**
 
-Functional Near-Infrared Spectroscopy (fNIR or fNIRS), is the use of NIRS (near-infrared spectroscopy) for the purpose of functional neuroimaging. Using fNIR, brain activity is measured through hemodynamic responses associated with neuron behaviour. 
+Functional Near-Infrared Spectroscopy (fNIR or fNIRS), is the use of NIRS (near-infrared spectroscopy) for the purpose of functional neuroimaging. Using fNIR, brain activity is measured through hemodynamic responses associated with neuron behaviour. [(13)](#references) 
 
-An optical technique to measure localized cortical brain activity 
+An optical technique to measure localized cortical brain activity [(14)](#references)
  
 **How does it work?**
 
 fNIRS measures the changes in blood flow as fMRI, but using a different technique, infrared light vs magnetic field.
 ![FNIRS](../images/introtobci/fnirs.png)
 
-*In the image: fNIRS during table-tennis experiment*
+*In the image: fNIRS during table-tennis experiment* [(15)](#references)
 
 When a task begins there is consumption of oxygen, as the complexity increases, also the request for oxygen increases. fMRI measures how much oxygen is consumed. fNIRS measures also how much oxygen is available in the area (overshot). 
  
-Still, the temporal quality of fNIRS is not as good as EEG. fNIRS takes 10 samples per second, which is trumped by EEG’s 500 to 1000 samples per second. And the spatial resolution is not as good as fMRI. For example, fMRI can image subcortical brain regions, while fNIRS cannot analyze past the cortex, unable to capture any subcortical activation. Indeed, many researchers who presented their fNIRS at SfN are using the instrument as a supplement to their EEG or fMRI data.
+Still, the temporal quality of fNIRS is not as good as EEG. fNIRS takes 10 samples per second, which is trumped by EEG’s 500 to 1000 samples per second. And the spatial resolution is not as good as fMRI. For example, fMRI can image subcortical brain regions, while fNIRS cannot analyze past the cortex, unable to capture any subcortical activation. Indeed, many researchers who presented their fNIRS at SfN are using the instrument as a supplement to their EEG or fMRI data. [(16)](#references)
  
 Benefits:
 * Non-invasive
@@ -208,7 +210,7 @@ Benefits:
 * Less sensible to artifacts compared to fMRI and EEG
  
 Has a temporal resolution more similar to EEG
-fMRI may record one sample per 2 seconds, fNIRS can record 10 samples per 1 second
+fMRI may record one sample per 2 seconds, fNIRS can record 10 samples per 1 second. [(17)](#references)
  
 fNIRS better spatial resolution than EEG and better temporal resolution than fMRI
 
@@ -271,12 +273,12 @@ BCI can use any type of brain imaging. These include fMRI, PET, and NIRS, which 
 The nervous system is composed by two main parts: the central nervous system and the peripheral nervous system.
 The brain is the main organ of the central nervous system and it  contains about 100 billions of neurons and trillions of cells called glia.
 The brain is composed by three major parts: the cerebrum (or cortex), the cerebellum (or little brain) and the brain stem.
-![parts of the brain](../images/introtobci/partsofthebrain.png) 
+![parts of the brain](../images/introtobci/partsofthebrain.png) [(18)](#references)
 
 The cerebral cortex (or cerebrum) is divided into four main sections called lobes:
 Frontal lobe, parietal lobe, temporal lobe and occipital lobe.
 
-![lobes](../images/introtobci/lobes.png) 
+![lobes](../images/introtobci/lobes.png) [(19)](#references)
 
 The brain is constantly generating electric signals.
 The skull and skin of the head are very good electrical insulators though, making difficult to record from individual neurons.
@@ -291,13 +293,13 @@ But when a big number of neurons do the same thing at the same time, it is possi
  
 * Glia cells - Located between neurons
 
-![structure of a neuron](../images/introtobci/neuronestructure.png) 
+![structure of a neuron](../images/introtobci/neuronestructure.png) [(20)](#references)
 
-In the human brain, each nerve is connected to approximately 10 000 other nerves, mostly through dendritic connections.
+In the human brain, each nerve is connected to approximately 10 000 other nerves, mostly through dendritic connections. [(21)](#references)
  
 When the neurons communicate, currents occurs: an electrical signal is transmitted along an axon or a dendrite. The electrical signal at the end of the axon is converted into a chemical signal and the axon releases chemical messengers called neurotransmitters. The neurotransmitters travel through the synapse to the dendrite and are converted back to electrical signals. 
 
-Where a current is leaving, there is a positive polarity, where a current is entering a negative polarity. These currents, called primary currents, are embedded in the brain tissue and brain liquor and reach the skull and scalp. The voltage differences at the scalp can be picked up by EEG electrodes. The main signals generating in the EEG are voltage gradients along dendrites in the upper cortical layers. To have a measurable signal, thousands of parallely oriented neighbouring dendrites have to be active synchronously.
+Where a current is leaving, there is a positive polarity, where a current is entering a negative polarity. These currents, called primary currents, are embedded in the brain tissue and brain liquor and reach the skull and scalp. The voltage differences at the scalp can be picked up by EEG electrodes. The main signals generating in the EEG are voltage gradients along dendrites in the upper cortical layers. To have a measurable signal, thousands of parallely oriented neighbouring dendrites have to be active synchronously. [(22)](#references)
 The signals possible to measure through EEG are:
 
 1) Action potentials along the axons connecting neurons
@@ -305,6 +307,7 @@ The signals possible to measure through EEG are:
 2) currents through the synaptic clefts connecting axons with neurons/dendrites
 
 3) currents along dendrites from synapses to the soma of neurons
+[(23)](#references)
 
 
 ### Signal acquisition
@@ -341,21 +344,21 @@ Because the signal detected is poor, being the electrodes far from the neurons a
 * A/D converters
 * Recording Device
  
-“The electrodes acquire the signal from the scalp, the amplifiers process the analog signal to enlarge the amplitude of the EEG signals so that the A/D converter can digitalize the signal in a more accurate way. Finally, the recording device, which may be a personal computer or similar, stores, and displays the data.”
+“The electrodes acquire the signal from the scalp, the amplifiers process the analog signal to enlarge the amplitude of the EEG signals so that the A/D converter can digitalize the signal in a more accurate way. Finally, the recording device, which may be a personal computer or similar, stores, and displays the data.” [(24)](#references)
  
 **Electrodes**
 
-As previously introduced, different types of electrodes are available to use in EEG, such as: disposable (dry or wet), reusable disc electrodes (gold, silver, stainless steel or tin), headbands and electrodes caps (such as the consumer ones), saline-based electrodes, needle electrodes
+As previously introduced, different types of electrodes are available to use in EEG, such as: disposable (dry or wet), reusable disc electrodes (gold, silver, stainless steel or tin), headbands and electrodes caps (such as the consumer ones), saline-based electrodes, needle electrodes [(25)](#references) .
 In the 1958 a standard system of electrodes placement had been developed, where the head is divided in proportional distances (Jasper, 1958).
 
 ![10/20 system for EEG](../images/introtobci/1020system.png) 
-*In the image: electrode locations of International 10-20 system for EEG (electroencephalography) recording*
+*In the image: electrode locations of International 10-20 system for EEG (electroencephalography) recording* [(26)](#references)
  
 The minimal configuration is composed by three electrodes: active electrode, reference electrode and ground electrode. The EEG measures the potential difference over time between signal or active electrode and the reference electrode. It is very difficult to get a reference where no electrical activity from the brain is present. Usually it is located on the mastoid, ear lobes or tip of the nose. The ground electrode is used to measure the differential voltage between the active and the reference points.
  
 **Amplifier**
 
-The signal picked up by the electrodes is far away and attenuated by the different layers it has to travel. For this reason an amplifier is needed to bring the microvolts to a range that can be digitized. The signal is sent to an amplifier through a cable measuring 1-2 metres. Unfortunately the cables can act as antenna and pickup signals, which would interfere with the EEG signal and cause noise to be amplified. Some “active” electrodes include a small pre-amplifier within the electrode, to avoid this noise interference. Unfortunately they are quite large and expensive and might not be appropriate in some situations. Tavakoli & Campbell, 2015
+The signal picked up by the electrodes is far away and attenuated by the different layers it has to travel. For this reason an amplifier is needed to bring the microvolts to a range that can be digitized. The signal is sent to an amplifier through a cable measuring 1-2 metres. Unfortunately the cables can act as antenna and pickup signals, which would interfere with the EEG signal and cause noise to be amplified. Some “active” electrodes include a small pre-amplifier within the electrode, to avoid this noise interference. Unfortunately they are quite large and expensive and might not be appropriate in some situations. [(27)](#references)
  
 **A/D converters**
 
@@ -375,17 +378,17 @@ There are four main sources of noise and artifacts, which are:
 1. EEG equipment
 2. Electrical interference external to the subject and recording system
 3. The leads and electrodes
-4. The subject: electrical activity from the heart, eye blinking, eyeball movements, muscles movements in general. (Ochoa, 2012)
+4. The subject: electrical activity from the heart, eye blinking, eyeball movements, muscles movements in general. [(29)](#references)
  
 Eye blinking are very clear in frontal and occipital recordings, while ECGs (from the heart electrical activity) on the occipital electrodes. “A movement of the eyeball and the eyelids causes a change in the potential field because of the existing potential difference of about 100mV
-between the cornea and the retina”
+between the cornea and the retina” [(30)](#references)
 
 
 The preprocessing step helps to clean the data from the noise and artifacts.
 There are different methods and different steps in preprocessing. 
 Often for example, filters are applied to the data. To remove the DC components of the signal and the drifts are employed high-pass filters, where usually a frequency cut-off of 1Hz is enough. Often also low pass filters can be applied to remove the high frequencies of the signal, because in EEG usually frequencies over 90Hz are not studied. Other methods are used to remove artefacts as the eyeball movements or eye blinking.
  
-After different steps of pre-processing, when the signal is clean from most of the artifacts and noise, the recording is cut in epoch of few seconds: this allows us to have a large number of features from a single EEG recording, and to use them for statistics or to apply classifiers, as we will see in the next sections. (Riera, 2012)
+After different steps of pre-processing, when the signal is clean from most of the artifacts and noise, the recording is cut in epoch of few seconds: this allows us to have a large number of features from a single EEG recording, and to use them for statistics or to apply classifiers, as we will see in the next sections. [(31)](#references)
 
 ### Feature Extraction
 
@@ -399,13 +402,13 @@ frequency representation (FR)
 time-frequency representation (TFR)
 Hjorth parameters, parametric modelling
 inverse model 
-and specific techniques used for P300 and VEP such as Peak picking (PP) and Slow cortical potentials calculation (SCPs) (Al-ani and Trad, 2010)
+and specific techniques used for P300 and VEP such as Peak picking (PP) and Slow cortical potentials calculation (SCPs) [(32)](#references)
 
 ### Classification
 
 
 Another step which can be applied to the signal, now mostly clean from artifacts, is to apply  classification algorithms. Using machine learning techniques it is possible to train a classifier to recognize which features, for example, belongs to one or another class.mathematical
-Again, the classification helps to find out which kind of mental task the subject is performing (Ochoa, 2002)
+Again, the classification helps to find out which kind of mental task the subject is performing (Ochoa, 2002) 
 
 ### Translation
 
@@ -429,17 +432,17 @@ The current status of BCI has still many limitations to be overcome:
 
 **Hardware / Software**
 The first problem is the signal acquisition hardware.
-Regarding EEG, the sensors still have acquisition limits. As we have seen, the signal travels distance before being acquired by the EEG machine, and the noise and artefacts are causing important problems. EEG must achieve a good performance in all environments. Reliable electrodes are necessary. The technology must be able to be reliable despite the noise generated by devices, as many BCI are targeted to ill patients, which are often surrounded by many electronic equipments. (expand on spatial problem of EEG?)
+Regarding EEG, the sensors still have acquisition limits. As we have seen, the signal travels distance before being acquired by the EEG machine, and the noise and artefacts are causing important problems. EEG must achieve a good performance in all environments. Reliable electrodes are necessary. The technology must be able to be reliable despite the noise generated by devices, as many BCI are targeted to ill patients, which are often surrounded by many electronic equipments. [(33)](#references)
  
-The best signal we have seen is the one acquired through invasive technology. But the invasive BCIs suffer as well of many limitations. First of all they are implanted only in a small amount of patients which requires surgery for other reasons. There are ethical issues involved with invasive technology (? check ethical section ?). The problems to overcome are complex: the system need to be safe and remain intact, functional and reliable for decades. The safety long term must be demonstrated, as the implant could potentially open the way to infections or be rejected by the body. The implant must have external elements that are robust, comfortable, convenient, and unobtrusive; and interfaces easily with high-performance applications. And safe. 
+The best signal we have seen is the one acquired through invasive technology. But the invasive BCIs suffer as well of many limitations. First of all they are implanted only in a small amount of patients which requires surgery for other reasons. There are ethical issues involved with invasive technology (? check ethical section ?). The problems to overcome are complex: the system need to be safe and remain intact, functional and reliable for decades. The safety long term must be demonstrated, as the implant could potentially open the way to infections or be rejected by the body. The implant must have external elements that are robust, comfortable, convenient, and unobtrusive; and interfaces easily with high-performance applications. And safe. [(34)](#references)
 When used to study the brain, invasive technology might not have the best models, being implanted in patients with problems or injuries which does not make them the ideal candidates.
 BCI validation and dissemination
-Reliability
+Reliability [(35)](#references)
  
 **Current understanding of biological signals and Variability**
 
 The problem is that is difficult to decode the signal or it requires months of training and it’s different for each person - not standard. The variability of signal features causes a need for adaptive BCI algorithms for proper function;
-Despite the known basic rules of BCIs' selection and adjustment, it is still unclear why some BCI paradigms or features are effective with some patients, and some not. Research on so called “BCI demographic assessment”, i. e. how many people and which people may use a particular kind of BCI, was partly (in the area of steady-state visual evoked potentials – SSVEP-based BCI) provided by Allison et al. (Allison et al., 2010) and Volosyak et al. (Volosyak et al., 2011).
+Despite the known basic rules of BCIs' selection and adjustment, it is still unclear why some BCI paradigms or features are effective with some patients, and some not. Research on so called “BCI demographic assessment”, i. e. how many people and which people may use a particular kind of BCI, was partly (in the area of steady-state visual evoked potentials – SSVEP-based BCI) provided by Allison et al. (Allison et al., 2010) and Volosyak et al. [(36)](#references)
 
 
 
@@ -458,6 +461,7 @@ Neuroelectrical activity was detected first by Hans Berger in 1924 and recorded 
 * 2005: Monkey brain controls a robotic arm
 * 2008: Voiceless phone calls are demonstrated (The Audeo – TI developers conference)
 * 2014 Direct brain-to-brain communication achieved by transmitting EEG signals over the internet
+[(37)](#references)
 
 These advancements show that BCI is a dynamic and growing field. As it is a multidisciplinary field, the evolution is affected by different factors, as new hardware, new machine learning / mathematical theories, advancements in AI and robotics, new discoveries in medicine and neuroscience, etc etc
 In general the field of BCI has always been limited to the academic world or medical field. Recently new startups joined the study, seeking the enhancement of human capabilities: Facebook, Neuralink, Kernel.
@@ -478,7 +482,91 @@ The announcement was made the day after Facebook announced its BCI project. Elon
  
 **Kernel**
 
-For Kernel as well the final goal is to allow humans to coexist and co-evolve with machines. Its founder, Bryan Johnson, invested $100 million to develop brain implants.  The focus will be first on medical applications, trying to understand better the brain, to move in the future toward augmenting it to make human smarter and healthier. Kernel promised to improve neurodegenerative diseases, a big claim as so far, brain implants had been using only in paraplegic people and for medical trials. They are developing hardware and software at the moment to treat people with Parkinsons disease and the company has at the moment about 20 employees.
+For Kernel as well the final goal is to allow humans to coexist and co-evolve with machines. Its founder, Bryan Johnson, invested $100 million to develop brain implants.  The focus will be first on medical applications, trying to understand better the brain, to move in the future toward augmenting it to make human smarter and healthier. Kernel promised to improve neurodegenerative diseases, a big claim as so far, brain implants had been using only in paraplegic people and for medical trials. [(38)](#references) They are developing hardware and software at the moment to treat people with Parkinsons disease and the company has at the moment about 20 employees.
+
+## References  
+1. Waldert, S. 2016. *Invasive vs. Non-Invasive Neuronal Signals for Brain-Machine Interfaces: Will One Prevail?* Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4921501/
+
+2. Mesgarani, N; Chang, EF. 2012. *Selective cortical representation of attended speaker in multi-talker speech perception*. Nature. 485 (7397): 233–6. doi:10.1038/nature11020.
+
+3. Blausen.com staff (2014). *Medical gallery of Blausen Medical 2014*. WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436. - Own work
+
+4. Leuthardt, E. C. et al. 2004. *A brain–computer interface using electrocorticographic signals in humans*. Journal of Neural Engineering, Volume 1, Number 2. Available from: http://iopscience.iop.org/article/10.1088/1741-2560/1/2/001/meta;jsessionid=E687A7B4A1215A8655C2DF6429F87A05.c2.iopscience.cld.iop.org
+
+5. Schalk, G. et al. 2008. *Two-dimensional movement control using electrocorticographic signals in humans.* Journal of Neural Engineering, Volume 5, Number 1. Available from: http://iopscience.iop.org/article/10.1088/1741-2560/5/1/008/meta
+
+6. MEG scanner with patient from National Institute of Mental Health. By Unknown NIMH author [Public domain], via Wikimedia Commons. Available from: https://en.wikipedia.org/wiki/Magnetoencephalography#/media/File:NIMH_MEG.jpg
+
+7. Peter T. Lin, Kartikeya Sharma, Tom Holroyd, Harsha Battapady,
+Ding-Yu Fei and Ou Bai (2013). A High Performance MEG Based BCI Using Single Trial Detection of Human Movement Intention, Functional Brain Mapping and the Endeavor to Understand the Working Brain, Dr. Francesco Signorelli (Ed.), InTech, DOI: 10.5772/54550. Available from: https://www.intechopen.com/books/functional-brain-mapping-and-the-endeavor-to-understand-the-working-brain/a-high-performance-meg-based-bci-using-single-trial-detection-of-human-movement-intention
+
+8. Navin Lal, Thomas & al. A Brain Computer Interface with Online Feedback based on
+Magnetoencephalography. Available from: http://www.machinelearning.org/proceedings/icml2005/papers/059_BrainComputer_LalEtAl.pdf
+
+9. By Jens Maus (http://jens-maus.de/) - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=404712
+
+10. Positron Emission Tomography (PET Scan). Available from: http://www.hopkinsmedicine.org/healthlibrary/test_procedures/neurological/positron_emission_tomography_pet_scan_92,p07654/
+
+11. Wikipedia. Functional magnetic resonance imaging. Available from: https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging.
+
+12. Introduction to FMRI. Available from: https://www.ndcn.ox.ac.uk/divisions/fmrib/what-is-fmri/introduction-to-fmri
+
+13. Wikipedia. Functional near-infrared spectroscopy. Available from: https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy
+
+14. Coyle, S., Ward, T. E., Markham, C. 2007. Brain–computer interface using a simplified functional near-infrared spectroscopy system. Available from: http://iopscience.iop.org/article/10.1088/1741-2560/4/3/007/pdf;jsessionid=7AEE10C6243EA9643C6DECB3555DAA24.ip-10-40-1-105
+
+15. https://www.youtube.com/watch?v=me8kxvOuq40
+
+16. fNIRS: The In-Between for Brain Activity in Real-World Settings. Available from: https://www.cogneurosociety.org/fnirs_wan/
+
+17. fNIRS: The In-Between for Brain Activity in Real-World Settings. Available from: https://www.cogneurosociety.org/fnirs_wan/
+
+18. Image available from: http://3.bp.blogspot.com/_TnLZz2ZDDxM/SsG-AuitJyI/AAAAAAAAAKA/BRZpWh3UrCc/s320/Brain_parts.gif
+
+19. Wikipedia. Lobes of the brain. Available from: https://en.wikipedia.org/wiki/Lobes_of_the_brain
+
+20. Neurons & glial cells. Available from: https://training.seer.cancer.gov/brain/tumors/anatomy/neurons.html
+
+21. Sanei, S. (2013). Adaptive Processing of Brain Signals. Somerset: John Wiley & Sons, Incorporated. Retrieved from 30
+http://ebookcentral.proquest.com/lib/dcu/detail.action?docID=1207774
+
+22. Introduction to EEG and MEG. http://imaging.mrc-cbu.cam.ac.uk/meg/IntroEEGMEG#signalgeneration
+
+23. Introduction to EEG and MEG. http://imaging.mrc-cbu.cam.ac.uk/meg/IntroEEGMEG#signalgeneration
+
+24. Nicolas-Alonso, L. F., & Gomez-Gil, J. (2012). Brain Computer Interfaces, a Review. Sensors (Basel, Switzerland), 12(2), 1211–1279. http://doi.org/10.3390/s120201211
+
+25. Sanei, S. 2013. Adaptive Processing of Brain Signals. John Wiley & Sons, Incorporated.
+
+26. Wikimedia. https://commons.wikimedia.org/wiki/File:21_electrodes_of_International_10-20_system_for_EEG.svg
+
+27. Tavakoli, P., Campbell, K. The recording and quantification of event-related potentials: I. stimulus presentation and data acquisition. 
+
+28. 
+
+29. Ochoa, J., 2002. EEG Signal Classification for Brain Computer Interface Applications.
+
+30. Ochoa, J., 2002. EEG Signal Classification for Brain Computer Interface Applications.
+
+31. Riera, A. EEG Signal Processing for Dummies. Available from: http://neuroelectrics.hs-sites.com/blog/bid/245833/EEG-Signal-Processing-for-Dummies?utm_content=10498748&utm_medium=social&utm_source=googleplus
+
+32. Tarik Al-ani and Dalila Trad (2010). Signal Processing and Classification Approaches for Brain-Computer Interface, Intelligent and Biosensors, Vernon S. Somerset (Ed.), InTech, DOI: 10.5772/7032. Available from: https://www.intechopen.com/books/intelligent-and-biosensors/signal-processing-and-classification-approaches-for-brain-computer-interface
+
+33. Shih, J. J., Krusienski, D. J., & Wolpaw, J. R. (2012). Brain-Computer Interfaces in Medicine. Mayo Clinic Proceedings, 87(3), 268–279. http://doi.org/10.1016/j.mayocp.2011.12.008
+
+34. Shih, J. J., Krusienski, D. J., & Wolpaw, J. R. (2012). Brain-Computer Interfaces in Medicine. Mayo Clinic Proceedings, 87(3), 268–279. http://doi.org/10.1016/j.mayocp.2011.12.008
+
+35. Shih, J. J., Krusienski, D. J., & Wolpaw, J. R. (2012). Brain-Computer Interfaces in Medicine. Mayo Clinic Proceedings, 87(3), 268–279. http://doi.org/10.1016/j.mayocp.2011.12.008
+
+36. Emerging Theory and Practice in Neuroprosthetics by Yina Guo, Ganesh Naik. Chapter 10
+Brain-Computer Interfaces for Assessment and Communication in Disorders of Consciousness
+
+37. Neurosky. 2015. What Is BCI and How Did It Evolve?. Available from: http://neurosky.com/2015/06/what-is-bci-and-how-did-it-evolve/
+
+38. Statt, N. 2017. KERNEL IS TRYING TO HACK THE HUMAN BRAIN — BUT NEUROSCIENCE HAS A LONG WAY TO GO. Available from: https://www.theverge.com/2017/2/22/14631122/kernel-neuroscience-bryan-johnson-human-intelligence-ai-startup
+
+
+
 
 
 
