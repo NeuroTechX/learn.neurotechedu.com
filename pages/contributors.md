@@ -2,9 +2,10 @@
 layout: page-fullwidth
 title: "Contributors"
 teaser: "These are the people who made NeuroTechEDU what it is today."
-permalink: "/contributors/"
 header:
     image_fullwidth: "header_drop.jpg"
+permalink: "/contributors/"
+
 ---
 
 {% comment %}
@@ -26,6 +27,7 @@ Roles
 Contributed to
 
 * Intro to BCI
+
 
 <a href="http://twitter.com/francescacoo_j" class="icon-twitter"></a>
 <a href="http://github.com/francescacoo" class="icon-github"></a>
