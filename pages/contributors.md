@@ -17,7 +17,7 @@ To add yourself below:
 {% endcomment %}
 
 
-<div class="medium-4 columns contributor" markdown="1">
+
 ##### Francesca Placido
 
 Roles
@@ -28,11 +28,11 @@ Contributed to
 
 * Intro to BCI
 
-
+<div class="medium-4 columns contributor" markdown="1">
 <a href="http://twitter.com/francescacoo_j" class="icon-twitter"></a>
 <a href="http://github.com/francescacoo" class="icon-github"></a>
 </div>
-<div class="medium-4 columns contributor" markdown="1">
+
 ##### Davide Valeriani
 
 Roles
@@ -42,13 +42,13 @@ Roles
 Contributed to
 
 * ERP feature extraction
-
+<div class="medium-4 columns contributor" markdown="1">
 <a href="http://www.davidevaleriani.it/" class="icon-globe"></a>
 </div>
 
 
 
-<div class="medium-4 columns contributor" markdown="1">
+
 ##### Ryan Lintott
 
 Roles
@@ -59,6 +59,7 @@ Roles
 Contributed to
 
 * Feature Extraction ERP
+<div class="medium-4 columns contributor" markdown="1">
 <a href="http://ryanlintott.com/" class="icon-globe"></a>
 <a href="http://linkedin.com/in/ryanlintott/" class="icon-linkedin"></a>
 <a href="http://twitter.com/ryanlintott" class="icon-twitter"></a>
@@ -66,7 +67,7 @@ Contributed to
 </div>
 
 
-<div class="medium-4 columns contributor" markdown="1">
+
 ##### Hector Orozco
 
 Roles
@@ -79,13 +80,14 @@ Contributed to
 * Preprocessing 
 * Intro to neuroscience
 
+<div class="medium-4 columns contributor" markdown="1">
 <a href="https://www.linkedin.com/in/hector-domingo-orozco-perez-2017a4105/" class="icon-linkedin"></a>
 <a href="http://twitter.com/neurohazardous" class="icon-twitter"></a>
 <a href="http://github.com/neurohazardous" class="icon-github"></a>
 </div>
 
 
-<div class="medium-4 columns contributor" markdown="1">
+
 ##### Yu Min Chuang
 
 Roles
@@ -96,12 +98,12 @@ Contributed to
 
 * Feature Extraction ERP
 
+<div class="medium-4 columns contributor" markdown="1">
 <a href="https://www.linkedin.com/in/yu-min-chuang-30a41b48/" class="icon-linkedin"></a>
 </div>
 
 
 
-<div class="medium-4 columns contributor" markdown="1">
 ##### Patrick Coleman
 
 Roles
@@ -112,9 +114,10 @@ Contributed to
 
 * Preprocessing
 
+<div class="medium-4 columns contributor" markdown="1">
 <a href="https://padsterprogramming.blogspot.com/" class="icon-globe"></a>
 <a href="https://www.linkedin.com/in/padsterpat/" class="icon-linkedin"></a>
 <a href="https://github.com/padster" class="icon-github"></a>
 </div>
 
-{ % include _improve_content.html %}
+{% include _improve_content.html %}
