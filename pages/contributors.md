@@ -117,4 +117,4 @@ Contributed to
 <a href="https://github.com/padster" class="icon-github"></a>
 </div>
 
-{% include _improve_content.html %}
+{ % include _improve_content.html %}
