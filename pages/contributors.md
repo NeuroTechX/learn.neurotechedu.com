@@ -8,14 +8,6 @@ permalink: "/contributors/"
 
 ---
 
-{% comment %}
-To add yourself below:
-1) Copy another member's bio, starting from the <div class="..."> and ending at </div>
-2) Paste it at the end, above the ''{% include...' statement.
-3) Change the details to your own.
-4) If possible, run 'jekyll serve' locally and check the change in your browser.
-{% endcomment %}
-
 
 
 ##### Francesca Placido
