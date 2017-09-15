@@ -112,4 +112,24 @@ Contributed to
 <a href="https://github.com/padster" class="icon-github"></a>
 </div>
 
+
+##### Sheida Rabipour
+
+Roles
+
+* Editor
+* Mentor
+
+Contributed to
+
+* Intro to BCI
+* Signal Preprocessing 
+
+<div class="medium-4 columns contributor" markdown="1">
+<a href="https://www.linkedin.com/in/sheidarabipour/" class="icon-linkedin"></a>
+<a href="https://www.researchgate.net/profile/Sheida_Rabipour" class="icon-globe"></a>
+<a href="https://github.com/thesheid" class="icon-github"></a>
+</div>
+
+
 {% include _improve_content.html %}
