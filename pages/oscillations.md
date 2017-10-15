@@ -18,6 +18,8 @@ permalink: "/oscillations/"
 </div>
 </div><!-- /.medium-4.columns -->
 <div class="medium-8 medium-pull-4 columns" markdown="1">
+   
+# Fix table of contents
 
 # What are Neural Oscillations?
 
@@ -71,6 +73,8 @@ The Fourier transform is a highly regarded formula which is the mainstay formula
 for signal processing and signal decompistion.
 
 <img src="eeg-101/EEG101/src/assets/wavedecomposition.gif" alt="This will display an animated GIF" />
+
+#Need to fix these gifs
 
 The best way to extract neural oscillations is to perform a Fourier transform on
 your preprocessed data and then plot the resulting frequency patterns in the category of
