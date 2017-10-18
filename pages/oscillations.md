@@ -1,3 +1,23 @@
+---
+layout: page-fullwidth
+show_meta: false
+title: "Neural Oscillations"
+subheadline: ""
+teaser: "This tutorial serves as an introduction to extracting neural oscillations from eeg data. It assumes a basic knowledge of Python and MNE for EEG analysis"
+header:
+   image_fullwidth: ""
+permalink: "/oscillations/"
+---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
 # What are Neural Oscillations?
 
 Neural oscillations are repetitive, rhythmic synchronized frequency patterns in the central nervous system.
