@@ -2,7 +2,7 @@
 layout: page-fullwidth
 show_meta: false
 title: "Intro to BCI"
-subheadline: "Intro to BCI"
+subheadline: ""
 teaser: "Intro to Brain Computer Interface"
 header:
    image_fullwidth: ""
