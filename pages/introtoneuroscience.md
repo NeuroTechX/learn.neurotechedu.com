@@ -446,7 +446,9 @@ Better knowledge about brain function is still needed to treat neurological and 
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 
+<!--
 <iframe allowfullscreen frameborder="0" width="698" height="573" scrolling="no" id="molvideoplayer" title="MailOnline Embed Player" src="http://www.dailymail.co.uk/embed/video/1086896.html"></iframe>
+-->
 *BCI Lab’s “Glass Brain” - a 3D Brain Visualisation*
 
 ---
