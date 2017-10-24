@@ -107,22 +107,20 @@ Following is an infographic showing a common way to divide the nervous system:
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Nervous System Anatomical Diagram*
 
-![](https://giphy.com/gifs/brain-x6yhBtxb0XE3u)
+![](https://octodex.github.com/images/dojocat.jpg)
 *Brain and Spine*
 
 <!-- Section kept in comments in case image link is fixed
 [id]: https://octodex.github.com/images/dojocat.jpg  "Brain and Spine GIF"
 EMBED <iframe src="//giphy.com/embed/x6yhBtxb0XE3u" width="454.54545454545456" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-x6yhBtxb0XE3u">via GIPHY</a></p>
-Brain and Spine GIF
 -->
 
 ![](https://octodex.github.com/images/dojocat.jpg)
-*Sections of the Brain GIF*
+*Sections of the Brain*
 
 <!-- Section kept in comments in case image link is fixed
 [id]: https://octodex.github.com/images/dojocat.jpg  "Sections of the Brain GIF"
 EMBED <iframe src="//giphy.com/embed/LBwX33WHZ4SR2" width="480" height="475.688622754491" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-LBwX33WHZ4SR2">via GIPHY</a></p>
-Sections of the Brain GIF
 -->
 
 ---
@@ -486,5 +484,3 @@ Lesson will review and expand upon topics covered within the following resources
 ["History + Timeline, Brain and Cognitive Sciences".](https://bcs.mit.edu/about-bcs/history-timeline) *MIT*. 2002
 ["History of Neuroscience".](https://faculty.washington.edu/chudler/hist.html) *University of Washington*. 2014.
 ["A Timeline of Neuroscience".](http://serendip.brynmawr.edu/bb/kinser/timeline.html) *Serendip Studio, Bryn Mawr College*. 2000.
-
-----
