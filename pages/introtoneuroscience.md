@@ -59,7 +59,7 @@ Neuroscientists continue to investigate the nervous system at multiple levels, f
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Brain and Nervous System GIF*
 
-<!-- Section kept in comments in case image link is fixed
+<!-- Section kept in comments in case image link is fixed -->
 [id]: https://octodex.github.com/images/dojocat.jpg  "Brain and Nervous System GIF"
 EMBED <iframe src="//giphy.com/embed/SJZ1bwsSJJ0Xe" width="363.4892541087232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-SJZ1bwsSJJ0Xe">via GIPHY</a></p>
 Brain GIF -->
@@ -110,18 +110,14 @@ Following is an infographic showing a common way to divide the nervous system:
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Brain and Spine*
 
-<!-- Section kept in comments in case image link is fixed
-[id]: https://octodex.github.com/images/dojocat.jpg  "Brain and Spine GIF"
-EMBED <iframe src="//giphy.com/embed/x6yhBtxb0XE3u" width="454.54545454545456" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-x6yhBtxb0XE3u">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/x6yhBtxb0XE3u" width="454.54545454545456" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-x6yhBtxb0XE3u">via GIPHY</a></p> -->
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Sections of the Brain*
 
-<!-- Section kept in comments in case image link is fixed
-[id]: https://octodex.github.com/images/dojocat.jpg  "Sections of the Brain GIF"
-EMBED <iframe src="//giphy.com/embed/LBwX33WHZ4SR2" width="480" height="475.688622754491" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-LBwX33WHZ4SR2">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/LBwX33WHZ4SR2" width="480" height="475.688622754491" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-LBwX33WHZ4SR2">via GIPHY</a></p> -->
 
 ---
 ##  Cellular Components of the Nervous System
@@ -147,35 +143,27 @@ A nerve impulse can also be transmitted from a sensory receptor cell to a neuron
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Impulse: Basic Neural Processes*
 
-<!-- Section kept in comments in case image link is fixed
-[id]: https://octodex.github.com/images/dojocat.jpg  "Impulse: Basic Neural Processes"
-EMBED <iframe src="//giphy.com/embed/AH12EeIwMvcjK" width="480" height="231.77814029363785" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/impulse-AH12EeIwMvcjK">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/AH12EeIwMvcjK" width="480" height="231.77814029363785" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/impulse-AH12EeIwMvcjK">via GIPHY</a></p> -->
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Line Drawing of Brain and Brain Signals*
 
-<!-- Section kept in comments in case image link is fixed
-[id]: https://octodex.github.com/images/dojocat.jpg  "Line drawing of brain and brain signals"
-EMBED <iframe src="//giphy.com/embed/TYZiyRMeVlBjG" width="480" height="458.66666666666663" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-TYZiyRMeVlBjG">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- [id]: https://octodex.github.com/images/dojocat.jpg  "Line drawing of brain and brain signals" EMBED <iframe src="//giphy.com/embed/TYZiyRMeVlBjG" width="480" height="458.66666666666663" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-TYZiyRMeVlBjG">via GIPHY</a></p> -->
 
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Neuron Firing*
 
-<!--
-[id]: https://octodex.github.com/images/dojocat.jpg  "Neuron Firing"
-EMBED <iframe src="//giphy.com/embed/4MxMvzhTEuqty" width="480" height="269.81179422835635" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/interactions-neuron-4MxMvzhTEuqty">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/4MxMvzhTEuqty" width="480" height="269.81179422835635" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/interactions-neuron-4MxMvzhTEuqty">via GIPHY</a></p> -->
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Neuron Synapse Infographic*
 
-<!--
-[id]: https://octodex.github.com/images/dojocat.jpg  "Neuron Synapse Infographic"
-EMBED <iframe src="//giphy.com/embed/lbDWSy70KJVRe" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/lbDWSy70KJVRe">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/lbDWSy70KJVRe" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/lbDWSy70KJVRe">via GIPHY</a></p> -->
 
 ---
 ###  Neurochemistry
@@ -226,10 +214,8 @@ One of the most fascinating and wondrous things in the universe exists within ea
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Rotating Skull and Brain*
 
-<!--
-[id]: https://octodex.github.com/images/dojocat.jpg  "Rotating Skull and Brain"
-EMBED <iframe src="//giphy.com/embed/ZqAHKwHhVWOk0" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-ZqAHKwHhVWOk0">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/ZqAHKwHhVWOk0" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-ZqAHKwHhVWOk0">via GIPHY</a></p> -->
 
 ---
 ###  The Basics
@@ -254,10 +240,8 @@ Four lobes are used to denote specific anatomical locations within the brain: [F
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Brain Lobes*
 
-<!--
-[id]: https://octodex.github.com/images/dojocat.jpg  "Brain Lobes"
-EMBED <iframe src="//giphy.com/embed/SoOK1TID5nDWw" width="480" height="288.7804878048781" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-SoOK1TID5nDWw">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/SoOK1TID5nDWw" width="480" height="288.7804878048781" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-SoOK1TID5nDWw">via GIPHY</a></p> -->
 
 ---
 ###  Folds and Grooves
@@ -317,10 +301,8 @@ Modern neuroimaging research is no longer focused on functional segregation, or 
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Connecting Neurons*
 
-<!--
-[id]: https://octodex.github.com/images/dojocat.jpg  "Connecting Neurons"
-EMBED <iframe src="//giphy.com/embed/xT0BKr4MvHdohFTe6s" width="480" height="288" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uofcalifornia-brain-neuroscience-neurons-xT0BKr4MvHdohFTe6s">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/xT0BKr4MvHdohFTe6s" width="480" height="288" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uofcalifornia-brain-neuroscience-neurons-xT0BKr4MvHdohFTe6s">via GIPHY</a></p> -->
 
 ---
 ##  Functional Systems of the Brain
@@ -387,10 +369,8 @@ More in-depth information on the topic of cognitive systems, cognitive neuroscie
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Areas of the Brain*
 
-<!--
-[id]: https://octodex.github.com/images/dojocat.jpg  "Areas of the Brain"
-EMBED <iframe src="//giphy.com/embed/ineDCJPYRLsoE" width="480" height="357.0731707317073" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-ineDCJPYRLsoE">via GIPHY</a></p>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe src="//giphy.com/embed/ineDCJPYRLsoE" width="480" height="357.0731707317073" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-ineDCJPYRLsoE">via GIPHY</a></p> -->
 
 ---
 ###  Brain Disease and Disorders
@@ -446,9 +426,9 @@ Better knowledge about brain function is still needed to treat neurological and 
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 
-<!--
-<iframe allowfullscreen frameborder="0" width="698" height="573" scrolling="no" id="molvideoplayer" title="MailOnline Embed Player" src="http://www.dailymail.co.uk/embed/video/1086896.html"></iframe>
--->
+<!-- Section kept in comments in case image link is fixed -->
+<!-- <iframe allowfullscreen frameborder="0" width="698" height="573" scrolling="no" id="molvideoplayer" title="MailOnline Embed Player" src="http://www.dailymail.co.uk/embed/video/1086896.html"></iframe> -->
+
 *BCI Lab’s “Glass Brain” - a 3D Brain Visualisation*
 
 ---
