@@ -60,9 +60,7 @@ Neuroscientists continue to investigate the nervous system at multiple levels, f
 *Brain and Nervous System GIF*
 
 <!-- Section kept in comments in case image link is fixed -->
-[id]: https://octodex.github.com/images/dojocat.jpg  "Brain and Nervous System GIF"
-EMBED <iframe src="//giphy.com/embed/SJZ1bwsSJJ0Xe" width="363.4892541087232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-SJZ1bwsSJJ0Xe">via GIPHY</a></p>
-Brain GIF -->
+<!-- <iframe src="//giphy.com/embed/SJZ1bwsSJJ0Xe" width="363.4892541087232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
 
 ---
 ##  Nervous System Overview
@@ -73,6 +71,7 @@ Following is an infographic showing a common way to divide the nervous system:
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Nervous System Flow Chart*
+<!-- Possibly use this: https://commons.wikimedia.org/wiki/File:Components_of_the_Nervous_System.png -->>
 
 | *The nervous system is separated in two classes: the peripheral and central nervous systems.* |
 | **Peripheral Nervous System (PNS)** | **Central Nervous System (CNS)** |
@@ -152,12 +151,8 @@ A nerve impulse can also be transmitted from a sensory receptor cell to a neuron
 <!-- Section kept in comments in case image link is fixed -->
 <!-- [id]: https://octodex.github.com/images/dojocat.jpg  "Line drawing of brain and brain signals" EMBED <iframe src="//giphy.com/embed/TYZiyRMeVlBjG" width="480" height="458.66666666666663" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-TYZiyRMeVlBjG">via GIPHY</a></p> -->
 
-
-![](https://octodex.github.com/images/dojocat.jpg)
-*Neuron Firing*
-
-<!-- Section kept in comments in case image link is fixed -->
-<!-- <iframe src="//giphy.com/embed/4MxMvzhTEuqty" width="480" height="269.81179422835635" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/interactions-neuron-4MxMvzhTEuqty">via GIPHY</a></p> -->
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/4MxMvzhTEuqty" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+*Neuron Firing [https://giphy.com/gifs/interactions-neuron-4MxMvzhTEuqty](via GIPHY)*
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Neuron Synapse Infographic*
@@ -211,11 +206,8 @@ It is important to note that no two human brains are exactly alike. Just as we r
 ###  What is the Brain?
 One of the most fascinating and wondrous things in the universe exists within each of us: our brain. Considering everything our brain does, it is incredibly compact, weighing just 3 pounds packed with 100 billion neurons that give us the ability to sense, see, hear, smell, move, think, laugh, cry, speak, read, and remember. Our brain is uniquely structured with many sections and folds that provide it with enough surface area necessary to process and store all of the body's important information.
 
-![](https://octodex.github.com/images/dojocat.jpg)
-*Rotating Skull and Brain*
-
-<!-- Section kept in comments in case image link is fixed -->
-<!-- <iframe src="//giphy.com/embed/ZqAHKwHhVWOk0" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brain-ZqAHKwHhVWOk0">via GIPHY</a></p> -->
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/ZqAHKwHhVWOk0" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+*Rotating Skull and Brain [via Giphy](https://giphy.com/gifs/brain-ZqAHKwHhVWOk0)*
 
 ---
 ###  The Basics
@@ -298,11 +290,8 @@ Typically the brain and spinal cord act together; however, there are some action
 
 Modern neuroimaging research is no longer focused on functional segregation, or the localization of function to a single area of the brain. Today, researchers are using new techniques to follow tracts of neurons that connect networks of brain areas to better understand how they work together to determine human behavior.
 
-![](https://octodex.github.com/images/dojocat.jpg)
-*Connecting Neurons*
-
-<!-- Section kept in comments in case image link is fixed -->
-<!-- <iframe src="//giphy.com/embed/xT0BKr4MvHdohFTe6s" width="480" height="288" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uofcalifornia-brain-neuroscience-neurons-xT0BKr4MvHdohFTe6s">via GIPHY</a></p> -->
+<div style="width:100%;height:0;padding-bottom:60%;position:relative;"><iframe src="https://giphy.com/embed/xT0BKr4MvHdohFTe6s" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+*Connecting Neurons [via Giphy](https://giphy.com/gifs/uofcalifornia-brain-neuroscience-neurons-xT0BKr4MvHdohFTe6s)*
 
 ---
 ##  Functional Systems of the Brain
@@ -317,16 +306,16 @@ This section introduces the neural foundations of sensory perception, where our 
 
 At a very basic level, sensory systems are made up of receptors, neural pathways, and parts of the brain involved in sensory perception. Each sensory system begins with specialized receptor cells. Commonly recognized sensory systems include the following five: vision, hearing, taste, smell, and touch.
 
-_Sight and Vision_
+#### Sight and Vision
 Every sight we experience is the result of light entering the eye and forming an upside-down image on the retina layer of our eye. Our retina contains photoreceptors, light detecting cells that transform the light into nerve signals for the brain. The cortex of the brain receives the nerve signals, flips the images rightside up, and tells us what we are seeing so as to make sense of each vision experience, allowing us to react to what we see.
 
-_Hearing_
+#### Hearing
 Every sound we hear is the result of sound waves entering our ears and causing our eardrums to vibrate. These vibrations transfer along the middle ear and are converted into nerve signals which are received and processed by the cortex. The cortex helps us make sense of each sound experience, allowing us to react to what we hear.
 
-_Taste and Smell_
+#### Taste and Smell
 Every taste we experience is the result of small groups of sensory cells on our tongue, our taste buds, reacting to chemicals in foods and sending messages to the areas in the cortex responsible for receiving and processing taste.  Every smell we experience is the result of olfactory cells in our nostrils reacting to chemicals we breathe in, sending messages to the areas in the cortex responsible for receiving and processing smell. Our cortex processes and narrates taste and smell experience for us, allowing us to react to what we taste and smell.
 
-_Pain and Touch_
+#### Pain and Touch
 Every time we experience pain or touch, it is the result of  more than 4 million sensory receptors on the skin absorbing information related to temperature, texture, pressure, and pain. Simply put, our sensory receptors send this information to our cortex for processing, allowing us to react to what we sense through our skin.
 
 More in-depth information on the topic of senses and reaction can be found by reading advanced lessons on [Sensory-Motor Coupling](https://en.wikipedia.org/wiki/Sensory-motor_coupling), etc.
@@ -424,12 +413,8 @@ Better knowledge about brain function is still needed to treat neurological and 
 ###  Historical Developments in Neuroscience
 (currently editing)
 
-![](https://octodex.github.com/images/dojocat.jpg)
-
-<!-- Section kept in comments in case image link is fixed -->
-<!-- <iframe allowfullscreen frameborder="0" width="698" height="573" scrolling="no" id="molvideoplayer" title="MailOnline Embed Player" src="http://www.dailymail.co.uk/embed/video/1086896.html"></iframe> -->
-
-*BCI Lab’s “Glass Brain” - a 3D Brain Visualisation*
+{% include youtube_embed.html id="nvXuq9jRWKE" %}
+*BCI Lab’s “Glass Brain” - a 3D Brain Visualisation [via Neuroscape](https://neuroscape.ucsf.edu/technology/#glass-brain)*
 
 ---
 ###  Neuroimaging: Methods and Techniques

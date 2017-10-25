@@ -117,6 +117,26 @@ With a reference later in the document defining the URL location:
 </div>
 </div> <!-- end of row -->
 
+## Giphy
+
+For Giphy embeds go to the Giphy page, choose embed and click responsive. Once you have the code, delete the `<p>...</p>` code at then end and keep the `<div>...</div>`
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/4MxMvzhTEuqty" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+## Video
+
+A responsive YouTube element with a 16x9 aspect ratio (default)
+
+{% include youtube_embed.html id="nvXuq9jRWKE" %}
+<!-- Replace id with your video id -->
+
+Add in aspect ratio for 4x3 (only this and 16x9 are supported)
+
+{% include youtube_embed.html id="nvXuq9jRWKE" aspect="4x3"%}
+
+iFrame code for YouTube is set in `/_include/youtube_embed.html`
+
+
 #### Pros
 
 * Can go up to 16 channels

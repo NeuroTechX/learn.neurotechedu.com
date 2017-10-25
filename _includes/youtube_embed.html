@@ -1,0 +1,14 @@
+<!-- Embed code for a responsive YouTube video -->
+
+<!-- 16x9 aspect used as default -->
+<style>.embed-container { position: relative; padding-bottom: 56.35%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+
+<!-- set padding-bottom based on aspect of videos -->
+{% case include.aspect %}
+{% when '4x3' %}
+<style>.embed-container { position: relative; padding-bottom: 75%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+{% when '2x1' %}
+<style>.embed-container { position: relative; padding-bottom: 50%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+{% endcase %}
+
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/{{ include.id }}' frameborder='0' allowfullscreen></iframe></div>
