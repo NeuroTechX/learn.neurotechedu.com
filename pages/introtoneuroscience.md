@@ -26,17 +26,17 @@ permalink: "/introtoneuroscience/"
 
 By the end of this online lesson, students or readers should be able to:
 
-* Understand basic principles of neuroscience including: Nervous system cell types, Nervous system organization, Major brain areas, and Electrical signalling
-* Understand neuroscience research methods including: EEG, MRI, etc.
-* Describe the basic purpose and structure of the human nervous system
-* Understand a flowchart model of the the human neurological system
-* Recognise molecular levels and cellular components of the nervous system
-* Understand how human sensory, motor, and cognitive systems work
-* Understand how the body’s neural systems mediate sensation, bodily action, memory, emotion, and cognition
-* Characterize how human functions are informed and regulated by the nervous system
-* Obtain an overview of Brain Development, Disease and Disorders
-* Differentiate between brain observation methods
-* Understand within a historical social context how the field of neuroscience has developed and where it is going
+- Understand basic principles of neuroscience including: Nervous system cell types, Nervous system organization, Major brain areas, and Electrical signalling
+- Understand neuroscience research methods including: EEG, MRI, etc.
+- Describe the basic purpose and structure of the human nervous system
+- Understand a flowchart model of the the human neurological system
+- Recognise molecular levels and cellular components of the nervous system
+- Understand how human sensory, motor, and cognitive systems work
+- Understand how the body’s neural systems mediate sensation, bodily action, memory, emotion, and cognition
+- Characterize how human functions are informed and regulated by the nervous system
+- Obtain an overview of Brain Development, Disease and Disorders
+- Differentiate between brain observation methods
+- Understand within a historical social context how the field of neuroscience has developed and where it is going
 
 _Helpful previous knowledge: basic understanding of cell and molecular biology, general physiology and human anatomy._
 
@@ -369,26 +369,25 @@ In this section we mention the most common brain disorders and explain at physio
 #### Things That Can Go Wrong With the Brain
 Sometimes things can go wrong inside the brain. Because the brain is the body’s control center, when something goes wrong with it, it's often serious and can affect many different parts of the body.  In the 21st century, neuroscientists hope not only to uncover the secrets behind our most devastating neurological diseases, but how the brain makes us who we are. Neuroscientists work to understand how the brain affects mental life and behavior, in both health and disease states.  More than 1,000 disorders of the brain and nervous system result in more hospitalizations and lost productivity than any other disease group, including heart disease and cancer. Neurological diseases make up 11 percent of the world’s disease burden. Inherited diseases, brain disorders associated with mental illness, and head injuries all can affect the way the brain works as well as present challenges to the rest of the body for daily activities. Problems that can affect the brain include brain disease, developmental disorders, degenerative disorders, psychiatric disorders, and behavioural disorders. Following are a few examples:
 
-_Brain Tumors_
+#### Brain Tumors
 A brain tumor is an abnormal tissue growth in the brain. A tumor in the brain may grow slowly and produce few symptoms until it becomes large, or it can grow and spread rapidly, causing severe and quickly worsening symptoms.
 
-_Concussion and Head Injuries_
+#### Concussion and Head Injuries
 A concussion is the temporary loss of normal brain function as a result of an internal head injury. An internal head injury could have serious implications. Internal injuries may involve the skull, the blood vessels within the skull, or the brain. Repeated concussions can result in permanent brain injury.
 
-_Cerebral Palsy_
+#### Cerebral Palsy
 Cerebral palsy is the result of a developmental defect or damage to the brain before or during a baby's birth, or during the first few years of a child's life, affecting the motor areas of the brain. A person with cerebral palsy may have average intelligence or can have severe developmental delays or intellectual disability. Cerebral palsy can affect body movement in many different ways, from minor muscle weakness of the arms and legs to more severe motor impairment affecting walking and talking.
 
-_Epilepsy_
+#### Epilepsy
 This condition includes a wide variety of seizure disorders. Seizures involve either specific or more generalized areas of the brain, exhibiting minor to major symptoms with the most extreme cases being uncontrolled movements of the entire body and loss of consciousness. The specific cause is unknown in many cases, although epilepsy can be related to brain injury, tumors, or infections. The tendency to develop epilepsy may be genetic.
 
-_Meningitis and Encephalitis_
+#### Meningitis and Encephalitis
 Meningitis is an inflammation of the coverings of the brain and spinal cord, and encephalitis is an inflammation of the brain tissue.  Both cases of inflammation involve infections of the brain and spinal cord, caused by bacterial or viral infections. Both conditions may cause permanent injury to the brain.
 
-_Mental illness_
+#### Mental illness
 Mental illnesses are psychological and behavioral in nature and involve a wide range of problems in thought and function. Certain mental illnesses are now known to be linked to structural abnormalities or chemical dysfunction of the brain. Some are inherited. But often the cause is unknown. Injuries to the brain and chronic drug or alcohol abuse also can trigger some mental illnesses. Signs of chronic mental illnesses such as bipolar disorder or schizophrenia may first show up in childhood. Mental illnesses that can be seen in younger people include depression, eating disorders such as bulimia or anorexia nervosa, obsessive-compulsive disorder (OCD), and phobias.
 
-_Neurotransmitter Imbalances_
-
+#### Neurotransmitter Imbalances
 Neurotransmitter imbalances can involve a wide range of problems in thought and function. Following are a few examples of neurotransmitter transmission involved in brain disease and disorder:
 
 - Alzheimer’s Disease (Acetylcholine)
