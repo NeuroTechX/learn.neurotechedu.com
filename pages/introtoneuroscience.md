@@ -413,7 +413,7 @@ Better knowledge about brain function is still needed to treat neurological and 
 ###  Historical Developments in Neuroscience
 (currently editing)
 
-{% include youtube_embed.html id="nvXuq9jRWKE" %}
+{% include youtube_embed.html id="dAIQeTeMJ-I" %}
 *BCI Lab’s “Glass Brain” - a 3D Brain Visualisation [via Neuroscape](https://neuroscape.ucsf.edu/technology/#glass-brain)*
 
 ---
