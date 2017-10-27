@@ -101,5 +101,39 @@ In the last decade, P3-based BCIs have emerged as one of the main BCI categories
 
 # 3) How to record, process, and classify an ERP
 
+This section presents a hands-on tutorial on how to extract ERPs from EEG data. We use the 
+[Python MNE Library](http://martinos.org/mne/stable/index.html), which has good tools for eeg
+and MEG data analysis. In addition, this library includes EEG datasets which can be downloaded
+for free.
+
+### __MNE Sample Dataset__
+
+We use the sample dataset provided by MNE and recorded in an experiment where checkerboard
+patterns were presented to the subject into the left and right visual field, interspersed by tones
+to the left or right ear according to the following settings:
+---The interval between the stimuli was 750 ms.
+---Occasionally, a smiley face was presented at the center of the visual field.
+---Subject was asked to press a key with the right index finder as soon as possible after the appearance of the face.
+---EEG data from a 60-channel electrode cap was acquired simultaneously with MEG data.
+
+The sample dataset can be downloaded with the following command:
+
+mne.datasets.sample.data_path(verbose=True)
+
+The trigger codes for each kind of stimulus are shown in the table below:
+
+| Name   | Trigger code |                Content                  |
+|--------|:------------:|----------------------------------------:|
+|  LA    |       1      | Response to left-ear auditory stimulus  |
+|  RA    |       2      | Response to right-ear auditory stimulus |
+|  LV    |       3      | Response to left visual field stimulus  |
+|  RV    |       4      | Response to right visual field stimulus |
+| smiley |       5      | Response to the smiley face             |
+| button |      32      | Response triggered by the button press  |
+
+For more information on processing examples of this dataset check [this link](http://martinos.org/mne/stable/manual/sample_dataset.html)
+
+### __3.2 Importing data__
+
 
 </div> <!-- end of table section -->
