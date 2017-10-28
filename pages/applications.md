@@ -99,33 +99,42 @@ Although a controversial [use case](http://journals.sagepub.com/doi/abs/10.1177/
 
 #### PTSD
 
-PTSD Neuofeedback has been studied for over [25 years](http://charleston.braincoretherapy.com/wp-content/uploads/2014/01/PENISTON-PTSD.pdf). A lot of the studies focus on getting the participants to generate alpha wave activity which is associated with being in a relaxed state.
+PTSD neurofeedback has been studied for over [25 years](http://charleston.braincoretherapy.com/wp-content/uploads/2014/01/PENISTON-PTSD.pdf). A lot of the studies focus on getting the participants to generate alpha wave activity which is associated with being in a relaxed state. Most articles which were reviewed suggest that Neurofeedback should be use in combination with other treatments.
 
-[http://onlinelibrary.wiley.com/doi/10.1111/acps.12229/full](http://onlinelibrary.wiley.com/doi/10.1111/acps.12229/full)
+**References**
+* [Alpha-Theta Brainwave Neuro-feedback for Vietnam Veterans](http://onlinelibrary.wiley.com/doi/10.1111/acps.12229/full)
+* [Neurofeedback as an adjunct therapy for treatment of PTSD](http://journals.sagepub.com/doi/abs/10.1177/1039856217715988)
+*
 <!--Needs to be reviewed -->
 
 ## Cognitive Training
-<hr>
+
+#### Performance Optimization
+
+This series of articles discuss how you can you Neurofeedback as a mechanism to improve a wide variety of perfoEEG Neurofeedback for optimizing performance 3rmances. This is a good series of articles to start with if you want a high level overview.
+
+**References**
+* [EEG Neurofeedback for optimizing performance 1](http://www.sciencedirect.com/science/article/pii/S0149763413002248#bib0700)
+* [EEG Neurofeedback for optimizing performance 2](http://www.sciencedirect.com/science/article/pii/S0149763413002716)
+* [EEG Neurofeedback for optimizing performance 3](http://www.sciencedirect.com/science/article/pii* /S0149763414000700)
 
 #### Brain Ageing
 
 One of the more common services which Neurofeedback clinics provide is neurofeedback to combat brain ageing. Researchers have found that you can identify certain biomarkers in QEEG to predict future cognitive decline as well as the onset of Alzheimer's.  
 
-[Video games for cognitive enhancement - Adam Gazzaley Lab](http://gazzaleylab.ucsf.edu/wp-content/uploads/2014/09/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf)
-[Ref-1](http://journals.sagepub.com/doi/abs/10.1177/1550059415590750)
-[Ref-2](http://www.sciencedirect.com/science/article/pii/S030105111300152X)
-[Ref-3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5346575/)
-[Ref-4](http://onlinelibrary.wiley.com/doi/10.1196/annals.1379.008/full?wol1URL=/doi/10.1196/annals.1379.008/full&identityKey=c38f7acf-fae1-4f16-b3bb-d5a6f7e0fca9)
-[Ref-5](http://www.tandfonline.com/doi/abs/10.1080/13854040600744839)
-[Ref-6](http://www.jpreventionalzheimer.com/1665-a-personalized-12-week-brain-fitness-program-for-improving-cognitive-function-and-increasing-the-volume-of-hippocampus-in-elderly-with-mild-cognitive-impairment.html)
+* [Video games for cognitive enhancement - Adam Gazzaley Lab](http://gazzaleylab.ucsf.edu/wp-content/uploads/2014/09/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf)
+* [Ref-1](http://journals.sagepub.com/doi/abs/10.1177/1550059415590750)
+* [Ref-2](http://www.sciencedirect.com/science/article/pii/S030105111300152X)
+* [Ref-3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5346575/)
+* [Ref-4](http://onlinelibrary.wiley.com/doi/10.1196/annals.1379.008/full?wol1URL=/doi/10.1196/annals.1379.008/full&identityKey=c38f7acf-fae1-4f16-b3bb-d5a6f7e0fca9)
+* [Ref-5](http://www.tandfonline.com/doi/abs/10.1080/13854040600744839)
+* [Ref-6](http://www.jpreventionalzheimer.com/1665-a-personalized-12-week-brain-fitness-program-for-improving-cognitive-function-and-increasing-the-volume-of-hippocampus-in-elderly-with-mild-cognitive-impairment.html)
 
-#### Performance Optimization
-
-[Ref-1](http://www.sciencedirect.com/science/article/pii/S0149763414000700)
 
 
 #### Early Development
 
+Most articles looking into the use of EEG as a Neurofeedback tool for early development tends to look at ADHD. However, there might be other use cases as well. 
 
 [http://www.jneurosci.org/content/35/16/6277](http://www.jneurosci.org/content/35/16/6277)
 [Ref-1](https://link.springer.com/article/10.1007%2FBF02214148?LI=true)
