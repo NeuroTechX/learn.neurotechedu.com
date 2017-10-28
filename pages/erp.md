@@ -122,7 +122,7 @@ mne.datasets.sample.data_path(verbose=True)
 
 The trigger codes for each kind of stimulus are shown in the table below:
 
-| Name   | Trigger code |                Content                  |
+| Name   | Trigger code |    Content   |
 |--------|:------------:|----------------------------------------:|
 |  LA    |       1      | Response to left-ear auditory stimulus  |
 |  RA    |       2      | Response to right-ear auditory stimulus |
@@ -134,6 +134,115 @@ The trigger codes for each kind of stimulus are shown in the table below:
 For more information on processing examples of this dataset check [this link](http://martinos.org/mne/stable/manual/sample_dataset.html)
 
 ### __3.2 Importing data__
+
+>> import mne
+>> from mne.datasets import sample
+
+>> data_path = sample.data_path()
+>> raw_fname = data_path + '/MEG/sample/sample_audvis_filt-0-40_raw.fif'
+>> Event_fname = data_path + '/MEG/sample/sample_audvis_filt-0-40_raw-eve.fif'
+>> raw = mne.io.read_raw_fif(raw_fname, preload=True)
+>> raw.set_eeg_reference()  # set EEG average reference
+
+### __3.3 EEG Montage__
+
+### __3.4 EEG Reference__
+
+### __3.5 EEG Preprocessing__
+
+   Before starting to extract features from a signal, it's important to remove the artifacts in 
+order to clean the signals to enhance relevant information embedded in these signals. EEG
+signals are known to be very noisy, as they can be easilyh affected by the electrical activity of the 
+body (EOG and EMG) and environmental artifacts (e.g. 50 or 60 Hz power line). The preprocessing
+step aims at increasing the SNR (Signal-to-Noise Ratio) of the signals.
+
+--- _Bandpass 0.15 - 40 Hz_
+--- _Select the most important channels (manually removing the less important channels for now)
+
+### __3.6 Epoching__
+
+ERP components are characterized by specific temporal variations according to the stimulus onset, 
+therefore ERP-based BCIs exploit mostly the temporal information of a signal.
+
+The ERP components can be quantified by averaging activity in the EEG time-locked to a specific
+event. The results in a waveform associated with the processing of that specific event. The ERPs found in such tasks have a characterisitic waveform with clearly identifiable components. 
+
+An epoech is a chunk of EEG recording in the time domain. Here we are using the stimulus-locked epoch,
+which means that we consider 0 as the onset of the stimulus and then we extract the first N
+milliseconds after that (e.g. if Nis 1500, we are sampling at 32 Hz and we have 100 stimuli, we have 
+100 epochs of 48 samples (1.5s * 32) for each electrode).
+
+Here is an example of Ephochs in a real time application:
+__insert gif__
+
+# Defining Epochs and computing ERP for left auditory condition
+>> reject = dict(eeg=180e-6, eog=150e-6)
+>> event_id, tmin, tmax = {'left/auditory': 1}, -0.2, 0.5
+>> events = mne.read_events(event_fname)
+>> epochs_params = dict(events=events, event_id=event_id, tmin=tmin,
+tmax=tmax,reject=reject)
+
+### __3.7 Extracting features__
+
+Since a lot of modern-day ERP processing involves machine learning, the term 'feature' is 
+frequently used in ERP analysis. A _feature_ is a measured property of a signal that is used as
+input to the machine learning algorithm. For example, a commonly used feature for ERPs is _average voltage_ of the signal
+at each time point across all the epochs. Extracting this feature does not require major computation
+or processing, and it is easy to implement in MNE:
+
+>> evoked_no_ref = mne.Epochs(raw_no_ref, **epochs_params).average()
+>> del raw_no_ref  # save memory
+
+>> title = 'EEG with Original reference'
+>> evoked_no_ref.plot(titles=dict(eeg=title))
+>> del raw_no_ref  # save memory
+
+__insert figure__
+
+Once we have a feature vector, this could be used to in the classification step of the BCI to
+produce meaningful outputs using machine learning (e.g. Simple Linear Regression, Linear Discriminant
+Analysis, Support Vector Regression). 
+
+# 4) Other methods for feature extraction
+
+### __4.1 Dimension Reduction methods__
+
+Brain signals can be measured through multiple channels. Not all information provided by these
+channels is generally relevant for understanding the underlying phenomena of interest.
+Dimension reduction technicques can be applied to reduce the dimension of the original data,
+removing the irrelevant and redundant information. So the computational costs are reduced.
+
+#### __4.1.1 Principal Component Analysis (PCA)__
+
+   PCA is a statistical features extraction method that uses a linear transformation to
+convert a set of observations possible correlated into a set of uncorrelated variables called
+principal components. Linear transformations generates a set of components from the input data,
+sorted according to their variance in such a way that the first principal component has the highest possible
+variance. This variance allows PCA to separate the brain signal into different components.
+   PCA is also a procedure to reduce the dimension of the features. Since the number of columns is 
+less than the dimension of the input data. This decrease in dimensionality can reduce the complexity
+of the subsequent classifying step in a BCI system. 
+
+#### ___4.1.2. Independent Component Analysis (ICA)___
+
+   ICA is a statistical procedure that splits a set of mixed signals to its sources with no
+previous information on the nature of the signal. The only assumption involved in the ICA is that the 
+unknown underlying sources are mutually independent in statistical terms. ICA assumes that the 
+observed EEG signal is a mixture of several independent source signals coming from multiple
+cognitive activities or artifacts.
+
+### __ Wavelet Transform__
+  
+  Wavelets are functions of varying frequency and limited duration that allow simultaneous
+analysis of the signal in both the time and frequency domain, in contrast to other modalities
+of the signal analysis such as Fourier Transform (FT) that provides only an analysis of the 
+signal activity in the frequency domain. FT gives information about the frequency content, 
+but it is not accompanied by information on when those frequencies occu.
+
+
+
+
+
 
 
 </div> <!-- end of table section -->
