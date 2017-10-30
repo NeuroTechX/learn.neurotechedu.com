@@ -237,12 +237,56 @@ cognitive activities or artifacts.
 analysis of the signal in both the time and frequency domain, in contrast to other modalities
 of the signal analysis such as Fourier Transform (FT) that provides only an analysis of the 
 signal activity in the frequency domain. FT gives information about the frequency content, 
-but it is not accompanied by information on when those frequencies occu.
+but it is not accompanied by information on when those frequencies occur.
 
+### __Further readings__
 
+If you are interested in broadening your knowledge on ERPs and BCIs, we recommend the following 
+papers/books to read. Most of them are freely available. We also indicated in bold face the 
+main topic covered by the resource.
 
+### __General on ERPs__
 
+* Luck, Steven J. _An Introduction to the Event-Related Potential Technique._ 2nd ed. MIT Press. __The big book of ERPs: [Official website](https://mitpress.mit.edu/books/introduction-event-related-potential-technique-0)and... [PDF](http://libgen.io/get.php?md5=B714ED5B0251ED7628369F5BEA1096A4&key=0GSQ1BJ67SS26SZN)__
+* Luck, Steven J. 2004. "Ten Simple Rules for Designing and Interpreting ERP Experiments." In _Event-Related Potentials: A Methods Handbook_ edited by T.C. Handy. __Good tutorial for designing ERP experiments, but also useful to us__
+* Jung, Tzyy Ping, Scott Makeig, Marissa Westerfield, Jeanne Townsend, Eric Courchesne, and Terrence J. Sejnowski. 2001. "Analysis and Visualization of Single-Trial Event-Related Potentials" _Human Brain Mapping_ 14 (3): 166-85. doi:10.1002/hbm.1050. __Another tutorial__
+* Comerchero, Marco D., and John Polich. 1999. "P3a and P3b from Typical Auditory and Visual Stimuli." _Clinical Neurophysiology_ 100 (1): 24-30
+* Picton, Terrence w. 1992. "The P300 Wave of the Human Event-Related Potential." _Journal of Clinical Neurophysiology_ 9 (4): 456-79. http://journals.lww.com/clinicalneurophys/Abstract/1992/10000/The_P300_Wave_of_the_Human_Event_Related_Potential.2.aspx __P300__
+* Polich, John. 2007. “Updating P300: An Integrative Theory of P3a and P3b.” _Clinical Neurophysiology_ 118 (10): 2128–48. doi:10.1016/j.clinph.2007.04.019. __P300__
+* Pritchard, Walter S. 1981. “Psychophysiology of P300.” _Psychological Bulletin_ 89 (3): 506–40. http://www.ncbi.nlm.nih.gov/pubmed/7255627. __P300__
+* Rohrbaugh, John W., Emanuel Donchin, and Charles W. Eriksen. 1974. “Decision Making and the P300 Component of the Cortical Evoked Response.” _Perception & Psychophysics_ 15 (2): 368–74. http://link.springer.com/article/10.3758/BF03213960. __P300 and decision making.__
+* Snyder, Elaine, and Steven A. Hillyard. 1976. “Long-Latency Evoked Potentials to Irrelevant, Deviant Stimuli.” _Behavioral Biology_ 16 (3): 319–31. doi:10.1016/S0091-6773(76)91447-4. __P300 and N200__
+* Squires, Nancy K., Kenneth C. Squires, and Steven A. Hillyard. 1975. “Two Varieties of Long-Latency Waves Evoked by Unpredictable Auditory Stimuli in Man.” _Electroencephalography and Clinical Neurophysiology_ 38 (4): 387–401. __Visual and auditory P300__
+* Falkenstein, Michael, Jörg Hoormann, Stefan Christ, and Joachim Hohnsbein. 2000. “ERP Components on Reaction Errors and Their Functional Significance: A Tutorial.” _Biological Psychology_ 51 (2–3): 87–107. doi:10.1016/S0301-0511(99)00031-9. __This is on Error Negativity, another ERP__
+* Yasuda, Asako, Atsushi Sato, Kaori Miyawaki, Hiroaki Kumano, and Tomifusa Kuboki. 2004. “Error-Related Negativity Reflects Detection of Negative Reward Prediction Error.” _Neuroreport_ 15 (16): 2561–65. doi:10.1097/00001756-200411150-00027. __Error negativity__
+* Hillyard, Steven A., and Lourdes Anllo-Vento. 1998. “Event-Related Brain Potentials in the Study of Visual Selective Attention.” _Proceedings of the National Academy of Sciences_ 95 (3): 781–87. __Various visual ERPs__
+* Hsu, Yi Fang, Jarmo A. Hämäläinen, Karolina Moutsopoulou, and Florian Waszak. 2015. “Auditory Event-Related Potentials over Medial Frontal Electrodes Express Both Negative and Positive Prediction Errors.” _Biological Psychology_ 106. Elsevier B.V.: 61–67. doi:10.1016/j.biopsycho.2015.02.001. __Error negativity but elicited by auditory stimuli__
+* Polich, John. 2007. “Updating P300: An Integrative Theory of P3a and P3b.” _Clinical Neurophysiology_ 118 (10): 2128–48. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2715154/pdf/nihms31682.pdf) __P300__
 
+### __2. Feature extraction__
+
+* Donchin, Emanuel, and E. F. Heffley. 1978. “Multivariate Analysis of Event-Related Potential Data: A Tutorial Review.” _In Multidisciplinary Perspectives in Event-Related Brain Potential Research_, edited by Dave Otto, 555–72. Washington, D.C.: U.S. Government Printing Office. __Various analysis techniques for ERP-based BCIs__
+* Poli, Riccardo, Caterina Cinel, Luca Citi, and Francisco Sepulveda. 2010. “Reaction-Time Binning: A Simple Method for Increasing the Resolving Power of ERP Averages.” _Psychophysiology_ 47 (3): 467–85. doi:10.1111/j.1469-8986.2009.00959.x. __Paper about the limits of averaging and how they can alter the shape of ERPs__
+* Poli, Riccardo, Luca Citi, Mathew Salvaris, Caterina Cinel, and Francisco Sepulveda. 2010. “Eigenbrains: The Free Vibrational Modes of the Brain as a New Representation for EEG.” In _32nd Annual International Conference of the IEEE EMBS_, 6011–14. doi:10.1109/IEMBS.2010.5627593. __A novel feature extraction method for ERPs.__
+* Congedo, Marco, Alexandre Barachant, and Anton Andreev. 2013. “A New Generation of Brain-Computer Interface Based on Riemannian Geometry.” _arXiv Preprint arXiv:1310.8115_ 33 (0). http://arxiv.org/abs/1310.8115. __Riemannian geometry as a feature extraction method__
+* Al-ani, Tarik, and Dalila Trad. Signal processing and classification approaches for brain-computer interface. INTECH Open Access Publisher, 2010. [link](http://cdn.intechopen.com/pdfs/6798/I...erface.pdf)
+
+### __3. ERP-based BCIs__
+* Farwell, Lawrence A., and Emanuel Donchin. 1988. “Talking off the Top of Your Head: Toward a Mental Prosthesis Utilizing Event-Related Brain Potentials.” _Electroencephalography and Clinical Neurophysiology_ 70 (6): 510–23. [doi:http://dx.doi.org/10.1016/0013-4694(88)90149-6.](http://www.sciencedirect.com/science/article/pii/0013469488901496?via%3Dihub) __The first P300 speller__
+* Fazel-Rezai, Reza, Brendan Z. Allison, Christoph Guger, Eric W. Sellers, Sonja C. Kleih, and Andrea Kübler. 2012. “P300 Brain Computer Interface: Current Challenges and Emerging Trends.” _Frontiers in Neuroengineering_ 5: 14. doi:10.3389/fneng.2012.00014. __A survey on P300-based BCIs, with a table similar to what I had in mind__
+* Citi, Luca, Riccardo Poli, Caterina Cinel, and Francisco Sepulveda. 2008. “P300-Based BCI Mouse with Genetically-Optimized Analogue Control.” _IEEE Transactions on Neural Systems and Rehabilitation Engineering_ 16 (1): 51–61. doi:10.1109/TNSRE.2007.913184. __P300-based BCI mouse__
+* Donchin, Emanuel, and Yael Arbel. 2009. “P300 Based Brain Computer Interfaces: A Progress Report.” In _Proceedings of the 5th International Conference on Foundations of Augmented Cognition_, 724–31. Springer Berlin Heidelberg. doi:10.1007/978-3-642-02812-0_82. __Another survey on P300-based BCIs__
+* Matran-Fernandez, Ana, and Riccardo Poli. 2016. “Brain-Computer Interfaces for Detection and Localisation of Targets in Aerial Images.” _IEEE Transactions on Biomedical Engineering_ PP (99): 1–1. doi:10.1109/TBME.2016.2583200. __N2pc used to detect targets in rapid serial visual presentation__
+* Furdea, Adrian, Sebastian Halder, D. J. Krusienski, Donald Bross, Femke Nijboer, Niels Birbaumer, and Andrea Kübler. 2009. “An Auditory Oddball (P300) Spelling System for Brain-Computer Interfaces.” _Psychophysiology_ 46 (3): 617–25. doi:10.1111/j.1469-8986.2008.00783.x. __Auditory P300 BCI speller.__
+* . 
+* Furdea, Adrian, Sebastian Halder, D. J. Krusienski, Donald Bross, Femke Nijboer, Niels Birbaumer, and Andrea Kübler. 2009. “An Auditory Oddball (P300) Spelling System for Brain-Computer Interfaces.” _Psychophysiology_ 46 (3): 617–25. doi:10.1111/j.1469-8986.2008.00783.x. __Auditory P300 BCI speller.__
+* Nicolas-Alonso, Luis Fernando, and Jaime Gomez-Gil. 2012. “Brain Computer Interfaces, a Review.” Sensors 12 (2): 1211–79. doi:10.3390/s120201211. [Link](http://www.mdpi.com/1424-8220/12/2/1211/htm) __General review on BCIs__
+* Rebsamen, Brice, Cuntai Guan, Haihong Zhang, Chuanchu Wang, Cheeleong Teo, Marcelo H. Ang, and Etienne Burdet. 2010. "A brain controlled wheelchair to navigate in familiar environments." _IEEE Transactions on Neural Systems and Rehabilitation Engineering_ 18 (6): 590-598. [Link](https://tel.archives-ouvertes.fr/tel-00459007/document)
+* Szafir, D. 2010. "Non-Invasive BCI through EEG." unpublished Undergraduate Honors Thesis in Computer Science, Boston College. [Link](https://dlib.bc.edu/islandora/object/bc-ir:102430/datastream/PDF/view)
+* Lotte, F., 2008. Study of electroencephalographic signal processing and classification techniques towards the use of brain-computer interfaces in virtual reality applications (Doctoral dissertation, INSA de Rennes). [Link](https://tel.archives-ouvertes.fr/tel-00356346v2/document)
+* Fazel-Rezai, Reza, Brendan Z. Allison, Christoph Guger, Eric W. Sellers, Sonja C. Kleih, and Andrea Kübler. 2012. "P300 brain computer interface: current challenges and emerging trends." _Frontiers in neuroengineering_ 5 (14). [Link](https://www.frontiersin.org/articles/10.3389/fneng.2012.00014/full) __Another survey on P300-based BCIs__
+* van Dinteren, Rik, Martijn Arns, Marijtje LA Jongsma, and Roy PC Kessels. 2014. "P300 development across the lifespan: a systematic review and meta-analysis." PloS one 9 (2): e87347. [Link](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0087347)
+* Hoffmann, Ulrich, Jean-Marc Vesin, Touradj Ebrahimi, and Karin Diserens. 2008. "An efficient P300-based brain–computer interface for disabled subjects." _Journal of Neuroscience methods_ 167 (1): 115-125. [Link](https://infoscience.epfl.ch/record/101093/files/manuscript.pdf)
 
 
 </div> <!-- end of table section -->
