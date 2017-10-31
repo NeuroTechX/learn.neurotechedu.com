@@ -21,8 +21,28 @@ permalink: "/applications/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-## Virtual Reality
+
+
+## NeuroEntertainment
 <hr>
+#### Neurogaming
+
+[NeuroSky has a list of games which it released to go along with its headset](http://store.neurosky.com/collections/apps/games)
+
+#### NeuroToys
+
+There have been multiple manufacturers of BCI toys. going back to the mid 2000's. Here are some of the more popular ones.
+
+**References**
+
+* [Puzzlebox has various devices BCI devices](https://puzzlebox.io/)
+* [There are also Star Wars-themed toys!](http://starwarsscience.com/product/the-force-trainer-ii-hologram-experience/)
+
+#### Art
+
+Multiple people have use eeg's for art and music generation
+
+#### Virtual Reality
 
 Once the stuff of science fiction, virtual reality is on the cusp of becoming part of our day-to-day lives thanks to mounting technological advances. Many popular VR headsets are ushering in exciting new ways to play and interact with the world. As these devices continue to evolve, we believe that EEG algorithms can add the extra layer of immersion needed to truly complete the virtual reality experience.
 
@@ -30,38 +50,23 @@ Once the stuff of science fiction, virtual reality is on the cusp of becoming pa
 
 There are a few companies who have been interested in bring EEG data with VR headsets as seen below.
 
-[Neurosky's article on the use of ](http://neurosky.com/2016/04/a-new-virtual-reality-the-rise-of-vr-headsets-eeg/)
-
-[Article on Mind Mazet](http://www.theverge.com/2015/3/3/8136405/mind-maze-mind-leap-thought-reading-virtual-reality-headset)
-
-[DG Lab's VR Zen Headset](https://www.cnet.com/news/this-vr-headset-is-designed-to-let-you-find-your-zen/)
-
-[Neurable](http://neurable.com/)
+**References**
+* [Neurosky's article on the use of ](http://neurosky.com/2016/04/a-new-virtual-reality-the-rise-of-vr-headsets-eeg/)
+* [Article on Mind Mazet](http://www.theverge.com/2015/3/3/8136405/mind-maze-mind-leap-thought-reading-virtual-reality-headset)
+* [DG Lab's VR Zen Headset](https://www.cnet.com/news/this-vr-headset-is-designed-to-let-you-find-your-zen/)
+* [Neurable](http://neurable.com/)
 
 
-## NeuroEntertainment
-<hr>
-
-#### Neurogaming
-
-[NeuroSky has a list of games which it released to go along with its headset](http://store.neurosky.com/collections/apps/games)
-
-#### NeuroToys
-
-There have been multiple manufacturers of BCI toys.
-
-[Puzzlebox has various devices BCI devices](https://puzzlebox.io/)
-
-There are also Star Wars-themed toys! [Learn more.](http://starwarsscience.com/product/the-force-trainer-ii-hologram-experience/)
 
 ## Security
 <hr>
-
 #### Brain based authentication
 
 EEG Biometric is a growing field which looks at how we can use your eeg activity to be able to identify someone. Similar to one's fingerprint, your brain activity can be used as a form of authentication. The most common forms of Brain Authentication are using resting state brain activity or a visual evoked potential task. For more information on Brain Based Authentication, check out this DEF CON talk.
 
-[Brain Based Authentication](https://www.youtube.com/watch?v=frAhjtnvkqs)
+**References**
+
+* [Brain Based Authentication](https://www.youtube.com/watch?v=frAhjtnvkqs)
 
 
 
@@ -72,9 +77,11 @@ EEG Biometric is a growing field which looks at how we can use your eeg activity
 
 Electroencephalography (EEG) feedback, also known as neurofeedback or neurotherapy, was originally developed as a relaxation technique related to meditation (Kamiya, 1969; Michael, Krishnaswamy, & Mohamed, 2005). EEG involves measuring the general patterns of activity of the brain and can be used as a diagnostic assistant (usually via quantitative EEG or qEEG) or feedback tool (Hammond, 2010, 2011). Feedback can be auditory or visual, even in the form of a computer game. In this way, participants learn to regulate specific frequencies of cortical activity. As a feedback therapy, it has been used in many different psychological and medical disorders, including attention deficit-hyperactivity disorder, autism spectrum disorder, and substance use disorder (Myers & Young, 2012). It has also been used to treat the more cognitive components of anxiety disorders and may be more effective in those disorders in which the cognitive experience is central, such as generalized anxiety disorder (Schoenberg & David, 2014). Most practitioners claim there is little to no short-or long-term risk involved in neurofeedback, but some caution that to minimize risk it is critical to individualize treatment using qEEG because of the heterogeneity of EEG presentations of various disorders and comorbidities (Hammond, 2010; Walker, 2010).
 
-[https://concept.journals.villanova.edu/article/view/1831/1754](https://concept.journals.villanova.edu/article/view/1831/1754)
-[https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/](https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/)
-[http://www.sciencedirect.com/science/article/pii/S1877042811018465](http://www.sciencedirect.com/science/article/pii/S1877042811018465)
+**References**
+
+* [https://concept.journals.villanova.edu/article/view/1831/1754](https://concept.journals.villanova.edu/article/view/1831/1754)
+* [https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/](https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/)
+* [http://www.sciencedirect.com/science/article/pii/S1877042811018465](http://www.sciencedirect.com/science/article/pii/S1877042811018465)
 
 
 
@@ -82,19 +89,19 @@ Electroencephalography (EEG) feedback, also known as neurofeedback or neurothera
 
 Sleep research has been using EEG's for a long time. Recently, startups have been leveraging consumer grade eeg designs to measure the quality of your sleep.
 
-[https://iwinks.org/](https://iwinks.org/)
-
-[https://neuroon.com/sleep-tracking/](https://neuroon.com/sleep-tracking/)
-
-[http://sleepshepherd.com/](http://sleepshepherd.com/)
+**References**
+* [https://iwinks.org/](https://iwinks.org/)
+* [ttps://neuroon.com/sleep-tracking/](https://neuroon.com/sleep-tracking/)
+* [http://sleepshepherd.com/](http://sleepshepherd.com/)
 
 
 #### ADHD
 
 Although a controversial [use case](http://journals.sagepub.com/doi/abs/10.1177/155005940904000311), there are many neurofeedback clinics and few companies who have created solutions to help manage ADHD.  
 
-[http://www.akiliinteractive.com/](http://www.akiliinteractive.com/)
-[Attentiv](http://attentiv.com/)
+**References**
+* [http://www.akiliinteractive.com/](http://www.akiliinteractive.com/)
+* [Attentiv](http://attentiv.com/)
 
 
 #### PTSD
@@ -108,6 +115,7 @@ PTSD neurofeedback has been studied for over [25 years](http://charleston.brainc
 <!--Needs to be reviewed -->
 
 ## Cognitive Training
+<hr>
 
 #### Performance Optimization
 
@@ -122,6 +130,8 @@ This series of articles discuss how you can you Neurofeedback as a mechanism to 
 
 One of the more common services which Neurofeedback clinics provide is neurofeedback to combat brain ageing. Researchers have found that you can identify certain biomarkers in QEEG to predict future cognitive decline as well as the onset of Alzheimer's.  
 
+**References**
+
 * [Video games for cognitive enhancement - Adam Gazzaley Lab](http://gazzaleylab.ucsf.edu/wp-content/uploads/2014/09/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf)
 * [Ref-1](http://journals.sagepub.com/doi/abs/10.1177/1550059415590750)
 * [Ref-2](http://www.sciencedirect.com/science/article/pii/S030105111300152X)
@@ -134,34 +144,47 @@ One of the more common services which Neurofeedback clinics provide is neurofeed
 
 #### Early Development
 
-Most articles looking into the use of EEG as a Neurofeedback tool for early development tends to look at ADHD. However, there might be other use cases as well. 
+Most articles looking into the use of EEG as a Neurofeedback tool for early development tend to focus using it for treatment of ADHD. However, there might be other use cases as well.
 
-[http://www.jneurosci.org/content/35/16/6277](http://www.jneurosci.org/content/35/16/6277)
-[Ref-1](https://link.springer.com/article/10.1007%2FBF02214148?LI=true)
-[Ref-2](https://link.springer.com/article/10.1007/s00702-010-0524-2)
-[Ref-3](http://journals.sagepub.com/doi/abs/10.1177/155005940904000311)
+**References**
+
+* [Cognitive Training enhances brain connectivity (Measured via MEG)](http://www.jneurosci.org/content/35/16/6277)
+* [EEG and behavioral changes after neurofeedback treatment in learning disabled children](https://www.ncbi.nlm.nih.gov/pubmed/14521276)
+* [ADHD and neurofeedback: a double-blind feasibility study](https://link.springer.com/article/10.1007/s00702-010-0524-2)
+* [EEG neurofeedback of SMR and beta frenquency for treatment of ADHD](https://www.ncbi.nlm.nih.gov/pubmed/6487671)
+* [Study on the effects eeg neurofeedback on children with ADD and learning disabilities](https://link.springer.com/article/10.1007%2FBF02214148?LI=true)
+* [Use of QEEEG-Neurofeedback for children with a history of abuse and neglect](http://www.tandfonline.com/doi/abs/10.1300/J184v10n04_02)
 
 
 #### Mindfulness
 
-At a consumer level, mindfulness is one of the most common use case for eeg's.  
+At a consumer level, mindfulness is one of the most common use case for EEG neurofeedback. Here are a few research articles as well as products that currently exist on the market.  
 
-[Muse Research](http://www.choosemuse.com/research)
-[http://www.sciencedirect.com/science/article/pii/S0149763415002511](http://www.sciencedirect.com/science/article/pii/S0149763415002511)
-[Ref-1](http://www.sciencedirect.com/science/article/pii/S0149763415002511)
+**References**
+* [Muse Research](http://www.choosemuse.com/research)
+* [NeuroSky's mindfulness app](https://store.neurosky.com/products/mindfulness)
+* [Neurophysiology review on Neural Oscillations and Mindfulness](http://www.sciencedirect.com/science/article/pii/S0149763415002511)
+* [Alterations in brain activity produced by mindfulness meditation](http://journals.lww.com/psychosomaticmedicine/Abstract/2003/07000/AlterationinBrain%20andImmuneFunctionProduced.14.aspx)
 
-#### Education
 
+#### Accelerated Learning
 
-[http://www.cs.arizona.edu/people/fcirett/umap_eeg.pdf](http://www.cs.arizona.edu/people/fcirett/umap_eeg.pdf)
-[http://www.advancedbrainmonitoring.com/neurotechnology/applications/accelerated-learning/](http://www.cs.arizona.edu/people/fcirett/umap_eeg.pdf)
-[ref-1](https://www.ncbi.nlm.nih.gov/pubmed/14521276)
-[ref-2](https://www.ncbi.nlm.nih.gov/pubmed/6487671)
-[ref-3](https://neurodevelopmentcenter.com/psychological-disorders/learning-disabilities/neurofeedback-for-learning-disabilities/)
+The use of neurotechnology to  accelerate learning is one of the subjects that remains of high interest, especially to  [DARPA](https://www.darpa.mil/program/targeted-neuroplasticity-training). Here are some potential use cases of how you can use eeg to speed up your learning
 
-### Stage performance improvement
+**References**
 
-[http://journals.lww.com/neuroreport/Abstract/2003/07010/Ecological_validity_of_neurofeedback___modulation.6.aspx](http://journals.lww.com/neuroreport/Abstract/2003/07010/Ecological_validity_of_neurofeedback___modulation.6.aspx)
+* [Use of B-Alert's EEG to create "Accelerated Learning"](http://www.advancedbrainmonitoring.com/neurotechnology/applications/accelerated-learning/)
+* [Memory consolidation theta neurofeedback](http://www.sciencedirect.com/science/article/pii/S0301051113002214)
+* [Non-invasive Brain biomarkers for cognitive-motor performance assement](https://link.springer.com/content/pdf/10.1007/978-3-642-21852-1.pdf#page=178)
+
+### Enhanced creativity
+
+One potential use case of neurofeedback training could be used to improve creativity. There has been a growing interest in exploring theta/alpha training. Based on the eeg paradigm which are being study, there is probably a lot of similarity to mindfulness training.
+
+**References**
+
+* [modulating slow waves EEG to enhance musical performance](http://journals.lww.com/neuroreport/Abstract/2003/07010/Ecological_validity_of_neurofeedback___modulation.6.aspx)
+* [A theory of alpha/theta neurofeedback to improve creative performance](https://link.springer.com/article/10.1007/s10339-008-0248-5)
 
 
 
@@ -251,9 +274,6 @@ There are those who learn to use sound to compensate for their blindness as well
 [Ref-1](https://www.ncbi.nlm.nih.gov/pubmed/22234161)
 
 
-#### Art
-
-Multiple people have use eeg's for art and music generation
 
 <!--Ref Needed -->
 
