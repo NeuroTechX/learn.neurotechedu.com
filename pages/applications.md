@@ -21,13 +21,18 @@ permalink: "/applications/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-
+This module provides a list of potential applications of eeg based Brain Computer Interfaces.
 
 ## NeuroEntertainment
 <hr>
 #### Neurogaming
 
-[NeuroSky has a list of games which it released to go along with its headset](http://store.neurosky.com/collections/apps/games)
+Emotiv and NeuroSky are two companies which has developed games to go along with their eeg headset, however it seems as though Emotiv has stopped selling them. If you are interested in playing brain controlled games, you can start with Neurosky. Otherwise you might try your luck in finding some open source games.
+
+**References**
+
+* [NeuroSky store](http://store.neurosky.com/collections/apps/games)
+* [Brain Fighta, an open source eeg game](https://github.com/NeuroTechX/BrainFighta)
 
 #### NeuroToys
 
@@ -40,7 +45,13 @@ There have been multiple manufacturers of BCI toys. going back to the mid 2000's
 
 #### Art
 
-Multiple people have use eeg's for art and music generation
+Multiple people have use EEG's for art and music generation. Below are a few example of some these projects.
+
+**References**
+
+* [Axon Art Collective. A Series of projects doing brain controlled art and music](http://axonartcollective.com/)
+* [Manipulating water with eeg](https://creators.vice.com/en_us/article/vvygzm/eunoia-seeking-enlightenment-by-tracking-brainwaves)
+* [EEG Visulization tool](http://naotohieda.com/muse/)
 
 #### Virtual Reality
 
@@ -128,16 +139,15 @@ This series of articles discuss how you can you Neurofeedback as a mechanism to 
 
 #### Brain Ageing
 
-One of the more common services which Neurofeedback clinics provide is neurofeedback to combat brain ageing. Researchers have found that you can identify certain biomarkers in QEEG to predict future cognitive decline as well as the onset of Alzheimer's.  
+One of the more common services which neurofeedback clinics provide is to combat brain ageing. Researchers have found that you can identify certain biomarkers in QEEG to predict future cognitive decline as well as the onset of Alzheimer's.  
 
 **References**
 
 * [Video games for cognitive enhancement - Adam Gazzaley Lab](http://gazzaleylab.ucsf.edu/wp-content/uploads/2014/09/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf)
-* [Ref-1](http://journals.sagepub.com/doi/abs/10.1177/1550059415590750)
-* [Ref-2](http://www.sciencedirect.com/science/article/pii/S030105111300152X)
-* [Ref-3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5346575/)
-* [Ref-4](http://onlinelibrary.wiley.com/doi/10.1196/annals.1379.008/full?wol1URL=/doi/10.1196/annals.1379.008/full&identityKey=c38f7acf-fae1-4f16-b3bb-d5a6f7e0fca9)
-* [Ref-5](http://www.tandfonline.com/doi/abs/10.1080/13854040600744839)
+* [QEEG neurofeedback for Dementia](http://journals.sagepub.com/doi/abs/10.1177/1550059415590750)
+* [Beta and gamma neurofeedback on memory and intelligence in the elderly](http://www.sciencedirect.com/science/article/pii/S030105111300152X)
+* [Attential Training via neurofeedback in ageing bring](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5346575/)
+* [QEEG in Aging and evolution of Dimentia](http://onlinelibrary.wiley.com/doi/10.1196/annals.1379.008/full?wol1URL=/doi/10.1196/annals.1379.008/full&identityKey=c38f7acf-fae1-4f16-b3bb-d5a6f7e0fca9)
 * [Ref-6](http://www.jpreventionalzheimer.com/1665-a-personalized-12-week-brain-fitness-program-for-improving-cognitive-function-and-increasing-the-volume-of-hippocampus-in-elderly-with-mild-cognitive-impairment.html)
 
 
@@ -161,6 +171,7 @@ Most articles looking into the use of EEG as a Neurofeedback tool for early deve
 At a consumer level, mindfulness is one of the most common use case for EEG neurofeedback. Here are a few research articles as well as products that currently exist on the market.  
 
 **References**
+
 * [Muse Research](http://www.choosemuse.com/research)
 * [NeuroSky's mindfulness app](https://store.neurosky.com/products/mindfulness)
 * [Neurophysiology review on Neural Oscillations and Mindfulness](http://www.sciencedirect.com/science/article/pii/S0149763415002511)
@@ -169,7 +180,7 @@ At a consumer level, mindfulness is one of the most common use case for EEG neur
 
 #### Accelerated Learning
 
-The use of neurotechnology to  accelerate learning is one of the subjects that remains of high interest, especially to  [DARPA](https://www.darpa.mil/program/targeted-neuroplasticity-training). Here are some potential use cases of how you can use eeg to speed up your learning
+The use of neurotechnology to  accelerate learning is one of the subjects that remains of high interest, especially to  [DARPA](https://www.darpa.mil/program/targeted-neuroplasticity-training). Here are some potential use cases of how you can use eeg to speed up your learning.
 
 **References**
 
@@ -195,83 +206,70 @@ One potential use case of neurofeedback training could be used to improve creati
 
 #### Stroke Recovery
 
+Neurofeedback provides a potential opportunity to help patients recover from Stroke via neurofeedback. One case study, where on a 55 year old male  had increased left-side activity within the 4-7 Hz range, used a neurofeedback therapy which aimed to decrease that frequency as well as increase activity within in the 15-21 Hz range in the sensorimotor and speech areas of the brain. By the end of the treatment the patient had improved speech and the depression and anxiety were gone.
 
-[https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-015-0105-6](https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-015-0105-6)
+**References**
+
+* [Effects of EEG based neurofeedback training on memory function of post-stroke victims](https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-015-0105-6)
+* [Neurotherapy for stroke rehabilitation](https://link.springer.com/article/10.1007%2FBF01474514?LI=true)
+* [The role of biofeedback in Stroke Rehabilitation: Past and Future Directions](http://www.tandfonline.com/doi/abs/10.1310/tsr1404-59)
+
 
 #### Addiction
 
+The use of EEG biofeedback has been a subject of interest all the way back to the 1970's. There are some interesting connections in the change of eeg activity and drug dependency and the potential of eeg neurofeedback to help treat substance use disorders.  This may allow for future neurofeedback products to be created.
 
-[http://link.springer.com/article/10.1007/s11481-016-9680-y](http://link.springer.com/article/10.1007/s11481-016-9680-y)
+**References**
+
+* [EEG Biofeedback for Addictive Disorder](https://link.springer.com/article/10.1007/s10804-005-7030-z)
+* [EEG Biofeedback as a Treatment for Substance Use Disorders](https://link.springer.com/article/10.1007/s10484-007-9047-5)
+* [QEEG analysis of crack cocaine dependence](http://www.tandfonline.com/doi/abs/10.1300/J069v15n04_03)
 
 #### Rett Syndrome
 
-[http://www.sciencedirect.com/science/article/pii/S0891422216300099](http://www.sciencedirect.com/science/article/pii/S0891422216300099)
+Neurofeedback may provide a potential therapy to help those with Rett syndrome. Although it will not provide a complete relief, it can still help patients to manage its symptoms and have a better quality of life.
+
+**References**
+
+* [Cognitive training modifies eeg bands in those with Rett syndrome](http://www.sciencedirect.com/science/article/pii/S0891422216300099)
 
 ## Diagnostics
 <hr>
 
 #### Concussion
 
-[http://ieeexplore.ieee.org/document/7319994/?arnumber=7319994](http://ieeexplore.ieee.org/document/7319994/?arnumber=7319994)
-[http://www.sciencedirect.com/science/article/pii/S0304394004015034](http://www.sciencedirect.com/science/article/pii/S0304394004015034)
+Research has shown that there are noticeable changes in EEG oscillations after brain injury. This leads to the potential of creating eeg diagnostics. Current solutions like Brainscope, don't actually predict if a concussion is present. However it does provide some preliminary insight to clinicians so that they can determine if a person should get a PET/MRI scan.
+
+
+**References**
+
+* [Change in neural oscillations bands of mild traumatic brain injury patients](http://ieeexplore.ieee.org/document/7319994/?arnumber=7319994)
+* [Head injury assessment tool by Brainscope](http://brainscope.com/products/)
+* [EEG changes in mild traumatic brain injury in athletes](http://www.sciencedirect.com/science/article/pii/S0304394004015034)
 
 #### Alzheimer’s
 
-A growing body of evidence suggests that EEG analyses, including both resting state and event-related stimulation protocols, may be useful in early detection of neural signatures of dementia [1-6]. Moreover, EEG-based analysis shows potential for discriminating across dementia sub-types, including Alzheimer’s (AD), Mild Cognitive Impairment (MCI), Vascular dementias, and the Lewy Body Dementias (LBD) – including Parkinson’s Disease with Dementia (PDD) [1-6]. Although these approaches have been largely confined to university research investigations, if proven accurate, reliable, and scalable, the widespread use of EEG as a neuroimaging modality could provide an inexpensive, easy to implement alternative for early diagnosis and treatment outcome studies of the dementias.
+A growing body of evidence suggests that EEG analyses can be used in the early detect of Alzheimer's and may even allow for the diagnosis for different dementia subtypes. Most of the research has been done in academic environments, however there could be the potential to develop low cost medical testing devices.
 
-[http://www.advancedbrainmonitoring.com/EEGbiomarkersforAlzheimersDisease](http://www.advancedbrainmonitoring.com/EEGbiomarkersforAlzheimersDisease)
-[http://www.sciencedirect.com/science/article/pii/S138824570400015X](http://www.sciencedirect.com/science/article/pii/S138824570400015X)
+**References**
 
-#### Minimally conscious state, PVS (coma)
+* [Development of EEG Biomarkers for Alzheimer's Disease](http://www.advancedbrainmonitoring.com/EEGbiomarkersforAlzheimersDisease)
+* [EEG in patients with Alzheimer's](http://www.sciencedirect.com/science/article/pii/S138824570400015X)
 
-
-[http://science.sciencemag.org/content/313/5792/1402](http://science.sciencemag.org/content/313/5792/1402)
 
 #### Epilepsy
 
+ Epilepsy is a disorder that affects over 50 million people worldwide, with 80% of cases coming from developing countries. There are some great opportunities in developing a low cost Epilepsy diagnostic with EEG's and which would help those that may not have the resources to properly test for the disorder.
 
-[http://ieeexplore.ieee.org/document/4801967/?arnumber=4801967](http://ieeexplore.ieee.org/document/4801967/?arnumber=4801967)
+**Ressources**
 
-## Neural Prosthetics
-<hr>
+* [Epilepsy seizure detection using eeg time-frequency analysis](http://ieeexplore.ieee.org/document/4801967/?arnumber=4801967)
+* [Epilepsy care in developing countries](http://onlinelibrary.wiley.com/doi/10.1111/j.1535-7511.2010.01362.x/full)
+* [TeleEEG. a company which provides eeg analysis for epilepsy in poor countries](http://www.teleeeg.org/)
+* [Automated diagnosis of epileptic EEG using entropies](http://www.sciencedirect.com/science/article/pii/S1746809411000838)
 
-#### Robotic Limbs
 
-Physicians and biomedical engineers from Johns Hopkins report what they believe is the first successful effort to wiggle fingers individually and independently of each other using a mind-controlled artificial “arm” to control the movement.
 
-![Brain electrode array](../images/brain-electrode-array.png)
-
-[http://www.hopkinsmedicine.org/news/media/releases/mind_controlled_prosthetic_arm_moves_individual_fingers_](http://www.hopkinsmedicine.org/news/media/releases/mind_controlled_prosthetic_arm_moves_individual_fingers_)
-
-The US defense force announced that it gave a paralyzed man the ability to 'feel' physical sensations through a prosthetic robotic hand that’s been directly connected to his brain. Having been paralyzed for more than a decade due to a spinal cord injury, the man was able to identify when and which of his prosthetic fingers was being gently touched by an object - and all while blindfolded.
-
-The technology points to a future where people with paralyzed or missing limbs can not only get back the ability to manipulate objects and move about, but can also learn to sense which it is they’re touching.
-
-[http://www.sciencealert.com/us-government-develops-mind-controlled-prosthetic-arm-with-the-sense-of-touch](http://www.sciencealert.com/us-government-develops-mind-controlled-prosthetic-arm-with-the-sense-of-touch)
-
-![Open Bionics](../images/StarwarsBionics.jpg)
-
-Bionic hands from Open Bionics.
-
-[https://www.openbionics.com/](https://www.openbionics.com/)
-
-#### Robot Control
-
-EEG-based brain-controlled mobile robots can serve as powerful aids for severely disabled people in their daily life, especially to help them move voluntarily. In this paper, we provide a comprehensive review of the complete systems, key techniques, and evaluation issues of brain-controlled mobile robots along with some insights into related future research and development issues. We first review and classify various complete systems of brain-controlled mobile robots into two categories from the perspective of their operational modes. We then describe key techniques that are used in these brain-controlled mobile robots including the brain-computer interface techniques and shared control techniques. This description is followed by an analysis of the evaluation issues of brain-controlled mobile robots including participants, tasks and environments, and evaluation metrics. We conclude this paper with a discussion of the current challenges and future research directions.
-
-[https://www.researchgate.net/publication/260623818_EEG-Based_Brain-Controlled_Mobile_Robots_A_Survey](https://www.researchgate.net/publication/260623818_EEG-Based_Brain-Controlled_Mobile_Robots_A_Survey)
-
-#### Sensory Prosthetics
-
-There are those who learn to use sound to compensate for their blindness as well as those who are deaf, but “hear” music by feeling its vibrations. Now, the BrainPort V100 takes these concepts to new heights by teaching the tongue to see. The recently FDA-approved device is only one of many new medical innovations attempting to take advantage of our brain’s plasticity — its ability to adapt and relearn new skills — as a way to overcome disabilities.
-
-![Brainport](../images/brainport.png)
-
-[http://www.medicaldaily.com/fda-approve-brainport-device-which-allows-blind-see-tongue-re-teaching-brain-overcome-339328](http://www.medicaldaily.com/fda-approve-brainport-device-which-allows-blind-see-tongue-re-teaching-brain-overcome-339328)
-
-#### Cochlear Implants
-
-[Ref-1](https://www.ncbi.nlm.nih.gov/pubmed/22234161)
 
 
 
