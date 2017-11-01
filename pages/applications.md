@@ -86,13 +86,13 @@ EEG Biometric is a growing field which looks at how we can use your eeg activity
 
 #### Anxiety
 
-Electroencephalography (EEG) feedback, also known as neurofeedback or neurotherapy, was originally developed as a relaxation technique related to meditation (Kamiya, 1969; Michael, Krishnaswamy, & Mohamed, 2005). EEG involves measuring the general patterns of activity of the brain and can be used as a diagnostic assistant (usually via quantitative EEG or qEEG) or feedback tool (Hammond, 2010, 2011). Feedback can be auditory or visual, even in the form of a computer game. In this way, participants learn to regulate specific frequencies of cortical activity. As a feedback therapy, it has been used in many different psychological and medical disorders, including attention deficit-hyperactivity disorder, autism spectrum disorder, and substance use disorder (Myers & Young, 2012). It has also been used to treat the more cognitive components of anxiety disorders and may be more effective in those disorders in which the cognitive experience is central, such as generalized anxiety disorder (Schoenberg & David, 2014). Most practitioners claim there is little to no short-or long-term risk involved in neurofeedback, but some caution that to minimize risk it is critical to individualize treatment using qEEG because of the heterogeneity of EEG presentations of various disorders and comorbidities (Hammond, 2010; Walker, 2010).
+
+Neurofeedback can be an effective method of handling anxiety. Similar to the methods used in mindfulness practices, alpha and theta training is done in order to put the person in a more relaxed state of mind. 
 
 **References**
 
-* [https://concept.journals.villanova.edu/article/view/1831/1754](https://concept.journals.villanova.edu/article/view/1831/1754)
-* [https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/](https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/)
-* [http://www.sciencedirect.com/science/article/pii/S1877042811018465](http://www.sciencedirect.com/science/article/pii/S1877042811018465)
+* [Neurofeedback for mood and anxiety disorder](https://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0070200/)
+* [Treatment of Anxiety disorder with neurofeedback](http://www.sciencedirect.com/science/article/pii/S1877042811018465)
 
 
 
