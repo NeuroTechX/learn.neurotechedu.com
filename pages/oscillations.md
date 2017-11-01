@@ -18,6 +18,8 @@ permalink: "/oscillations/"
 </div>
 </div><!-- /.medium-4.columns -->
 
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+
 # What are Neural Oscillations?
 
 Neural oscillations are repetitive, rhythmic synchronized frequency patterns in the central nervous system.
