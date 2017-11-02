@@ -1,0 +1,26 @@
+#########################################################
+#                                                       
+#         Format for contributors.md page                                              
+#                                                       
+#                                                       
+#########################################################
+#- name: William James                                  
+#  roles:                                               
+#    -   teacher                                        
+#    -   author                                         
+#  contributed:                                         
+#    -   bci productionline                             
+#    -   this and that                                  
+#    -   cool stuff                                     
+#  links:                                               
+#    - name: linkedin                                   
+#      url: http://linkedin.com/in/ryanlintott/         
+#    - name: website                                    
+#      url: http://linkedin.com/in/ryanlintott/         
+#    - name: twitter                                    
+#      url: http://linkedin.com/in/ryanlintott/         
+#    - name: github                                     
+#      url: http://linkedin.com/in/ryanlintott/         
+#
+########################################################
+########################################################
