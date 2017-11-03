@@ -1,4 +1,4 @@
-s---
+---
 layout: page-fullwidth
 title: "Contributors"
 teaser: "These are the people who made NeuroTechEDU what it is today."
@@ -24,8 +24,8 @@ permalink: "/contributors/"
 <p>
 {% for link in member.links %}
 <a href="{{ link.url }}" class="icon-{{ link.name }}"></a>
-</p>
 {% endfor %}
+</p>
 </div>
 </div>
 {% endfor %}
