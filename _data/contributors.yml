@@ -1,0 +1,114 @@
+#########################################################
+#                                                       
+#         Format for contributors.md page                                              
+#                                                       
+#                                                       
+#########################################################
+#- name: William James                                  
+#  roles:                                               
+#    -   teacher                                        
+#    -   author                                         
+#  contributed:                                         
+#    -   bci productionline                             
+#    -   this and that                                  
+#    -   cool stuff                                     
+#  links:                                               
+#    - name: linkedin                                   
+#      url: http://linkedin.com/in/ryanlintott/         
+#    - name: website                                    
+#      url: http://linkedin.com/in/ryanlintott/         
+#    - name: twitter                                    
+#      url: http://linkedin.com/in/ryanlintott/         
+#    - name: github                                     
+#      url: http://linkedin.com/in/ryanlintott/         
+#
+########################################################
+########################################################
+
+
+- name: Francesca Placido
+  roles:
+    - Content Builder
+  contributed:
+    - Intro to BCI
+  links:
+    - name: twitter
+      url: http://twitter.com/francescacoo_j
+    - name: github
+      url: http://github.com/francescacoo
+
+- name: Davide Valeriani
+  roles:
+    - Mentor
+  contributed:
+    - ERP feature extraction
+  links:
+    - name: globe
+      url: http://www.davidevaleriani.it/
+
+- name: Ryan Lintott
+  roles:
+    - Editor
+    - Content Builder
+  contributed:
+    - Feature Extraction ERP
+  links:
+    - name: globe
+      url: http://ryanlintott.com/
+    - name: linkedin
+      url: http://linkedin.com/in/ryanlintott/
+    - name: twitter
+      url: http://twitter.com/ryanlintott
+    - name: github
+      url: http://github.com/ryanlintott
+
+- name: Hector Orozco
+  roles:
+    - Editor
+    - Mentor
+  contributed:
+    - Preprocessing
+    - Intro to neuroscience
+  links:
+    - name: linkedin
+      url: https://www.linkedin.com/in/hector-domingo-orozco-perez-2017a4105/
+    - name: twitter
+      url: http://twitter.com/neurohazardous
+    - name: github
+      url: http://github.com/neurohazardous
+
+- name: Yu Min Chuang
+  roles:
+    - Content Builder
+  contributed:
+    - Feature Extraction ERP
+  links:
+    - name: linkedin
+      url: https://www.linkedin.com/in/yu-min-chuang-30a41b48/
+
+- name: Sheida Rabipour
+  roles:
+    - Editor
+    - Mentor
+  contributed:
+    - Intro to BCI
+    - Signal Preprocessing
+  links:
+    - name: linkedin
+      url: https://www.linkedin.com/in/sheidarabipour/
+    - name: globe
+      url: https://www.researchgate.net/profile/Sheida_Rabipour
+    - name: github
+      url: https://github.com/thesheid
+
+- name: Patrick Coleman
+  roles:
+    - Content Builder
+  contributed:
+    - Preprocessing
+  links:
+    - name: globe
+      url: https://padsterprogramming.blogspot.com/
+    - name: linkedin
+      url: https://www.linkedin.com/in/padsterpat/
+
