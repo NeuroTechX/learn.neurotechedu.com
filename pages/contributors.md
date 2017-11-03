@@ -8,8 +8,15 @@ permalink: "/contributors/"
 
 ---
 
+
+{% assign track_index = 0 %}
+
 {% for member in site.data.contributors %}
+{%capture track_index %}{{forloop.index0 | modulo: 2}}{%endcapture%}
+{% if track_index == "1" %}
 <div class="row">
+{% endif %}
+
 <div class="medium-6 columns contributor" markdown="1">
 ### {{ member.name }}
 #### Roles:
@@ -27,10 +34,11 @@ permalink: "/contributors/"
 {% endfor %}
 </p>
 </div>
+{% if track_index == "1" %}
 </div>
+{% endif %}
+
 {% endfor %}
-
-
 
 
 
