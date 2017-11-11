@@ -455,25 +455,6 @@ Lesson will review and expand upon topics covered within the following resources
 ["History of Neuroscience".](https://faculty.washington.edu/chudler/hist.html) *University of Washington*. 2014.
 ["A Timeline of Neuroscience".](http://serendip.brynmawr.edu/bb/kinser/timeline.html) *Serendip Studio, Bryn Mawr College*. 2000.
 
-<!-- Removed sections -->
-
-#  Lesson Outcome
-
-By the end of this online lesson, students or readers should be able to:
-
-- Understand basic principles of neuroscience including: Nervous system cell types, Nervous system organization, Major brain areas, and Electrical signalling
-- Understand neuroscience research methods including: EEG, MRI, etc.
-- Describe the basic purpose and structure of the human nervous system
-- Understand a flowchart model of the the human neurological system
-- Recognise molecular levels and cellular components of the nervous system
-- Understand how human sensory, motor, and cognitive systems work
-- Understand how the body’s neural systems mediate sensation, bodily action, memory, emotion, and cognition
-- Characterize how human functions are informed and regulated by the nervous system
-- Obtain an overview of Brain Development, Disease and Disorders
-- Differentiate between brain observation methods
-- Understand within a historical social context how the field of neuroscience has developed and where it is going
-
-_Helpful previous knowledge: basic understanding of cell and molecular biology, general physiology and human anatomy._
 
 
 </div>

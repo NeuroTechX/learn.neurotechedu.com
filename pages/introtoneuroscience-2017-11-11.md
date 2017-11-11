@@ -6,7 +6,7 @@ subheadline: "A Foundation for Understanding the Human Brain and the Nervous Sys
 teaser: "How does the human brain and the nervous system work? Topics in this lesson include cellular components of the nervous system, neuroanatomy and brain organisation, functional systems of the brain, and an introduction to leading research and advancing frontiers in neuroscience."
 header: ""
 image_fullwidth: ""
-permalink: "/introtoneuroscience/"
+permalink: "/introtoneuroscience-2017-11-11/"
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">

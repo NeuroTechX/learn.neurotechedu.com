@@ -114,6 +114,12 @@ Add in aspect ratio for 4x3 (only this and 16x9 are supported)
 
 iFrame code for YouTube is set in `/_include/youtube_embed.html`
 
+## Code Blocks
 
-</div>
+{% highlight python %}
+Write your code in here
+Multiple lines!
+{% endhighlight %}
+
+</div> <!-- end of content section -->
 </div> <!-- end of row -->
