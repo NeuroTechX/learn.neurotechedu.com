@@ -1,14 +1,13 @@
 <!-- Embed code for a responsive YouTube video -->
+<style>.embed-container-16x9 { position: relative; padding-bottom: 56.35%; height: 0; overflow: hidden; max-width: 100%; } .embed-container-16x9 iframe, .embed-container-16x9 object, .embed-container-16x9 embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<style>.embed-container-4x3 { position: relative; padding-bottom: 75%; height: 0; overflow: hidden; max-width: 100%; } .embed-container-4x3 iframe, .embed-container-4x3 object, .embed-container-4x3 embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<style>.embed-container-2x1 { position: relative; padding-bottom: 50%; height: 0; overflow: hidden; max-width: 100%; } .embed-container-2x1 iframe, .embed-container-2x1 object, .embed-container-2x1 embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 
-<!-- 16x9 aspect used as default -->
-<style>.embed-container { position: relative; padding-bottom: 56.35%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-
-<!-- set padding-bottom based on aspect of videos -->
+<!-- Choose div class. 16x9 aspect used as default -->
 {% case include.aspect %}
-{% when '4x3' %}
-<style>.embed-container { position: relative; padding-bottom: 75%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-{% when '2x1' %}
-<style>.embed-container { position: relative; padding-bottom: 50%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+  {% when '4x3' %} <div class='embed-container-4x3'>
+  {% when '2x1' %} <div class='embed-container-2x1'>
+  {% else %} <div class='embed-container-16x9'>
 {% endcase %}
-
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/{{ include.id }}' frameborder='0' allowfullscreen></iframe></div>
+<iframe src='https://www.youtube.com/embed/{{ include.id }}' frameborder='0' allowfullscreen></iframe>
+</div>

@@ -4,8 +4,8 @@ show_meta: false
 title: "Template"
 subheadline: ""
 teaser: "Add a short introduction/teaser about your content here. A short paragraph will do. Perhaps be specific about what you cover so that people reading have a clear idea of what they will find. "
-header:
-   image_fullwidth: ""
+header: ""
+image_fullwidth: ""
 permalink: "/template/"
 ---
 <div class="row">
@@ -93,6 +93,10 @@ Like links, Images also have a footnote style syntax
 With a reference later in the document defining the URL location:
 
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+
+For referencing images within the site, use the following and just change the path to your image:
+
+![Alt text]({{ "/images/earth.jpg" | absolute_url }})
 
 
 ## Giphy
