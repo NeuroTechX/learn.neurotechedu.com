@@ -22,7 +22,7 @@ permalink: "/lessons/"
     <ul class="" style="padding-left:60px">
       <li class="section"><a href="../introtobci/">Introduction to Brain Computer Interfaces</a></li>
       <li  class="section"><a href="../applications/">What are some of the existing BCI's applications?</a></li>
-      <li class="section"><a href="../introtoneuroscience/">How does the brain work? Introduction to Neuroscience</a></li>
+      <li class="section"><a href="../introtoneuroscience/">Introduction to Neuroscience. How does the brain work?</a></li>
       <li class="section"><a href="../headsets/">What are some of the headsets that I can purchase to make a BCI?</a></li>
       <li class="section"><a href="#">(In Development) What are some of the software tools I can use to build a Brain Computer interface?</a></li>
       <li class="section"><a href="../preprocessing/">How do I do Signal Preprocessing?</a></li>

@@ -21,38 +21,19 @@ permalink: "/introtoneuroscience/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-
-#  Lesson Outcome
-
-By the end of this online lesson, students or readers should be able to:
-
-- Understand basic principles of neuroscience including: Nervous system cell types, Nervous system organization, Major brain areas, and Electrical signalling
-- Understand neuroscience research methods including: EEG, MRI, etc.
-- Describe the basic purpose and structure of the human nervous system
-- Understand a flowchart model of the the human neurological system
-- Recognise molecular levels and cellular components of the nervous system
-- Understand how human sensory, motor, and cognitive systems work
-- Understand how the body’s neural systems mediate sensation, bodily action, memory, emotion, and cognition
-- Characterize how human functions are informed and regulated by the nervous system
-- Obtain an overview of Brain Development, Disease and Disorders
-- Differentiate between brain observation methods
-- Understand within a historical social context how the field of neuroscience has developed and where it is going
-
-_Helpful previous knowledge: basic understanding of cell and molecular biology, general physiology and human anatomy._
-
 #  Lesson Contents
 
 ##  Introduction
 ---
 Welcome to Fundamentals of Neuroscience at NeuroTechEDU! This lesson provides a foundational introduction to the essential principles of [neuroscience](https://en.wikipedia.org/wiki/Neuroscience). Here you will obtain a basic understanding of the human brain and physiological workings of the nervous system.
-What is the significance in establishing a foundational understanding of the human brain? We already know that advancements in the fields of technology, [neuroscience](https://en.wikipedia.org/wiki/Neuroscience), and brain research will transform the 21st century the way that quantum physics and genetic code breaking transformed the 20th century. It is through the study of [neuroscience](https://en.wikipedia.org/wiki/Neuroscience) that we will push the boundaries of how we function and thrive as humans. Advancement in the field of neuroscience will provide a deeper understanding of human thought and being, inform the modification of our human abilities and health, and lay transformative foundations for the engineering and design of our future.
+What is the significance in establishing a foundational understanding of the human brain? We already know that advancements in the fields of technology, neuroscience, and brain research will transform the 21st century the way that quantum physics and genetic code breaking transformed the 20th century. It is through the study of neuroscience that we will push the boundaries of how we function and thrive as humans. Advancement in the field of neuroscience will provide a deeper understanding of human thought and being, inform the modification of our human abilities and health, and lay transformative foundations for the engineering and design of our future.
 We will begin the lesson with an introduction to the field of neuroscience and an overview of the human nervous system. We lead with a close examination of the nervous system beginning at a cellular level, expanding out to general brain anatomy and organisation including sections of the brain and connections. Following our study of brain organisation, we will explore functional systems and mechanics of the brain, including examples of disease and disorder. Finally, we will consider how the field of neuroscience has developed and where it is going, including a look at [neuroimaging methods](https://en.wikipedia.org/wiki/Neurotechnology#Imaging), [technological advancements](https://en.wikipedia.org/wiki/Neurotechnology), and multidisciplinary approaches to brain research and development.
 This foundational information can be expanded on by more advanced [neuroscience](https://en.wikipedia.org/wiki/Neuroscience) and neurotechnology lessons found within NeuroTechEDU as well as from specific citations within the lesson.
 
 ---
 ##  What is Neuroscience?
 ---
-[Neuroscience](https://en.wikipedia.org/wiki/Neuroscience) is a tremendously broad and multidisciplinary science devoted to the understanding of the brain and the nervous system, as well as the advancement of a centuries-old scientific quest to understand how the world around us works. Deciphering the codes of brain’s command system and its diverse functions is a complex challenge that inspires leading neuroscientists around the world.  
+Neuroscience is a tremendously broad and multidisciplinary science devoted to the understanding of the brain and the nervous system, as well as the advancement of a centuries-old scientific quest to understand how the world around us works. Deciphering the codes of brain’s command system and its diverse functions is a complex challenge that inspires leading neuroscientists around the world.  
 The brain is one of the most complex systems in the universe; understanding how it functions is among the most complex challenges within science today. We still have not uncovered the full extent of what the brain can do. This single organ controls every aspect of the human body, ranging from immunity and breathing, to emotions, memory, dreaming, and innovation. It is the brain’s ability to perform all these functions that makes us human. Brain researchers are motivated to understand how cellular circuits enable us to read and speak, how we bond with other humans, how we learn and retain information, how we experience pain, and how we stay motivated in school. Neuroscientists discover possible causes of devastating disorders of the brain and body, as well as ways to prevent or cure them.
 Neuroscientists continue to investigate the nervous system at multiple levels, from the molecular synapses to networks of neurons, cognition, and behaviour. Over the years, the neuroscience field has made enormous progress, continually striving for a deeper understanding of how the brain’s 100 billion nerve cells are born, grow, and connect into functional circuits for life. Methods of inquiry and research are drawn from a number of disciplines, including molecular and cellular biology, physiology, biomedical, behavioural sciences and cognitive psychology, electrical engineering, computer science and artificial intelligence.
 
@@ -63,7 +44,7 @@ Neuroscientists continue to investigate the nervous system at multiple levels, f
 <!-- <iframe src="//giphy.com/embed/SJZ1bwsSJJ0Xe" width="363.4892541087232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
 
 ---
-##  Nervous System Overview
+## Nervous System Overview
 ---
 The human nervous system is the control center for the body. The structures of the human nervous system include the brain, spinal cord, and nerves reaching to the remote sections of the body. If you think of the brain as a central supercomputer that controls the body, then the nervous system is a network of connections that far surpasses any network system we can imagine, designed to relay messages back and forth from the brain to different parts of the body. Messages are relayed via the spinal cord, which runs from the brain down through the back and contains threadlike nerves that branch out to every organ and body part. The nervous system interprets the things the body senses, sending signals of information to the muscles and glands, telling them what to do. When a message comes into the brain from anywhere in the body, the brain tells the body how to react. It facilitates moods and thoughts. The nervous system also runs functional systems that do not require conscious thought, like the respiratory, cardiovascular and digestive systems.
 Functional systems of the human body depend on the extensive network of cells contained in our nervous system. The extensive cell network of the nervous system is comprised of specialized cells called neurons and glial cells. Neurons are the basic functional units of the nervous system, and glia act in support for the most part. Neurons generate electrical signals, which allow them to quickly transmit information over long distances. The unique structures of individual neurons supports their specific function, including how they are organized into circuits to process and generate specific information and response patterns.
@@ -73,35 +54,58 @@ Following is an infographic showing a common way to divide the nervous system:
 *Nervous System Flow Chart*
 <!-- Possibly use this: https://commons.wikimedia.org/wiki/File:Components_of_the_Nervous_System.png -->>
 
-| *The nervous system is separated in two classes: the peripheral and central nervous systems.* |
-| **Peripheral Nervous System (PNS)** | **Central Nervous System (CNS)** |
-| ------ | ----------- |
-| The PNS transmits information to and from the central nervous system.  | The CNS consists of the brain and the spinal cord. The brain interprets and stores information and sends orders to muscles, glands, and organs. Pathway connecting the brain and the peripheral nervous system. |
-| The PNS consists of the nerves and ganglia outside of the brain and spinal cord. The main function of the PNS is to connect the CNS to the limbs and organs, essentially serving as a relay between the brain and spinal cord and the rest of the body.|
- |     || |
-| Unlike the CNS, the PNS is not protected by the vertebral column and skull, or by the blood–brain barrier, which leaves it exposed to toxins and mechanical injuries.   | |    |
-| The peripheral nervous system is divided into the somatic nervous system and the autonomic nervous system. The autonomic nervous system is an involuntary control of smooth muscle and glands.  |  | Cranial nerve ganglia originate in the CNS. |
-| However, the remaining ten cranial nerve axons extend beyond the brain and are therefore considered part of the PNS.   | | The connection between CNS and organs allows the system to be in two different functional states: sympathetic and parasympathetic. |
+*The nervous system is separated in two classes: the central and peripheral nervous systems.*
 
+### Central Nervous System (CNS)
+The CNS consists of the brain and the spinal cord. The brain interprets and stores information and sends orders to muscles, glands, and organs. Pathway connecting the brain and the peripheral nervous system.
 
-| *The Peripheral Nervous System is divided into two sub-systems: the Somatic Nervous System and the Autonomic Nervous System.* |
-| **Somatic Nervous System** | **Autonomic Nervous System** |
-| ------ | ----------- |
-| The Somatic Nervous System – primary function is to regulate the actions of the skeletal muscles. Often thought of as mediating voluntary activity.  | The Autonomic Nervous System regulates primarily involuntary activity such as heart rate, breathing, blood pressure, and digestion.  Although these activities are considered involuntary, they can be altered either through specific events or through changing our perceptions about a specific experience. |
-|  Carries sensory information and controls movement of the skeletal muscles. |  Automatically regulates glands, internal organs, and blood vessels, pupil dilation, digestion, and blood pressure.  |
+Cranial nerve ganglia originate in the CNS. However, the remaining ten cranial nerve axons extend beyond the brain and are therefore considered part of the PNS.
 
+The connection between CNS and organs allows the system to be in two different functional states: sympathetic and parasympathetic.
 
-| *The Autonomic Nervous System is divided into two complementary systems. These two subsystems are at work constantly shifting your body to more prepared states and more relaxed states. The constant shifting of control between these two systems keeps your body ready for your current situation.* |
-| **Sympathetic Nervous System** | **Parasympathetic Nervous Systems** |
-| ------ | ----------- |
-|  The Sympathetic Nervous System (SNS) prepares the body to react and expend energy in times of stress. Every time a potentially threatening experience occurs, your body reacts. The SNS controls what has been called the “Fight or Flight” phenomenon. Your Sympathetic Nervous System kicks in to prepare your body in this type of situation, quickening your heart rate and breathing to increase your oxygen, reducing digestion, dilating your pupils for better vision, and preparing the muscles of your body to either defend or escape.
-   |  Maintains body functions under ordinary conditions; saves energy. In order to return everything to normal, the Parasympathetic Nervous System kicks in. This system is slow acting, unlike its counterpart, and may take several minutes or even longer to get your body back to where it was before a fright. |
+### Peripheral Nervous System (PNS)
+The PNS transmits information to and from the central nervous system.
 
+The PNS consists of the nerves and ganglia outside of the brain and spinal cord. The main function of the PNS is to connect the CNS to the limbs and organs, essentially serving as a relay between the brain and spinal cord and the rest of the body.
 
-|  * The Somatic Nervous System carries sensory information and controls movement of the skeletal muscles. It is divided into two sub-systems (Afferent and Efferent).* |
-|  **Sensory System (Afferent)** | **Motor System (Efferent)** |
-| ------ | ----------- |
-| Carries messages from the senses to the CNS   | Carries messages from the CNS to the muscles and glands.  |
+Unlike the CNS, the PNS is not protected by the vertebral column and skull, or by the blood–brain barrier, which leaves it exposed to toxins and mechanical injuries.
+
+The peripheral nervous system is divided into the somatic nervous system and the autonomic nervous system. The autonomic nervous system is an involuntary control of smooth muscle and glands.
+
+*The Peripheral Nervous System is divided into two sub-systems: the Somatic Nervous System and the Autonomic Nervous System.*
+
+### Somatic Nervous System
+
+The Somatic Nervous System – primary function is to regulate the actions of the skeletal muscles. Often thought of as mediating voluntary activity.
+
+Carries sensory information and controls movement of the skeletal muscles.
+
+### Autonomic Nervous System
+
+The Autonomic Nervous System regulates primarily involuntary activity such as heart rate, breathing, blood pressure, and digestion.  Although these activities are considered involuntary, they can be altered either through specific events or through changing our perceptions about a specific experience.
+
+Automatically regulates glands, internal organs, and blood vessels, pupil dilation, digestion, and blood pressure.
+
+*The Autonomic Nervous System is divided into two complementary systems. These two subsystems are at work constantly shifting your body to more prepared states and more relaxed states. The constant shifting of control between these two systems keeps your body ready for your current situation.*
+
+### Sympathetic Nervous System
+
+The Sympathetic Nervous System (SNS) prepares the body to react and expend energy in times of stress. Every time a potentially threatening experience occurs, your body reacts. The SNS controls what has been called the “Fight or Flight” phenomenon. Your Sympathetic Nervous System kicks in to prepare your body in this type of situation, quickening your heart rate and breathing to increase your oxygen, reducing digestion, dilating your pupils for better vision, and preparing the muscles of your body to either defend or escape.
+
+### Parasympathetic Nervous Systems
+
+Maintains body functions under ordinary conditions; saves energy. In order to return everything to normal, the Parasympathetic Nervous System kicks in. This system is slow acting, unlike its counterpart, and may take several minutes or even longer to get your body back to where it was before a fright.
+
+*The Somatic Nervous System carries sensory information and controls movement of the skeletal muscles. It is divided into two sub-systems (Afferent and Efferent).*
+
+### Sensory System (Afferent)
+
+Carries messages from the senses to the CNS
+
+### Motor System (Efferent)
+
+Carries messages from the CNS to the muscles and glands.
+
 
 ![](https://octodex.github.com/images/dojocat.jpg)
 *Nervous System Anatomical Diagram*
@@ -220,7 +224,7 @@ The [cerebral cortex](https://en.wikipedia.org/wiki/Cerebral_cortex) is divided 
 ###  Brain Lobes
 Four lobes are used to denote specific anatomical locations within the brain: [Frontal Lobe](https://en.wikipedia.org/wiki/Frontal_lobe), [Occipital Lobe](https://en.wikipedia.org/wiki/Occipital_lobe), [Parietal Lobe](https://en.wikipedia.org/wiki/Parietal_lobe), and [Temporal Lobe](https://en.wikipedia.org/wiki/Temporal_lobe). These lobes, or anatomical locations of the brain, are referred to when examining different brain functions.
 
-| *There are 4 Lobes of the Brain* |
+*There are 4 Lobes of the Brain*
 |  **Brain Lobe** | **Location and Role** |
 | ------ | ----------- |
 | Frontal | The large frontal lobe extends from behind the forehead back to the parietal lobe. It is the control center for executive functions including reasoning, decision-making, expressive language, higher level cognitive processes, orientation (person, place, time, and situation integration of sensory information), and the planning and execution of movement, or motor behavior. The Frontal Lobe can be referred to as the Motor Cortex. |
@@ -450,3 +454,24 @@ Lesson will review and expand upon topics covered within the following resources
 ["History + Timeline, Brain and Cognitive Sciences".](https://bcs.mit.edu/about-bcs/history-timeline) *MIT*. 2002
 ["History of Neuroscience".](https://faculty.washington.edu/chudler/hist.html) *University of Washington*. 2014.
 ["A Timeline of Neuroscience".](http://serendip.brynmawr.edu/bb/kinser/timeline.html) *Serendip Studio, Bryn Mawr College*. 2000.
+
+<!-- Removed sections 
+
+#  Lesson Outcome
+
+By the end of this online lesson, students or readers should be able to:
+
+- Understand basic principles of neuroscience including: Nervous system cell types, Nervous system organization, Major brain areas, and Electrical signalling
+- Understand neuroscience research methods including: EEG, MRI, etc.
+- Describe the basic purpose and structure of the human nervous system
+- Understand a flowchart model of the the human neurological system
+- Recognise molecular levels and cellular components of the nervous system
+- Understand how human sensory, motor, and cognitive systems work
+- Understand how the body’s neural systems mediate sensation, bodily action, memory, emotion, and cognition
+- Characterize how human functions are informed and regulated by the nervous system
+- Obtain an overview of Brain Development, Disease and Disorders
+- Differentiate between brain observation methods
+- Understand within a historical social context how the field of neuroscience has developed and where it is going
+
+_Helpful previous knowledge: basic understanding of cell and molecular biology, general physiology and human anatomy._
+-->
