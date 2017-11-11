@@ -101,5 +101,192 @@ In the last decade, P3-based BCIs have emerged as one of the main BCI categories
 
 # 3) How to record, process, and classify an ERP
 
+This section presents a hands-on tutorial on how to extract ERPs from EEG data. We use the 
+[Python MNE Library](http://martinos.org/mne/stable/index.html), which has good tools for eeg
+and MEG data analysis. In addition, this library includes EEG datasets which can be downloaded
+for free.
+
+### __MNE Sample Dataset__
+
+We use the sample dataset provided by MNE and recorded in an experiment where checkerboard
+patterns were presented to the subject into the left and right visual field, interspersed by tones
+to the left or right ear according to the following settings:
+---The interval between the stimuli was 750 ms.
+---Occasionally, a smiley face was presented at the center of the visual field.
+---Subject was asked to press a key with the right index finder as soon as possible after the appearance of the face.
+---EEG data from a 60-channel electrode cap was acquired simultaneously with MEG data.
+
+The sample dataset can be downloaded with the following command:
+
+mne.datasets.sample.data_path(verbose=True)
+
+The trigger codes for each kind of stimulus are shown in the table below:
+
+| Name   | Trigger code |    Content   |
+|--------|:------------:|----------------------------------------:|
+|  LA    |       1      | Response to left-ear auditory stimulus  |
+|  RA    |       2      | Response to right-ear auditory stimulus |
+|  LV    |       3      | Response to left visual field stimulus  |
+|  RV    |       4      | Response to right visual field stimulus |
+| smiley |       5      | Response to the smiley face             |
+| button |      32      | Response triggered by the button press  |
+
+For more information on processing examples of this dataset check [this link](http://martinos.org/mne/stable/manual/sample_dataset.html)
+
+### __3.2 Importing data__
+
+>> import mne
+>> from mne.datasets import sample
+
+>> data_path = sample.data_path()
+>> raw_fname = data_path + '/MEG/sample/sample_audvis_filt-0-40_raw.fif'
+>> Event_fname = data_path + '/MEG/sample/sample_audvis_filt-0-40_raw-eve.fif'
+>> raw = mne.io.read_raw_fif(raw_fname, preload=True)
+>> raw.set_eeg_reference()  # set EEG average reference
+
+### __3.3 EEG Montage__
+
+### __3.4 EEG Reference__
+
+### __3.5 EEG Preprocessing__
+
+   Before starting to extract features from a signal, it's important to remove the artifacts in 
+order to clean the signals to enhance relevant information embedded in these signals. EEG
+signals are known to be very noisy, as they can be easilyh affected by the electrical activity of the 
+body (EOG and EMG) and environmental artifacts (e.g. 50 or 60 Hz power line). The preprocessing
+step aims at increasing the SNR (Signal-to-Noise Ratio) of the signals.
+
+--- _Bandpass 0.15 - 40 Hz_
+--- _Select the most important channels (manually removing the less important channels for now)
+
+### __3.6 Epoching__
+
+ERP components are characterized by specific temporal variations according to the stimulus onset, 
+therefore ERP-based BCIs exploit mostly the temporal information of a signal.
+
+The ERP components can be quantified by averaging activity in the EEG time-locked to a specific
+event. The results in a waveform associated with the processing of that specific event. The ERPs found in such tasks have a characterisitic waveform with clearly identifiable components. 
+
+An epoech is a chunk of EEG recording in the time domain. Here we are using the stimulus-locked epoch,
+which means that we consider 0 as the onset of the stimulus and then we extract the first N
+milliseconds after that (e.g. if Nis 1500, we are sampling at 32 Hz and we have 100 stimuli, we have 
+100 epochs of 48 samples (1.5s * 32) for each electrode).
+
+Here is an example of Ephochs in a real time application:
+__insert gif__
+
+# Defining Epochs and computing ERP for left auditory condition
+>> reject = dict(eeg=180e-6, eog=150e-6)
+>> event_id, tmin, tmax = {'left/auditory': 1}, -0.2, 0.5
+>> events = mne.read_events(event_fname)
+>> epochs_params = dict(events=events, event_id=event_id, tmin=tmin,
+tmax=tmax,reject=reject)
+
+### __3.7 Extracting features__
+
+Since a lot of modern-day ERP processing involves machine learning, the term 'feature' is 
+frequently used in ERP analysis. A _feature_ is a measured property of a signal that is used as
+input to the machine learning algorithm. For example, a commonly used feature for ERPs is _average voltage_ of the signal
+at each time point across all the epochs. Extracting this feature does not require major computation
+or processing, and it is easy to implement in MNE:
+
+>> evoked_no_ref = mne.Epochs(raw_no_ref, **epochs_params).average()
+>> del raw_no_ref  # save memory
+
+>> title = 'EEG with Original reference'
+>> evoked_no_ref.plot(titles=dict(eeg=title))
+>> del raw_no_ref  # save memory
+
+__insert figure__
+
+Once we have a feature vector, this could be used to in the classification step of the BCI to
+produce meaningful outputs using machine learning (e.g. Simple Linear Regression, Linear Discriminant
+Analysis, Support Vector Regression). 
+
+# 4) Other methods for feature extraction
+
+### __4.1 Dimension Reduction methods__
+
+Brain signals can be measured through multiple channels. Not all information provided by these
+channels is generally relevant for understanding the underlying phenomena of interest.
+Dimension reduction technicques can be applied to reduce the dimension of the original data,
+removing the irrelevant and redundant information. So the computational costs are reduced.
+
+#### __4.1.1 Principal Component Analysis (PCA)__
+
+   PCA is a statistical features extraction method that uses a linear transformation to
+convert a set of observations possible correlated into a set of uncorrelated variables called
+principal components. Linear transformations generates a set of components from the input data,
+sorted according to their variance in such a way that the first principal component has the highest possible
+variance. This variance allows PCA to separate the brain signal into different components.
+   PCA is also a procedure to reduce the dimension of the features. Since the number of columns is 
+less than the dimension of the input data. This decrease in dimensionality can reduce the complexity
+of the subsequent classifying step in a BCI system. 
+
+#### ___4.1.2. Independent Component Analysis (ICA)___
+
+   ICA is a statistical procedure that splits a set of mixed signals to its sources with no
+previous information on the nature of the signal. The only assumption involved in the ICA is that the 
+unknown underlying sources are mutually independent in statistical terms. ICA assumes that the 
+observed EEG signal is a mixture of several independent source signals coming from multiple
+cognitive activities or artifacts.
+
+### __ Wavelet Transform__
+  
+  Wavelets are functions of varying frequency and limited duration that allow simultaneous
+analysis of the signal in both the time and frequency domain, in contrast to other modalities
+of the signal analysis such as Fourier Transform (FT) that provides only an analysis of the 
+signal activity in the frequency domain. FT gives information about the frequency content, 
+but it is not accompanied by information on when those frequencies occur.
+
+### __Further readings__
+
+If you are interested in broadening your knowledge on ERPs and BCIs, we recommend the following 
+papers/books to read. Most of them are freely available. We also indicated in bold face the 
+main topic covered by the resource.
+
+### __General on ERPs__
+
+* Luck, Steven J. _An Introduction to the Event-Related Potential Technique._ 2nd ed. MIT Press. __The big book of ERPs: [Official website](https://mitpress.mit.edu/books/introduction-event-related-potential-technique-0)and... [PDF](http://libgen.io/get.php?md5=B714ED5B0251ED7628369F5BEA1096A4&key=0GSQ1BJ67SS26SZN)__
+* Luck, Steven J. 2004. "Ten Simple Rules for Designing and Interpreting ERP Experiments." In _Event-Related Potentials: A Methods Handbook_ edited by T.C. Handy. __Good tutorial for designing ERP experiments, but also useful to us__
+* Jung, Tzyy Ping, Scott Makeig, Marissa Westerfield, Jeanne Townsend, Eric Courchesne, and Terrence J. Sejnowski. 2001. "Analysis and Visualization of Single-Trial Event-Related Potentials" _Human Brain Mapping_ 14 (3): 166-85. doi:10.1002/hbm.1050. __Another tutorial__
+* Comerchero, Marco D., and John Polich. 1999. "P3a and P3b from Typical Auditory and Visual Stimuli." _Clinical Neurophysiology_ 100 (1): 24-30
+* Picton, Terrence w. 1992. "The P300 Wave of the Human Event-Related Potential." _Journal of Clinical Neurophysiology_ 9 (4): 456-79. http://journals.lww.com/clinicalneurophys/Abstract/1992/10000/The_P300_Wave_of_the_Human_Event_Related_Potential.2.aspx __P300__
+* Polich, John. 2007. “Updating P300: An Integrative Theory of P3a and P3b.” _Clinical Neurophysiology_ 118 (10): 2128–48. doi:10.1016/j.clinph.2007.04.019. __P300__
+* Pritchard, Walter S. 1981. “Psychophysiology of P300.” _Psychological Bulletin_ 89 (3): 506–40. http://www.ncbi.nlm.nih.gov/pubmed/7255627. __P300__
+* Rohrbaugh, John W., Emanuel Donchin, and Charles W. Eriksen. 1974. “Decision Making and the P300 Component of the Cortical Evoked Response.” _Perception & Psychophysics_ 15 (2): 368–74. http://link.springer.com/article/10.3758/BF03213960. __P300 and decision making.__
+* Snyder, Elaine, and Steven A. Hillyard. 1976. “Long-Latency Evoked Potentials to Irrelevant, Deviant Stimuli.” _Behavioral Biology_ 16 (3): 319–31. doi:10.1016/S0091-6773(76)91447-4. __P300 and N200__
+* Squires, Nancy K., Kenneth C. Squires, and Steven A. Hillyard. 1975. “Two Varieties of Long-Latency Waves Evoked by Unpredictable Auditory Stimuli in Man.” _Electroencephalography and Clinical Neurophysiology_ 38 (4): 387–401. __Visual and auditory P300__
+* Falkenstein, Michael, Jörg Hoormann, Stefan Christ, and Joachim Hohnsbein. 2000. “ERP Components on Reaction Errors and Their Functional Significance: A Tutorial.” _Biological Psychology_ 51 (2–3): 87–107. doi:10.1016/S0301-0511(99)00031-9. __This is on Error Negativity, another ERP__
+* Yasuda, Asako, Atsushi Sato, Kaori Miyawaki, Hiroaki Kumano, and Tomifusa Kuboki. 2004. “Error-Related Negativity Reflects Detection of Negative Reward Prediction Error.” _Neuroreport_ 15 (16): 2561–65. doi:10.1097/00001756-200411150-00027. __Error negativity__
+* Hillyard, Steven A., and Lourdes Anllo-Vento. 1998. “Event-Related Brain Potentials in the Study of Visual Selective Attention.” _Proceedings of the National Academy of Sciences_ 95 (3): 781–87. __Various visual ERPs__
+* Hsu, Yi Fang, Jarmo A. Hämäläinen, Karolina Moutsopoulou, and Florian Waszak. 2015. “Auditory Event-Related Potentials over Medial Frontal Electrodes Express Both Negative and Positive Prediction Errors.” _Biological Psychology_ 106. Elsevier B.V.: 61–67. doi:10.1016/j.biopsycho.2015.02.001. __Error negativity but elicited by auditory stimuli__
+* Polich, John. 2007. “Updating P300: An Integrative Theory of P3a and P3b.” _Clinical Neurophysiology_ 118 (10): 2128–48. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2715154/pdf/nihms31682.pdf) __P300__
+
+### __2. Feature extraction__
+
+* Donchin, Emanuel, and E. F. Heffley. 1978. “Multivariate Analysis of Event-Related Potential Data: A Tutorial Review.” _In Multidisciplinary Perspectives in Event-Related Brain Potential Research_, edited by Dave Otto, 555–72. Washington, D.C.: U.S. Government Printing Office. __Various analysis techniques for ERP-based BCIs__
+* Poli, Riccardo, Caterina Cinel, Luca Citi, and Francisco Sepulveda. 2010. “Reaction-Time Binning: A Simple Method for Increasing the Resolving Power of ERP Averages.” _Psychophysiology_ 47 (3): 467–85. doi:10.1111/j.1469-8986.2009.00959.x. __Paper about the limits of averaging and how they can alter the shape of ERPs__
+* Poli, Riccardo, Luca Citi, Mathew Salvaris, Caterina Cinel, and Francisco Sepulveda. 2010. “Eigenbrains: The Free Vibrational Modes of the Brain as a New Representation for EEG.” In _32nd Annual International Conference of the IEEE EMBS_, 6011–14. doi:10.1109/IEMBS.2010.5627593. __A novel feature extraction method for ERPs.__
+* Congedo, Marco, Alexandre Barachant, and Anton Andreev. 2013. “A New Generation of Brain-Computer Interface Based on Riemannian Geometry.” _arXiv Preprint arXiv:1310.8115_ 33 (0). http://arxiv.org/abs/1310.8115. __Riemannian geometry as a feature extraction method__
+* Al-ani, Tarik, and Dalila Trad. Signal processing and classification approaches for brain-computer interface. INTECH Open Access Publisher, 2010. [link](http://cdn.intechopen.com/pdfs/6798/I...erface.pdf)
+
+### __3. ERP-based BCIs__
+* Farwell, Lawrence A., and Emanuel Donchin. 1988. “Talking off the Top of Your Head: Toward a Mental Prosthesis Utilizing Event-Related Brain Potentials.” _Electroencephalography and Clinical Neurophysiology_ 70 (6): 510–23. [doi:http://dx.doi.org/10.1016/0013-4694(88)90149-6.](http://www.sciencedirect.com/science/article/pii/0013469488901496?via%3Dihub) __The first P300 speller__
+* Fazel-Rezai, Reza, Brendan Z. Allison, Christoph Guger, Eric W. Sellers, Sonja C. Kleih, and Andrea Kübler. 2012. “P300 Brain Computer Interface: Current Challenges and Emerging Trends.” _Frontiers in Neuroengineering_ 5: 14. doi:10.3389/fneng.2012.00014. __A survey on P300-based BCIs, with a table similar to what I had in mind__
+* Citi, Luca, Riccardo Poli, Caterina Cinel, and Francisco Sepulveda. 2008. “P300-Based BCI Mouse with Genetically-Optimized Analogue Control.” _IEEE Transactions on Neural Systems and Rehabilitation Engineering_ 16 (1): 51–61. doi:10.1109/TNSRE.2007.913184. __P300-based BCI mouse__
+* Donchin, Emanuel, and Yael Arbel. 2009. “P300 Based Brain Computer Interfaces: A Progress Report.” In _Proceedings of the 5th International Conference on Foundations of Augmented Cognition_, 724–31. Springer Berlin Heidelberg. doi:10.1007/978-3-642-02812-0_82. __Another survey on P300-based BCIs__
+* Matran-Fernandez, Ana, and Riccardo Poli. 2016. “Brain-Computer Interfaces for Detection and Localisation of Targets in Aerial Images.” _IEEE Transactions on Biomedical Engineering_ PP (99): 1–1. doi:10.1109/TBME.2016.2583200. __N2pc used to detect targets in rapid serial visual presentation__
+* Furdea, Adrian, Sebastian Halder, D. J. Krusienski, Donald Bross, Femke Nijboer, Niels Birbaumer, and Andrea Kübler. 2009. “An Auditory Oddball (P300) Spelling System for Brain-Computer Interfaces.” _Psychophysiology_ 46 (3): 617–25. doi:10.1111/j.1469-8986.2008.00783.x. __Auditory P300 BCI speller.__
+* . 
+* Furdea, Adrian, Sebastian Halder, D. J. Krusienski, Donald Bross, Femke Nijboer, Niels Birbaumer, and Andrea Kübler. 2009. “An Auditory Oddball (P300) Spelling System for Brain-Computer Interfaces.” _Psychophysiology_ 46 (3): 617–25. doi:10.1111/j.1469-8986.2008.00783.x. __Auditory P300 BCI speller.__
+* Nicolas-Alonso, Luis Fernando, and Jaime Gomez-Gil. 2012. “Brain Computer Interfaces, a Review.” Sensors 12 (2): 1211–79. doi:10.3390/s120201211. [Link](http://www.mdpi.com/1424-8220/12/2/1211/htm) __General review on BCIs__
+* Rebsamen, Brice, Cuntai Guan, Haihong Zhang, Chuanchu Wang, Cheeleong Teo, Marcelo H. Ang, and Etienne Burdet. 2010. "A brain controlled wheelchair to navigate in familiar environments." _IEEE Transactions on Neural Systems and Rehabilitation Engineering_ 18 (6): 590-598. [Link](https://tel.archives-ouvertes.fr/tel-00459007/document)
+* Szafir, D. 2010. "Non-Invasive BCI through EEG." unpublished Undergraduate Honors Thesis in Computer Science, Boston College. [Link](https://dlib.bc.edu/islandora/object/bc-ir:102430/datastream/PDF/view)
+* Lotte, F., 2008. Study of electroencephalographic signal processing and classification techniques towards the use of brain-computer interfaces in virtual reality applications (Doctoral dissertation, INSA de Rennes). [Link](https://tel.archives-ouvertes.fr/tel-00356346v2/document)
+* Fazel-Rezai, Reza, Brendan Z. Allison, Christoph Guger, Eric W. Sellers, Sonja C. Kleih, and Andrea Kübler. 2012. "P300 brain computer interface: current challenges and emerging trends." _Frontiers in neuroengineering_ 5 (14). [Link](https://www.frontiersin.org/articles/10.3389/fneng.2012.00014/full) __Another survey on P300-based BCIs__
+* van Dinteren, Rik, Martijn Arns, Marijtje LA Jongsma, and Roy PC Kessels. 2014. "P300 development across the lifespan: a systematic review and meta-analysis." PloS one 9 (2): e87347. [Link](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0087347)
+* Hoffmann, Ulrich, Jean-Marc Vesin, Touradj Ebrahimi, and Karin Diserens. 2008. "An efficient P300-based brain–computer interface for disabled subjects." _Journal of Neuroscience methods_ 167 (1): 115-125. [Link](https://infoscience.epfl.ch/record/101093/files/manuscript.pdf)
+
 
 </div> <!-- end of table section -->

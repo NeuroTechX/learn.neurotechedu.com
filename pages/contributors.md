@@ -9,127 +9,38 @@ permalink: "/contributors/"
 ---
 
 
+{% assign track_index = 0 %}
 
-##### Francesca Placido
+{% for member in site.data.contributors %}
+{%capture track_index %}{{forloop.index0 | modulo: 2}}{%endcapture%}
+{% if track_index == "1" %}
+<div class="row">
+{% endif %}
 
-Roles
+<div class="medium-6 columns contributor" markdown="1">
+### {{ member.name }}
+#### Roles:
+{% for role in member.roles %}
+* {{ role }}
+{% endfor %}
+#### Contributed to:
+{% for contribution in member.contributed %}
+* {{ contribution }}
+{% endfor %}
 
-* Content Builder
-
-Contributed to
-
-* Intro to BCI
-
-<div class="medium-4 columns contributor" markdown="1">
-<a href="http://twitter.com/francescacoo_j" class="icon-twitter"></a>
-<a href="http://github.com/francescacoo" class="icon-github"></a>
+<p>
+{% for link in member.links %}
+<a href="{{ link.url }}" class="icon-{{ link.name }}"></a>
+{% endfor %}
+</p>
 </div>
-
-##### Davide Valeriani
-
-Roles
-
-* Mentor
-
-Contributed to
-
-* ERP feature extraction
-<div class="medium-4 columns contributor" markdown="1">
-<a href="http://www.davidevaleriani.it/" class="icon-globe"></a>
+{% if track_index == "1" %}
 </div>
+{% endif %}
+
+{% endfor %}
 
 
-
-
-##### Ryan Lintott
-
-Roles
-
-* Editor
-* Content Builder
-
-Contributed to
-
-* Feature Extraction ERP
-<div class="medium-4 columns contributor" markdown="1">
-<a href="http://ryanlintott.com/" class="icon-globe"></a>
-<a href="http://linkedin.com/in/ryanlintott/" class="icon-linkedin"></a>
-<a href="http://twitter.com/ryanlintott" class="icon-twitter"></a>
-<a href="http://github.com/ryanlintott" class="icon-github"></a>
-</div>
-
-
-
-##### Hector Orozco
-
-Roles
-
-* Editor
-* Mentor
-
-Contributed to
-
-* Preprocessing 
-* Intro to neuroscience
-
-<div class="medium-4 columns contributor" markdown="1">
-<a href="https://www.linkedin.com/in/hector-domingo-orozco-perez-2017a4105/" class="icon-linkedin"></a>
-<a href="http://twitter.com/neurohazardous" class="icon-twitter"></a>
-<a href="http://github.com/neurohazardous" class="icon-github"></a>
-</div>
-
-
-
-##### Yu Min Chuang
-
-Roles
-
-* Content Builder
-
-Contributed to
-
-* Feature Extraction ERP
-
-<div class="medium-4 columns contributor" markdown="1">
-<a href="https://www.linkedin.com/in/yu-min-chuang-30a41b48/" class="icon-linkedin"></a>
-</div>
-
-
-
-##### Patrick Coleman
-
-Roles
-
-* Content Builder
-
-Contributed to
-
-* Preprocessing
-
-<div class="medium-4 columns contributor" markdown="1">
-<a href="https://padsterprogramming.blogspot.com/" class="icon-globe"></a>
-<a href="https://www.linkedin.com/in/padsterpat/" class="icon-linkedin"></a>
-<a href="https://github.com/padster" class="icon-github"></a>
-</div>
-
-
-##### Sheida Rabipour
-
-Roles
-
-* Editor
-* Mentor
-
-Contributed to
-
-* Intro to BCI
-* Signal Preprocessing 
-
-<div class="medium-4 columns contributor" markdown="1">
-<a href="https://www.linkedin.com/in/sheidarabipour/" class="icon-linkedin"></a>
-<a href="https://www.researchgate.net/profile/Sheida_Rabipour" class="icon-globe"></a>
-<a href="https://github.com/thesheid" class="icon-github"></a>
-</div>
 
 
 {% include _improve_content.html %}
