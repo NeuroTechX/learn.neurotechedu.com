@@ -455,7 +455,7 @@ Lesson will review and expand upon topics covered within the following resources
 ["History of Neuroscience".](https://faculty.washington.edu/chudler/hist.html) *University of Washington*. 2014.
 ["A Timeline of Neuroscience".](http://serendip.brynmawr.edu/bb/kinser/timeline.html) *Serendip Studio, Bryn Mawr College*. 2000.
 
-<!-- Removed sections 
+<!-- Removed sections -->
 
 #  Lesson Outcome
 
@@ -474,4 +474,6 @@ By the end of this online lesson, students or readers should be able to:
 - Understand within a historical social context how the field of neuroscience has developed and where it is going
 
 _Helpful previous knowledge: basic understanding of cell and molecular biology, general physiology and human anatomy._
--->
+
+
+</div>
