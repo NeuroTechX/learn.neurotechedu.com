@@ -40,7 +40,7 @@ dragging blocks around:
 
 __insert image with visual interface__
 
-###__Pygame__
+### __Pygame__
 
 [Pygame](https://www.pygame.org/wiki/about) is an open (LGPL license) Python library to build games.
 Due to its simple library, it is also used in some labs to build experiments. As it is
@@ -53,7 +53,7 @@ functions to use pygame effectively.
 
 __insert image of pygame interface__
 
-###__OpenViBE__
+### __OpenViBE__
 
 [OpenViBE](http://openvibe.inria.fr/) is an open-source (AGPLv3) platform specifically
 geared towards BCI experiments. 
@@ -74,7 +74,7 @@ The main downsides are that its interface can sometimes be intimidating and it d
 not have a library, so you cannot use OpenViBE without launching the full interface.
 Overall, OpenViBE is a great tool for getting started and experimenting ## various BCI paradigms.
 
-###__OpenEXP__
+### __OpenEXP__
 [OpenEXP](https://github.com/openexp/OpenEXP) is an open-source (MIT license) desktop
 app for running experiments and collecting behavioural and physiological data. IT is still in alpha stage,
 so may not be ready for experiments yet, but shows great promise for the future, as 
@@ -85,7 +85,7 @@ __insert picture of OPENEXP__
 It is based on [jsPsych](https://github.com/jspsych/jsPsych) and is written using 
 Javascript, so it could run in a web browser for scalable data collection.
 
-###__Psychtoolbox__
+### __Psychtoolbox__
 [Psychtoolbox](http://psychtoolbox.org/) is an open-source (MIT license) set of functions
 for running psychophysics experiments in Matlab or Octave. It has a lot of [tutorials](http://peterscarfe.com/ptbtutorials.html)
 geared towards psychophysics experiments and a comprehensive [FAQ](https://github.com/Psychtoolbox-3/Psychtoolbox-3/wiki/FAQ).
