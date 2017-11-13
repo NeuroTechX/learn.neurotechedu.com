@@ -61,7 +61,9 @@ of the stimulus. It contains several wave peaks, which could be relevant ERP com
 and negative (N) peak is followed by a number (i.e. N1, P2, N2, P3, etc.) representing the distance from
 the stimulus onset (0 ms). This is the most common naming convention.
 
-__Insert Figure 1. ERP waveform with a typical P3 wave. From (Hoffman et al., 2008)__
+![Figure 1]({{ "/images/erp/Figure-1-ERP-waveform.png" | absolute_url }})
+
+Figure 1. ERP waveform with a typical P3 wave. From (Hoffman et al., 2008)
 
 ### __2.3 How to use ERP's__
 BCIs using ERPs are easier to use as they require very little training time. They can be used to monitor
@@ -197,7 +199,7 @@ or processing, and it is easy to implement in MNE:
 >> evoked_no_ref.plot(titles=dict(eeg=title))
 >> del raw_no_ref  # save memory
 
-__insert figure__
+![Figure 2]({{ "/images/erp/Figure-2-EEG-original.png" | absolute_url }})
 
 Once we have a feature vector, this could be used to in the classification step of the BCI to
 produce meaningful outputs using machine learning (e.g. Simple Linear Regression, Linear Discriminant
