@@ -47,7 +47,12 @@ Neurons generate electrical signals, which allow them to quickly transmit inform
 At the core of the nervous system, with the largest collection of neurons and over 100 trillion connections, is the human brain. Messages are relayed to the brain via the spinal cord, which runs down through the back and contains threadlike nerves that branch out to every organ and body part. When a message comes into the brain from anywhere in the body, the brain sends a new message out to tell the body how to react.
 
 ## Organization of the Nervous System
-*The nervous system is separated in two classes: the central and peripheral nervous systems.*
+The nervous system is separated in two classes: the central and peripheral nervous systems.
+
+![Divisions of the Nervous Nystem]({{ "/images/introtoneuro/Nerv_1.jpg" | absolute_url }})  
+**Divisions of the Nervous System**  
+*This work by Cenveo is licensed under a [Creative Commons Attribution 3.0 United States](http://creativecommons.org/licenses/by/3.0/us/)*
+
 <!-- Choose either "your" or "the" when describing things -->
 ### Central Nervous System (CNS)
 The Central Nervous System (CNS) consists of the brain and the spinal cord. It's made of soft delicate tissue but it's well protected by the skull and spinal vertebrae. The blood-brain barrier also prevents many toxins from entering the brain. The CNS acts as the control centre, sending and receiving information to and from muscles, glands, organs and others systems in the body through the Peripheral Nervous System.
@@ -87,12 +92,13 @@ The Parasympathetic Nervous System (PSNS) helps the body "rest-and-digest", cons
 If you would like to learn more about the nervous system there is an excellent [video series by Crash Course](https://www.youtube.com/watch?v=qPix_X-9t7E) on the topic.
 
 ### Receptors and Effectors
-At the farthest branches of this network there are two basic types of neurons: receptors and effectors.
+At the farthest branches of this network there are two basic types of neurons: receptors and effectors. Receptors are part of the sensory division as they receive information about changes in the environment. Effectors are part of the motor division as they produce changes in the body which can in turn effect the outside world.
 
-| Receptors | Effectors |
-| --------- | --------- |
-| Part of the sensory division | Part of the motor division |
-| Receive information about changes in the environment | Produce changes in the body which can in turn effect the outside world |
+*Below is a diagram showing how signals move through the nervous system*
+
+![Subdivisions of the Nervous System]({{ "/images/introtoneuro/Nerv_2.jpg" | absolute_url }})  
+**Subdivisions of the Nervous System**  
+*This work by Cenveo is licensed under a [Creative Commons Attribution 3.0 United States](http://creativecommons.org/licenses/by/3.0/us/)*
 
 ---
 ##  Cellular Components of the Nervous System
