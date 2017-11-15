@@ -448,6 +448,28 @@ Despite the known basic rules of BCIs' selection and adjustment, it is still unc
 
 ## Ethics
 
+Emerging technologies and brain computer interfaces raise many ethical concerns that are being addressed by the neuroscience community.
+The problems touch different topics, such as managing patient expectations, the concept of personal identity, and the validity of informed consent and so on.
+
+**Informed consent**
+One important ethical issue related to medical application of BCI, is around getting an informed consent from the patients. Often BCI research is carried out with patients affected by debilitating issues, such as locked in syndrome or different degree of strokes. It is important to recognize if the consent obtained is fully informed or affected by the disability.
+
+**Setting patients expectations**
+W. Glannon highlighted how patients and their relatives might have expectations surrounding BMI technologies that might not be met. Different reasons might affect the ability or not of BCI to work, such as cognitive capacity or level of disability of the subject. The risk of the technology not working could cause significant distress to the patients, outweighing the possible benefits.
+
+**Risks vs benefits**
+Some specific technologies, such as implantable devices, might pose risks for the patient health. It is an important ethical problem to address/
+
+**Privacy**
+The theory of being able to read minds, have a profound impact on the concept of personal identity and privacy. Even if the technology is still far from being able to read the thoughts of a person, it is important to start considering the ethical implications. If such a machine will be developed, how the data will be transmitted and stored? How the person could keep full ownership and avoid hackers or other person accessing “his thoughts”?
+
+**Legal Implications**
+Brain computer interface is often used with paralyzed people to help them in re-gain movements using prosthetic limbs. Some researchers questioned who would have the responsibility in case an accident happened using such methods. How would be possible to distinguish a voluntary action from a malfunction of the system?
+In addition, the ability to make communicate seriously ill patients might raise the question if their answers can be considered an informed consent given their status.
+
+**Impact on society**
+Considering the possibility of BCI to increase mental ability, joining with Artificial Intelligence (as for example in Elon Musk plan). We question ourselves if athletes with prosthetic limbs should compete with the others, at the same time if the BCI improves cognition, we would have a similar issue.
+
 ## Safety
 
 ## Future of the field
