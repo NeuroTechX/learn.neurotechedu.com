@@ -54,6 +54,17 @@ _This is italic text_
 >> ...by using additional greater-than signs right next to each other...
 > > > ...or with spaces between arrows.
 
+## Line breaks
+
+When you type one line, hit return,
+and then type another
+they will merge together in a single continuous line.
+
+Use 2 returns to make a new paragraph.
+
+If you want the next line to appear directly below the one before like using the </br> tag  
+then add at least 2 spaces here >  
+at the end of the line.
 
 ## Tables
 
@@ -125,5 +136,5 @@ Write your code in here
 Multiple lines!
 {% endhighlight %}
 
-</div> <!-- end of content section -->
+</div> <!-- end of content column -->
 </div> <!-- end of row -->
