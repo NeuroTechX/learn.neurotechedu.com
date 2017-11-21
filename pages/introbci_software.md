@@ -33,12 +33,12 @@ measuring with a clock.
 It includes an interface to [write code](http://www.psychopy.org/coder/coder.html#coder)
 for experiments:
 
-__insert image with code interface__
+![Psychopy]({{ "/images/introbcisoftware/Psychopy-sample.png" | absolute_url }})
 
 And [visual interface](http://www.psychopy.org/builder/builder.html) to make experiments by
 dragging blocks around:
 
-__insert image with visual interface__
+![Psychopy]({{ "/images/introbcisoftware/psychopy_vis.png" | absolute_url }})
 
 ### __Pygame__
 
@@ -51,7 +51,7 @@ what you display.
 However, it's also not geared towards experiments, and you may have to build up some helper
 functions to use pygame effectively.
 
-__insert image of pygame interface__
+![Psychopy]({{ "/images/introbcisoftware/pygame.png" | absolute_url }})
 
 ### __OpenViBE__
 
@@ -60,7 +60,7 @@ geared towards BCI experiments.
 It has a visual interface consisting of "blocks" that can be used to build experiments.
 These blocks can be extended using Python, Lua, C++, or Matlab.
 
-__insert graph expaning OpenViBE__
+![Psychopy]({{ "/images/introbcisoftware/OpenViBE.png" | absolute_url }})
 
 As it's geared towards BCI development, it has [comprehensive support](http://openvibe.inria.fr/supported-hardware/)
 for streaming EEG data from a lot of different devices, and [a lot of algorithms](http://openvibe.inria.fr/documentation/1.3.0/Doc_BoxAlgorithms.html)
@@ -68,7 +68,7 @@ specifically for BCIs.
 It also has neat 3D interfaces for trying out BCI paradigms, like lifting a spaceship
 using motor imagery:
 
-__insert that picture of a... spaceship?__
+![Psychopy]({{ "/images/introbcisoftware/OpenViBE.png" | absolute_url }})
 
 The main downsides are that its interface can sometimes be intimidating and it does
 not have a library, so you cannot use OpenViBE without launching the full interface.
@@ -80,7 +80,7 @@ app for running experiments and collecting behavioural and physiological data. I
 so may not be ready for experiments yet, but shows great promise for the future, as
 it is developed by [key NeurotechX members](https://github.com/openexp/OpenEXP/graphs/contributors).
 
-__insert picture of OPENEXP__
+![Psychopy]({{ "/images/introbcisoftware/OPENEXP.png" | absolute_url }})
 
 It is based on [jsPsych](https://github.com/jspsych/jsPsych) and is written using
 Javascript, so it could run in a web browser for scalable data collection.
@@ -93,7 +93,7 @@ geared towards psychophysics experiments and a comprehensive [FAQ](https://githu
 It can performa pretyy much any visual, text, or audio you might need for
 psychophysics, such as a set of [rotating 3D cubes:](http://peterscarfe.com/rotatingcubesdemo.html)
 
-__insert image of rotating cubes__
+![Psychopy]({{ "/images/introbcisoftware/psychtoolbox.png" | absolute_url }})
 
 The functions provided can sometimes be close to the graphics pipeline, so it may
 have set textures or explicitly ask for anti-aliasing. However, this does provide more control.
