@@ -184,6 +184,7 @@ The cerebral cortex is divided into two hemispheres connected by the [corpus cal
 Four lobes are used to denote specific anatomical locations within the brain: [Frontal Lobe](https://en.wikipedia.org/wiki/Frontal_lobe), [Occipital Lobe](https://en.wikipedia.org/wiki/Occipital_lobe), [Parietal Lobe](https://en.wikipedia.org/wiki/Parietal_lobe), and [Temporal Lobe](https://en.wikipedia.org/wiki/Temporal_lobe). These lobes, or anatomical locations of the brain, are referred to when examining different brain functions.
 
 *There are 4 Lobes of the Brain*
+
 |  **Brain Lobe** | **Location and Role** |
 | ------ | ----------- |
 | Frontal | The large frontal lobe extends from behind the forehead back to the parietal lobe. It is the control center for executive functions including reasoning, decision-making, expressive language, higher level cognitive processes, orientation (person, place, time, and situation integration of sensory information), and the planning and execution of movement, or motor behavior. The Frontal Lobe can be referred to as the Motor Cortex. |
