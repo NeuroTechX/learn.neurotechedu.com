@@ -17,7 +17,7 @@ permalink: "/lessons/"
   <div class="medium-10 columns box">
     <h4>• BCI 101</h4>
     <div class="moduledescription">
-      This module provides a high level description of Brain Computer Interfaces. In this course, you will learn what is a BCI, some examples, what are the parts that make one up, how to make one, and some projects to build for yourself. Start this lesson by reading the Introduction to Brain Computer Interfaces module. If you are interested in an interactive tutorial and have an android phone, check out the <a href="https://play.google.com/store/apps/details?id=com.eeg_project&hl=en">EEG 101 app</a>
+      This module provides a high level description of Brain Computer Interfaces. In this course, you will learn what is a BCI, some examples, what are the parts that make one up, how to make one, and some projects to build for yourself. Start this lesson by reading the Introduction to Brain Computer Interfaces module. If you are interested in an interactive tutorial and have an android phone, check out the <a target= "_blank_" href="https://play.google.com/store/apps/details?id=com.eeg_project&hl=en">EEG 101 app</a>
     </div>
     <ul class="" style="padding-left:60px">
       <li class="section"><a href="../introtobci/">Introduction to Brain Computer Interfaces</a></li>
