@@ -20,6 +20,35 @@ permalink: "/projects/"
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
+## DIY EEG
+<hr>
+<div class="row">
+<div class="large-6 columns" markdown="1">
+If you are interested in building your own eeg, here are some options to get your started
+</div>
+<table>
+  <tr>
+    <th>Tutorial</th>
+    <th>Author</th>
+    <th>Difficulty</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+      <td>Smartphone BCI</td>
+      <td>NeuroTechLDN</td>
+      <td>Some Technical Experience</td>
+      <td>The DIY eeg is a 20 Euro device allows for your to build an SSVEP which can connect to your smartphone and can be used as a keyboard. </td>
+      <td><a target="_blank_" href="https://github.com/icibici/smartphone-bci-hardware">Click</a></td>
+  </tr>
+  <tr>
+      <td>DIY EEG</td>
+      <td>OpenEEG Community</td>
+      <td>Some Technical Experience</td>
+      <td>This is one of the first and oldest DIY EEG designs out there. </td>
+      <td><a target="_blank_" href="http://openeeg.sourceforge.net/doc/">Click</a></td>
+  </tr>
+</table>
 
 ## Muse
 <hr>
@@ -112,27 +141,48 @@ The OpenBCI is an open source EEG with a maximum of 16 channels. [Full list of f
 
 </div> <!-- end of row -->
 
-#### No Technical Experience
-
-*  If you are not comfortable with EEGs or coding, we suggest taking a look at their Getting Started Guide. It includes a link to their [Visualizer software](http://docs.openbci.com/Getting%20Started/00-Welcome)
-* This guide uses OpenVibe which is a dataflow programming system and is used for Brain Computer Interfaces. One of the NeuroTechX Community Members [built a P300 Speller using OpenBCI and OpenVibe](http://blog.jfrey.info/2015/02/04/openbci-p300-coadapt/)
-
-#### Some Technical Experience
-
-* [One of the OpenBCI Community members built an alphawave display](http://openbci.com/community/alphawave-openbci-based-demo/)
-
 <table>
   <tr>
     <th>Tutorial</th>
     <th>Author</th>
+    <th>Difficulty</th>
     <th>Description</th>
     <th>Link</th>
   </tr>
   <tr>
     <td>P300 Speller</td>
     <td>Jeremy Frey</td>
+    <td> Requires some technical experience </td>
     <td> This is using the OpenBCI to build a P300 Speller using the oddball paradigm</td>
-    <td><a target="_blank_" href="http://blog.jfrey.info/2015/02/04/openbci-p300-coadapt/">Click</a></td></td>
+    <td><a target="_blank_" href="http://blog.jfrey.info/2015/02/04/openbci-p300-coadapt/">Click</a></td>
+  </tr>
+  <tr>
+    <td>OpenBCI GUI</td>
+    <td>OpenBCI</td>
+    <td>No Technical experience</td>
+    <td> If you would like to just see your eeg activity, OpenBCI has a visualizer you can try</td>
+    <td><a target="_blank_" href="http://docs.openbci.com/OpenBCI%20Software/01-OpenBCI_GUI">Click</a></td>
+  </tr>
+  <tr>
+    <td>Alphawave display</td>
+    <td> Hassan Albalawi</td>
+    <td>Some Technical Experience</td>
+    <td> One of the OpenBCI Community members built an alphawave display</td>
+    <td><a target="_blank_" href="http://openbci.com/community/alphawave-openbci-based-demo/">Click</a></td>
+  </tr>
+  <tr>
+    <td>ERP Detector</td>
+    <td> NeuroTechBerkley</td>
+    <td>Some Technical Experience</td>
+    <td>This tutorial gives you everything you need to detect an ERP using remembered words in a list</td>
+    <td><a target="_blank_" href="https://github.com/NeuroTechX/bci-course/tree/master/lab3">Click</a></td>
+  </tr>
+  <tr>
+    <td>Building a simple Neurofeedback system</td>
+    <td>NeuroTechBerkley</td>
+    <td>Some Technical Experience</td>
+    <td>Using the OpenBCI to have a high beta to theta ratio</td>
+    <td><a target="_blank_" href="https://github.com/NeuroTechX/bci-course/tree/master/lab4">Click</a></td>
   </tr>
 </table>
 
