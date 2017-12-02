@@ -22,6 +22,7 @@ permalink: "/projects/"
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 ## DIY EEG
 <hr>
+
 <div class="row">
 <div class="large-6 columns" markdown="1">
 If you are interested in building your own eeg, here are some options to get your started
@@ -49,7 +50,8 @@ If you are interested in building your own eeg, here are some options to get you
       <td><a target="_blank_" href="http://openeeg.sourceforge.net/doc/">Click</a></td>
   </tr>
 </table>
-
+</div>
+</div>
 ## Muse
 <hr>
 
