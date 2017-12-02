@@ -25,7 +25,8 @@ permalink: "/projects/"
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-If you are interested in building your own eeg, here are some options to get your started
+If you are interested in building your own eeg, here are some options to get you started
+</div>
 </div>
 <table>
   <tr>
@@ -50,8 +51,8 @@ If you are interested in building your own eeg, here are some options to get you
       <td><a target="_blank_" href="http://openeeg.sourceforge.net/doc/">Click</a></td>
   </tr>
 </table>
-</div>
-</div>
+
+
 ## Muse
 <hr>
 
@@ -139,8 +140,6 @@ The OpenBCI is an open source EEG with a maximum of 16 channels. [Full list of f
 <div class="large-6 columns" markdown="1">
 ![OpenBCI headset](../images/openBCI.png)
 </div>
-
-
 </div> <!-- end of row -->
 
 <table>
