@@ -87,7 +87,7 @@ EEG Biometric is a growing field which looks at how we can use your eeg activity
 #### Anxiety
 
 
-Neurofeedback can be an effective method of handling anxiety. Similar to the methods used in mindfulness practices, alpha and theta training is done in order to put the person in a more relaxed state of mind. 
+Neurofeedback can be an effective method of handling anxiety. Similar to the methods used in mindfulness practices, alpha and theta training is done in order to put the person in a more relaxed state of mind.
 
 **References**
 
@@ -117,7 +117,7 @@ Although a controversial [use case](http://journals.sagepub.com/doi/abs/10.1177/
 
 #### PTSD
 
-PTSD neurofeedback has been studied for over [25 years](http://charleston.braincoretherapy.com/wp-content/uploads/2014/01/PENISTON-PTSD.pdf). A lot of the studies focus on getting the participants to generate alpha wave activity which is associated with being in a relaxed state. Most articles which were reviewed suggest that Neurofeedback should be use in combination with other treatments.
+PTSD neurofeedback has been studied for over [25 years](http://charleston.braincoretherapy.com/wp-content/uploads/2014/01/PENISTON-PTSD.pdf). A lot of the studies focus on getting the participants to generate alpha wave activity which is associated with being in a relaxed state. Most articles which were reviewed suggest that neurofeedback should be use in combination with other treatments.
 
 **References**
 * [Alpha-Theta Brainwave Neuro-feedback for Vietnam Veterans](http://onlinelibrary.wiley.com/doi/10.1111/acps.12229/full)
@@ -130,7 +130,7 @@ PTSD neurofeedback has been studied for over [25 years](http://charleston.brainc
 
 #### Performance Optimization
 
-This series of articles discuss how you can you Neurofeedback as a mechanism to improve a wide variety of perfoEEG Neurofeedback for optimizing performance 3rmances. This is a good series of articles to start with if you want a high level overview.
+This series of articles discuss how you can you use Neurofeedback as a mechanism to optimizing performance. This is a good series of articles to start with if you want a high level overview.
 
 **References**
 * [EEG Neurofeedback for optimizing performance 1](http://www.sciencedirect.com/science/article/pii/S0149763413002248#bib0700)
