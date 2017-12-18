@@ -44,7 +44,7 @@ The following image shows the different layers of the brain and where the signal
 
 **Invasive**: the Intraparenchymal signal is taken directly implanting electrodes in the cortex.
 
-[Layers of the Brain and Signal Source](../images/introtobci/layers.png)
+![Layers of the Brain and Signal Source](../images/introtobci/layers.png)
 
 ### Invasive
 
@@ -131,6 +131,7 @@ In the following image is possible to see the different brain imaging techniques
 From Wikipedia “is a functional neuroimaging technique for mapping brain activity by recording magnetic fields produced by electrical currents occurring naturally in the brain, using very sensitive magnetometers.“
 
 ![MEG](../images/introtobci/MEG.png)
+
 In the image: MEG scanner with patient from National Institute of Mental Health [(6)](#references)
 
 **How does it work?**
