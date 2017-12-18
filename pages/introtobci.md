@@ -21,9 +21,11 @@ permalink: "/introtobci/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-# Intro to BCI
 
 ## What is the definition
+
+Brain-computer interfaces (BCI) are systems that allow communication between the brain and various machines. They work in three main steps: collecting brain signals, interpreting them and outputting commands to a connected machine according to the brain signal received. BCI can be applied to a variety of tasks, including but not limited to neurofeedback, restoring motor function to paralyzed patients, allowing communication with locked in patients and improving sensory processing. BCI can be separated in three categories depending on the method used to collect brain signals. The first category is the non-invasive brain-computer interfaces, which mostly rely on electroencephalogram (EEG) and magnetoencephalogram (MEG) to read brain activity. These techniques do not require any surgical intervention and are considered the safest as well as the cheapest. The second category is semi-invasive BCI, which use electrocorticography (ECoG). This approach requires the implantation of recording electrodes on the surface of the brain, It is more expensive than non-invasive methods but is safer than invasive approaches. Semi-invasive BCIs are also more accurate than non-invasive BCI. The last category is invasive BCI, which make use of electrodes implanted in the brain to read neural activity. These brain-computer interfaces are the most accurate but are also the most dangerous and expensive.
+
 
 ## What are  the types of BCI's
 There are many different techniques to measure brain signals.
