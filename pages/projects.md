@@ -100,7 +100,7 @@ These are open source projects which require some programming experience in orde
   </tr>
    <tr>
       <td>Brain Controlled RC Helicopter</td>
-      <td>PUzzlebox</td>
+      <td>Puzzlebox</td>
       <td>This Instructable will show you how take a Radio Controller Helicopter and modify the remote control hardware such that it can be operated by free, open source computer software and flown based on brainwave measurements of concentration and relaxation taken by consumer-grade EEG headsets.</td>
       <td><a target="_blank_" href="http://www.instructables.com/id/Brain-Controlled-RC-Helicopter/">Click</a></td>
   </tr>
@@ -146,44 +146,65 @@ The OpenBCI is an open source EEG with a maximum of 16 channels. [Full list of f
   <tr>
     <th>Tutorial</th>
     <th>Author</th>
-    <th>Difficulty</th>
+    <th>Technical Experience required?</th>
     <th>Description</th>
     <th>Link</th>
   </tr>
   <tr>
     <td>P300 Speller</td>
     <td>Jeremy Frey</td>
-    <td> Requires some technical experience </td>
+    <td>Yes</td>
     <td> This is using the OpenBCI to build a P300 Speller using the oddball paradigm</td>
     <td><a target="_blank_" href="http://blog.jfrey.info/2015/02/04/openbci-p300-coadapt/">Click</a></td>
   </tr>
   <tr>
     <td>OpenBCI GUI</td>
     <td>OpenBCI</td>
-    <td>No Technical experience</td>
+    <td>No</td>
     <td> If you would like to just see your eeg activity, OpenBCI has a visualizer you can try</td>
     <td><a target="_blank_" href="http://docs.openbci.com/OpenBCI%20Software/01-OpenBCI_GUI">Click</a></td>
   </tr>
   <tr>
     <td>Alphawave display</td>
     <td> Hassan Albalawi</td>
-    <td>Some Technical Experience</td>
+    <td>Yes</td>
     <td> One of the OpenBCI Community members built an alphawave display</td>
     <td><a target="_blank_" href="http://openbci.com/community/alphawave-openbci-based-demo/">Click</a></td>
   </tr>
   <tr>
     <td>ERP Detector</td>
     <td> NeuroTechBerkley</td>
-    <td>Some Technical Experience</td>
+    <td>Yes</td>
     <td>This tutorial gives you everything you need to detect an ERP using remembered words in a list</td>
     <td><a target="_blank_" href="https://github.com/NeuroTechX/bci-course/tree/master/lab3">Click</a></td>
   </tr>
   <tr>
     <td>Building a simple Neurofeedback system</td>
     <td>NeuroTechBerkley</td>
-    <td>Some Technical Experience</td>
+    <td>Yes</td>
     <td>Using the OpenBCI to have a high beta to theta ratio</td>
     <td><a target="_blank_" href="https://github.com/NeuroTechX/bci-course/tree/master/lab4">Click</a></td>
+  </tr>
+  <tr>
+    <td>Build an SSVEP</td>
+    <td>NeuroTechBerkley</td>
+    <td>Yes</td>
+    <td>Using the OpenBCI to capture Steady-State Visual Evoked Potentials of remembered vs non-remembered words</td>
+    <td><a target="_blank_" href="https://github.com/NeuroTechX/bci-course/tree/master/lab5">Click</a></td>
+  </tr>
+  <tr>
+    <td>Measuring Attention via Cross Brain Correlation Study</td>
+    <td>NeuroTechBerkley</td>
+    <td>Yes</td>
+    <td>In the project, you will be recording eeg activity from different subjects while they watch a video. You should be able to see a peaks in activity during </td>
+    <td><a target="_blank_" href="https://github.com/NeuroTechX/bci-course/tree/master/lab7">Click</a></td>
+  </tr>
+  <tr>
+    <td>Brain Response to Smell Study</td>
+    <td>NeuroTechBerkley</td>
+    <td>Yes</td>
+    <td>These scripts will allow for you capture eeg data and correlate it to different brain waves</td>
+    <td><a target="_blank_" href="https://github.com/NeuroTechX/bci-course/tree/master/lab7">Click</a></td>
   </tr>
 </table>
 
