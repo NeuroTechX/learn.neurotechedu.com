@@ -203,7 +203,7 @@ The OpenBCI is an open source EEG with a maximum of 16 channels. [Full list of f
     <td>Brain Response to Smell Study</td>
     <td>NeuroTechBerkley</td>
     <td>Yes</td>
-    <td>These scripts will allow for you capture eeg data and correlate it to different brain waves</td>
+    <td>These scripts will allow for you capture eeg data and determine which smells cause a change in brainwaves</td>
     <td><a target="_blank_" href="https://github.com/NeuroTechX/bci-course/tree/master/lab7">Click</a></td>
   </tr>
 </table>
