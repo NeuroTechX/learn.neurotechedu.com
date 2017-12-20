@@ -25,8 +25,9 @@ permalink: "/introtobci/"
 ## What is the definition
 
 Brain-computer interfaces (BCI) are systems that allow communication between the brain and various machines. 
+
 They work in three main steps: collecting brain signals, interpreting them and outputting commands to a connected machine according to the brain signal received. 
-BCI can be applied to a variety of tasks, including but not limited to neurofeedback, restoring motor function to paralyzed patients, allowing communication with locked in patients and improving sensory processing. BCI can be separated in three categories depending on the method used to collect brain signals. 
+BCI can be applied to a variety of tasks, including but not limited to [neurofeedback](https://en.wikipedia.org/wiki/Neurofeedback), restoring motor function to paralyzed patients, allowing communication with locked in patients and improving sensory processing. BCI can be separated in three categories depending on the method used to collect brain signals. 
 
 
 ## What are  the types of BCI's
@@ -36,11 +37,13 @@ We can divide them into Invasive, Semi-invasive and Non-Invasive.
 
 |  |  |  |
 | ------ | ----------- | ---- |
-| Non-invasive   | The sensors are placed on the scalp to measure the electrical potentials produced by the brain (EEG) or the magnetic field (MEG). | ![Emotiv headset](../images/introtobci/emotiv_epoc_large.jpg) |
-| Semi-invasive | The electrodes are placed on the exposed surface of the brain(ECoG).| ![EcoG](../images/introtobci/ecog.png) |
-| Invasive    | The micro-electrodes are placed directly into the cortex, measuring the activity of a single neuron. | ![Utah Array](../images/introtobci/Utah_array.jpg) |
+| **Non-invasive**   | The sensors are placed on the scalp to measure the electrical potentials produced by the brain (EEG) or the magnetic field (MEG). | ![Emotiv headset](../images/introtobci/emotiv_epoc_large.jpg) |
+| **Semi-invasive** | The electrodes are placed on the exposed surface of the brain(ECoG).| ![EcoG](../images/introtobci/ecog.png) |
+| **Invasive**    | The micro-electrodes are placed directly into the cortex, measuring the activity of a single neuron. | ![Utah Array](../images/introtobci/Utah_array.jpg) |
 
 The following image shows the different layers of the brain and where the signal is taken from.
+
+![Layers of the Brain and Signal Source](../images/introtobci/layers.png)
 
 **Non-invasive**: the EEG signal is taken placing electrodes on the scalp, so on the most external part.
 
@@ -48,12 +51,13 @@ The following image shows the different layers of the brain and where the signal
 
 **Invasive**: the Intraparenchymal signal is taken directly implanting electrodes in the cortex.
 
-![Layers of the Brain and Signal Source](../images/introtobci/layers.png)
 
 ### Invasive
 
 Invasive types of BCI are implanted directly into the brain during a neurosurgery.
-There are single unit BCIs, which detect the signal from a single area of brain cells, and multiunit BCIs which detects from multiple areas. Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA [(1)](#references) . The quality of the signal is the highest, but the procedure has several problematics , as the risk of forming scar tissues. The body reacts to the foreign object and build the the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
+There are **single unit** BCIs, which detect the signal from a single area of brain cells, and **multiunit** BCIs which detect from multiple areas. 
+Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA [(1)](#references) . 
+The quality of the signal is the highest, but the procedure has several problematics, as for example the risk of forming scar tissues. The body reacts to the foreign object and builds the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
 
 ### Semi-Invasive
 #### ECoG
