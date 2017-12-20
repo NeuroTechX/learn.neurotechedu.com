@@ -27,7 +27,7 @@ permalink: "/introtobci/"
 Brain-computer interfaces (BCI) are systems that allow communication between the brain and various machines. 
 
 They work in three main steps: collecting brain signals, interpreting them and outputting commands to a connected machine according to the brain signal received. 
-BCI can be applied to a variety of tasks, including but not limited to [neurofeedback](https://en.wikipedia.org/wiki/Neurofeedback), restoring motor function to paralyzed patients, allowing communication with locked in patients and improving sensory processing. BCI can be separated in three categories depending on the method used to collect brain signals. 
+BCI can be applied to a variety of tasks, including but not limited to [neurofeedback](https://en.wikipedia.org/wiki/Neurofeedback){:target="_blank"}, restoring motor function to paralyzed patients, allowing communication with locked in patients and improving sensory processing. BCI can be separated in three categories depending on the method used to collect brain signals. 
 
 
 ## What are  the types of BCI's
