@@ -85,6 +85,7 @@ Muse is an EEG device which has developed as a meditation device. [You can learn
   <tr>
      <td>Unity and Muse</td>
      <td>Interaxon</td>
+     <td>No</td>
      <td>This tutorial will help you get Unity set up to work with the Muse device</td>
      <td><a target="_blank_" href="http://developer.choosemuse.com/unity/getting-started">Click</a></td>
  </tr>
