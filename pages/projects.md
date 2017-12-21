@@ -92,7 +92,7 @@ Muse is an EEG device which has developed as a meditation device. [You can learn
  <tr>
     <td>Web based EEG viewer</td>
     <td>Uri Shaked</td>
-    <td>Yes<td>
+    <td>Yes</td>
     <td>This app will allow for you to try out your Muse using Angular via a standard browser</td>
     <td><a target="_blank_" href="https://github.com/urish/angular-muse">Click</a></td>
 </tr>
