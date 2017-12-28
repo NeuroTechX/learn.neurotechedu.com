@@ -1,9 +1,9 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Intro to BCI"
+title: "Intro to Brain Computer Interface"
 subheadline: ""
-teaser: "Intro to Brain Computer Interface"
+teaser: "In this module you will learn the basics of Brain Computer Interface. You will read an introduction to the different technologies available, the main components and steps required for BCI, the safety and ethical issues and an overview about the future of the field."
 header:
    image_fullwidth: ""
 permalink: "/introtobci/"
@@ -33,7 +33,7 @@ BCI can be applied to a variety of tasks, including but not limited to [neurofee
 ## What are  the types of BCI's
 There are many different techniques to measure brain signals.
 
-We can divide them into Invasive, Semi-invasive and Non-Invasive.
+We can divide them into Non-Invasive, Semi-invasive and Invasive.
 
 |  |  |  |
 | ------ | ----------- | ---- |
