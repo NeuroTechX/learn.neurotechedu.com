@@ -3,7 +3,7 @@ layout: page-fullwidth
 show_meta: false
 title: "EEG Applications"
 subheadline: "Neurotechnology"
-teaser: "This module focuses on BCI Applications that is using EEG. This market is the most mature and a wide variety of products are built every year."
+teaser: "This module focuses on BCI Applications that are using EEG since it is the cheapest and most mature technology available. You'll soon see that a wide variety of applications can be built with them."
 header:
    image_fullwidth: "earth.jpg"
 permalink: "/applications/"
@@ -21,8 +21,6 @@ permalink: "/applications/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-This module provides a list of potential applications of eeg based Brain Computer Interfaces.
-
 ## NeuroEntertainment
 <hr>
 #### Neurogaming
@@ -36,7 +34,7 @@ Emotiv and NeuroSky are two companies which has developed games to go along with
 
 #### NeuroToys
 
-There have been multiple manufacturers of BCI toys. going back to the mid 2000's. Here are some of the more popular ones.
+There have been multiple manufacturers of BCI toys going back to the mid 2000's. Here are some of the more popular ones.
 
 **References**
 
@@ -55,14 +53,14 @@ Multiple people have use EEG's for art and music generation. Below are a few exa
 
 #### Virtual Reality
 
-Once the stuff of science fiction, virtual reality is on the cusp of becoming part of our day-to-day lives thanks to mounting technological advances. Many popular VR headsets are ushering in exciting new ways to play and interact with the world. As these devices continue to evolve, we believe that EEG algorithms can add the extra layer of immersion needed to truly complete the virtual reality experience.
+Due to the design of VR headsets, there are been an interest in integrating eeg into them. This can help to enhance the experience for the user, as well as provide a hands free approach to interact with the virtual world.  
 
 ![VR headset](../images/vr-gadget.jpg)
 
 There are a few companies who have been interested in bring EEG data with VR headsets as seen below.
 
 **References**
-* [Neurosky's article on the use of ](http://neurosky.com/2016/04/a-new-virtual-reality-the-rise-of-vr-headsets-eeg/)
+* [Neurosky's article on the subject](http://neurosky.com/2016/04/a-new-virtual-reality-the-rise-of-vr-headsets-eeg/)
 * [Article on Mind Mazet](http://www.theverge.com/2015/3/3/8136405/mind-maze-mind-leap-thought-reading-virtual-reality-headset)
 * [DG Lab's VR Zen Headset](https://www.cnet.com/news/this-vr-headset-is-designed-to-let-you-find-your-zen/)
 * [Neurable](http://neurable.com/)
@@ -73,7 +71,7 @@ There are a few companies who have been interested in bring EEG data with VR hea
 <hr>
 #### Brain based authentication
 
-EEG Biometric is a growing field which looks at how we can use your eeg activity to be able to identify someone. Similar to one's fingerprint, your brain activity can be used as a form of authentication. The most common forms of Brain Authentication are using resting state brain activity or a visual evoked potential task. For more information on Brain Based Authentication, check out this DEF CON talk.
+EEG Biometrics is a growing field which looks at how we can use your eeg activity to be able to identify someone. Similar to one's fingerprint, your brain activity can be used as a form of authentication. The most common forms of Brain Authentication are using resting state brain activity or a visual evoked potential task. For more information on Brain Based Authentication, check out this DEF CON talk.
 
 **References**
 
@@ -87,7 +85,7 @@ EEG Biometric is a growing field which looks at how we can use your eeg activity
 #### Anxiety
 
 
-Neurofeedback can be an effective method of handling anxiety. Similar to the methods used in mindfulness practices, alpha and theta training is done in order to put the person in a more relaxed state of mind. 
+Neurofeedback can be an effective method of handling anxiety. Similar to the methods used in mindfulness practices, alpha and theta training is done in order to put the person in a more relaxed state of mind.
 
 **References**
 
@@ -117,7 +115,7 @@ Although a controversial [use case](http://journals.sagepub.com/doi/abs/10.1177/
 
 #### PTSD
 
-PTSD neurofeedback has been studied for over [25 years](http://charleston.braincoretherapy.com/wp-content/uploads/2014/01/PENISTON-PTSD.pdf). A lot of the studies focus on getting the participants to generate alpha wave activity which is associated with being in a relaxed state. Most articles which were reviewed suggest that Neurofeedback should be use in combination with other treatments.
+PTSD neurofeedback has been studied for over [25 years](http://charleston.braincoretherapy.com/wp-content/uploads/2014/01/PENISTON-PTSD.pdf). A lot of the studies focus on getting the participants to generate alpha wave activity which is associated with being in a relaxed state. Most articles which were reviewed suggest that neurofeedback should be use in combination with other treatments.
 
 **References**
 * [Alpha-Theta Brainwave Neuro-feedback for Vietnam Veterans](http://onlinelibrary.wiley.com/doi/10.1111/acps.12229/full)
@@ -130,7 +128,7 @@ PTSD neurofeedback has been studied for over [25 years](http://charleston.brainc
 
 #### Performance Optimization
 
-This series of articles discuss how you can you Neurofeedback as a mechanism to improve a wide variety of perfoEEG Neurofeedback for optimizing performance 3rmances. This is a good series of articles to start with if you want a high level overview.
+This series of articles discuss how you can you use Neurofeedback as a mechanism to optimizing performance. This is a good series of articles to start with if you want a high level overview.
 
 **References**
 * [EEG Neurofeedback for optimizing performance 1](http://www.sciencedirect.com/science/article/pii/S0149763413002248#bib0700)

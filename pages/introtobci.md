@@ -1,9 +1,9 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Intro to BCI"
+title: "Intro to Brain Computer Interface"
 subheadline: ""
-teaser: "Intro to Brain Computer Interface"
+teaser: "In this module you will learn the basics of Brain Computer Interface. You will read an introduction to the different technologies available, the main components and steps required for BCI, the safety and ethical issues and an overview about the future of the field."
 header:
    image_fullwidth: ""
 permalink: "/introtobci/"
@@ -21,22 +21,29 @@ permalink: "/introtobci/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-# Intro to BCI
 
 ## What is the definition
+
+Brain-computer interfaces (BCI) are systems that allow communication between the brain and various machines. 
+
+They work in three main steps: collecting brain signals, interpreting them and outputting commands to a connected machine according to the brain signal received. 
+BCI can be applied to a variety of tasks, including but not limited to [neurofeedback](https://en.wikipedia.org/wiki/Neurofeedback){:target="_blank"}, restoring motor function to paralyzed patients, allowing communication with locked in patients and improving sensory processing. BCI can be separated in three categories depending on the method used to collect brain signals. 
+
 
 ## What are  the types of BCI's
 There are many different techniques to measure brain signals.
 
-We can divide them into Invasive, Semi-invasive and Non-Invasive.
+We can divide them into Non-Invasive, Semi-invasive and Invasive.
 
-| Option | Description | Pic |
+|  |  |  |
 | ------ | ----------- | ---- |
-| Non-invasive   | The sensors are placed on the scalp to measure the electrical potentials produced by the brain (EEG) or the magnetic field (MEG). | ![Emotiv headset](../images/introtobci/emotiv_epoc_large.jpg) |
-| Semi-invasive | The electrodes are placed on the exposed surface of the brain(ECoG).| ![EcoG](../images/introtobci/ecog.png) |
-| Invasive    | The micro-electrodes are placed directly into the cortex, measuring the activity of a single neuron. | ![Utah Array](../images/introtobci/Utah_array.jpg) |
+| **Non-invasive**   | The sensors are placed on the scalp to measure the electrical potentials produced by the brain (EEG) or the magnetic field (MEG). | ![Emotiv headset](../images/introtobci/emotiv_epoc_large.jpg) |
+| **Semi-invasive** | The electrodes are placed on the exposed surface of the brain(ECoG).| ![EcoG](../images/introtobci/ecog.png) |
+| **Invasive**    | The micro-electrodes are placed directly into the cortex, measuring the activity of a single neuron. | ![Utah Array](../images/introtobci/Utah_array.jpg) |
 
 The following image shows the different layers of the brain and where the signal is taken from.
+
+![Layers of the Brain and Signal Source](../images/introtobci/layers.png)
 
 **Non-invasive**: the EEG signal is taken placing electrodes on the scalp, so on the most external part.
 
@@ -44,12 +51,13 @@ The following image shows the different layers of the brain and where the signal
 
 **Invasive**: the Intraparenchymal signal is taken directly implanting electrodes in the cortex.
 
-[Layers of the Brain and Signal Source](../images/introtobci/layers.png)
 
 ### Invasive
 
 Invasive types of BCI are implanted directly into the brain during a neurosurgery.
-There are single unit BCIs, which detect the signal from a single area of brain cells, and multiunit BCIs which detects from multiple areas. Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA [(1)](#references) . The quality of the signal is the highest, but the procedure has several problematics , as the risk of forming scar tissues. The body reacts to the foreign object and build the the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
+There are **single unit** BCIs, which detect the signal from a single area of brain cells, and **multiunit** BCIs which detect from multiple areas. 
+Electrodes have different lengths, for example, up to 1.5 mm (Utah, Blackrock Microsystems) or 10 mm (FMA, MicroProbes) in a MEA [(1)](#references) . 
+The quality of the signal is the highest, but the procedure has several problematics, as for example the risk of forming scar tissues. The body reacts to the foreign object and builds the scar around the electrodes, which cause deterioration in the signal. Because neurosurgery can be a risky and expensive process, the target of invasive BCI are mainly blind and paralyzed patients.
 
 ### Semi-Invasive
 #### ECoG
@@ -128,19 +136,20 @@ In the following image is possible to see the different brain imaging techniques
 
 **What is it?**
 
-From Wikipedia “is a functional neuroimaging technique for mapping brain activity by recording magnetic fields produced by electrical currents occurring naturally in the brain, using very sensitive magnetometers.“
+From Wikipedia *“is a functional neuroimaging technique for mapping brain activity by recording magnetic fields produced by electrical currents occurring naturally in the brain, using very sensitive magnetometers.“*
 
 ![MEG](../images/introtobci/MEG.png)
+
 In the image: MEG scanner with patient from National Institute of Mental Health [(6)](#references)
 
 **How does it work?**
 
 MEG measures the magnetic field caused by the currents in the brain, and it offers a better spatial resolution compared to EEG [(7)](#references). Why? Because magnetic fields suffer far less than electric fields from the spatial blurring effect of the skull and intracerebral fluid [(8)](#references).
-“MEG is maximally sensitive to tangential sources and has low sensitivity to radial sources”
+*“MEG is maximally sensitive to tangential sources and has low sensitivity to radial sources”
 “MEG is better than EEG at detecting high-frequency activity (e.g., above 60 Hz). This is
 because magnetic fields pass through the skull and scalp, whereas the electrical fields are
 volume conducted through these tissues, which decreases signal-to-noise ratio at higher
-frequencies.”
+frequencies.”*
 
 
 
@@ -171,7 +180,7 @@ The images of the PET scan are multicolored, where areas with more activities ar
 
 *Functional magnetic resonance imaging or functional MRI (fMRI) is a functional neuroimaging procedure using MRI technology that measures brain activity by detecting changes associated with blood flow.[1][2] This technique relies on the fact that cerebral blood flow and neuronal activation are coupled. When an area of the brain is in use, blood flow to that region also increases.* [(11)](#references)
 
-fMRI had been developed in the 1990s. It is a non-invasive and safe technique, it doesn’t use radiation, it’s easy to use and it has excellent spatial and good temporal resolution. [(12)](#references)
+fMRI has been developed in the 1990s. It is a non-invasive and safe technique, it doesn’t use radiation, it’s easy to use and it has excellent spatial and good temporal resolution. [(12)](#references)
 
 ![FMRI](../images/introtobci/fmri.png)
 
@@ -249,11 +258,11 @@ In general, spatial resolution for EEG is low (e.g., compared to ECoG and fMRI) 
 
 More electrodes cost more in time (e.g., setup), bandwidth (for data collection and analysis), and money (for material). Commercial headsets often use fewer electrodes because high spatial resolution (i.e., localizing the precise brain regions generating a signal) is not necessarily needed.
 
-“The spatial precision of EEG is fairly low but can be improved by spatial filters such as
-the surface Laplacian or adaptive source-space-imaging techniques”
+*“The spatial precision of EEG is fairly low but can be improved by spatial filters such as
+the surface Laplacian or adaptive source-space-imaging techniques”*
 
 Also spatial accuracy is low, because the activity registered by an electrode is the mixture of different signals generated by different brain regions, close and distant from the one placed under the electrode.
-Microscopic scale (less than a few cubic millimeters) = invisible to EEG, potentials are not powerful enough to reach the scalp
+Microscopic scale (less than a few cubic millimeters) = invisible to EEG, potentials are not powerful enough to reach the scalp.
 Mesoscopic scale (patches of cortex of several cubic millimeters to a few cubic centimeters) = can be detected with EEG but using more than 64 electrodes and spatial filtering techniques.
 Macroscopic scale (large region of cortex of many cubic centimeters) = easily measurable with EEG
 
@@ -344,7 +353,7 @@ Because the signal detected is poor, being the electrodes far from the neurons a
 * A/D converters
 * Recording Device
 
-“The electrodes acquire the signal from the scalp, the amplifiers process the analog signal to enlarge the amplitude of the EEG signals so that the A/D converter can digitalize the signal in a more accurate way. Finally, the recording device, which may be a personal computer or similar, stores, and displays the data.” [(24)](#references)
+*“The electrodes acquire the signal from the scalp, the amplifiers process the analog signal to enlarge the amplitude of the EEG signals so that the A/D converter can digitalize the signal in a more accurate way. Finally, the recording device, which may be a personal computer or similar, stores, and displays the data.”* [(24)](#references)
 
 **Electrodes**
 
@@ -371,7 +380,6 @@ It can be a computer or similar device, which will record, store and display the
 
 ### Preprocessing
 
-
 The raw EEG data is often not clean because affected by noise and artifacts.
 There are four main sources of noise and artifacts, which are:
 
@@ -380,8 +388,7 @@ There are four main sources of noise and artifacts, which are:
 3. The leads and electrodes
 4. The subject: electrical activity from the heart, eye blinking, eyeball movements, muscles movements in general. [(29)](#references)
 
-Eye blinking are very clear in frontal and occipital recordings, while ECGs (from the heart electrical activity) on the occipital electrodes. “A movement of the eyeball and the eyelids causes a change in the potential field because of the existing potential difference of about 100mV
-between the cornea and the retina” [(30)](#references)
+Eye blinking are very clear in frontal and occipital recordings, while ECGs (from the heart electrical activity) on the occipital electrodes. *“A movement of the eyeball and the eyelids causes a change in the potential field because of the existing potential difference of about 100mV between the cornea and the retina” [(30)](#references)*
 
 
 The preprocessing step helps to clean the data from the noise and artifacts.
@@ -406,18 +413,15 @@ and specific techniques used for P300 and VEP such as Peak picking (PP) and Slow
 
 ### Classification
 
-
 Another step which can be applied to the signal, now mostly clean from artifacts, is to apply  classification algorithms. Using machine learning techniques it is possible to train a classifier to recognize which features, for example, belongs to one or another class.mathematical
 Again, the classification helps to find out which kind of mental task the subject is performing (Ochoa, 2002)
 
 ### Translation
 
-
 After the signal has been classified, the result is passed to the feature translation algorithm. At this point the features need to be translated in the corresponding action required. “For example, a P3 potential could be translated into the selection of the letter that evoked it”
 So, in this case, the algorithm will send a command to the feedback device, to select the letter.
 
 ### Feedback device
-
 
 The feedback device receives the command from the translation step. For example it can be the computer, where the signal will be used to move a cursor, or it could be a robotic arm where the data are used to allow movement.
 

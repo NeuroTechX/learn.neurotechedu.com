@@ -5,12 +5,12 @@
   title: "NeuroTechX"
 
 - name: "Slack"
-  url: "https://neurotechx.herokuapp.com/"
+  url: "http://bit.ly/joinslackedu"
   title: "Slack"
 
-- name: "Committee"
-  url: "http://neurotechx.com/opportunities/edu-committee.html"
-  title: "Committee"
+- name: "Contribute to EDU"
+  url: " http://bit.ly/neurotechedu"
+  title: "Contribute to EDU"
 
 - name: "Github"
   url: "https://github.com/NeuroTechX/learn.neurotechedu.com"

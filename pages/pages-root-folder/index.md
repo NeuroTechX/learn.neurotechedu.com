@@ -26,8 +26,8 @@ widget3:
   title: "How to Contribute"
   url: 'https://github.com/NeuroTechX/learn.neurotechedu.com/blob/gh-pages/README.md'
   image: community.jpg
-  text: '<a href="https://github.com/NeuroTechX/learn.neurotechedu.com">Click</a> to contribute to our Github page directly. You may also choose to join the <a href="http://neurotechx.com/opportunities/edu-committee.html">NeurotechX committee</a> or
-<a href="https://neurotechx.herokuapp.com/">our Slack group</a>.'
+  text: '<a href="https://github.com/NeuroTechX/learn.neurotechedu.com">Click</a> to contribute to our Github page directly. You may also choose to join the EDU community <a href="http://bit.ly/neurotechedu">and contribute as part of a working group</a> or
+<a href="http://bit.ly/joinslackedu">our Slack group</a>.'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -51,9 +51,9 @@ permalink: /index.html
 homepage: true
 ---
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
+<!--div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
-</div>
+</div-->
