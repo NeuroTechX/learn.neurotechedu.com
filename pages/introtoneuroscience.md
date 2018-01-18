@@ -106,9 +106,9 @@ At the farthest branches of this network there are two basic types of neurons: r
 ###  Neurons and Synapses
 Recently it has become possible to understand, in much detail, the complex processes that occur within a single neuron.  This section introduces the study of individual specialized nerve cells, or neurons, and their synapse action within the nervous system. We introduce the cellular structure of neurons, the propagation of nerve impulses, and the transfer of information between nerve cells.
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/4MxMvzhTEuqty" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>  
-**Neuron Firing**
-*[via GIPHY](https://giphy.com/gifs/interactions-neuron-4MxMvzhTEuqty)*
+![Subdivisions of the Nervous System]({{ "/images/introtoneuro/wellcome_udqg385v.jpg" | absolute_url }}){:height="100px"}
+**'Neurons in the brain' by Dr Jonathan Clarke.**
+*Credit: [Dr Jonathan Clarke](https://wellcomecollection.org/works/udqg385v). [CC BY](https://creativecommons.org/licenses/by/4.0/)*
 
 ---
 #### Neurons
