@@ -23,11 +23,12 @@ permalink: "/oscillations/"
 # What are Neural Oscillations?
 
 Neural oscillations are repetitive, rhythmic synchronized frequency patterns in the central nervous system. They occur during activation of large clusters of neurons, though they can occur with a single neuron as well. Although the raw data obtained from electroencephalograms are formatted as a function of time, neural oscillations are visualized in terms of frequency and measured in units of Hertz (Hz); one cycle per second. As such the neural clusters generate neural oscillations that can be characterized by the frequency range in which they occur:
-* Alpha waves (7.5-12.5 Hz). Alpha waves also contain a subset of waves known as mu waves, which occur in the same frequency range but are correlated to the motor cortex. <!-- Need examples of that these connect to-->
-* Beta waves (13-30 Hz) <!-- Need examples of that these connect to-->
-* Delta waves (1-4 Hz) <!-- Need examples of that these connect to-->
-* Gamma waves (30-70 Hz) <!-- Need examples of that these connect to-->
-* Theta waves (4-8 Hz) <!-- Need examples of that these connect to-->
+* Alpha waves (7.5-12.5 Hz) are commonly associated with cognitive functions such as attention and awareness. Alpha waves are also linked with learning processes and are the most common freqency analyzed in mood / meditation apps. 
+* Beta waves (13-30 Hz): These waves are commonly associated with concentration / attention.
+* Delta waves (1-4 Hz): These high amplitude waves are linked with slow-wave sleep (SWS). 
+* Gamma waves (30-70 Hz): Gamma wavs are fast waves associated with attention, concsiousness and perception. 
+* Mu waves (7.2 - 12.5, primarily 9 - 11): These waves are located over the motor cortex and are primarily associated with a state of physical rest. They are desynchronixed (a.k.a. suppressed) during a motor action. 
+* Theta waves (4-8 Hz): Two types of theta oscillations have been described based on the location of their occurence. _The hippocampal theta rhythm_ is a strong oscillation that can be observed in the hippocampus, while the _cortical theta rhythms_ are low-frequency components of scalp EEG. There is no clear understanding of the function of theta waves, however a combination of several theories supports that hippocampal theta waves are linked to navigation and memory. Cortical theta waves are observed more frequently in young children and appears during meditative, drowsy,hypnotic, and non-deep sleeping states. 
 
 ![Brain Wave Frequency]({{ "/images/oscillations/Brain-wave-frequency-chart.png" | absolute_url }})
 
@@ -85,6 +86,8 @@ raw = concatenate_raws(raw_files)
 raw.ch_names.index('STI 014')
 {% endhighlight %}
 <!-- NEED TO EXPLAIN WHAT THESE DO -->
+
+The above code can be broken down into two components. Line 1 - 4 set parameters to define which parts of data set are to be analyzed, while line 5-8 pulls the data and connects what it does 
 
 Line 2 is relevant in this example, as there are 14 experimental runs to choose from that were performed in this study and each was tested under different conditions. In this experiment run 3 measured the EEG signal obtained during movement of the left and right hands, both separately and simultaneously.
 
