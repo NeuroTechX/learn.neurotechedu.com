@@ -51,7 +51,7 @@ Practical applications for extracting neural oscillations using your own BCI cou
 
 # How do we extract neural oscillations as a feature of our EEG data?
 
-As previously mentioned the data obtained by EEF is captured as a function of time, but neural oscillations are described in units of frequency. In order to transform the data we must employ a Fourier transform.
+As previously mentioned data obtained by EEF are captured as a function of time, but neural oscillations are described in units of frequency. In order to transform data we must employ a Fourier transform.
 
 <!-- Include image of basic equation -->
 
@@ -73,12 +73,14 @@ Before extracting neural oscillations there are several steps that must be under
 
 ### Importing, reading, and formatting data
 
-In the below example I have used a dataset created by experimental runs by (research reference) so when the data is fetched it will have already underwent some preprocessing which will not be covered in either examples. However in both cases the data will be fetched using the below commands:
+In the below example I have used a dataset created by experimental runs by (research reference) so when data is fetched it will have already underwent some preprocessing which will not be covered in either examples. However in both cases data will be fetched using the below commands:
 
 {% highlight python %}
 subject = 1
 runs = [3]
-tmin = -0.1
+t
+
+min = -0.1
 tmax = 0.3
 raw_fnames = eegbci.load_data(subject,runs)
 raw_files = [read_raw_edf(f, preload=True) for f in raw_fnames]
@@ -87,15 +89,15 @@ raw.ch_names.index('STI 014')
 {% endhighlight %}
 <!-- NEED TO EXPLAIN WHAT THESE DO -->
 
-The above code can be broken down into two components. Line 1 - 4 set parameters to define which parts of data set are to be analyzed, while line 5-8 pulls the data and connects what it does 
+The above code can be broken down into two components. Line 1 - 4 set parameters to define which parts of the dataset are to be analyzed, while line 5-8 pulls data and connects what it does 
 
 Line 2 is relevant in this example, as there are 14 experimental runs to choose from that were performed in this study and each was tested under different conditions. In this experiment run 3 measured the EEG signal obtained during movement of the left and right hands, both separately and simultaneously.
 
 ### Preprocessing
 
-When plotting power spectral density (psd), only epoching is necessary as we want to see the psd across the entire available frequency range. However for topomap plotting you will need to preprocess you data with a band pass filter to isolate the specific frequency range you want to visualize. The example below also strips the channel names of their default "." keys to avoid errors when reading your channel names.
+When plotting power spectral density (psd), only epoching is necessary as we want to see the psd across the entire available frequency range. However for topomap plotting you will need to preprocess your data with a band pass filter to isolate the specific frequency range you want to visualize. The example below also strips the channel names of their default "." keys to avoid errors when reading your channel names.
 
-### Epoching the data
+### Epoching data
 
 Epoching is basically segmenting your data into smaller chunks of readable data that contain events, or fluctuations in the EEG signal (caused by changing signal potential?). Epoching helps to truncate the objects you need to analyze into more manageable bytes that contain the information you actually want. To epoch your data you can follow the steps below:
 
@@ -105,7 +107,7 @@ picks = pick_types)raw.info, meg=Fale, eeg=True, stim=False, eog=False, exclude=
 baseline = 0, None
 {% endhighlight %}
 
-The above defines the events you want to look for, as well as the type of signal your program should expect to analyze (meg vs. eeg vs. eog). I selected the eeg=True as the data we will be looking at was obtained using an EEG headset. Below we continue the necessary inputs for epoching:
+The above defines the events you want to look for, as well as the type of signal your program should expect to analyze (meg vs. eeg vs. eog). I selected the eeg=True as data we will be looking at were obtained using an EEG headset. Below we continue the necessary inputs for epoching:
 
 {% highlight python %}
 epochs = Epochs(raw, events, event_id, tmin, tmax, proj=True, picks=picks, baseline-baselin, preload=True)
@@ -113,7 +115,8 @@ epochs_train=epochs.copy().crop(tmin=-0.2,tmax=0.5)
 labels=epochs.events[:,-1]-
 {% endhighlight %}
 
-The above code defines the epochs which will be further manipulated. Try the function __plot.epochs()__ to see how your data has transformed! (Hint: It might look something like the image below!)
+The above code defines the epochs which will be further manipulated. Try the function __plot.epochs()__ to see how your data have
+transformed! (Hint: It might look something like the image below!)
 
 ![]({{ "/images/oscillations/plot-epochs.png" | absolute_url }})
 <!-- old link https://github.com/jfrayshe/learn.neurotechedu.com/blob/gh-pages/images/neurosc/Screen%20Shot%202017-06-02%20at%209.49.47%20PM.png -->
@@ -125,8 +128,8 @@ The following steps will diverge depending on the methods of visualization you w
 Power spectral density measure the power of a signal in (UNITS). The function
 __epochs[events].plot_psd()__ can be used to plot specific epoched events as a function of power spectral density over a specific frequency range. Below is an example of a script you can run to achieve this. Note that the dataset imported from eegbci is already preprocessed and transformed using the Fourier function, so the steps you should see below are:
 * Importing, read, and format your data
-* Epoch the data
-* Plot the data with the __epochs[events].plot_psd()__
+* Epoch data
+* Plot data with the __epochs[events].plot_psd()__
 
 ![]({{ "/images/oscillations/CH3.png" | absolute_url }})
 
