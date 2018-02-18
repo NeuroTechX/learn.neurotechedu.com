@@ -78,28 +78,28 @@ In the below example I have used a dataset created by experimental runs by (rese
 {% highlight python %}
 subject = 1
 runs = [3]
-t
-
-min = -0.1
+tmin = -0.1
 tmax = 0.3
 raw_fnames = eegbci.load_data(subject,runs)
 raw_files = [read_raw_edf(f, preload=True) for f in raw_fnames]
 raw = concatenate_raws(raw_files)
 raw.ch_names.index('STI 014')
 {% endhighlight %}
-<!-- NEED TO EXPLAIN WHAT THESE DO -->
 
-The above code can be broken down into two components. Line 1 - 4 set parameters to define which parts of the dataset are to be analyzed, while line 5-8 pulls data and connects what it does 
+The above code can be broken down into two components. Line 1 - 4 set parameters to define which parts of the dataset are to be analyzed, while line 5-8 pulls data and connects what it does __(What do these lines actually do?)__
 
 Line 2 is relevant in this example, as there are 14 experimental runs to choose from that were performed in this study and each was tested under different conditions. In this experiment run 3 measured the EEG signal obtained during movement of the left and right hands, both separately and simultaneously.
 
 ### Preprocessing
 
+Preprocessing is a critical step when analyzing EEG data. EEG data contains a lot of noise, and data that are not relevant to what
+you're attempting to visualize. Preprocessing is a deep topic and there are many ways you can go about cleaning up EEG data. Check out our 
+post on preproccessing [here]{http://learn.neurotechedu.com/preprocessing/}.
 When plotting power spectral density (psd), only epoching is necessary as we want to see the psd across the entire available frequency range. However for topomap plotting you will need to preprocess your data with a band pass filter to isolate the specific frequency range you want to visualize. The example below also strips the channel names of their default "." keys to avoid errors when reading your channel names.
 
 ### Epoching data
 
-Epoching is basically segmenting your data into smaller chunks of readable data that contain events, or fluctuations in the EEG signal (caused by changing signal potential?). Epoching helps to truncate the objects you need to analyze into more manageable bytes that contain the information you actually want. To epoch your data you can follow the steps below:
+Epoching is dividing data into segments of data based on a timeframe of interest. The interest is generall determined by an event whether an evoked event or an induced event. __(do we have a segment of information that explores epoching more in depth?)__. To epoch your data you can follow the steps below:
 
 {% highlight python %}
 events = mne.find_events(raw, stim_channel='STI 014', verbose=True)
@@ -125,7 +125,7 @@ The following steps will diverge depending on the methods of visualization you w
 
 ### Using PSD to categorize oscillatory occurrence based on power spectral content
 
-Power spectral density measure the power of a signal in (UNITS). The function
+Power spectral density measure the power of a signal in microvolts. The function
 __epochs[events].plot_psd()__ can be used to plot specific epoched events as a function of power spectral density over a specific frequency range. Below is an example of a script you can run to achieve this. Note that the dataset imported from eegbci is already preprocessed and transformed using the Fourier function, so the steps you should see below are:
 * Importing, read, and format your data
 * Epoch data
@@ -143,6 +143,9 @@ during movement of the left hand.
 
 ### Using a topomap to visualize local oscillations
 
+#### Quick highlights of topopmap
+
+* 
 A classifier will be applied to visualize the presence of neural oscillations using a binary discrimination to highlight whether you have the presence of waves at certain frequencies or not. While there is a bit of variability on visualizing the strength of your signal, this is really simply a "there" or "not there" method of looking at neurons firing over specific electrodes. Understanding which electrodes correspond to which regions of the brain
 will help you to understand where the majority of activity is occurring in the brain.
 
