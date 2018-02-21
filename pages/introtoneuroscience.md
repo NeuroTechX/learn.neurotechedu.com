@@ -59,18 +59,18 @@ Also knows as the efferent (conducting outwards) division, the motor division re
 ---
 *The sensory and motor divisions each include a part of the somatic system and the autonomic system.*
 
-## Somatic Nervous System
-Sōma is 'body' in Greek so somatic means relating to the body. The somatic system relays information about most of the body's conscious activity to and from the CNS. The somatic sensory receptors receive information from the senses and send it to the CNS while the somatic motor division sends information from the CNS to control the actions of the skeletal muscles.
+### Somatic Nervous System
+Sōma means 'body' in Greek so somatic means relating to the body. The somatic system relays information about most of the body's conscious activity to and from the CNS. The somatic sensory receptors receive information from the senses and send it to the CNS while the somatic motor division sends information from the CNS to control the actions of the skeletal muscles.
 
-## Autonomic Nervous System
+### Autonomic Nervous System
 The autonomic nervous system primarily regulates involuntary or unconscious activity such as heart rate, breathing, pupil dilation, regulating glands and internal organs, blood pressure, digestion, and many other chemical processes that keep our body working. The autonomic sensory receptors receive information from these systems and send it to the CNS while the autonomic motor division sends information from the CNS to these systems. Although the word autonomic (from autonomy) means involuntary or unconscious, some of these activities are perceived and can be controlled consciously.
 
 The autonomic motor division is divided into two complimentary subsystems: the sympathetic system and the parasympathetic system. Each is constantly working to shift the body to more prepared states and more relaxed states. The constant shifting of control between these two systems keeps the body ready for any situation.
 
-### Sympathetic Nervous System
+#### Sympathetic Nervous System
 The Sympathetic Nervous System (SNS) prepares the body to react and expend energy in times of stress. When a potentially threatening experience occurs, the body reacts with what has been called the "fight-or-flight" phenomenon. The sympathetic system quickens the heart rate and breathing to increase oxygen, dilates pupils for better vision, reduces digestion to conserve energy, and prepares the muscles of the body to either defend or escape. This system is not only active for life-threatening situations; a project deadline or an urgent email might be stressful enough to trigger it.
 
-### Parasympathetic Nervous System
+#### Parasympathetic Nervous System
 The Parasympathetic Nervous System (PSNS) helps the body "rest-and-digest", conserving energy and maintaining functions under ordinary conditions. It slows the heart rate, stimulates digestion and other metabolic processes. This system is slow acting, unlike its counterpart, and may take several minutes or even longer to get the body back to a relaxed state after a stressful situation.
 
 ## Receptors and Effectors
@@ -86,33 +86,33 @@ If you would like to learn more about the nervous system there is an excellent [
 
 ---
 # Cellular Components of the Nervous System
----
-## Neurons
-Neurons are the cells that form a framework for communication throughout the nervous system. They can come in several shapes and sizes depending on their specialized functions but all neurons will have axons and dendrites that protrude from the cell body.
 
 ![Subdivisions of the Nervous System]({{ "/images/introtoneuro/wellcome_udqg385v.jpg" | absolute_url }}){:height="100px"}
 **'Neurons in the brain' by Dr Jonathan Clarke.**
 *Credit: [Dr Jonathan Clarke](https://wellcomecollection.org/works/udqg385v). [CC BY](https://creativecommons.org/licenses/by/4.0/)*
 
+## Neurons
+Neurons are the cells that form a framework for communication throughout the nervous system. They can come in several shapes and sizes depending on their specialized functions but all neurons will have axons and dendrites that protrude from the cell body.
+<!-- include diagram of neuron types -->
+
 ### Dendrites
 Most neurons have many short dendrites that receive signals, sending them inward towards the cell body as electrical impulses.
 
 ### Axons
-Most neurons have a single axon that typically sends electrical impulses outwards away from the cell body. Axons can vary in length from extremely short to over 1m to reach from the base of your spine to your ankle.
+Most neurons have a single axon that typically sends electrical impulses outwards away from the cell body. Axons can vary in length from extremely short to over 1 m to reach from the base of your spine to your ankle.
 
 ### Synapse
-Although neurons communicate through axon-dendrite and sometimes dendrite-dendrite connections, these protrusions don't actually touch. A small gap exists at this membrane-to-membrane junction point called a synapse.
+Neurons communicate through axon-dendrite and sometimes dendrite-dendrite connections but these protrusions don't actually touch. A small gap exists at this membrane-to-membrane junction point called a synapse. It contains molecular structures, or machines, that control energy by allowing electrical or chemical signals to be rapidly transmitted.
 
-## Action Potential
-A neuron at rest will have a negative charge compared to the area outside its membrane. The membrane potential is typically at -70 mV. If a neuron becomes positively charged over a certain threshold it will send an electrical impulse down it's axon, also known as an action potential. The action potential of neurons is what we can record using EEG.
+[![SynapseSchematic en](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SynapseSchematic_en.svg/512px-SynapseSchematic_en.svg.png)](https://commons.wikimedia.org/wiki/File%3ASynapseSchematic_en.svg "By Thomas Splettstoesser (www.scistyle.com) (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons")
 
-<!-- EEGs can measure other currents, not just the action potential -->
-<!-- include graph of action potential -->
-
-## Neuron-Neuron Communication
-Neurons communicate electrochemically. An electrical signal from one neuron's axon will trigger a movement of chemical neurotransmitters through a synapse to another neuron's dendrite. After a build-up of neurotransmitters alters the charge in this neuron it then triggers an electrical signal down its own axon.
+## Neuron Communication
+Neurons communicate electrochemically. An electrical signal from one neuron's axon will trigger a release of neurotransmitters. These neurotransmitters bind to channels on another neuron's dendrite and cause them to open and receive positively-charged ions from the synapse. If the charge is increased enough, it can trigger an action potential, causing that neuron to send an electrical signal down its own axon.
 
 [![Chemical synapse schema cropped](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Chemical_synapse_schema_cropped.jpg/512px-Chemical_synapse_schema_cropped.jpg)](https://commons.wikimedia.org/wiki/File%3AChemical_synapse_schema_cropped.jpg "By user:Looie496 created file, US National Institutes of Health, National Institute on Aging created original \[Public domain\], via Wikimedia Commons")
+
+##  Neural Networks
+A nervous system emerges from a large assemblage of connected neurons. A nerve impulse can also be transmitted from a sensory receptor cell to a neuron, from a neuron to a set of muscles or an endocrine gland. Any cell that receives a synaptic signal from a neuron may be excited, inhibited, or otherwise modulated.
 
 ## Glial Cells
 Glial cells mostly act as caretaker cells, supporting the neurons and their connections. There are several different types:
@@ -123,8 +123,6 @@ Glial cells mostly act as caretaker cells, supporting the neurons and their conn
 - Schwann cells
 - Satellite cells
 - Microglial cells
-
-[![SynapseSchematic en](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SynapseSchematic_en.svg/512px-SynapseSchematic_en.svg.png)](https://commons.wikimedia.org/wiki/File%3ASynapseSchematic_en.svg "By Thomas Splettstoesser (www.scistyle.com) (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons")
 
 ---
 #  Neurochemistry
