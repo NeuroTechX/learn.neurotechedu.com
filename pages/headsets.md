@@ -20,13 +20,14 @@ permalink: "/headsets/"
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
+
 # What to look for in a headset.
 
 When deciding which EEG headset to purchase, there are a few features you should look at when making your decision.
 
 ## Number and Placement of Electrodes:
 
-Depending on the type of brain response you want to measure, your system may need a minimum number of electrodes. Measuring Relaxation levels is easy with 1 or 2 electrodes but measuring other brain activity can be difficult.  In most eeg papers, they will state where on the brain, the strong response came from.
+Depending on the type of brain response you want to measure, your system may need a minimum number of electrodes. Measuring Relaxation levels is easy with 1 or 2 electrodes but measuring other brain activity can be difficult.  In most eeg papers, they will state where on the brain the strong response came from.
 
 Also, many consumer EEG's have electrodes which are rigid and can't be moved. If you want to measure [Motor Imagery](https://en.wikipedia.org/wiki/Motor_imagery) with the Muse, you won't have much success. You would be better off with an OpenBCI so that you can place the electrodes where you want.
 
@@ -44,7 +45,7 @@ The Sampling Rate of an EEG is the number of sample a second you can get from yo
 
 ## ADC Bits:
 
-Simply put, the Analog to Digital Converter (ADC) Bits is the resolution of the signal. The number of bits is important in being able to accurately estimate the voltage, but more bits doesn't necessarily mean a better quality data. To give an idea of how it would work with eeg data, let's say your system has 4 ADC bits and you want to measure a signal between 0 and 10 Volts. This would mean that your computer would represent the data in the following way:
+Simply put, the Analog to Digital Converter (ADC) Bits is the resolution of the signal. The number of bits is important in being able to accurately estimate the voltage, but more bits doesn't necessarily mean better quality data. To give an idea of how it would work with eeg data, let's say your system has 4 ADC bits and you want to measure a signal between 0 and 10 Volts. This would mean that your computer would represent the data in the following way:
 
 |Voltage||2- Bit Digital Representation|
 |0-2.5   ||00|
@@ -54,13 +55,14 @@ Simply put, the Analog to Digital Converter (ADC) Bits is the resolution of the 
 
 **Reference and more information**
 
-[What does 12 or 16 bit resolution mean? ](https://labjack.com/support/faq/what-does-12-or-16-bit-resolution-mean)
+[What does 12 or 16 bit resolution mean?](https://labjack.com/support/faq/what-does-12-or-16-bit-resolution-mean)
 [ What are the advantages of a 24 bit system?](https://www.biosemi.com/faq/24bitsystem.htm)
 
 
 # Devices
 
 ## Muse
+
 <hr>
 
 <div class="row">
@@ -93,6 +95,7 @@ Muse is an EEG device which has developed as a meditation device. It has 4 chann
 
 
 ## OpenBCI
+
 <hr>
 
 <div class="row">
@@ -130,13 +133,15 @@ Any paradigm which needs only 16 channels or less
 
 
 ## Emotiv Epoc
+
 <hr>
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Emotiv Epoc is one of the first consumer EEG devices which was released on the market. The popularity of the company surged in 2012 and 2013, which can be reflected by its sales and number of DIY projects.
+The Emotiv Epoc is one of the first consumer EEG devices released on the market. The popularity of the company surged in 2012 and 2013, which can be reflected by its sales and number of DIY projects.
 
-The Epoc is more stylish and easier to wear. It has 14 channel EEG which has a static form factor. This board is a good option for easy development and it only requires software experience. It is also a popular device to use for EEG research as the cost is much better versus other research grade mobile EEG providers. The  downside of the Epoc is the cost and that they charge you to get access to raw data.
+The Epoc is more stylish and easier to wear. It has 14 channel EEG which has a static form factor. This board is a good option for easy development and it only requires software experience. It is a popular device to use for EEG research as the cost is much better versus other research grade mobile EEG providers. It is however less economic than other commercial headsets and has an additional cost for accessing the data that the headset collects. 
+
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -154,7 +159,7 @@ The Epoc is more stylish and easier to wear. It has 14 channel EEG which has a s
 
 #### Known Recordable EEG Paradigms:
 
-Many paradigm which needs only 14 channels or less
+Many paradigms which need only 14 channels or less
 
 **US Price (as of January 2017):**   $800
 
@@ -163,11 +168,12 @@ Many paradigm which needs only 14 channels or less
 
 
 ## Emotiv Insight
+
 <hr>
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Emotiv Insight was the second product which Emotiv brought the market. They positioned this product to be cheaper and a better option for people who don't want to spend too much money.
+The Emotiv Insight was the second product which Emotiv brought the market, and was marketed as a more economic option to their first product. 
 </div>
 
 <div class="large-6 columns" markdown="1">
@@ -186,17 +192,18 @@ The Emotiv Insight was the second product which Emotiv brought the market. They 
 
 #### Known Recordable EEG Paradigms:
 
-Many paradigm which needs only 5 channels or less
+Many paradigms which need only 5 channels or less
 
 **US Price (as of January 2017):**   $300
 
 
 ## Neurosky Mindwave
+
 <hr>
 
 <div class="row">
 <div class="large-6 columns" markdown="1">
-The Neurosky is one of the original consumer EEGs on the market. The design is toy-like and only has 1 channel meant for simple use cases. Some people say they have built more complicated products with them.
+The Neurosky is one of the original consumer EEGs on the market. The design is simple and only has 1 channel meant for use. Some people say they have built more complicated products with them.
 </div>
 
 <div class="large-6 columns" markdown="1">
