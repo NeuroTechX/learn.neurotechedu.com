@@ -12,3 +12,9 @@ permalink: "/design/"
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
+
+# How to Design an Experimental Protocol
+
+You have your EEG headset, software to use it, and a burning desire to analyze an EEG signal. Awesome! In this module we're going
+to discuss best practices for designing an experiment. 
+
