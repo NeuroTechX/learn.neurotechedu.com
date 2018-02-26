@@ -10,7 +10,7 @@ The project is built with the help of:
  * [Jekyll](http://jekyllrb.com/)
  * [Feeling Responsive Jekyll theme](https://phlow.github.io/feeling-responsive/) by Phlow
 
-Github is necessary if you wish to contribute to NeurotechEDU. [You can learn about Github here.](https://guides.github.com/activities/hello-world/)
+Github is necessary if you wish to contribute to NeurotechEDU. [You can learn about Github here.].(https://guides.github.com/activities/hello-world/)
 
 <br>
 
