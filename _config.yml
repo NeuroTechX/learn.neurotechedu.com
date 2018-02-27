@@ -25,12 +25,12 @@ author: NeurotechEDU
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://learn.neurotechedu.com'
+url: 'https://neurotechedu-test.github.io/test.neurotechedu.com/'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/NeuroTechX/learn.neurotechedu.com/tree/gh-pages/
+improve_content: https://github.com/NeuroTechEDU-test/test.neurotechedu.com/tree/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -38,7 +38,7 @@ improve_content: https://github.com/NeuroTechX/learn.neurotechedu.com/tree/gh-pa
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://learn.neurotechedu.com/images/'
+urlimg: 'https://neurotechedu-test.github.io/test.neurotechedu.com/images/'
 
 
 # Logo size is 600x80 pixels
@@ -148,9 +148,9 @@ defaults:
 #   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_author:             'https://plus.google.com/u/0/118311555303973066167'
-google_site_verification:  'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
-bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
+google_author:             ''
+google_site_verification:  ''
+bing_webmastertools_id:    ''
 # yandex_site_verification:  ''
 # alexa_verify_id:           ''
 
@@ -235,7 +235,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-google_analytics_tracking_id: UA-65979944-4
+
 
 
 
