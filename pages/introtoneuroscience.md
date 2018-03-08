@@ -3,7 +3,7 @@ layout: page-fullwidth
 show_meta: false
 title: "Introduction to Neuroscience"
 subheadline: ""
-teaser: "Organization of the nervous system, neuroanatomy, brain organization, the fundamental systems of the brain and more."
+teaser: "Organization of the nervous system, neuroanatomy, brain organization and the fundamental systems of the brain."
 header: ""
 image_fullwidth: ""
 permalink: "/introtoneuroscience/"
@@ -21,8 +21,8 @@ permalink: "/introtoneuroscience/"
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-#  What is Neuroscience?
-Neuroscience is a multidisciplinary study devoted to understanding the nervous system and its core component, the brain. This investigation can occur at multiple levels, from molecular synapses and cellular networks to cognition and behavior. Because of this, methods of inquiry and research are drawn from a number of disciplines, including molecular and cellular biology, physiology, biomedicine, behavioral science, cognitive psychology, electrical engineering, computer science and artificial intelligence.
+# What is Neuroscience?
+Neuroscience is a study devoted to understanding the nervous system and its core component, the brain. This investigation can occur at multiple levels, from molecular synapses and cellular networks to cognition and behavior. Because of this, methods of inquiry and research are drawn from a number of disciplines, including molecular and cellular biology, physiology, biomedicine, behavioral science, cognitive psychology, electrical engineering, computer science and artificial intelligence.
 
 Neuroscientists hope to understand how cellular circuits enable us to read and speak, how we bond with other humans, how we learn and retain information, how we experience pain, and how we feel motivation. They also hope to find causes for devastating disorders of the brain and body, as well as ways to prevent or cure them. Enormous progress has been made but we still don't understand the full extent of how the brain works.
 
@@ -30,7 +30,7 @@ Neuroscientists hope to understand how cellular circuits enable us to read and s
 # The Nervous System
 The human nervous system is an extensive network of specialized cells that allow us to perceive, understand and act on the world around us. Neurons are the main functional unit of this network. They can generate electrical signals to quickly transmit information over long distances and pass them on to many other neurons. Glial cells support this network by cleaning, regulating, protecting, healing and insulating the neurons and their connections.
 
-At the core of the nervous system, with the largest collection of neurons and over 100 trillion connections, is the human brain. Messages are relayed to the brain via the spinal cord, which runs down through the back and contains threadlike nerves that branch out to every organ and body part.
+At the core of the nervous system, with over 100 trillion connections, is the human brain. Messages are relayed to the brain via the spinal cord, which runs down through the back and contains threadlike nerves that branch out to every organ and body part.
 
 The nervous system is separated in two classes: the central and peripheral nervous systems.
 
@@ -107,11 +107,11 @@ Neurons communicate through axon-dendrite and sometimes dendrite-dendrite connec
 [![SynapseSchematic en](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SynapseSchematic_en.svg/512px-SynapseSchematic_en.svg.png)](https://commons.wikimedia.org/wiki/File%3ASynapseSchematic_en.svg "By Thomas Splettstoesser (www.scistyle.com) (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons")
 
 ## Neuron Communication
-Neurons communicate electrochemically. An electrical signal from one neuron's axon will trigger a release of neurotransmitters. These neurotransmitters bind to channels on another neuron's dendrite and cause them to open and receive positively-charged ions from the synapse. If the charge is increased enough, it can trigger an action potential, causing that neuron to send an electrical signal down its own axon.
+Neurons communicate electrochemically. An electrical signal from one neuron's axon will trigger a release of neurotransmitters which bind to channels on another neuron's dendrite. This causes the channels to open and receive positively-charged ions from the synapse. If this increases the charge enough, can trigger an action potential, causing that neuron to send an electrical signal (positive charge) down its own axon.
 
 [![Chemical synapse schema cropped](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Chemical_synapse_schema_cropped.jpg/512px-Chemical_synapse_schema_cropped.jpg)](https://commons.wikimedia.org/wiki/File%3AChemical_synapse_schema_cropped.jpg "By user:Looie496 created file, US National Institutes of Health, National Institute on Aging created original \[Public domain\], via Wikimedia Commons")
 
-##  Neural Networks
+## Neural Networks
 A nervous system emerges from a large assemblage of connected neurons. A nerve impulse can also be transmitted from a sensory receptor cell to a neuron, from a neuron to a set of muscles or an endocrine gland. Any cell that receives a synaptic signal from a neuron may be excited, inhibited, or otherwise modulated.
 
 ## Glial Cells
@@ -125,9 +125,9 @@ Glial cells mostly act as caretaker cells, supporting the neurons and their conn
 - Microglial cells
 
 ---
-#  Neurochemistry
+# Neurochemistry
 ---
-##  Neurotransmitters
+## Neurotransmitters
 Neurotransmitters are the biochemical messengers, or couriers, of information between cells, released from neurons at the presynaptic nerve terminal to cross through synapses where they may be accepted by a receptor site on the other side. A single neuron will produce several different neurotransmitters. A cascade of specific chemical reactions occurs after a synapse; these specific chemical reactions depend on the presence, absence, or combination of specific receptor types. These reactions affect the neuron with either excitation potential (depolarization) or inhibition potential (hyper-polarization). Excitation makes it more likely that an action potential will fire; inhibition makes it less likely that an action potential will fire. Neurotransmitters and their receptors influence behavior, learning, emotions, and sleep.
 
 Following is a condensed list of neurotransmitters involved in the many functions of our bodies:
