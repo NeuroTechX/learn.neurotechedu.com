@@ -1,3 +1,24 @@
+---
+layout: page-fullwidth
+show_meta: false
+title: "EEG Experimental Protocol"
+subheadline: ""
+teaser: "This tutorial serves as an introduction to EEG experimental protocol."
+header:
+   image_fullwidth: ""
+permalink: "/eegexperimentalprotocol/"
+---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+[//]: <div class="panel radius" markdown="1">
+[//]:  **Table of Contents**
+[//]: {: #toc }
+[//]: *  TOC
+[//]: {:toc}
+[//]: </div> 
+</div><!-- /.medium-4.columns -->
+
+
 ## Contributors:
 
 #### Cristina Zappullo
@@ -11,6 +32,7 @@
   - Role: Mentor
   - Email: sheidarabipour@gmail.com
   - Slack:
+  
 
 ## Introduction
 
