@@ -19,7 +19,7 @@ permalink: "/eegexperimentalprotocol/"
 </div><!-- /.medium-4.columns -->
 
 
-
+<div class="medium-8 medium-pull-4 columns" markdown="1">
   
 
 ## Introduction
@@ -232,3 +232,6 @@ The Transcranial Magnetic Stimulation (TMS) is a non invasive experiment. It mea
 3 Leif SÃrnmo, Pablo Laguna, Bioelectrical Signal Processing in cardiac and neurological processing, Elsevier
 
 4 Nitish Vyomesh Thakor, Shanbao Tong, Quantitative EEG Analysis Methods and Clinical Applications; Engineering in Medicine and Biology
+
+</div> <!-- end of content column -->
+</div> <!-- end of row -->
