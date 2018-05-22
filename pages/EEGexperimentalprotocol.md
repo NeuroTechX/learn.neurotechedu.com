@@ -30,7 +30,7 @@ While planning an experiment you should consider: subjects, location, setup, dat
 
 
 
-## SUBJECTS [1](#References)
+## SUBJECTS <sup>1</sup>
 
 ### Subjects selection criteria
 
@@ -86,7 +86,7 @@ Fig. 1 shows the general block for acquiring the signal during an experiment usi
 
 *Fig.1 setup for EEG acquisition 1
 
-#### Blocks [2](#References)
+#### Blocks <sup>2</sup>
 
 To obtain EEG data we need a stimulation block, a recording block and the hardware to synchronize the two.
 
@@ -134,7 +134,7 @@ Among the useful programs, there are some to visually process EEG. Some are usef
 
 
 
-## STIMULI [3,4](#References)
+## STIMULI <sup>3,4</sup>
 
 ### EP / non EP
 
@@ -194,7 +194,7 @@ The Transcranial Magnetic Stimulation (TMS) is a non invasive experiment. It mea
 
 
 
-## EXPERIMENTAL PROCEDURE [1](#References)
+## EXPERIMENTAL PROCEDURE <sup>1</sup>
 
 #### Recruiting subjects
 
