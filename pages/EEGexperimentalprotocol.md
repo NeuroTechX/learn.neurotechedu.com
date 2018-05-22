@@ -225,10 +225,10 @@ The Transcranial Magnetic Stimulation (TMS) is a non invasive experiment. It mea
 
 ## REFERENCES
 
-1 Maureen Clerc, &quot;BrainâComputer Interfaces 2 - Technology and Applications&quot;, Wiley
+1 Maureen Clerc, Brainâ-Computer Interfaces 2 - Technology and Application, Wiley
 
-2 Branca, &quot;Fondamenti di Ingegneria Clinica, Vol.1&quot;, Springer
+2 Branca, Fondamenti di Ingegneria Clinica, Vol.1, Springer
 
-3 Leif SÃrnmo, Pablo Laguna, &quot;Bioelectrical Signal Processing in cardiac and neurological processing&quot;, Elsevier
+3 Leif SÃrnmo, Pablo Laguna, Bioelectrical Signal Processing in cardiac and neurological processing, Elsevier
 
-4 Nitish Vyomesh Thakor, Shanbao Tong, &quot;Quantitative EEG Analysis Methods and Clinical Applications&quot; Engineering in Medicine and Biology
+4 Nitish Vyomesh Thakor, Shanbao Tong, Quantitative EEG Analysis Methods and Clinical Applications; Engineering in Medicine and Biology
