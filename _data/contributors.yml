@@ -37,6 +37,18 @@
     - name: github
       url: http://github.com/francescacoo
 
+- name: Cristina Zappullo
+  roles:
+    - Writer
+    - Editor
+  contributed:
+    - EEG experimental protocol
+  links:
+    - name: website
+      url: www.cristinazappullo.com
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/cristinazappullo/
+
 - name: Davide Valeriani
   roles:
     - Mentor

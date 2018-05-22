@@ -24,7 +24,7 @@ permalink: "/eegexperimentalprotocol/"
 
 ## Introduction
 
-Experiments demonstrate a theoretical thesis given the hypothesis. The reason of running an experiments in the first place is because there is something unknown to be learn. In experiments specificity and preparation are your friends. A very specific thesis is easier to prove and establishing parameters, subjects requirements and tests protocols in order to study some aspect of the brain is more efficient. Usually subjects give one day availability and they don't come for do-overs. It is also very difficult to find many subjects in EEG experiments. Therefore use what resources you have at the maximum and cross your fingers you end up gathering everything you need to demonstrate your thesis.
+Experiments demonstrate a theoretical thesis given the hypothesis. The reason of running an experiments in the first place is because there is something to learn. In experiments specificity and preparation are your friends. A very specific thesis is easier to prove and establishing parameters; planning ahead subjects requirements and tests protocols in order to study is more efficient. Usually subjects give one day availability and they don't come for do-overs. It is also very difficult to find many subjects in EEG experiments. Therefore use what resources you have at the maximum and cross your fingers you end up gathering everything you need to demonstrate your thesis.
 
 While planning an experiment you should consider: subjects, location, setup, data analysis, results visualization and findings publications.
 
@@ -82,7 +82,7 @@ The EEG experimental protocol requires acquisition and processing. Participants 
 
 Fig. 1 shows the general block for acquiring the signal during an experiment using visual or auditory evoked potentials.
 
-![EEG acquisition setup block](../images/EEG_stimulation_setup.png) 
+![EEG acquisition setup block](../images/EEGstimulationsetup.png) 
 
 *Fig.1 setup for EEG acquisition 1
 
@@ -162,7 +162,7 @@ The parameters of interests are:
 
 Variation in the values of the parameters could be caused by different kinds of neurological impairments.
 
-#### *Visual Evoked Potential*
+##### Visual Evoked Potential
 
 The Visual Evoked Potential (VEP) with clinical significance is from N75 on.
 
@@ -170,7 +170,7 @@ A video screen generates the stimulation. The most common protocol uses a chessb
 
 In case of subjects with lack of focus or unable to keep their gaze fix, a flash stimulus on a dark screen is used as stimulation.
 
-#### *Auditory Evoked Potential*
+##### Auditory Evoked Potential
 
 The Auditory Evoked Potential (AEP) experiments study the propagation of the signal from the acoustic nerve to the cortex. The tree responses depend on the latency:
 
@@ -180,7 +180,7 @@ The Auditory Evoked Potential (AEP) experiments study the propagation of the sig
 
 The sound delivery system consist of headphones. The subject listen to different series of click-like sounds from one or both sides at once. The experimenter masks the non stimulated ear with a band limited noise, called _pink noise_. Usual repetition rate varies from 8 to 10 clicks per second, with a pressure level going from 40 to 120 dB. The electrodes behind the ears record the stimuli used to isolate the AEP window.
 
-#### *Somatosensory Evoked Potential*
+##### Somatosensory Evoked Potential
 
 Somatosensory Evoked Potentials (SEP) give information about the nerve conduction functionality.
 
@@ -188,7 +188,7 @@ The clinically interesting data are up to the N40. It describes the neuronal con
 
 Fingers or legs are stimulated by electrodes situated in proximity of the sensory nerve fibers.
 
-#### *TMS*
+##### TMS
 
 The Transcranial Magnetic Stimulation (TMS) is a non invasive experiment. It measures the cortical excitability by inhibiting or improving it. It is the only stimulation that testes higher cognitive areas. It requires a specific medical instrument to create the magnetic stimulation.
 
