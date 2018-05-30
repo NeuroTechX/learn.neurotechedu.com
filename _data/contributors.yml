@@ -113,3 +113,14 @@
     - name: linkedin
       url: https://www.linkedin.com/in/padsterpat/
 
+- name: Keaton Armentrout
+  roles:
+    - Editor
+    - Writer
+  contributed:
+    - New Emerging Technologies
+  links:
+    - name: globe
+      url: http://ksarmentrout.com
+    - name: linkedin
+      url: https://www.linkedin.com/in/ksarmentrout/
