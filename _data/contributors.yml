@@ -1,26 +1,26 @@
 #########################################################
-#                                                       
-#         Format for contributors.md page                                              
-#                                                       
-#                                                       
+#
+#         Format for contributors.md page
+#
+#
 #########################################################
-#- name: William James                                  
-#  roles:                                               
-#    -   teacher                                        
-#    -   author                                         
-#  contributed:                                         
-#    -   bci productionline                             
-#    -   this and that                                  
-#    -   cool stuff                                     
-#  links:                                               
-#    - name: linkedin                                   
-#      url: http://linkedin.com/in/ryanlintott/         
-#    - name: website                                    
-#      url: http://linkedin.com/in/ryanlintott/         
-#    - name: twitter                                    
-#      url: http://linkedin.com/in/ryanlintott/         
-#    - name: github                                     
-#      url: http://linkedin.com/in/ryanlintott/         
+#- name: William James
+#  roles:
+#    -   teacher
+#    -   author
+#  contributed:
+#    -   bci productionline
+#    -   this and that
+#    -   cool stuff
+#  links:
+#    - name: linkedin
+#      url: http://linkedin.com/in/ryanlintott/
+#    - name: website
+#      url: http://linkedin.com/in/ryanlintott/
+#    - name: twitter
+#      url: http://linkedin.com/in/ryanlintott/
+#    - name: github
+#      url: http://linkedin.com/in/ryanlintott/
 #
 ########################################################
 ########################################################
@@ -113,3 +113,23 @@
     - name: linkedin
       url: https://www.linkedin.com/in/padsterpat/
 
+- name: Keaton Armentrout
+  roles:
+    - Editor
+    - Writer
+  contributed:
+    - New Emerging Technologies
+  links:
+    - name: globe
+      url: http://ksarmentrout.com
+    - name: linkedin
+      url: https://www.linkedin.com/in/ksarmentrout/
+
+- name: Gena Meldazy
+  roles:
+    - Writer
+  contributed:
+    - New Emerging Technologies
+  links:
+    - name: linkedin
+      url: https://ca.linkedin.com/in/genameldazy
