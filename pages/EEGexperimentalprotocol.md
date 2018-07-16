@@ -20,7 +20,7 @@ permalink: "/eegexperimentalprotocol/"
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
-  
+
 
 ## Introduction
 
@@ -38,20 +38,20 @@ Before you advertise the experiment and gather participants, you have to decide 
 
 Common selection criteria are:
 
-- general good health,
-- no pregnancy,
-- no claustrophobia,
-- no drug addiction,
-- no neurological diseases.
+- General good health,
+- No pregnancy,
+- No claustrophobia,
+- No drug addiction,
+- No neurological diseases.
 
 Specific selection criteria that differs from experiment to experiment to take into account:
 
-- range of age,
-- ne or both genders,
-- academic level,
-- specific type of disease or the absence of it (in case of studies on  dementia or other diseases),
-- visual acuity and/or hearing acuity (depending on the type of stimuli which subjects are exposed to during the  experiment),
-- if the person is left handed or right handed.
+- Range of age,
+- One or both genders,
+- Academic level,
+- Specific type of disease or the absence of it (in case of studies on  dementia or other diseases),
+- Visual acuity and/or hearing acuity (depending on the type of stimuli which subjects are exposed to during the  experiment),
+- If the person is left handed or right handed.
 
 
 
@@ -82,7 +82,7 @@ The EEG experimental protocol requires acquisition and processing. Participants 
 
 Fig. 1 shows the general block for acquiring the signal during an experiment using visual or auditory evoked potentials.
 
-![EEG acquisition setup block](../images/EEGstimulationsetup.png) 
+![EEG acquisition setup block](../images/EEGstimulationsetup.png)
 
 *Fig.1 setup for EEG acquisition 1
 
