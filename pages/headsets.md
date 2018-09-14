@@ -1,12 +1,17 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Consumer EEG Headsets"
-subheadline: "Compare and Contrast"
-teaser: "Your choice of headset will depend on what you intend to use it for. The answer will depend on your budget, interest, project idea and the number of electrodes required. Before purchasing a headset, think about your programming experience and Project Idea."
+title: Consumer EEG Headsets
+subheadline: Compare and Contrast
+teaser: >-
+  Your choice of headset will depend on what you intend to use it for. The
+  answer will depend on your budget, interest, project idea and the number of
+  electrodes required. Before purchasing a headset, think about your programming
+  experience and Project Idea.
 header:
-   image_fullwidth: "neurons.jpg"
-permalink: "/headsets/"
+  image_fullwidth: neurons.jpg
+permalink: /headsets/
+published: true
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
@@ -23,7 +28,7 @@ permalink: "/headsets/"
 
 # What to look for in a headset.
 
-When deciding which EEG headset to purchase, there are a few features you should look at when making your decision.
+When deciding which EEG  to purchase, there are a few features you should look at when making your decision.
 
 ## Number and Placement of Electrodes:
 
