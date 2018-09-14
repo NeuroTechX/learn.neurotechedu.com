@@ -28,7 +28,7 @@ published: true
 
 # What to look for in a headset.
 
-When deciding which EEG  to purchase, there are a few features you should look at when making your decision.
+When deciding which EEG to purchase, there are a few features you should look at when making your decision.
 
 ## Number and Placement of Electrodes:
 
