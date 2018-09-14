@@ -23,7 +23,6 @@ published: true
 </div>
 </div><!-- /.medium-4.columns -->
 
-
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
 # What to look for in a headset.
@@ -226,8 +225,6 @@ The Neurosky is one of the original consumer EEGs on the market. The design is s
 * 512 Hz Sampling Rate
 * 12 bits
 * Available SDK
-
-
 
 #### Known Recordable EEG Paradigms:
 * "Relaxation" Level
