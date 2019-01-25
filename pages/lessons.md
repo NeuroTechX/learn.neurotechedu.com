@@ -28,7 +28,7 @@ permalink: "/lessons/"
       <li class="section"><a href="../oscillations/">How do I do Feature Extraction of Neural Oscillations?</a></li>
       <li class="section"><a href="../erp/">How do I do Feature Extraction of Event Related Potentials (ERP)?</a></li>
       <li class="section"><a href="../projects/">What are some BCI projects I can build for myself?</a></li>
-
+      <li class="section"><a href="../emerging_tech/">New Emerging Technologies</a></li>
     </ul>
   </div>
 </div>
