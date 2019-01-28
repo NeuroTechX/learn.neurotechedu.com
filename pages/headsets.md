@@ -40,7 +40,7 @@ Also, many consumer EEG's have electrodes which are rigid and can't be moved. If
 
 [IMOTIONS EEG 101 Guide](https://imotions.com/blog/eeg/)
 
-## Sampling Rate:
+## Sampling Rate:  
 
 The Sampling Rate of an EEG is the number of sample a second you can get from your device. Most devices will have a minimum of 256 samples a second, but you can find some which have a higher sampling rate. Depending on the frequency you are interested in studying, your sampling rate needs to be at least 2.5 times greater.
 
