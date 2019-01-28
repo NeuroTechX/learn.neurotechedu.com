@@ -42,12 +42,7 @@ permalink: "/lessons/"
       This is an introduction to neuroscience. How does the brain work?
     </div>
     <ul class="" style="padding-left:60px">
-      <li class="section"><a href="../what_is_neuroscience/">What is Neuroscience?</a></li>
-      <li class="section"><a href="../the_nervous_system/">The Nervous System</a></li>
       <li class="section"><a href="../cellular_components/">Cellular Components</a></li>
-      <li class="section"><a href="../neuroanatomy_and_brain_organization/">Neuroanatomy and Brain Organization</a></li>
-      <li class="section"><a href="../functional_systems_of_the_brain/">Functional Systems of the Brain</a></li>
-      <li class="section"><a href="../brain_diseases_and_disorders/">Brain Diseases and Disorders</a></li>
     </ul>
   </div>
 </div>
