@@ -102,6 +102,7 @@ Head to:
 
 1. Please don't add any styling to the scss files. If you want to stylize your page more, inline `<span>` or `style=""` tags are fine.
 2. The theme we use implements the Foundation framework, that's where the naming conventions for our classes and ID's come from. Their documentation is available [here](http://foundation.zurb.com/sites/docs/v/5.5.3/components/grid.html).
+3. If you are on Chrome and want to build the content first on Google Docs, you can use this [this plugin](https://chrome.google.com/webstore/detail/docs-to-markdown/igffnbdfnodiaphfmfaiiaegmoljbghf) to conver to markdown
 
 
 
