@@ -5,11 +5,8 @@
 
 ## Note: use Redirect Page for external site links
 
-- title: About
-  url: "/about/"
-  side: right
 
-- title: Learn
+- title: Home
   url: "/"
   side: right
 
@@ -18,13 +15,9 @@
   side: right
 
 - title: Resources
-  url: "/resources/"
+  url: "https://github.com/NeuroTechX/awesome-bci"
   side: right
 
 - title: Contributors
   url: "/contributors/"
-  side: right
-
-- title: Events
-  url: "/events/"
   side: right
