@@ -21,11 +21,9 @@ permalink: "/lessons/"
     </div>
     <ul class="" style="padding-left:60px">
       <li class="section"><a href="../introtobci/">Introduction to Brain Computer Interfaces</a></li>
-      <li  class="section"><a href="../applications/">What are some of the existing BCI's applications?</a></li>
-      <li class="section"><a href="../introtoneuroscience/">Introduction to Neuroscience. How does the brain work?</a></li>
+      <li class="section"><a href="../applications/">What are some of the existing BCI's applications?</a></li>
       <li class="section"><a href="../headsets/">What are some of the headsets that I can purchase to make a BCI?</a></li>
       <li class="section"><a href="../introbci_software/">What are some of the software tools I can use to build a Brain Computer interface?</a></li>
-      <li class="section"><a href="../eegexperimentalprotocol/">How do you Set up an EEG Experiment?</a></li>
       <li class="section"><a href="../preprocessing/">How do I do Signal Preprocessing?</a></li>
       <li class="section"><a href="../oscillations/">How do I do Feature Extraction of Neural Oscillations?</a></li>
       <li class="section"><a href="../erp/">How do I do Feature Extraction of Event Related Potentials (ERP)?</a></li>
@@ -34,15 +32,24 @@ permalink: "/lessons/"
     </ul>
   </div>
 </div>
+
 <div class="large-12 columns module" markdown="1" style="">
   <div class="medium-2 columns number">02</div>
   <div class="medium-10 columns box">
     <h4>• Neuroscience 101</h4>
     <div class="moduledescription">
-      This is an introduction to neuroscience. How does the brain work?
+      This introduction to neuroscience is a high level overview of what we know about the brain and the rest of the nervous system.
     </div>
     <ul class="" style="padding-left:60px">
+      <li class="section"><a href="../the_nervous_system/">The Nervous System</a></li>
       <li class="section"><a href="../cellular_components/">Cellular Components</a></li>
+      <li class="section"><a href="../neuroanatomy_and_brain_organization/">Neuroanatomy and Brain Organization</a></li>
+      <!--
+      <li class="section"><a href="../what_is_neuroscience/">Introduction: What is Neuroscience?</a></li>
+      <li class="section"><a href="../sensory_and_motor_systems/">Sensory and Motor Systems</a></li>
+      <li class="section"><a href="../functional_systems_of_the_brain/">Functional Systems of the Brain</a></li>
+      <li class="section"><a href="../brain_diseases_and_disorders/">Brain Diseases and Disorders</a></li>
+      -->
     </ul>
   </div>
 </div>
