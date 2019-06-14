@@ -48,8 +48,8 @@ permalink: "/lessons/"
       <li class="section"><a href="../what_is_neuroscience/">Introduction: What is Neuroscience?</a></li>
       <li class="section"><a href="../sensory_and_motor_systems/">Sensory and Motor Systems</a></li>
       <li class="section"><a href="../functional_systems_of_the_brain/">Functional Systems of the Brain</a></li>
-      <li class="section"><a href="../brain_diseases_and_disorders/">Brain Diseases and Disorders</a></li>
       -->
+      <li class="section"><a href="../brain_diseases_and_disorders/">Brain Diseases and Disorders</a></li>
     </ul>
   </div>
 </div>
