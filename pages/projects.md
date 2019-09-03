@@ -37,11 +37,11 @@ If you are interested in building your own eeg, here are some options to get you
     <th>Link</th>
   </tr>
   <tr>
-      <td>Smartphone BCI</td>
+      <td>icibici</td>
       <td>NeuroTechLDN</td>
       <td>Some Technical Experience</td>
-      <td>The DIY eeg is a 20 Euro device allows for your to build an SSVEP which can connect to your smartphone and can be used as a simplified keyboard. </td>
-      <td><a target="_blank_" href="https://github.com/icibici/smartphone-bci-hardware">Click</a></td>
+      <td>This open source DIY EEG is a 20 Euro device that works with your smartphone and an SSVEP keyboard app.</td>
+      <td><a target="_blank_" href="https://icibici.github.io/site/">Click</a></td>
   </tr>
   <tr>
       <td>DIY EEG</td>
