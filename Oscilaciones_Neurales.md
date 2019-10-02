@@ -1,4 +1,4 @@
-#### Oscilaciones neurales.
+# Oscilaciones neurales.
 Este tutorial sirve de introducción al ejercicio de extracción de oscilaciones neurales desde datos electroencefalográficos (EEG). Esta introducción requiere un conocimiento básico de Python y MNE para el análisis de datos de EEG. 
 
 # ¿Qué son las oscilaciones neurales?
