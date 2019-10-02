@@ -1,4 +1,4 @@
-# Oscilaciones neurales.
+# __Oscilaciones neurales__.
 Este tutorial sirve de introducción al ejercicio de extracción de oscilaciones neurales desde datos electroencefalográficos (EEG). Esta introducción requiere un conocimiento básico de Python y MNE para el análisis de datos de EEG. 
 
 # ¿Qué son las oscilaciones neurales?
@@ -29,12 +29,12 @@ Aplicaciones prácticas para extraer oscilaciones neurales usando tu propio BCI 
 
 # ¿Cómo extraemos oscilaciones neurales como una característica de nuestros datos de EEG?
 
-<img scr="https://github.com/NeuroTechX/eeg-101/blob/dano-dev/EEG101/src/assets/wavedecomposition.gif" alt="This will display an animated GIF" />
+<img scr="https://github.com/NeuroTechX/eeg-101/blob/dano-dev/EEG101/src/assets/wavedecomposition.gif" alt="This should display an animated GIF" />
 
 Como mencionamos antes, los datos obtenidos por EEG son capturados como función del tiempo, pero las oscilaciones neurales están descritas en unidades de frecuencia. Para transformar datos, necesitamos emplear transformadas de Fourier. 
 La transformada de Fourier es una fórmula pilar para el procesamiento de señales y descomposición de señales. Si quisieras aprender más acerca de las transformada de Fourier y FFT, recomendamos este video (https://www.youtube.com/watch?v=FjmwwDHT98c). Es un poco largo, ¡pero vale la pena verlo!
 
-<img src="eeg-101/EEG101/src/assets/wavedecomposition.gif" alt="This will display an animated GIF" />
+<img src="eeg-101/EEG101/src/assets/wavedecomposition.gif" alt="This should display an animated GIF" />
 
 La mejor manera de extraer oscilaciones neurales es realizar una transformada de Fourier en tus datos preprocesada y luego graficar los patrones de frecuencias resultantes en la categoría de ondas cerebrales que te interesan. Puedes preprocesar aún más tus datos para excluir ciertos canales, o apuntar a rangos de frecuencia específicas para observar características de la oscilación neural. >Lee en NeuroTechX.edu la lección titualada “preprocesamiento” para tener una idea detallada sobre los pasos de pre-procesamiento que pueden ser aplicados a tus datos. 
 
@@ -102,7 +102,7 @@ __Figura 2:__ Densidad espectral de poder graficada para el electrodo C4 localiz
 
 ### Usando un mapa topográfico (topomap) para visualizar oscilaciones locales. 
 Asuntos destacados de topomapa.
-Se aplicará un clasificador para visualizar la presencia de oscilaciones neurales usando discriminación binaria para destacar si hay ondas a ciertas frecuencias o no. Mientras hay un poco de variabilidad en la visualización de la fuerza de tu señal, este es un método simple que consiste en observar neuronas disparando sobre electrodos específicos. Comprende qué electrodos corresponden a qué regiones del cerebro te ayudará a entender dónde la mayoría de la actividad está ocurriendo en el cerebro. 
+Se aplicará un clasificador para visualizar la presencia de oscilaciones neurales usando discriminación binaria para destacar si hay ondas a ciertas frecuencias o no. Mientras hay un poco de variabilidad en la visualización de la fuerza de tu señal, este es un método simple que consiste en observar neuronas disparando sobre electrodos específicos. Comprender qué electrodos corresponden a qué regiones del cerebro te ayudará a entender dónde la mayoría de la actividad está ocurriendo en el cerebro. 
 Graficar PSD para visualizar frecuencia está restringido a canales específicos y puede requerir un exceso de trabajo para visualizar la presencia local de ondas. En contraste, el uso de topomapa ofrece retroalimentación específica en la presencia local de ondas. El clasificador ensamblado en el ejemplo siguiente usa un rango binario caracterizado por los valores positivos rojos y los valores azules negativos. El rango total va desde -0.1 a 1.0 y se refiere al potencial eléctrico con 1.0 indicando la presencia de una señal medible. 
 Hay varios pasos más involucrados en visualización de topomapa. El primero consiste en el paso de preprocesamiento ya que puedes usar un filtro de paso de banda (raw.filter(fmin,fmax)) para aislar el rango de frecuencia que te interesa. Lee la sección de arriba donde identificamos cada onda dependiendo de su rango de frecuencia respectiva. El ejemplo siguiente usará un filtro de paso de banda para ondas alfa y beta considerando que las ejecuciones de conjunto de datos eegbci están basadas en la actividad de la corteza motora.
 Cinco puntos de tiempo arbitrarios fueron elegidos en el ejemplo de abajo para resaltar el cambio de presencia de onda en el tiempo. En vista de que la ejecución involucra apretar las manos derecha e izquierda, deberíamos esperar ver un incremento en la presencia de ondas alfa (específicamente la frecuencia mu) y una disminución recíproca de frecuencia de ondas beta en el área que corresponde a la mano derecha o a la mano izquierda (lados opuestos del cerebro de la mano involucrados). Los puntos de tiempo 4 y 5 ilustran esta diferencia:
