@@ -45,7 +45,7 @@ Antes de extraer oscilaciones neurales, hay varios pasos que deben ser tomados p
 *	Ensamble de clasificadores (graficar un mapa topográfico, “topomap”).
 *	Graficar la figura relevante.
 
-### Importando, leyendo y formateando de datos.
+### Importando, leyendo y formateando datos.
 
 En el siguiente ejemplo, hemos usado un conjunto de datos (data) creados por ejecuciones experimentales (referencia de investigación), de manera que cuando se obtienen los datos, ya habrá experimentado un preprocesamiento que no se cubrirá en ninguno de los ejemplos. Sin embargo, en ambos casos los datos se obtendrán utilizando los siguientes comandos:
 ```
