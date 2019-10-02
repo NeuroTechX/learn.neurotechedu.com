@@ -100,7 +100,7 @@ __Figura 1:__ Densidad espectral de poder graficada para el electrodo C3 localiz
  
 __Figura 2:__ Densidad espectral de poder graficada para el electrodo C4 localizado en el lado izquierdo de la corteza motora. El contenido PSD es más evidente en el rango alfa y el rango teta. Evidencia de oscilaciones neurales que ocurren durante el movimiento de la mano izquierda. 
 
-### Usando un mapa topográfico (topomap) para visualizar oscilaciones locales. 
+### Usando un mapa topográfico (topomapa) para visualizar oscilaciones locales. 
 Asuntos destacados de topomapa.
 Se aplicará un clasificador para visualizar la presencia de oscilaciones neurales usando discriminación binaria para destacar si hay ondas a ciertas frecuencias o no. Mientras hay un poco de variabilidad en la visualización de la fuerza de tu señal, este es un método simple que consiste en observar neuronas disparando sobre electrodos específicos. Comprender qué electrodos corresponden a qué regiones del cerebro te ayudará a entender dónde la mayoría de la actividad está ocurriendo en el cerebro. 
 Graficar PSD para visualizar frecuencia está restringido a canales específicos y puede requerir un exceso de trabajo para visualizar la presencia local de ondas. En contraste, el uso de topomapa ofrece retroalimentación específica en la presencia local de ondas. El clasificador ensamblado en el ejemplo siguiente usa un rango binario caracterizado por los valores positivos rojos y los valores azules negativos. El rango total va desde -0.1 a 1.0 y se refiere al potencial eléctrico con 1.0 indicando la presencia de una señal medible. 
