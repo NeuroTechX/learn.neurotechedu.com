@@ -6,6 +6,7 @@ Las oscilaciones neurales son patrones de frecuencia repetitivos, rítmicos y si
 
 *	Ondas Alfa (7.5 – 12.5 Hz): Son generalmente asociadas con funciones cognitivas como atención y alerta. Las ondas alfa están también relacionadas con procesos de aprendizaje y corresponden a las frecuencias más comúnmente analizadas en aplicaciones de ánimo y meditación. 
 * Ondas Beta (13 – 30 Hz): Son ondas generalmente asociadas con atención y concentración.
+ - asdasdasd
 *	Ondas Delta (1 – 4 Hz): Estas ondas de alta amplitud están relacionadas con el fenómeno de sueño-de-onda-lenta, o “slow-wave-sleep” (SWS). 
 *	Ondas Gama (30 – 70 Hz): Las ondas gama son ondas rápidas asociadas con atención, conciencia y percepción. 
 *	Ondas Mu (7.2 – 12.5, principalmente 9 – 11 Hz): Estas ondas están localizadas sobre la corteza motora y están principalmente asociadas con un estado de reposo físico. Están desincronizadas (suprimidas) durante la acción motora.
