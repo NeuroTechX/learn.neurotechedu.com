@@ -5,7 +5,7 @@ Este tutorial sirve de introducción al ejercicio de extracción de oscilaciones
 Las oscilaciones neurales son patrones de frecuencia repetitivos, rítmicos y sincronizados en el sistema nervioso central. Ocurren durante la activación de grandes agrupaciones de neuronas, aunque pueden involucrar a una sola neurona también. Aunque los datos brutos (sin procesar) obtenidos con electroencefalogramas son capturados en función del tiempo, las oscilaciones neurales son visualizadas en términos de frecuencia y medidas en unidades de Hertz (Hz); un ciclo por segundo. En tanto tal, las agrupaciones neurales generan oscilaciones que pueden ser caracterizadas por el rango de frecuencia en el que ocurren:
 
 *	Ondas Alfa (7.5 – 12.5 Hz): Son generalmente asociadas con funciones cognitivas como atención y alerta. Las ondas alfa están también relacionadas con procesos de aprendizaje y corresponden a las frecuencias más comúnmente analizadas en aplicaciones de ánimo y meditación. 
-* Ondas Beta (13 – 30 Hz): Son ondas generalmente asociadas con atención y concentración.
+* Ondas Beta (13 – 30 Hz): Son ondas generalmente asociadas con atención y concentración
  - asdasdasd
 *	Ondas Delta (1 – 4 Hz): Estas ondas de alta amplitud están relacionadas con el fenómeno de sueño-de-onda-lenta, o “slow-wave-sleep” (SWS). 
 *	Ondas Gama (30 – 70 Hz): Las ondas gama son ondas rápidas asociadas con atención, conciencia y percepción. 
