@@ -31,7 +31,7 @@ Let’s get started.
 
 Source: https://medium.com/svilenk/bciguide-246a9ca76fcd
 
-Introducing a Problem
+#Introducing a Problem
 
 The difference between problems in a textbook and problems in the real world comes down to the issue of complexity. Real problems are rarely simple (and when they are, they’re not called problems anymore).
 In order to solve these real problems, scientists will often create a simplified model system to build theories about the complex model. However, inferring patterns and theories is error-prone, difficult, and very, very slow.
@@ -40,19 +40,19 @@ To hang an example onto this difficult topic, it would be easy to look at a glob
 
 Our brains are not equipped logically understand that level of complexity, which is why we employ machine-run algorithms to give a thorough estimation to the solution of these complex problems with relative speed and precision.
 
-Interfaces to Brains
+##Interfaces to Brains
 
 Ironically, human brains themselves are another such complex system. Signals gathered from sensors reading voltage levels is as indirect to actual brain interfacing as we can get. However, it’s currently the best we can do without invasive methods that require electrodes that go under the scalp. 
 
 To add on to that issue, everyone’s brain structure is different. Any single solution we find to our interfacing problem will not work for everyone. Interfaces we may develop need to be tailored to the individual, and the “problem” we’re solving by interfacing with their brain will change significantly. There is no one-size-fits-all solution and it is unlikely there ever will be, even with the extremely accurate sensors.
 
-Introducing the Problem
+##The Problem
 
 For this tutorial, we will introduce a simplified problem and use a simple Neural Network to solve. To help us with this journey, we’ll be using a dataset provided on the MNE python library. This dataset provided a number of EEG samples that contain 226 data points per sample. Where each sample represents a single trial described in the problem. Below is a graph of two such plotted samples, with the channel displayed on the top right of the graph.
 
 Image generated from the Google Collab Tutorial.
 
-Problem Statement
+###Problem Statement
 
 Suppose we have a subject seated and viewing a screen with a set of images being displayed. In this experiment, checkerboard patterns were presented to the subject into the left and right visual field, interspersed by tones to the left or right ear. The interval between the stimuli was 750 ms. Occasionally a smiley face was presented at the center of the visual field. The subject was asked to press a key with the right index finger as soon as possible after the appearance of the face.
 Using only the EEG data feed provided, detect when the subject is shown the Smiley Face image, before they press the key.
@@ -67,6 +67,7 @@ A direct application of the P300 on BCI applications is the P300 speller. This a
 Using the P300 to detect events is a straightforward technique, but as we’ll discover later detecting one without using an averaged value can actually be very difficult.
 
 Introduce Machine Learning
+
 Now that you’ve been introduced to the concept of Difficult Problems, we will also introduce one method that was created to make a dent in solving them. Machines are very good at following rules to identify patterns in these complex scenarios, and scientists have developed techniques to identify patterns and discern features that would be otherwise undetectable to a human being.
 Let us imagine we are watching a football game and we paused the television on an aerial shot. What if we wanted to be able to predict what team is a player in just from where they are standing on the field. How could we do this? The easiest way is to draw a curve between the two teams. This is illustrated by the figure below.
 
@@ -90,6 +91,7 @@ Machines can work in any number of dimensions which can be hard for humans to vi
 Many different machine learning algorithms exist, but let’s focus on the few common tried-and-true algorithms that can help us solve our problem. The following are the most common algorithms found across BCI applications. 
 
 Support Vector Machine (SVM)
+
 In general terms, SVM algorithms, just like other machine learning techniques, aim to define a curve capable of differentiating two distinct classes of data. In a higher dimensional space, this curve is called a hyperplane. In order to find the correct hyperplane, the algorithm goes through an optimization process where the number of misclassified instances (players, in the above example) are minimized. This process is what we call “training the algorithm” and we’ll go over how to do it later in this tutorial.
     Something to keep in mind is that the simplest solution to classify 2 different types of items, like the two teams on our example, is to draw a line between them, for example:
 
