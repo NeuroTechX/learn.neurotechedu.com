@@ -27,7 +27,7 @@ permalink: "/lessons/"
       <li class="section"><a href="../preprocessing/">How do I do Signal Preprocessing?</a></li>
       <li class="section"><a href="../oscillations/">How do I do Feature Extraction of Neural Oscillations?</a></li>
       <li class="section"><a href="../erp/">How do I do Feature Extraction of Event Related Potentials (ERP)?</a></li>
-      <li class="section"><a href="../machinelearning/">How can Machine Learning be used to make recognize features?</a></li>
+      <li class="section"><a href="../machinelearning/">How can Machine Learning be used to recognize features?</a></li>
       <li class="section"><a href="../projects/">What are some BCI projects I can build for myself?</a></li>
       <li class="section"><a href="../emerging_tech/">New Emerging Technologies</a></li>
     </ul>
