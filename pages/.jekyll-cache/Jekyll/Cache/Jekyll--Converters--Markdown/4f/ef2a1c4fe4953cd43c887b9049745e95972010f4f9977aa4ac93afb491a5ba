@@ -1,0 +1,89 @@
+I"c+<dl>
+  <dt>2015-11-10 // Version 1.91</dt>
+  <dd>I added a nasty hack to highlight the homepage in the topbar navigation. To do it, you have to add <code class="highlighter-rouge">homepage: true</code> to your homepage. The pages <em>404</em> and <em>search</em> are now excluded from the sitemap.</dd>
+  <dt>2015-10-29 // Version 1.9</dt>
+  <dd>I needed a call for action button on the frontpage to get your awareness for the new and fresh <a href="https://tinyletter.com/feeling-responsive"><em>Feeling Responsive</em>-Newsletter</a> which informs you about new features. Now you can use it, too. Just have a look into <em>pages/pages-root-folder/index.md</em> to delete or use it. Uh, there were some images missing and the video-template didn’t show up correct. I use now <code class="highlighter-rouge">{{ layout.format }}</code> to inject the class of a layout in <code class="highlighter-rouge">default.html</code> into <code class="highlighter-rouge">&lt;body&gt;</code> to make it work.</dd>
+  <dt>2015-10-27 // Version 1.8</dt>
+  <dd><em>Feeling Responsive</em> works smoothly with <a href="http://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/">Jekyll 3.0</a>. I added a Gemfile with the pagination gem <em>jekyll-paginate</em> so that paginate works. And now there is also a <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">bones-version</a> available to get a clean project started right from the beginning.</dd>
+  <dt>2015-10-18 // Version 1.7</dt>
+  <dd>Now with audio- and video-player <a href="http://100.115.92.197:4000/design/mediaelement_js/">mediaelement.js</a>. Added new gallery include. Changed names again… Sorry.</dd>
+  <dt>2015-08-07 // Version 1.5</dt>
+  <dd>Simplified includes syntax. The <code class="highlighter-rouge">.html</code>-ending is not needed anymore. Makes it simpler to read, write and use.</dd>
+  <dt>2015-08-07 // Version 1.4</dt>
+  <dd>Lots of improvements done by <a href="https://github.com/TWiStErRob">Róbert Papp aka TWiStErRob</a>. Now with Atom.xml, better Sitemap, improved and slicker code, and many more bugfixes… <strong>Thank you, Róbert!</strong></dd>
+  <dt>2015-06-29 // Version 1.3</dt>
+  <dd>Added the possibility of using <a href="https://www.tawk.to">tawk.to</a> via front matter switch <code class="highlighter-rouge">tawkto: true</code> in front matter. Thank you <a href="https://github.com/jjamor">Juan Jose Amor Iglesias</a> for the suggestion.</dd>
+  <dt>2015-05-04 // Version 1.2.1</dt>
+  <dd>Added <code class="highlighter-rouge">meta_title</code> to <code class="highlighter-rouge">&lt;head&gt;</code>. Use it in frontmatter for SEO purposes.</dd>
+  <dt>2015-04-28 // Version 1.2</dt>
+  <dd>Put some nice Schema.org-Meta-Data into the video-template for better SEO. If you want to know how to use the data, have a look into the front matter of the <a href="http://100.115.92.197:4000/design/video/">video</a>.</dd>
+  <dt>2015-03-30 // Version 1.2</dt>
+  <dd>Added <a href="http://100.115.92.197:4000/documentation/#alert-embed-an-alert-in-your-content">alert-include</a> and structured Sass-files.</dd>
+  <dt>2015-03-25  // Video</dt>
+  <dd>Made a new <a href="https://www.youtube.com/embed/rLS-BEvlEyY">video tutorial</a></dd>
+</dl>
+
+<div class="flex-video"><iframe width="1280" height="720" src="https://www.youtube.com/embed/rLS-BEvlEyY" frameborder="0" allowfullscreen=""></iframe></div>
+<!-- /.flex-video -->
+
+<dl>
+  <dt>2015-03-02 // Version 1.1</dt>
+  <dd>Added <a href="http://foundation.zurb.com/docs/components/reveal.html">Foundation Reveal</a> to the mix to show videos and content in a popup window. <a href="#" data-reveal-id="videoModal">Try it out right know :)</a></dd>
+  <dt>2015-02-26 // Version 1.0</dt>
+  <dd>OK. Let’s try it. Here is <em>Feeling Responsive</em> Version 1.0, with a shiny video.</dd>
+</dl>
+
+<div class="flex-video"><iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen=""></iframe></div>
+<!-- /.flex-video -->
+
+<dl>
+  <dt>2015-02-25 // Version 0.99.1</dt>
+  <dd>Added support for Google Analtics. Added <code class="highlighter-rouge">_include/next-previous-post-in-category.html</code> to generate links from one post in a category to another post in that same category. Example at the bottom of <a href="http://100.115.92.197:4000/design/grid/#bottom">Grid &amp; Colors</a>. Added <code class="highlighter-rouge">noindex</code>-variable for search engine optimization (<a href="https://support.google.com/webmasters/answer/93710?hl=en">read more</a>). Changed code for breadcrumb. Added <a href="http://100.115.92.197:4000/documentation/#improvecontenthtml">Improve-Content-Include</a>.</dd>
+  <dt>2015-02-19 // Version 0.99</dt>
+  <dd>Yes! Now <em>Feeling Responsive</em> uses the built-in sass-support by Jekyll. Open <code class="highlighter-rouge">_sass</code> and dig deeper into customizing this theme using your colors, typography and so on…</dd>
+  <dt>2015-02-18 // Version 0.98</dt>
+  <dd>Now with author-support and <a href="http://schema.org">Schema.org microdata</a>. Edit author(s) in <code class="highlighter-rouge">authors.yml</code> and use it via front matter like <code class="highlighter-rouge">author: your_author_name</code>. Added <a href="http://100.115.92.197:4000/design/comments/#comments">Disqus-comments</a> to the mix.</dd>
+  <dt>2015-02-17 // Version 0.97</dt>
+  <dd>Simplicity. Reduced templates. Now there is one page/post-template with two switches via front matter to turn on metadata at the end of the page/post via <code class="highlighter-rouge">show_meta: true/false</code> and to add a left or right sidebar via <code class="highlighter-rouge">sidebar: left/right</code>. The defaults are declared in <code class="highlighter-rouge">config.yml</code>. I also changed the variable <code class="highlighter-rouge">description</code> to <code class="highlighter-rouge">teaser</code> because it’s more logigally.</dd>
+  <dt>2015-02-12 // Version 0.96</dt>
+  <dd>Added <code class="highlighter-rouge">frontpage</code>-layout with three widgets-areas. The layout simplifies the process to change content on the frontpage.</dd>
+  <dt>2015-02-09 // Version 0.95</dt>
+  <dd>Now with custom icon font using only entypo icons necessary. Eliminated one one request and reduced the font-file to 9kb. You can easily customize the font yourself using <a href="fontcustom.com">Font Custom</a> and the included <code class="highlighter-rouge">fontcustom.yml</code> in <code class="highlighter-rouge">assets/fonts/</code>.</dd>
+  <dt>2015-01-12 // Version 0.94</dt>
+  <dd>Added Windows 8-Tile in <code class="highlighter-rouge">config.yml</code> and <code class="highlighter-rouge">header.html</code>. Added <code class="highlighter-rouge">_config_dev.yml</code> for easier local development. Use <code class="highlighter-rouge">jekyll serve --config _config.yml,_config_dev.yml</code> to overwrite <code class="highlighter-rouge">url</code>-settings of the main configuration. Added <code class="highlighter-rouge">_data/network.yml</code> to customize links in the footer-area. Now with 404-page and a google-powered search.</dd>
+  <dt>2014-12-22 // Version 0.93</dt>
+  <dd>Improved speed through the use of <a href="https://github.com/typekit/webfontloader">webfontloader</a>. Reduced Volkhov font and only embedded normal weight. Now fonts load asynchronous and the package is 53kb lighter.</dd>
+  <dt>2014-12-21 // Version 0.92</dt>
+  <dd>A new polished version, with a stronger and better color scheme. <a href="http://100.115.92.197:4000/design/grid/#color-scheme-and-colors-codes">Have a look ›</a>. Added foundation <code class="highlighter-rouge">.scss-files</code> to <code class="highlighter-rouge">assets/scss/</code> for savety.</dd>
+  <dt>2014-10-08 // Version 0.91</dt>
+  <dd>Moved images folder from <code class="highlighter-rouge">assets/img/</code> to <code class="highlighter-rouge">images</code> to fasten access to folder. Moved all pages to <code class="highlighter-rouge">pages/</code>-folder for better organization. Added language-functionality. <em>Feeling Responsive</em> is now translation ready.</dd>
+  <dt>2014-09-21 // Version 0.9</dt>
+  <dd>Optimized code, tweaked CSS, added images, deleted <code class="highlighter-rouge">header: "no"</code> from front matter (because it not necessary), added drafts to the new <code class="highlighter-rouge">_drafts</code>-folder to begin posts and pages faster and enhanced the documentation. Huh, 1.0 I am coming.</dd>
+  <dt>2014-09-16 // Version 0.8</dt>
+  <dd>Added <a href="http://100.115.92.197:4000/design/video/">video post format</a> for that cinematic flavor. Added URL- and Credit-feature to images and revamped the homepage a little bit to give blog-content more exposure. Optimized some includes, especially the <code class="highlighter-rouge">_include/list-posts.html</code>-Include which support some nifty parameters.</dd>
+  <dt>2014-09-15 // Version 0.7</dt>
+  <dd>Added an <a href="http://100.115.92.197:4000/design/gallery/">example of a gallery</a> to show how to use Clearing Lightbox. Meta information is used in posts via <code class="highlighter-rouge">/include/meta_information</code>. To optimize pages/posts for search engines you have now have an extra front matter-variable called <code class="highlighter-rouge">meta_description</code>. Also the theme supports facebook open graph information.</dd>
+  <dt>2014-09-12 // Version 0.6</dt>
+  <dd>Finally the <a href="http://100.115.92.197:4000/blog/">blogpage</a> has pagination and an <a href="http://100.115.92.197:4000/blog/archive/">archive for all blog-posts</a> using the <a href="http://foundation.zurb.com/docs/components/accordion.html">foundation accordion</a>.</dd>
+  <dt>2014-08-22 // Version 0.5</dt>
+  <dd>Better typograpyh, extended <a href="http://100.115.92.197:4000/documentation/">documentation</a> and little subtle css-things to make <em>Feeling Responsive</em> a little better.</dd>
+  <dt>2014-08-17 // Version 0.4</dt>
+  <dd>First beta release of »Feeling Responsive« with the current jekyll templates.</dd>
+  <dt>2014-08-17 // Version 0.3</dt>
+  <dd>First release – only <em>HTML-Version</em> – of »Feeling Responsive« on Github-Pages with some hickups.</dd>
+  <dt>2014-07-26 // Version 0.2</dt>
+  <dd>Updated Navigation &amp; Social Media-Configuration via custom data in <code class="highlighter-rouge">_data</code></dd>
+  <dt>2014-07-07 // Version 0.1</dt>
+  <dd>Start of theme coding and development.</dd>
+  <dt>2014-06-23</dt>
+  <dd>First Ideas and scribbles at the beach in <a href="https://www.google.de/maps/place/Strandpaviljoen+Joep+B.V./@51.9960733,5.830135,6z/data=!4m2!3m1!1s0x47cf5918df69093b:0x7c11ab31102c1c8a">Bergen/Netherlands</a>.</dd>
+</dl>
+
+<div id="videoModal" class="reveal-modal large" data-reveal="">
+  <div class="flex-video widescreen vimeo" style="display: block;">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+:ET

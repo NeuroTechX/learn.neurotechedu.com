@@ -1,0 +1,288 @@
+I"�F<div class="row">
+<div class="medium-4 medium-push-8 columns">
+    <div class="panel radius">
+      <p id="toc"><strong>Table of Contents</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+  <li><a href="#subjects-1" id="markdown-toc-subjects-1">SUBJECTS <sup>1</sup></a>    <ul>
+      <li><a href="#subjects-selection-criteria" id="markdown-toc-subjects-selection-criteria">Subjects selection criteria</a></li>
+      <li><a href="#subjects-population-and-groups" id="markdown-toc-subjects-population-and-groups">Subjects population and groups</a></li>
+      <li><a href="#subjects-data-selection" id="markdown-toc-subjects-data-selection">Subjects data selection</a></li>
+    </ul>
+  </li>
+  <li><a href="#eeg-setup" id="markdown-toc-eeg-setup">EEG SETUP</a>    <ul>
+      <li><a href="#eeg-acquisition-setup-block" id="markdown-toc-eeg-acquisition-setup-block">EEG acquisition setup block</a>        <ul>
+          <li><a href="#blocks-2" id="markdown-toc-blocks-2">Blocks <sup>2</sup></a></li>
+          <li><a href="#synchronization-system" id="markdown-toc-synchronization-system">Synchronization system</a></li>
+          <li><a href="#security-measures" id="markdown-toc-security-measures">Security measures</a></li>
+          <li><a href="#practical-measures" id="markdown-toc-practical-measures">Practical measures</a></li>
+        </ul>
+      </li>
+      <li><a href="#eeg-processing-setup" id="markdown-toc-eeg-processing-setup">EEG processing setup</a></li>
+    </ul>
+  </li>
+  <li><a href="#stimuli-34" id="markdown-toc-stimuli-34">STIMULI <sup>3,4</sup></a>    <ul>
+      <li><a href="#ep--non-ep" id="markdown-toc-ep--non-ep">EP / non EP</a>        <ul>
+          <li><a href="#evoked-potentials" id="markdown-toc-evoked-potentials">EVOKED POTENTIALS</a>            <ul>
+              <li><a href="#visual-evoked-potential" id="markdown-toc-visual-evoked-potential">Visual Evoked Potential</a></li>
+              <li><a href="#auditory-evoked-potential" id="markdown-toc-auditory-evoked-potential">Auditory Evoked Potential</a></li>
+              <li><a href="#somatosensory-evoked-potential" id="markdown-toc-somatosensory-evoked-potential">Somatosensory Evoked Potential</a></li>
+              <li><a href="#tms" id="markdown-toc-tms">TMS</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#experimental-procedure-1" id="markdown-toc-experimental-procedure-1">EXPERIMENTAL PROCEDURE <sup>1</sup></a>    <ul>
+      <li><a href="#recruiting-subjects" id="markdown-toc-recruiting-subjects">Recruiting subjects</a></li>
+      <li><a href="#before-the-experiment" id="markdown-toc-before-the-experiment">Before the experiment</a></li>
+      <li><a href="#during-the-experiment" id="markdown-toc-during-the-experiment">During the experiment</a></li>
+    </ul>
+  </li>
+  <li><a href="#references" id="markdown-toc-references">REFERENCES</a></li>
+</ul>
+
+    </div>
+  </div><!-- /.medium-4.columns -->
+
+
+<div class="medium-8 medium-pull-4 columns">
+
+    <h2 id="introduction">Introduction</h2>
+
+    <p>Experiments demonstrate a theoretical thesis given the hypothesis. The reason of running an experiments in the first place is because there is something to learn. In experiments specificity and preparation are your friends. A very specific thesis is easier to prove and establishing parameters; planning ahead subjects requirements and tests protocols in order to study is more efficient. Usually subjects give one day availability and they don’t come for do-overs. It is also very difficult to find many subjects in EEG experiments. Therefore use what resources you have at the maximum and cross your fingers you end up gathering everything you need to demonstrate your thesis.</p>
+
+    <p>While planning an experiment you should consider: subjects, location, setup, data analysis, results visualization and findings publications.</p>
+
+    <h2 id="subjects-1">SUBJECTS <sup>1</sup></h2>
+
+    <h3 id="subjects-selection-criteria">Subjects selection criteria</h3>
+
+    <p>Before you advertise the experiment and gather participants, you have to decide on subject criteria. Selected subjects have to meet all pre-determined requirements. Those are designed to match the hypotheses, laws and ethical regulations. The requirements that match the hypotheses differ from experiment to experiment. The requirements that match laws and regulations are common for all EEG experiments. Those ensures safety for all participants and may vary slightly from country to country (but they are generally similar).</p>
+
+    <p>Common selection criteria are:</p>
+
+    <ul>
+      <li>General good health,</li>
+      <li>No pregnancy,</li>
+      <li>No claustrophobia,</li>
+      <li>No drug addiction,</li>
+      <li>No neurological diseases.</li>
+    </ul>
+
+    <p>Specific selection criteria that differs from experiment to experiment to take into account:</p>
+
+    <ul>
+      <li>Range of age,</li>
+      <li>One or both genders,</li>
+      <li>Academic level,</li>
+      <li>Specific type of disease or the absence of it (in case of studies on  dementia or other diseases),</li>
+      <li>Visual acuity and/or hearing acuity (depending on the type of stimuli which subjects are exposed to during the  experiment),</li>
+      <li>If the person is left handed or right handed.</li>
+    </ul>
+
+    <h3 id="subjects-population-and-groups">Subjects population and groups</h3>
+
+    <p>The subjects can all have the same requirements or divided in groups that differs by some criteria. Single group experiments are useful to study a specific phenomenon. Two or more groups are useful to study whether the difference affects  any values. When studying a mental healthy group and a group affected by a mental disease, the first group is usually called <em>control group</em>.</p>
+
+    <h3 id="subjects-data-selection">Subjects data selection</h3>
+
+    <p>A later subjects selection stage happens after subjects cleared for the test take it. The data gathered is not always clear enough to process. Some of the reasons to reject a subject after recording are:</p>
+
+    <ul>
+      <li>lack of signal for a specific time window,</li>
+      <li>external sudden electrical noises that ruin the signal,</li>
+      <li>electrodes shifting or falling due to subject mis-comfort that cause the signal to drop.</li>
+    </ul>
+
+    <p>It is recommended to check the data before starting processing. In case of missing data, the subject can be rejected or brought in again for additional tests.</p>
+
+    <h2 id="eeg-setup">EEG SETUP</h2>
+
+    <p>The EEG experimental protocol requires acquisition and processing. Participants are interfacing with the acquisition setup in the recording room. Once the experimenter acquires the EEG data, they can also process it in a secondary location or store it. The personnel involved the two steps differs as well:</p>
+
+    <ul>
+      <li>Medical staff interact with the subjects and extract the data,</li>
+      <li>biomedical engineers or scientists process the signal.</li>
+    </ul>
+
+    <h3 id="eeg-acquisition-setup-block">EEG acquisition setup block</h3>
+
+    <p>Fig. 1 shows the general block for acquiring the signal during an experiment using visual or auditory evoked potentials.</p>
+
+    <p><img src="../images/EEGstimulationsetup.png" alt="EEG acquisition setup block" /></p>
+
+    <p>*Fig.1 setup for EEG acquisition 1</p>
+
+    <h4 id="blocks-2">Blocks <sup>2</sup></h4>
+
+    <p>To obtain EEG data we need a stimulation block, a recording block and the hardware to synchronize the two.</p>
+
+    <p>Stimulating equipment</p>
+
+    <p>The stimulating equipment depends on the experiment. Using Evoked potentials, the stimulation setup requires:</p>
+
+    <ul>
+      <li>a screen in case of visual stimulation,</li>
+      <li>a sound generator in case of hearing stimulation,</li>
+      <li>a pressure system in case of tactile stimulation and</li>
+      <li>a TMS block in case of TMS stimulation.</li>
+    </ul>
+
+    <p>Acquisition equipment</p>
+
+    <p>The acquisition system has at least a sampling rate of 3kHz. The acquisition setup has:</p>
+
+    <ul>
+      <li>a different sizes controlled cap with sensors (passive or active),</li>
+      <li>an electronic circuit for amplification (compatible amplifier EEG data fusion module and trigger via parallel port) and frequency filtering,</li>
+      <li>a software or hardware that allows measure of impedance, and</li>
+      <li>a computer to register the acquired signal.</li>
+    </ul>
+
+    <h4 id="synchronization-system">Synchronization system</h4>
+
+    <p>When the stimulation occurs is an essential information. Either the software records the stimulation time or the stimuli are visible on the EEG signal track. During testing the medical staff should check whether it’s been recorded. In case it isn’t, they should restart the test when possible, record it from then when it’s not.</p>
+
+    <h4 id="security-measures">Security measures</h4>
+
+    <ul>
+      <li>The recording site has to be in a electrophysiology Faraday room, to avoid currents passing through the body.</li>
+      <li>The EEG system has to be galvanically decoupled from the battery and  the active electrodes. Usually the system is powered using a transistor to isolate the two parts.</li>
+    </ul>
+
+    <h4 id="practical-measures">Practical measures</h4>
+
+    <ul>
+      <li>The room temperature has to be around 20Â°C to avoid the subject feeling too hot or too cold. Any sweating could cause the electrodes  to not adhere well enough to the skin and affect the potential. Any shivering could cause the electrodes to move and affect the potential.</li>
+      <li>In case of a visual test, the screen has to be at optimized visual field level for the subjects. The screen has to be high adjustable and the seat comfortable and stable. Uncomfortable position affects the EEG and produces  artifacts.</li>
+    </ul>
+
+    <h3 id="eeg-processing-setup">EEG processing setup</h3>
+
+    <p>The EEG signal processing requires a computer with enough processing power to handle several recordings tens of MB large.</p>
+
+    <p>The software needed depends on the experiment target, the budget and on the experimenter’s skills. There are many software environments and programs available.</p>
+
+    <p>The most famous environments are Matlab and Rstudio. Each of them have specific libraries for EEG signal processing: EEGlab for Matlab and EEGkit for Rstudio.</p>
+
+    <p>Among the useful programs, there are some to visually process EEG. Some are useful to get a general idea of the signal shape and frequency range. EEGview is one of them. Other programs further process the signal and provide other information on the data. sLoreta, for example, produces low resolution electromagnetic tomography from the EEG recordings. The method’s hypothesis is that the brain works similarly to an electronic circuit. sLoreta uses the data from the potentials on the scalp recorded with the electrodes. It hypothesizes the resistance of the brain, based on medical studies. So it estimates the electrical neuronal activity distribution (current density vector field). This program also provides 3D model of the head and maps of the distribution.</p>
+
+    <h2 id="stimuli-34">STIMULI <sup>3,4</sup></h2>
+
+    <h3 id="ep--non-ep">EP / non EP</h3>
+
+    <p>The focus on the study defines whether use EP or non-EP.</p>
+
+    <p>The non-EP studies map the baseline of the mind. EEG activity recorded during relaxation and sleep are part of the non-EP data. They map the brain of subjects affected by selected diseases and physical states (like being drugged, being asleep or in a coma).</p>
+
+    <p>The signal before the evoked potential spikes is usually a relaxation signal, called baseline. The nonEP is also used as the signal for the removal of the baseline during EP signal processing.</p>
+
+    <p>EP experiments study a specific path inside the brain. From the visual nerve or the hearing system, the cognitive response to a stimulus. There are four kinds of evoked potentials.</p>
+
+    <h4 id="evoked-potentials">EVOKED POTENTIALS</h4>
+
+    <p>Evoked potential are a non-invasive way to study sensory pathways abnormalities. They are transient waves on the EEG after each stimulus. These are the hypothesis made on the resulting signal:</p>
+
+    <ul>
+      <li>
+        <p>the resulting signal is the total sum of noise, brain activity signal and the response to the stimuli;</p>
+      </li>
+      <li>
+        <p>the response is invariant over repeated stimulation, the  least noisy result is the average short wave of all the responses.</p>
+      </li>
+    </ul>
+
+    <p>The parameters of interests are:</p>
+
+    <ul>
+      <li>
+        <p>latency, the time difference between the stimuli and the electrical response is visible on the EEG;</p>
+      </li>
+      <li>
+        <p>morphology of the wave, it depends on the position of the specific electrode on the scalp and the physiological response of the subject. Amplitude may vary from 1 to 10 \mu V.</p>
+      </li>
+    </ul>
+
+    <p>Variation in the values of the parameters could be caused by different kinds of neurological impairments.</p>
+
+    <h5 id="visual-evoked-potential">Visual Evoked Potential</h5>
+
+    <p>The Visual Evoked Potential (VEP) with clinical significance is from N75 on.</p>
+
+    <p>A video screen generates the stimulation. The most common protocol uses a chessboard pattern (black and white squares) displayed on the screen. A dot of a different color is positioned on the center of the screen, in high contrast with the background pattern. The subject’s task is to focus on the fixed dot while the background chessboard switches colors: the squares go from black to white to back again. The repetition rate could change, the frequency rate is from 1 to 300 Hz.</p>
+
+    <p>In case of subjects with lack of focus or unable to keep their gaze fix, a flash stimulus on a dark screen is used as stimulation.</p>
+
+    <h5 id="auditory-evoked-potential">Auditory Evoked Potential</h5>
+
+    <p>The Auditory Evoked Potential (AEP) experiments study the propagation of the signal from the acoustic nerve to the cortex. The tree responses depend on the latency:</p>
+
+    <ul>
+      <li>the brainstem response (from 0.1 to 0.5 Î¼V up to 12 ms after the stimulus, generated by up to seven waves),</li>
+      <li>the middle response (from 12 to 50 ms) and</li>
+      <li>late cortical responses (up to 20 \mu V).</li>
+    </ul>
+
+    <p>The sound delivery system consist of headphones. The subject listen to different series of click-like sounds from one or both sides at once. The experimenter masks the non stimulated ear with a band limited noise, called <em>pink noise</em>. Usual repetition rate varies from 8 to 10 clicks per second, with a pressure level going from 40 to 120 dB. The electrodes behind the ears record the stimuli used to isolate the AEP window.</p>
+
+    <h5 id="somatosensory-evoked-potential">Somatosensory Evoked Potential</h5>
+
+    <p>Somatosensory Evoked Potentials (SEP) give information about the nerve conduction functionality.</p>
+
+    <p>The clinically interesting data are up to the N40. It describes the neuronal connection between the cerebral cortex, the spinal cord and the nerve stimulated (usually is the median nerve, the tibial nerve and the peroneal nerve).</p>
+
+    <p>Fingers or legs are stimulated by electrodes situated in proximity of the sensory nerve fibers.</p>
+
+    <h5 id="tms">TMS</h5>
+
+    <p>The Transcranial Magnetic Stimulation (TMS) is a non invasive experiment. It measures the cortical excitability by inhibiting or improving it. It is the only stimulation that testes higher cognitive areas. It requires a specific medical instrument to create the magnetic stimulation.</p>
+
+    <h2 id="experimental-procedure-1">EXPERIMENTAL PROCEDURE <sup>1</sup></h2>
+
+    <h4 id="recruiting-subjects">Recruiting subjects</h4>
+
+    <ul>
+      <li>Advertise the experiments and the subjects requirements within fellow research groups, hospitals, and medical centers.</li>
+      <li>Screen possible choices and arrange appointment for testing.</li>
+      <li>Instruct the subject to come to the test with just washed hair and no hair products, and to be on their best physical and mental         conditions.</li>
+    </ul>
+
+    <h4 id="before-the-experiment">Before the experiment</h4>
+
+    <ul>
+      <li>Prepare information notice, instruction paper and consent paper,</li>
+      <li>verify and test the setup, the stimulation system and routine, the hardware in the workspace,</li>
+      <li>check connection with recording system,</li>
+      <li>Prepare your gel syringes if you are using wet electrodes.</li>
+    </ul>
+
+    <h4 id="during-the-experiment">During the experiment</h4>
+
+    <ul>
+      <li>Welcome the subject in the lab, make them feel comfortable,</li>
+      <li>explain the experiment and make sure the subject is clear on any aspect of it,</li>
+      <li>have subject sign the consent paper,</li>
+      <li>adjust the stimulation set up to subject confort (adjust chair height, screen distance or check sound),</li>
+      <li>prepare head and secure selected cap,</li>
+      <li>perform impedance measurement,</li>
+      <li>perform testing,</li>
+      <li>verify the obtained signal is properly electrophysiological,</li>
+      <li>keep the subject attentive and motivated, allow for breaks.</li>
+    </ul>
+
+    <h2 id="references">REFERENCES</h2>
+
+    <p>1 Maureen Clerc, Brainâ-Computer Interfaces 2 - Technology and Application, Wiley</p>
+
+    <p>2 Branca, Fondamenti di Ingegneria Clinica, Vol.1, Springer</p>
+
+    <p>3 Leif SÃrnmo, Pablo Laguna, Bioelectrical Signal Processing in cardiac and neurological processing, Elsevier</p>
+
+    <p>4 Nitish Vyomesh Thakor, Shanbao Tong, Quantitative EEG Analysis Methods and Clinical Applications; Engineering in Medicine and Biology</p>
+
+  </div> <!-- end of content column -->
+</div>
+<p><!-- end of row --></p>
+:ET
