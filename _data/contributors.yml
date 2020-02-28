@@ -133,3 +133,54 @@
   links:
     - name: linkedin
       url: https://ca.linkedin.com/in/genameldazy
+
+- name: Maria Virginia Ruiz-Blondet
+  roles:
+    - Writer
+    - Editor
+    - Programmer
+    - Artist
+  contributed:
+    - Machine Learning for BCI
+  links:
+    - name: linkedin
+      url: http://linkedin.com/in/maviperu/
+
+- name: Brandon Siebert
+  roles:
+    - Writer
+    - Editor
+    - Programmer
+    - Artist
+  contributed:
+    - Machine Learning for BCI
+  links:
+    - name: linkedin
+      url: http://linkedin.com/in/siebertbrandon/
+
+- name: Morgan Hough
+  roles:
+    - Mentor
+  contributed:
+    - Machine Learning for BCI
+  links:
+    - name: linkedin
+      url: http://linkedin.com/in/morgan-g-hough
+
+- name: Christina Zappullo
+  roles:
+    - Writer
+  contributed:
+    - Machine Learning for BCI
+  links:
+    - name: linkedin
+      url: http://linkedin.com/in/cristinazappullo/
+
+- name: Daniel Vizcaya
+  roles:
+    - Writer
+  contributed:
+    - Machine Learning for BCI
+  links:
+    - name: linkedin
+      url: http://linkedin.com/in/daniel-vizcaya/
