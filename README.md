@@ -94,7 +94,8 @@ Head to:
 4. Add your markdown code inside the given HTML tags. If you want to change some HTML, that's fine with us but please don't add any styles to the .scss files. The HTML conventions come from our theme's use of the Foundation framework.
 5. If you want to include images, add them to 'http://learn.neurotechedu.com/images/'
 6. With local builds you can do `jekyll serve` in order to create a temporary server in your machine and see how the website comes together once built. We suggest you do this as much as possible before commiting any changes. Jekyll's potential really comes through once you have constant feedback capabilities.
-6. Once done, push a commit that will be reviewed by one of our webmasters. 
+7. If the previous command does not work correctly, try this one: `bundle exec jekyll serve --host $(hostname -I) 2> /dev/null` This will silence any Warnings and allow you to properly see the output from the jekyll server.
+8. Once done, push a commit that will be reviewed by one of our webmasters. 
 
 <br>
 
