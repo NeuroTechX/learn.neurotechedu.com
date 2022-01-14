@@ -64,6 +64,7 @@ There are a few companies who have been interested in bring EEG data with VR hea
 * [Article on Mind Mazet](http://www.theverge.com/2015/3/3/8136405/mind-maze-mind-leap-thought-reading-virtual-reality-headset)
 * [DG Lab's VR Zen Headset](https://www.cnet.com/news/this-vr-headset-is-designed-to-let-you-find-your-zen/)
 * [Neurable](http://neurable.com/)
+* [OpenBCI's Galea (About to be in beta as of Jan '22)](https://openbci.com/community/introducing-galea-bci-hmd-biosensing/)
 
 
 
