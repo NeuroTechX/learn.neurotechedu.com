@@ -247,7 +247,7 @@ Advantages: it is portable, it can fit into a small suitcase (vs MEG which requi
 
 EEG data contains rhythmic activity, which reflects neural oscillations.
 Oscillations are described by frequency, power and phase.
-Oscillations occur at specific frequencies (i.e., at a certain rate). These include delta, theta, alpha, meta, and gamma. Research has found associations between these rhythms and different brain states. For example, commercial EEG headsets - often used for purposes such as meditation - typically measure the amount of brain activity that occurs in the alpha frequency.
+Oscillations occur at specific frequencies (i.e., at a certain rate). These include delta, theta, alpha, beta, and gamma. Research has found associations between these rhythms and different brain states. For example, commercial EEG headsets - often used for purposes such as meditation - typically measure the amount of brain activity that occurs in the alpha frequency.
 
 **Spatial resolution**
 
